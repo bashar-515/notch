@@ -7,6 +7,47 @@ type Props = {
 };
 
 const { title, heading } = Astro.props;
+
+const contributors: string[] = [
+  "Brice Afonso",
+  "Nibha Akireddy",
+  "Izzy Ampil",
+  "John Bennet",
+  "Oliver Beatty",
+  "Phoebe Lippe ",
+  "Hayden Carr-Loize",
+  "Sarah Chess",
+  "Madeline Haze Curtis",
+  "Claire Dauge-Roth",
+  "Clay Davis",
+  "Sam Ertelt",
+  "Ugo Ferro",
+  "Vitya Fitsner ",
+  "Dagoberto Gilb",
+  "Robert Pogue Harrison",
+  "R.W. Haynes",
+  "Marie Hazard ",
+  "Eva Hoffman",
+  "María Fragoso Jara",
+  "Margot Kaiser",
+  "Lulu Lebowitz",
+  "Anna-Sofia Lesiv ",
+  "Christopher Lyr",
+  "Douglas Milliken",
+  "Mona Neilson ",
+  "Kaelin Palcu",
+  "Jonah Pruitt",
+  "Maxwell Putnam",
+  "Matthew Schultz",
+  "Molly Pepper Steemson",
+  "Oliver Stokes-Curtis",
+  "Lorraine de Thibault",
+  "Bruna Vettori",
+  "X",
+  "Rachel Wolfe",
+  "Arina Zhuravleva",
+  "Clara Zimmermann",
+];
 ---
 
 <Layout title={title}>
@@ -38,6 +79,10 @@ const { title, heading } = Astro.props;
       <div class="flex-1 border-t border-black"></div>
     </div>
   </div>
+
+  <ul class="px-frame list-none columns-3 text-center text-3xl leading-tight">
+    {contributors.map((contributor) => <li>{contributor}</li>)}
+  </ul>
 </Layout>
 
 <script>
