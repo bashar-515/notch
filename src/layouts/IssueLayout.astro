@@ -10,7 +10,18 @@ const { title, heading } = Astro.props;
 ---
 
 <Layout title={title}>
-  <div slot="header" data-issue-header class="mt-10 flex flex-col gap-3">
+  <div
+    slot="header"
+    data-issue-header
+    class="relative mt-10 flex flex-col gap-3"
+  >
+    <div
+      data-issue-shadow
+      aria-hidden="true"
+      class="pointer-events-none absolute inset-0 shadow-xl"
+    >
+    </div>
+
     <h1
       class="text-primary text-center [font-feature-settings:'ss05'] text-[5.6rem] leading-none font-medium tracking-tighter"
     >
@@ -31,6 +42,7 @@ const { title, heading } = Astro.props;
 
 <script>
   const block = document.querySelector<HTMLElement>("[data-issue-header]")!;
+  const shadow = document.querySelector<HTMLElement>("[data-issue-shadow]")!;
 
   const progress = (px: number) => {
     const l = Math.min(1, Math.max(0, window.scrollY / px));
@@ -38,7 +50,7 @@ const { title, heading } = Astro.props;
   };
 
   let margin = 0;
-  const overlap = 80;
+  const overlap = 70;
 
   const measure = () => {
     block.style.marginTop = "";
@@ -48,6 +60,7 @@ const { title, heading } = Astro.props;
   const update = () => {
     const p = progress(300);
     block.style.marginTop = `${margin * (1 - p) - overlap * p}px`;
+    shadow.style.opacity = String(p);
   };
 
   measure();
