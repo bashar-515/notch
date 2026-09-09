@@ -11,7 +11,7 @@ const { title, heading } = Astro.props;
 
 <Layout title={title}>
   <div class="flex flex-col pt-10">
-    <header>
+    <header class="flex flex-col gap-3">
       <h1
         class="text-primary text-center [font-feature-settings:'ss05'] text-[5.6rem] leading-none font-medium tracking-tighter"
       >
@@ -20,7 +20,11 @@ const { title, heading } = Astro.props;
 
       <div class="flex items-center gap-2 px-36">
         <div class="flex-1 border-t border-black"></div>
-        <a href="/shop">subscribe</a>
+        <a
+          href="/shop"
+          class="hover:bg-primary hover:border-primary rounded-lg border border-black bg-black px-2 py-1 text-3xl tracking-widest text-white italic"
+          >subscribe</a
+        >
         <div class="flex-1 border-t border-black"></div>
       </div>
     </header>
