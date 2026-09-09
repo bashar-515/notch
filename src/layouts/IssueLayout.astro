@@ -18,7 +18,11 @@ const { title, heading } = Astro.props;
         {heading}
       </h1>
 
-      <a href="/shop">subscribe</a>
+      <div class="flex items-center gap-2 px-36">
+        <div class="flex-1 border-t border-black"></div>
+        <a href="/shop">subscribe</a>
+        <div class="flex-1 border-t border-black"></div>
+      </div>
     </header>
   </div>
 </Layout>
