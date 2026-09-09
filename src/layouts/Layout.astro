@@ -62,6 +62,7 @@ const footerLinksByColumn: Link[][] = [
         class:list={[
           "group inset-x-0 top-0 z-1 data-[home=true]:opacity-0",
           overlayHeader ? "fixed" : "sticky",
+          Astro.slots.has("header") && "bg-secondary",
         ]}
       >
         <a
