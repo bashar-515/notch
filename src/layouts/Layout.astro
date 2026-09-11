@@ -6,9 +6,13 @@ import "../styles/global.css";
 
 type Link = { href: string; label: string };
 
-type Props = { title?: string; overlayHeader?: boolean };
+type Props = { title?: string; overlayHeader?: boolean; fadeHeader?: boolean };
 
-const { title, overlayHeader = Astro.url.pathname === "/" } = Astro.props;
+const {
+  title,
+  overlayHeader = Astro.url.pathname === "/",
+  fadeHeader = false,
+} = Astro.props;
 
 const navLinks: Link[] = [
   { href: "/issues", label: "ISSUES" },
@@ -59,6 +63,7 @@ const footerLinksByColumn: Link[][] = [
     <div class="flex min-h-dvh flex-col">
       <header
         data-home={Astro.url.pathname === "/" || undefined}
+        data-fade={fadeHeader || undefined}
         class:list={[
           "group inset-x-0 top-0 z-1 data-[home=true]:opacity-0",
           overlayHeader ? "fixed" : "sticky",
@@ -245,6 +250,12 @@ const footerLinksByColumn: Link[][] = [
           link.style.opacity = String(fade);
           link.style.visibility = fade ? "visible" : "hidden";
         }
+      }
+
+      if (header && "fade" in header.dataset) {
+        const visible = 1 - progress(50);
+        header.style.opacity = String(visible);
+        header.style.pointerEvents = visible ? "auto" : "none";
       }
     };
 
