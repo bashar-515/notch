@@ -18,13 +18,10 @@ If at a certain point its will were exhausted and in that point it could *posses
 Its life is this very lack of its life. Were it to lack nothing anymore—were it to be complete, perfect: were it to fully possess itself, it would cease to exist.—Its weight is the impediment to possess its life and no longer depend on anything but itself in its inability to be satisfied. *The weight can never be persuaded.*
 
 
- 
-
-<hr class="border-primary" />
+---
 
 **Gravity and Gravitas**
 
- \
 On Monday, October 17, 1910, twenty-three-year-old Carlo Michelstaedter finished writing *Persuasion and Rhetoric*, his idiosyncratic dissertation now recognized as a philosophical masterpiece of the Italian twentieth century. A few hours earlier, he had argued with his beloved mother Emma about her birthday celebrations, which he had apparently forgotten about. At 2 p.m. that same Monday, sitting at his desk, Michelstaedter shot himself—twice, according to the local newspaper.
 
 Michelstaedter was a writer, a painter, a philosopher, a hiker, and a swimmer. Good-looking and academically talented, he was a student first of mathematics at the University of Vienna and then of Letters at the University of Florence. *Persuasion and Rhetoric* deals with issues of volition, fulfillment, and self-awareness by repurposing the Platonic and Aristotelian concepts of persuasion and rhetoric as two cornerstones of his thinking.

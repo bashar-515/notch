@@ -34,12 +34,8 @@ No—she fights against his suggestion as a test of her own will—the study.
 And although she hadn’t wanted to go to the study, and nor had he, and she doesn’t know him, nor he her, and although she had decided that tonight she would be a different type of woman, who was more aloof, and cool, and harder to pursue, she submits to follow his lead—pulled by her wrist—into the large, book-lined room, where he pulls her close to him, and they dance.
 
 
- \
- 
-
 <p class="text-right"><span class="text-primary">Her friends saw it from the top of the stairs: her white dress, the top of his rough blond head, the power of his coarse hand’s grip. She spun like silk behind him.</span></p>
 
- \
 And as they dance, they talk closely: him stooped, with his mouth right up against her ear; she ever so slightly on tiptoe, cheek pressed against his jaw. She likes the shapes his warm words make as they land on her neck. He likes her replies, which seem passive, but contain all sorts of traps. She is elegant, spider-like. She coils her arms around him.
 
 Cigarette? he asks into her hair.
@@ -49,12 +45,8 @@ They wind their way back down the corridor, through the kitchen, and out into th
 He has huge hands—fingers that don’t taper and fat white palms which the bottle caps disappear into as he removes them—and when he hands her a brown bottle the caps fall, ringing as they hit the floor.
 
 
- \
- 
-
 <p class="text-right"><span class="text-primary">Her friends watched as the pair melted together. They listened to the warm flow of have you heard of— and did you read— and oh I love that— and I can’t believe you love it, too. Of course they can believe it. They flirt with fate.</span></p>
 
- \
 The first thing he knew about her was that he wanted to kiss her. He’d left a conversation without saying sorry or goodbye to follow the tress of hair that had stolen into the kitchen. He was so certain of her. And he was right. She was exactly as he’d imagined her to be. Clever, quick. He glows with the satisfaction of competent conviction.
 
 But it’s not time just yet; he keeps talking. Still talking. Still talking but distracted by her beauty and that chip in her tooth and the way that she picks so delicately at the skin around her nails. His words run endlessly, he can’t stop them, and she doesn’t want them to stop. His confidence is boyish—it lacks control or embarrassment. He talks and stares at her wet lower lip. An opening.
@@ -74,11 +66,8 @@ Keep telling that story.
 About watching his grandmother skin rabbits on her porch. The porch on the old house in Vermont, in the woods, with Delft tiles around the wood-burning stove. Long summers there, Christmas, Thanksgiving. He can feel the weight of her body relaxing. It’s his house, now, and when he moves there at the end of the year, he’ll—
 
 
- 
-
 <p class="text-right"><span class="text-primary">Her friends weren’t concerned by her absence, but bored by it. They were ready to draw her into their night, to listen to tall tales of other people’s troubles.</span></p>
 
- \
 The words wake her.
 
 They smash through all her imaginations and she lies stiff in their shards. And she didn’t know! She didn’t know that this wild rush was the limitless possibility of all their potential lives together, lives he just snatched away from her. She was grasping, trying to claw him back. It was August, he’d be gone by December, or January, the end of the year was unclear. She rushed, counting backwards. Start dating now, serious couple—October? Could she persuade him to stay if she were his girlfriend by October? She could move—go with him, if she—what in god’s fucking name—the thought jolts her upright and furrows her brow.

@@ -35,24 +35,9 @@ I caught up with Tucha in her studio in New Haven, Connecticut, where she is now
 **AT:** A couple of years ago, my approach was much more direct, focusing on specific objects. My frames were tighter. Now, I’m interested in creating a broader image that contains these symbols within it. Take this photograph, for instance—it shows a woman’s hands, a champagne glass. You immediately understand it’s either some sort of a party or a cocktail hour. The class markers are evident—who these people are, what kind of person would make these gestures. It’s all embedded in the image.
 
 
- \
- \
- \
- \
- \
- \
- 
-
 <span class="text-primary">*Cocktail Hour*</span>\
 <span class="text-primary">2024</span>
 
- \
- \
- \
- \
- \
- \
- \
 **CV:** When you photograph, are you conscious of your status as one who is from Belarus, now situated within the U.S.?
 
 **AT**: Definitely. Back home, I didn’t think about class—I didn’t have to. I just was in a privileged position, thanks to my parents. But here, I’m an outsider who’s coming from a complicated, economically unstable part of the world. I notice class markers and how foreign and strange they feel. I pay attention.
@@ -78,24 +63,12 @@ I caught up with Tucha in her studio in New Haven, Connecticut, where she is now
 (Aliaksandra now walks me through a picture of her husband’s family.)
 
 
- \
- \
- \
- \
- \
- 
-
 <span class="text-primary">*The Perfect Family*</span>\
 <span class="text-primary">2024</span>
 
 <span class="text-primary">*Mother-in-law*</span>\
 <span class="text-primary">2024</span>
 
- \
- \
- \
- \
- \
 **AT:** This one contains the idea of a picture-perfect family.
 
 **CV:** But you presented them in this crazy blur, which is funny.
@@ -109,25 +82,12 @@ I caught up with Tucha in her studio in New Haven, Connecticut, where she is now
 (She gestures to an unpeopled photograph of a sofa, two symmetrical lamps, and a sofa cushion that has been noticeably dented)
 
 
- \
- \
- \
- \
- \
- 
-
 <span class="text-primary">*A Trivial Pursuit*</span>\
 <span class="text-primary">2024</span>
 
 <span class="text-primary">*Boy Place Turned into a Girl Place*</span>\
 <span class="text-primary">2023</span>
 
- \
- \
- \
- \
- \
- \
 Same here: it’s more of a functional room [than the family portrait], but still, there are so many elements of communicating codes, as opposed to adhering to pure function.
 
 **CV:** I love traces of people that were there and then are not, like this bunched-up blanket, or the bunched-in sofa cushion. So much photography is traces of beings who were once there, yet once you print the physical photograph, they aren’t there anymore—they’ve moved on, something has changed, somehow time has passed. You do well in filling presence with this palpable absence, and you ask “We’re here today, and gone tomorrow, so how will we deal with this?”
@@ -158,25 +118,9 @@ This is our dinner table. We host game nights and people come and it's just nice
 (Aliaksandra shows me a photograph of the interior of a bathroom, flanked by a hallway. Inside the bathroom, there is a shower. It is bare—except for a hanging swimsuit, and a set of differently gendered cosmetics.)
 
 
- \
- \
- \
- \
- \
- \
- \
- 
-
 <span class="text-primary">*Still LIfe*</span>\
 <span class="text-primary">2023</span>
 
- \
- \
- \
- \
- \
- \
- \
 This is a set where I was going to take portraits of two young women. And I took this in my partner's apartment. His apartment is very much a “male” apartment, so there was just bareness and men’s cosmetics. So I decided to put in all sorts of objects that I had in my room. And I turned this austere male space into a kind of “female” space. For me, female space is always about some form of clutter and untidiness, but beautiful untidiness. Whereas a male space is always so, so stark, needing such little things.
 
 So much of my life is about objects, what they represent, what they mean. Whereas in men's lives, things are extremely ten-in-one, multifunctional. It's just one of those patterns that feel like they're older than us. So, in my opinion, it's hard to change this stuff.
@@ -192,25 +136,9 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 (I point to a still life of flowers, tissues, a coffee cup, and scissors.)
 
 
- \
- \
- \
- \
- \
- \
- \
- 
-
 <span class="text-primary">*Pills*</span>\
 <span class="text-primary">2024</span>
 
- \
- \
- \
- \
- \
- \
- \
 **CV:** This is just phenomenal. I fucking love this. Like everything: the coffee cup, tissues, scissors, the flowers in a makeshift vase made from a green plastic Pellegrino bottle…
 
 **AT:** My partner just gave me several bunches of flowers and I ran out of vases—I just had one—because I was living in a dormitory last year. Which I really loved. It was like a constructed space, and I love constructed spaces. That kind of organization of society is very familiar to me, whereas in the U.S., it usually is more freestyle.
@@ -257,24 +185,9 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 (She shows me a photograph of James at their wedding.)
 
 
- \
- \
- \
- \
- \
- \
- 
-
 <span class="text-primary">*City Hall*</span>\
 <span class="text-primary">2024</span>
 
- \
- \
- \
- \
- \
- \
- \
 **CV:** I could have sworn this was a checkout counter at a supermarket.
 
 **AT:** (Laugh.) It could be. You know? It's just there's not enough context in this picture. But I guess, as usual, “if you know, you know.”
@@ -286,24 +199,9 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 (Aliaksandra shows me one final photograph, in black and white, of an interior, with ceiling fan, a crouched male figure, and a half-standing nude female figure).
 
 
- \
- \
- \
- \
- \
- \
- 
-
 <span class="text-primary">*A Period Drama*</span>\
 <span class="text-primary">2024</span>
 
- \
- \
- \
- \
- \
- \
- \
 **CV:** This is beautiful, the lighting . . . !
 
 **AT:** I like this picture. There’s this kind of sense of threat. A woman, being naked. A man, being the actor. You look closely, here, there is a pad for a period. A vulnerable space. In heterosexuality, male aggression plays a huge part. It is strange and disturbing. But if we were to give it an honest look, without fear of judgement, we could see something else too. And what that “something else” is, I don’t have words for. But maybe it is there in the photographs.
