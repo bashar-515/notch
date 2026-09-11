@@ -26,9 +26,14 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   "../assets/articles/**/*.{jpg,png,webp}",
   { eager: true },
 );
+
+const image = images[`../assets${src}`]!.default;
 ---
 
-<figure class:list={["my-8", side === "right" && "flex items-end gap-4"]}>
+<figure
+  class:list={["my-8", side === "right" && "flex items-end gap-4"]}
+  style={`flex: ${image.width / image.height} 1 0%`}
+>
   <div
     class:list={[
       "group relative",
@@ -37,12 +42,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     ]}
     style={width ? `width: ${width}%` : undefined}
   >
-    <Image
-      src={images[`../assets${src}`]!.default}
-      alt=""
-      width={1600}
-      class="h-auto w-full"
-    />
+    <Image src={image} alt="" width={1600} class="h-auto w-full" />
     {
       hover && (
         <Image
