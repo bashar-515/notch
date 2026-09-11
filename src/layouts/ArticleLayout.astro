@@ -3,7 +3,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "./Layout.astro";
 
 type Props = CollectionEntry<"articles">["data"];
-const { title, author, issue, bio, related } = Astro.props;
+const { title, author, issue, bio, related, previous, next } = Astro.props;
 
 const issueNames = { "001": "Potential Energy", "002": "Gravity" };
 
@@ -66,6 +66,25 @@ const relatedArticles = related.flatMap((id) =>
           ))
         }
       </ul>
+
+      <nav
+        class="font-times mt-6 flex w-full flex-col gap-2 text-xl leading-none"
+      >
+        {
+          next && (
+            <a href={`/${next}/`} class="self-end hover:underline">
+              next piece →
+            </a>
+          )
+        }
+        {
+          previous && (
+            <a href={`/${previous}/`} class="self-start hover:underline">
+              ← previous piece
+            </a>
+          )
+        }
+      </nav>
     </div>
   </div>
 </Layout>
