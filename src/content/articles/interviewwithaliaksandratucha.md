@@ -1,0 +1,183 @@
+---
+title: "Interview with Aliaksandra Tucha"
+author: "Aliaksandra Tucha"
+issue: "002"
+bio: "<b>Aliaksandra Tucha</b> photographs and writes between New Haven, Connecticut, and Warsaw, Poland. Her work focuses on intimate portraiture. Aliaksandra often thinks of the intricate balance of familial and social systems. In her practice, she reflects on the pressure of feminine beauty and the subtle, everyday moments that offer a sense of being unburdened. <b>Carlos Valladares</b> is a writer, critic, and curator. He writes for many magazines, including Gagosian Quarterly, Art in America, and n+1. He is currently devising his first feature film. He lives in New York, grew up in Los Angeles, and misses Paris."
+previous: "themystic"
+next: "secretsofthepuckeredjug"
+related: [letterfromtheeditorsissue002, agnosis, alexanderbondoc]
+# media pending: picture x10
+---
+
+*Pillow Fighter*
+
+2025
+
+These photographed beings of flesh and plastic and shadow are enchanting. That is to say, confronting them, I know I stand on real earth. Language, in its current taken-for-granted and banality-stoking use, does not have the steel clarity to face the fraught social, economic, and soul questions before us—but Aliaksandra Tucha’s photography does. 
+
+Tucha distorts Silicon Valley–approved framings of the body in the world: in her weird oeuvre, the daily is where the eye is aimed and trained, but there are few mere selfies, no fashion-model-hands brandishing a pristine wine glass, no falsely staged candids of the group to confirm the “I” of “I am here.” Instead, she applies pressure to the “was” and the “here,” planting in our minds l’avenir, things to come. She alienates and, yes, enchants in the proud Varda-Goldin-Mann tradition, which fractures an individual hero into the shards of mysterious others that form her: dead or historical, beloved and perhaps missing, bogged down by systems of capital and the “I” cult that, to too many, feel permanent. She’s a photographer to get excited over.
+
+Tucha makes wry yet sincere, sentiment-rich work with (here’s the rare bit) a not-that-taxed air: “just” a board game night with the homies, “just” a supermarket checkout counter. So we  think! Look closer, though, and we see vibrations of a wedding, vibrations of a newly conjoined family unit not hip to U.S. family values. We see swaths of attention-love paid to the life around Tucha, giving it density as the challenges of still life, portrait, female nude, and Robert Frank-ish landscape of the quotidian are all casually, coolly met by her with-it gaze. Casual, yeah, but the work is not simple. Neither is the act of seeing.
+
+Tucha knows the weight of vision. Her photographs still us. They beg us to pay tribute to beauty in the corner. To bear witness to the collective absences we all suffer. Her sensibility has the proper mixture of levity and gravity, the possibility that absent will become present, per chance or per force. Levity: Ernst Lubitsch, Eve Babitz, a milkshake with two straws. Gravity: Fritz Lang, Joan Didion, a breakup letter (now, a “text”). For balance, the two are necessary. Tucha knows balance.
+
+I caught up with Tucha in her studio in New Haven, Connecticut, where she is now a student at the Yale School of Art. 
+
+*– Carlos Valladares*
+
+■ ■ ■ ■
+
+**Aliaksandra Tucha:** I've started making more sexual pictures recently—something I approached more allegorically when we first met. Back then, my work alluded to sexuality, but now it’s much more transparent, more fleshed out. I’ve been thinking a lot about my relationship with my partner, a man, and what it means to be a woman in relation to a man. What it means to be seen. I work within the larger context of family, and I’m deeply interested in family systems—my own family, his family. Our marriage this summer wasn’t just a marriage; it was a merging of two families, two vast systems. And now my work partly explores how this event disrupted equilibrium within both the families.
+
+**Carlos Valladares:** Is there a distance, then, that photography prescribes in you? It’s fascinating to hear you break down these concepts of “man” and “woman” and “family” as almost these alien forms, alien in much the way basic language is alien to all of us. And perhaps, in a way, how the camera approaches such concepts.
+
+**AT:** A couple of years ago, my approach was much more direct, focusing on specific objects. My frames were tighter. Now, I’m interested in creating a broader image that contains these symbols within it. Take this photograph, for instance—it shows a woman’s hands, a champagne glass. You immediately understand it’s either some sort of a party or a cocktail hour. The class markers are evident—who these people are, what kind of person would make these gestures. It’s all embedded in the image.
+
+**CV:** When you photograph, are you conscious of your status as one who is from Belarus, now situated within the U.S.? 
+
+**AT**: Definitely. Back home, I didn’t think about class—I didn’t have to. I just was in a privileged position, thanks to my parents. But here, I’m an outsider who’s coming from a complicated, economically unstable part of the world. I notice class markers and how foreign and strange they feel. I pay attention.
+
+**CV**: There’s a lot of things that one takes for granted. When I first saw this photograph of, as you say, “a cocktail hour” I initially thought, “Ok, that's a very ‘normal’ picture, of just people talking”—“just”! But then, a lot of abnormalities start to crop up. You present this slice of life in an almost sinister, claustrophobic fashion. Sort of what David Lynch goes for. This deep receding black, the fact that you can’t see their heads, these disembodied hands . . .
+
+**AT**: It’s a private club. So it’s one of those situations where you don’t necessarily want to reveal their identities. And there’s nothing wrong with that. However, there’s this consciousness that you are in a space which you would not necessarily be shown. It’s an “If you know, you know.” At home, I was never conscious of all this explicitly, because home was the place that I occupied and was a part of. I knew what I needed to know. Whereas here, I feel like it’s a lot less organic. I don’t have my family here. So all the interactions—in spaces like private clubs with specific codes, where one needs access through networks or friends or your belonging with an institution—feel different. Elsewhere, I'm very much interested in clothes, and objects that people surround themselves with, and gestures that indicate you specifically belong to a group. And coded behavior is genuine. You have learned it growing up, knowing certain things. 
+
+**CV**: That’s interesting. It’s the idea of perpetual performance, even when we think that we are bare or “in the raw,” as it were. A rehearsedness to our gestures that we assume is natural. I feel like you create an idea of an “accidentally captured” moment. It relates, perhaps, to the idea of a set of eyes that are upon you, that are not you. Dealing with another disembodied gaze. Do you perceive something along those lines?
+
+**AT**: Oh yes, all the time. I think it's very normal—and that doesn't mean that it's okay—but it's a very normal experience for a woman to always be thinking about being seen, being perceived as an object. I'm using it to my own advantage by making work about it. I was talking with a friend, and she said that even when she’s writing her diary, she thinks, “What if someone’s going to read it?” Which is something that I think about a lot, too. I was listening, later, to a young man talk about his diary, and he said, “Oh, I just dump all my thoughts there, and I forget to re-read it.” I'm like, “Oh my God! To have that is just insane!” I always think, how am I going to be perceived by the person who's reading my diary? And that person is probably me. I know that there's all this trickery going on.
+
+**CV**: I suppose this ties in to another question I had, relating to the diaristic element of a lot of today’s social media, which, I don’t know, we, our generation, inevitably have to deal with. Digital dissemination. Is this something to which your photography gives a lot of weight and space?
+
+**AT**: Extremely. Some people might have a feeling when they come across my Instagram profile that I'm spontaneous, and that I share stuff that is not common to share. However, all of this is always very thought through. It's always conscious of what kind of reaction it may provoke in other people, and how this relates to the overall image. I think it is just how our generation operates, how aware we are always of being perceived by others. And I’m choosing to do a small rebellion, and just saying things that are actually on the mind or in my head. (Deep sigh.) I don't know if I'll carry on. I don't know if my page is going to live, or if I’m going to just delete it, or delete some things I have posted. I think that there is space for being genuine in the public eye. Perhaps because my online community is not big, just mostly people I’ve met in real life.
+
+**CV**: Many audiences to consider. But I think, I don't know, you present the totality of what an image can be today. There is not just the sliver of truth, which we think we get ad nauseum, there is an anti-trust, a beyond-the-truth. Something staged. Like ritual, I find.
+
+**AT**: Always fiction. I have this acute awareness. This is just a tiny sliver of one’s life, and sometimes (though what I’m about to say stopped a couple of years ago; it occasionally happens but it’s not really common) people would reach out to me and ask me how everything is doing, or if I'm alright, because of the things that I posted. These would be the people who are not close to me at all, who just mostly perceived me in an online space. So, then, what does it mean to say how you actually feel in an online space, even if it was just a momentary feeling?
+
+**CV**: The grid, versus the story—these weird distinctions that won’t be relevant in ten years, perhaps. Your work partly considers this weightless atmosphere of the digital and the temporary, but it is not wedded to it. There is some kind of solid ground. You tap into a lot of ancient ideas that so many people have struggled with since the creation of the first images. How you work through still life, how you work through the female nude—all these histories that have existed beyond the social media, but which the social meds accentuate rather gratuitously. Yours is a space for ritual and contemplation, though.
+
+(Aliaksandra now walks me through a picture of her husband’s family.)
+
+**AT:** This one contains the idea of a picture-perfect family.
+
+**CV:** But you presented them in this crazy blur, which is funny.
+
+**AT:** An accident! And the currents and the dynamics going on in the family, which can be difficult and problematic and challenging, all get erased as soon as there is this element of perception. I'm from the family where it's totally fine when, if you have an argument, you don’t sit and don’t smile at each other across the dinner table.
+
+**CV:** You derange his family poetically. We have this idea of the ideal family, but it’s hard to look these members of the family straight in the eye. They’re at a gauzy remove from us, like Marlene Dietrich at a remove from Josef von Sternberg’s camera. Even the closest family members, to us, contain this level of not-knowing. Once you accept this inability to know somebody fully, then you can start to really see them for who they are, for what the reality of their world is. At least it's been my experience, and what I feel looking at this.
+
+**AT:** And this picture is a lot of our cultural codes too, what pertains to this kind of purpose, this kind of chair, the ideas associated with hanging African art on this pristine Connecticut wall. What kind of person arranges space in such a way? In my experience, we had not been hanging out in this room that much. So, this room is some sort of a room in which you'll hang out occasionally, but it does not serve a constant functional purpose. It serves much more of an aesthetic purpose, which is different from the way I’m used to living my own life. 
+
+(She gestures to an unpeopled photograph of a sofa, two symmetrical lamps, and a sofa cushion that has been noticeably dented)
+
+Same here: it’s more of a functional room [than the family portrait], but still, there are so many elements of communicating codes, as opposed to adhering to pure function. 
+
+**CV:** I love traces of people that were there and then are not, like this bunched-up blanket, or the bunched-in sofa cushion. So much photography is traces of beings who were once there, yet once you print the physical photograph, they aren’t there anymore—they’ve moved on, something has changed, somehow time has passed. You do well in filling presence with this palpable absence, and you ask “We’re here today, and gone tomorrow, so how will we deal with this?”
+
+**AT:** I’m always photographing people. Even if there are no people in the picture, there still are people. I'm interested in expressing, within the family system, how we—my husband and I—come from such polar different situations. I'm happy to not be proper and occupy spaces that are more functional than aesthetic, whereas for him it is important for his family to be proper and to pay close attention to aesthetics.
+
+(Aliaksandra now shows me a picture of a dinner table, with hands playing a game of Trivial Pursuit, and a jar of jelly beans.)
+
+This is our dinner table. We host game nights and people come and it's just nice to play board games.
+
+(Aliaksandra shows me a photograph of the interior of a bathroom, flanked by a hallway. Inside the bathroom, there is a shower. It is bare—except for a hanging swimsuit, and a set of differently gendered cosmetics.)
+
+This is a set where I was going to take portraits of two young women. And I took this in my partner's apartment. His apartment is very much a “male” apartment, so there was just bareness and men’s cosmetics. So I decided to put in all sorts of objects that I had in my room. And I turned this austere male space into a kind of “female” space. For me, female space is always about some form of clutter and untidiness, but beautiful untidiness. Whereas a male space is always so, so stark, needing such little things.
+
+So much of my life is about objects, what they represent, what they mean. Whereas in men's lives, things are extremely ten-in-one, multifunctional. It's just one of those patterns that feel like they're older than us. So, in my opinion, it's hard to change this stuff.
+
+**CV:** There’s this unbearable starkness in the classical “male” aesthetic—a gravity, if you will. A heaviness, a bearing-down because of the spareness. I think of detective fiction—Elmore Leonard, for instance. Or Hemingway. Or Jean-Pierre Melville. In contrast, I tend to be more drawn towards the aesthetics of someone like Jacques Demy, a very, in your language, “female coded” auteur, especially in his non-musical work like Model Shop or Lola, with a lively clutter, natural light, wallpaper that isn’t content with being mere wallpaper, loud colors. You look, by contrast, at the early film of Jean-Luc Godard, François Truffaut, they really lay their spareness on thick. The less garnish, the better for them. Tough exteriors.
+
+**AT:** And that is how I used to work a lot of the time, too. Because I come culturally from a place where function is prevalent over form. Living in the West for the last ten years or so, it might have made me shift. I am more surrounded by those more female-coded behaviors.
+
+**CV:** Do you think it for the better or for the worse, or like, how does it relate to your art?
+
+**AT:** It just is. It’s a normal consequence of living in the cultural context I’ve chosen to live in. I think I'm always interested in exploring how my life influences what I make.
+
+(I point to a still life of flowers, tissues, a coffee cup, and scissors.)
+
+**CV:** This is just phenomenal. I fucking love this. Like everything: the coffee cup, tissues, scissors, the flowers in a makeshift vase made from a green plastic Pellegrino bottle…
+
+**AT:** My partner just gave me several bunches of flowers and I ran out of vases—I just had one—because I was living in a dormitory last year. Which I really loved. It was like a constructed space, and I love constructed spaces. That kind of organization of society is very familiar to me, whereas in the U.S., it usually is more freestyle.
+
+**CV:** This is like one of those Chardin still lifes with the skinned rabbit and grapes and shit, but it's reworked in a modern idiom. Using everyday language. And yet somehow, for me, it goes beyond his proclamations for everlasting permanence, the court horns blowing, “this is our wealth, and will be here forever and ever.” In your picture, you crystallize impermanence, which is such a deeply felt element of the goddamn now. It's a hodgepodge, but a tightly-organized hodgepodge. Incidentally, those are the films recently that I've been gravitating towards: Mike Leigh movies, Jerry Schatzberg’s Scarecrow (1973), Varda capturing her lens-cap “dancing” in The Gleaners and I (2000). You have gravity and levity in equal measure.
+
+(Aliaksandra shows me a picture of pills on a window sill.) 
+
+ 
+
+ 
+**AT:** I always have so many pills on me.
+
+**CV**: In this country, they really pill you. 
+
+**AT**: I’m just so surprised about how many pills I'm carrying with me! Most of the time I think I have my head screwed on and I'm well, but to live in a society where there is so much unwellness, you have to do artificial things to be well.
+
+**CV:** This also relates to the jelly beans [in the Trivial Pursuit photograph] because it’s fun to imagine that’s what spills out of these pill bottles. When you’re with people you fuck with, homies or loves, it’s like jelly beans. But you’ve got all these interesting icons of the U.S.: board games, jelly beans, popcorn, Perrier—there’s a rhyme and reason you find to what might just seem to be brands and junk food.
+
+**AT:** In my culture, people fight. Verbally, or they resolve conflict immediately. Whereas here, I remember hanging out with some of my girlfriends and their families, and I slowly realized that for them, board games are one of the ways to explore group tensions.
+
+**CV**: Ha! That goes back to the performance thing. When you enter into the space of the camera, a fictionalization process takes place. Similar to when you enter the space of the board game, you fictionalize a lot of your basic desires, needs, fears, goals—because the goal becomes, ruthlessly, to Win, in a more gratuitous way, perhaps, than we’d readily admit in real life.
+
+**AT:** And I was like, oh my God, your family doesn’t fight, you just play board games and express aggression indirectly. All these undercurrents of tension. . . .
+
+**CV:** They all dissipate with Trivial Pursuit. How light! Healthier, perhaps.
+
+**AT:** It really depends on the context. How it’s done. Of course with my partner, there’s an exploration of sexuality and ritual and—here, this was our marriage ceremony in New York.
+
+(She shows me a photograph of James at their wedding.) 
+
+ 
+
+ 
+
+**CV:** I could have sworn this was a checkout counter at a supermarket.
+
+**AT:** (Laugh.) It could be. You know? It's just there's not enough context in this picture. But I guess, as usual, “if you know, you know.”
+
+**CV:** Do you title your works? 
+
+**AT:** I haven’t really thought about it. What I've been doing recently, I've been playing some sound recordings of my voice, explaining things, explaining what's going on, which I find a lot more—well, sometimes I do title, and titles are very important. But for this body of work, I just haven't thought about it. I think incorporating my voice and speaking was quite important. It relates to how I construct situations, like here.
+
+(Aliaksandra shows me one final photograph, in black and white, of an interior, with ceiling fan, a crouched male figure, and a half-standing nude female figure).
+
+**CV:** This is beautiful, the lighting . . . !
+
+**AT:** I like this picture. There’s this kind of sense of threat. A woman, being naked. A man, being the actor. You look closely, here, there is a pad for a period. A vulnerable space. In heterosexuality, male aggression plays a huge part. It is strange and disturbing. But if we were to give it an honest look, without fear of judgement, we could see something else too. And what that “something else” is, I don’t have words for. But maybe it is there in the photographs.
+
+*Editor's note: Aliaksandra has since deleted her Instagram.*
+
+*Cocktail Hour*
+
+2024
+
+*The Perfect Family*
+
+2024
+
+*Mother-in-law*
+
+2024
+
+*A Trivial Pursuit*
+
+2024
+
+*Boy Place Turned into a Girl Place*
+
+2023
+
+*Still LIfe*
+
+2023
+
+*Pills*
+
+2024
+
+*City Hall* 
+
+2024
+
+*A Period Drama* 
+
+2024
