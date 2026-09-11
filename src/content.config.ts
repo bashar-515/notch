@@ -12,6 +12,7 @@ const articles = defineCollection({
     previous: z.string().optional(),
     next: z.string().optional(),
     related: z.array(z.string()).default([]),
+    video: z.string().optional(),
   }),
 });
 

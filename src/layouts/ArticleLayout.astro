@@ -3,7 +3,8 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "./Layout.astro";
 
 type Props = CollectionEntry<"articles">["data"];
-const { title, author, issue, bio, related, previous, next } = Astro.props;
+const { title, author, issue, bio, related, previous, next, video } =
+  Astro.props;
 
 const issueNames = { "001": "Potential Energy", "002": "Gravity" };
 
@@ -30,6 +31,18 @@ const relatedArticles = related.flatMap((id) =>
           >Issue {issue}: {issueNames[issue]}</a
         >
       </div>
+
+      {
+        video && (
+          <iframe
+            src={`https://www.youtube-nocookie.com/embed/${video}?autoplay=1&mute=1&loop=1&playlist=${video}&rel=0`}
+            title={title}
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen
+            class="mt-8 aspect-video w-full"
+          />
+        )
+      }
 
       <div
         class="font-times [&_hr]:border-primary mt-8 space-y-6 text-2xl leading-tight [&_hr]:my-12"
