@@ -8,10 +8,19 @@ type Props = {
   side?: "right";
   width?: number;
   align?: "left" | "center" | "right";
+  captionAlign?: "left" | "center" | "right";
   hover?: string;
 };
 
-const { src, caption, side, width, align = "center", hover } = Astro.props;
+const {
+  src,
+  caption,
+  side,
+  width,
+  align = "center",
+  captionAlign = "center",
+  hover,
+} = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "../assets/articles/**/*.{jpg,png,webp}",
@@ -51,7 +60,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       <figcaption
         class:list={[
           "font-times text-xl leading-tight text-black/75",
-          side === "right" ? "w-1/4 shrink-0" : "mt-3 text-center",
+          side === "right" ? "w-1/4 shrink-0" : `mt-3 text-${captionAlign}`,
         ]}
         set:html={caption}
       />
