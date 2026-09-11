@@ -7,7 +7,11 @@ next: "graycloudonsanjacintoplaza"
 related: [planningtimeoff, playingfordays, lifeasaworkofarthenribergsononpossibilityandcreation]
 bio:
   - "Vitya Fitsner is an expressive artist who creates prints for clothing. He draws letters with paint, using a syringe."
-# media pending: slideshow x1
+gallery:
+  - image: "/articles/vityafitsner/1.png"
+    caption: "<i>Untitled.</i> 2017. Paint, paper, digital processing."
+  - image: "/articles/vityafitsner/2.png"
+    caption: "<i>Untitled.</i> 2018. Acrylic spray can on plywood."
 ---
 
 

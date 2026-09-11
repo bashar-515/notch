@@ -13,6 +13,9 @@ const articles = defineCollection({
     next: z.string().optional(),
     related: z.array(z.string()).default([]),
     video: z.string().optional(),
+    gallery: z
+      .array(z.object({ image: z.string(), caption: z.string().optional() }))
+      .default([]),
   }),
 });
 

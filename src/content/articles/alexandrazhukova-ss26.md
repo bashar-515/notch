@@ -7,7 +7,11 @@ next: "satelitephotos"
 related: [martinkahler, letterfromtheeditorsissue002, interviewwithaliaksandratucha]
 bio:
   - "<b>Alexandra Zhukova</b> is a Paris-based designer whose work blends sculptural silhouettes, experimental textiles, and emotionally layered storytelling. With a fine arts background (SAIC, NYU) and a fashion degree from Paris College of Art, she explores the tension between structure and intimacy merging deconstructed tailoring, school-uniform references, and unexpected materials like molded leather and bioplastics."
-# media pending: slideshow x1
+gallery:
+  - image: "/articles/alexandrazhukova-ss26/1.jpg"
+  - image: "/articles/alexandrazhukova-ss26/2.jpg"
+  - image: "/articles/alexandrazhukova-ss26/3.jpg"
+  - image: "/articles/alexandrazhukova-ss26/4.jpg"
 ---
 
 
