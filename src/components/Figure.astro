@@ -28,15 +28,15 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 );
 ---
 
-<figure
-  class:list={[
-    "my-8",
-    side === "right" && "flex items-end gap-4",
-    width && { left: "mr-auto", center: "mx-auto", right: "ml-auto" }[align],
-  ]}
-  style={width ? `width: ${width}%` : undefined}
->
-  <div class:list={["group relative", side === "right" && "min-w-0 flex-1"]}>
+<figure class:list={["my-8", side === "right" && "flex items-end gap-4"]}>
+  <div
+    class:list={[
+      "group relative",
+      side === "right" && "min-w-0 flex-1",
+      width && { left: "mr-auto", center: "mx-auto", right: "ml-auto" }[align],
+    ]}
+    style={width ? `width: ${width}%` : undefined}
+  >
     <Image
       src={images[`../assets${src}`]!.default}
       alt=""
