@@ -43,12 +43,12 @@ const { title, heading, contributors, content } = Astro.props;
   </div>
 
   <ul
-    class="px-frame list-none columns-3 pt-24 text-center text-3xl leading-tight"
+    class="list-none columns-3 px-36 pt-24 text-center text-3xl leading-tight"
   >
     {contributors.map((contributor) => <li>{contributor}</li>)}
   </ul>
 
-  <p>
+  <p class="font-times p-36 text-justify text-xl leading-tight">
     {
       content.map((entry, i) => {
         const Tag = entry.href ? "a" : "span";
