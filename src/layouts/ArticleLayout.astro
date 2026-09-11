@@ -1,9 +1,10 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "./Layout.astro";
+import Gallery from "../components/Gallery.astro";
 
 type Props = CollectionEntry<"articles">["data"];
-const { title, author, issue, bio, related, previous, next, video } =
+const { title, author, issue, bio, related, previous, next, video, gallery } =
   Astro.props;
 
 const issueNames = { "001": "Potential Energy", "002": "Gravity" };
@@ -43,6 +44,8 @@ const relatedArticles = related.flatMap((id) =>
           />
         )
       }
+
+      {gallery.length > 0 && <Gallery items={gallery} />}
 
       <div
         class="font-times [&_hr]:border-primary mt-8 space-y-6 text-2xl leading-tight [&_hr]:my-12"

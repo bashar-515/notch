@@ -1,0 +1,138 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import type { CollectionEntry } from "astro:content";
+
+type Props = { items: CollectionEntry<"articles">["data"]["gallery"] };
+
+const { items } = Astro.props;
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "../assets/articles/**/*.{jpg,png,webp}",
+  { eager: true },
+);
+---
+
+<div class="group/gallery mt-8 flex flex-col items-center gap-4">
+  <div
+    data-frame
+    tabindex="0"
+    class="relative w-full cursor-none focus:outline-none"
+  >
+    <div
+      data-slides
+      class="flex aspect-[7/5] snap-x snap-mandatory overflow-x-hidden [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+    >
+      {
+        items.map((item) => (
+          <Image
+            src={images[`../assets${item.image}`]!.default}
+            alt=""
+            width={1600}
+            class="h-full w-full shrink-0 snap-start object-contain"
+          />
+        ))
+      }
+    </div>
+
+    <span
+      data-cursor
+      aria-hidden="true"
+      hidden
+      class="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 font-[system-ui] text-5xl select-none"
+    >
+      ▶
+    </span>
+  </div>
+
+  {
+    items.length > 1 && (
+      <div class="flex gap-2 opacity-0 transition-opacity duration-200 group-focus-within/gallery:opacity-100 group-hover/gallery:opacity-100">
+        {items.map(() => (
+          <button
+            type="button"
+            class="dot h-3 w-3 rounded-full border border-black [&:not(.bg-black)]:cursor-pointer"
+          />
+        ))}
+      </div>
+    )
+  }
+
+  {
+    items.map((item, i) => (
+      <p
+        hidden={i !== 0}
+        class="caption font-times text-center text-xl leading-tight text-black/75"
+        set:html={item.caption ?? ""}
+      />
+    ))
+  }
+</div>
+
+<script>
+  const autoplay = !window.matchMedia("(prefers-reduced-motion: reduce)")
+    .matches;
+
+  document.querySelectorAll<HTMLElement>(".group\\/gallery").forEach((root) => {
+    const frame = root.querySelector<HTMLElement>("[data-frame]");
+    const scroller = root.querySelector<HTMLElement>("[data-slides]");
+    const cursor = root.querySelector<HTMLElement>("[data-cursor]");
+    if (!frame || !scroller || !cursor) return;
+
+    const count = scroller.children.length;
+    const dots = [...root.querySelectorAll<HTMLElement>(".dot")];
+    const captions = [...root.querySelectorAll<HTMLElement>(".caption")];
+    let index = 0;
+    let timer: ReturnType<typeof setInterval> | undefined;
+
+    const go = (delta: number) => {
+      index = (index + count + delta) % count;
+      scroller.scrollTo({
+        left: index * scroller.clientWidth,
+        behavior: "instant",
+      });
+      dots.forEach((dot, i) => dot.classList.toggle("bg-black", i === index));
+      captions.forEach((caption, i) => (caption.hidden = i !== index));
+    };
+
+    const stop = () => clearInterval(timer);
+    const start = () => {
+      stop();
+      if (autoplay && count > 1) timer = setInterval(() => go(1), 5000);
+    };
+
+    const isLeft = (event: MouseEvent) => {
+      const { left, width } = frame.getBoundingClientRect();
+      return event.clientX - left < width / 2;
+    };
+
+    frame.addEventListener("pointermove", (event) => {
+      const { left, top } = frame.getBoundingClientRect();
+      cursor.style.left = `${event.clientX - left}px`;
+      cursor.style.top = `${event.clientY - top}px`;
+      cursor.textContent = isLeft(event) ? "◀" : "▶";
+      cursor.hidden = false;
+    });
+    frame.addEventListener("pointerenter", stop);
+    frame.addEventListener("pointerleave", () => {
+      cursor.hidden = true;
+      start();
+    });
+    frame.addEventListener("click", (event) => go(isLeft(event) ? -1 : 1));
+    frame.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft") go(-1);
+      if (event.key === "ArrowRight") go(1);
+    });
+
+    dots.forEach((dot, i) =>
+      dot.addEventListener("click", () => {
+        if (i !== index) go(i - index);
+        start();
+      }),
+    );
+
+    dots[0]?.classList.add("bg-black");
+    start();
+    window.addEventListener("resize", () => go(0));
+  });
+</script>
