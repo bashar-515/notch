@@ -49,47 +49,49 @@ const relatedArticles = related.flatMap((id) =>
     </article>
 
     <div
-      class="sticky top-0 flex h-dvh flex-1 flex-col items-end justify-center-safe self-start pt-36"
+      class="sticky top-0 grid h-dvh flex-1 grid-rows-[minmax(--spacing(36),1fr)_auto_minmax(0,1fr)] self-start"
     >
-      <a
-        href="/shop"
-        class="hover:bg-primary hover:border-primary rounded-lg border border-black bg-black px-2 py-1 text-2xl tracking-widest text-white italic"
-        >subscribe</a
-      >
+      <div class="row-start-2 flex flex-col items-end">
+        <a
+          href="/shop"
+          class="hover:bg-primary hover:border-primary rounded-lg border border-black bg-black px-2 py-1 text-2xl tracking-widest text-white italic"
+          >subscribe</a
+        >
 
-      <ul
-        class="text-primary mt-6 w-full list-none divide-y-3 divide-black border-t-3 border-b-3 border-black text-right text-2xl"
-      >
-        {
-          relatedArticles.map((article) => (
-            <li class="py-2">
-              <a href={`/${article.id}/`} class="flex flex-col gap-3">
-                <p class="italic">{article.data.title}</p>
-                <p>by {article.data.author}</p>
+        <ul
+          class="text-primary mt-6 w-full list-none divide-y-3 divide-black border-t-3 border-b-3 border-black text-right text-2xl"
+        >
+          {
+            relatedArticles.map((article) => (
+              <li class="py-2">
+                <a href={`/${article.id}/`} class="flex flex-col gap-3">
+                  <p class="italic">{article.data.title}</p>
+                  <p>by {article.data.author}</p>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+
+        <nav
+          class="font-times mt-6 flex w-full flex-col gap-2 text-xl leading-none"
+        >
+          {
+            next && (
+              <a href={`/${next}/`} class="self-end hover:underline">
+                next piece →
               </a>
-            </li>
-          ))
-        }
-      </ul>
-
-      <nav
-        class="font-times mt-6 flex w-full flex-col gap-2 text-xl leading-none"
-      >
-        {
-          next && (
-            <a href={`/${next}/`} class="self-end hover:underline">
-              next piece →
-            </a>
-          )
-        }
-        {
-          previous && (
-            <a href={`/${previous}/`} class="self-start hover:underline">
-              ← previous piece
-            </a>
-          )
-        }
-      </nav>
+            )
+          }
+          {
+            previous && (
+              <a href={`/${previous}/`} class="self-start hover:underline">
+                ← previous piece
+              </a>
+            )
+          }
+        </nav>
+      </div>
     </div>
   </div>
 </Layout>
