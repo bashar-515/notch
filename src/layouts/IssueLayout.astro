@@ -1,13 +1,15 @@
 ---
 import Layout from "./Layout.astro";
+import type { Content } from "../types";
 
 type Props = {
   title: string;
   heading: string;
   contributors: string[];
+  content: Content[];
 };
 
-const { title, heading, contributors } = Astro.props;
+const { title, heading, contributors, content } = Astro.props;
 ---
 
 <Layout title={title}>
@@ -45,6 +47,24 @@ const { title, heading, contributors } = Astro.props;
   >
     {contributors.map((contributor) => <li>{contributor}</li>)}
   </ul>
+
+  <p>
+    {
+      content.map((entry, i) => {
+        const Tag = entry.href ? "a" : "span";
+
+        return (
+          <>
+            {i > 0 && " / "}{" "}
+            <Tag href={entry.href}>
+              {entry.title.startsWith('"') ? entry.title : <i>{entry.title}</i>}
+              , {entry.author}
+            </Tag>
+          </>
+        );
+      })
+    }
+  </p>
 </Layout>
 
 <script>

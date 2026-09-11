@@ -11,3 +11,9 @@ export type Product = {
   isIssue?: boolean;
   fit?: "cover";
 };
+
+export type Content = {
+  title: string;
+  author: string;
+  href?: string;
+};
