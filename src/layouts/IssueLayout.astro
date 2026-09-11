@@ -15,9 +15,10 @@ type Props = {
   contributors: string[];
   content: Content[];
   columns: [Thumbnail[], Thumbnail[], Thumbnail[], Thumbnail[], Thumbnail[]];
+  cards: "outlined" | "filled";
 };
 
-const { title, heading, contributors, content, columns } = Astro.props;
+const { title, heading, contributors, content, columns, cards } = Astro.props;
 ---
 
 <Layout title={title}>
@@ -71,9 +72,25 @@ const { title, heading, contributors, content, columns } = Astro.props;
                     class="h-auto w-full"
                   />
                 ) : (
-                  <div class="border-primary font-times flex aspect-[8/9] flex-col justify-between border-2 bg-white p-3 text-xl leading-none">
-                    <span>{item.title}</span>
-                    <span class="self-end">{item.author}</span>
+                  <div
+                    class:list={[
+                      "border-primary font-times flex flex-col border-2",
+                      cards === "filled"
+                        ? "bg-primary text-secondary aspect-[3/4] pr-3 text-4xl leading-6 italic"
+                        : "aspect-[8/9] justify-between bg-white p-3 text-xl leading-none",
+                    ]}
+                  >
+                    <span class:list={{ uppercase: cards === "filled" }}>
+                      {item.title}
+                    </span>
+                    <span
+                      class:list={[
+                        "self-end text-right",
+                        { "my-auto": cards === "filled" },
+                      ]}
+                    >
+                      {item.author}
+                    </span>
                   </div>
                 )}
               </Tag>
