@@ -1,0 +1,60 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+type Props = {
+  src: string;
+  caption?: string;
+  side?: "right";
+  width?: number;
+  align?: "left" | "center" | "right";
+  hover?: string;
+};
+
+const { src, caption, side, width, align = "center", hover } = Astro.props;
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "../assets/articles/**/*.{jpg,png,webp}",
+  { eager: true },
+);
+---
+
+<figure
+  class:list={[
+    "my-8",
+    side === "right" && "flex items-end gap-4",
+    width && { left: "mr-auto", center: "mx-auto", right: "ml-auto" }[align],
+  ]}
+  style={width ? `width: ${width}%` : undefined}
+>
+  <div class:list={["group relative", side === "right" && "min-w-0 flex-1"]}>
+    <Image
+      src={images[`../assets${src}`]!.default}
+      alt=""
+      width={1600}
+      class="h-auto w-full"
+    />
+    {
+      hover && (
+        <Image
+          src={images[`../assets${hover}`]!.default}
+          alt=""
+          width={1600}
+          class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+        />
+      )
+    }
+  </div>
+
+  {
+    caption && (
+      <figcaption
+        class:list={[
+          "font-times text-xl leading-tight text-black/75",
+          side === "right" ? "w-1/4 shrink-0" : "mt-3 text-center",
+        ]}
+        set:html={caption}
+      />
+    )
+  }
+</figure>
