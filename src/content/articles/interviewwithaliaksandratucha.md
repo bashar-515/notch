@@ -13,7 +13,7 @@ related: [letterfromtheeditorsissue002, agnosis, alexanderbondoc]
 
 2025
 
-These photographed beings of flesh and plastic and shadow are enchanting. That is to say, confronting them, I know I stand on real earth. Language, in its current taken-for-granted and banality-stoking use, does not have the steel clarity to face the fraught social, economic, and soul questions before us—but Aliaksandra Tucha’s photography does. 
+These photographed beings of flesh and plastic and shadow are enchanting. That is to say, confronting them, I know I stand on real earth. Language, in its current taken-for-granted and banality-stoking use, does not have the steel clarity to face the fraught social, economic, and soul questions before us—but Aliaksandra Tucha’s photography does.
 
 Tucha distorts Silicon Valley–approved framings of the body in the world: in her weird oeuvre, the daily is where the eye is aimed and trained, but there are few mere selfies, no fashion-model-hands brandishing a pristine wine glass, no falsely staged candids of the group to confirm the “I” of “I am here.” Instead, she applies pressure to the “was” and the “here,” planting in our minds l’avenir, things to come. She alienates and, yes, enchants in the proud Varda-Goldin-Mann tradition, which fractures an individual hero into the shards of mysterious others that form her: dead or historical, beloved and perhaps missing, bogged down by systems of capital and the “I” cult that, to too many, feel permanent. She’s a photographer to get excited over.
 
@@ -21,7 +21,7 @@ Tucha makes wry yet sincere, sentiment-rich work with (here’s the rare bit) a 
 
 Tucha knows the weight of vision. Her photographs still us. They beg us to pay tribute to beauty in the corner. To bear witness to the collective absences we all suffer. Her sensibility has the proper mixture of levity and gravity, the possibility that absent will become present, per chance or per force. Levity: Ernst Lubitsch, Eve Babitz, a milkshake with two straws. Gravity: Fritz Lang, Joan Didion, a breakup letter (now, a “text”). For balance, the two are necessary. Tucha knows balance.
 
-I caught up with Tucha in her studio in New Haven, Connecticut, where she is now a student at the Yale School of Art. 
+I caught up with Tucha in her studio in New Haven, Connecticut, where she is now a student at the Yale School of Art.
 
 *– Carlos Valladares*
 
@@ -33,13 +33,13 @@ I caught up with Tucha in her studio in New Haven, Connecticut, where she is now
 
 **AT:** A couple of years ago, my approach was much more direct, focusing on specific objects. My frames were tighter. Now, I’m interested in creating a broader image that contains these symbols within it. Take this photograph, for instance—it shows a woman’s hands, a champagne glass. You immediately understand it’s either some sort of a party or a cocktail hour. The class markers are evident—who these people are, what kind of person would make these gestures. It’s all embedded in the image.
 
-**CV:** When you photograph, are you conscious of your status as one who is from Belarus, now situated within the U.S.? 
+**CV:** When you photograph, are you conscious of your status as one who is from Belarus, now situated within the U.S.?
 
 **AT**: Definitely. Back home, I didn’t think about class—I didn’t have to. I just was in a privileged position, thanks to my parents. But here, I’m an outsider who’s coming from a complicated, economically unstable part of the world. I notice class markers and how foreign and strange they feel. I pay attention.
 
 **CV**: There’s a lot of things that one takes for granted. When I first saw this photograph of, as you say, “a cocktail hour” I initially thought, “Ok, that's a very ‘normal’ picture, of just people talking”—“just”! But then, a lot of abnormalities start to crop up. You present this slice of life in an almost sinister, claustrophobic fashion. Sort of what David Lynch goes for. This deep receding black, the fact that you can’t see their heads, these disembodied hands . . .
 
-**AT**: It’s a private club. So it’s one of those situations where you don’t necessarily want to reveal their identities. And there’s nothing wrong with that. However, there’s this consciousness that you are in a space which you would not necessarily be shown. It’s an “If you know, you know.” At home, I was never conscious of all this explicitly, because home was the place that I occupied and was a part of. I knew what I needed to know. Whereas here, I feel like it’s a lot less organic. I don’t have my family here. So all the interactions—in spaces like private clubs with specific codes, where one needs access through networks or friends or your belonging with an institution—feel different. Elsewhere, I'm very much interested in clothes, and objects that people surround themselves with, and gestures that indicate you specifically belong to a group. And coded behavior is genuine. You have learned it growing up, knowing certain things. 
+**AT**: It’s a private club. So it’s one of those situations where you don’t necessarily want to reveal their identities. And there’s nothing wrong with that. However, there’s this consciousness that you are in a space which you would not necessarily be shown. It’s an “If you know, you know.” At home, I was never conscious of all this explicitly, because home was the place that I occupied and was a part of. I knew what I needed to know. Whereas here, I feel like it’s a lot less organic. I don’t have my family here. So all the interactions—in spaces like private clubs with specific codes, where one needs access through networks or friends or your belonging with an institution—feel different. Elsewhere, I'm very much interested in clothes, and objects that people surround themselves with, and gestures that indicate you specifically belong to a group. And coded behavior is genuine. You have learned it growing up, knowing certain things.
 
 **CV**: That’s interesting. It’s the idea of perpetual performance, even when we think that we are bare or “in the raw,” as it were. A rehearsedness to our gestures that we assume is natural. I feel like you create an idea of an “accidentally captured” moment. It relates, perhaps, to the idea of a set of eyes that are upon you, that are not you. Dealing with another disembodied gaze. Do you perceive something along those lines?
 
@@ -65,11 +65,11 @@ I caught up with Tucha in her studio in New Haven, Connecticut, where she is now
 
 **CV:** You derange his family poetically. We have this idea of the ideal family, but it’s hard to look these members of the family straight in the eye. They’re at a gauzy remove from us, like Marlene Dietrich at a remove from Josef von Sternberg’s camera. Even the closest family members, to us, contain this level of not-knowing. Once you accept this inability to know somebody fully, then you can start to really see them for who they are, for what the reality of their world is. At least it's been my experience, and what I feel looking at this.
 
-**AT:** And this picture is a lot of our cultural codes too, what pertains to this kind of purpose, this kind of chair, the ideas associated with hanging African art on this pristine Connecticut wall. What kind of person arranges space in such a way? In my experience, we had not been hanging out in this room that much. So, this room is some sort of a room in which you'll hang out occasionally, but it does not serve a constant functional purpose. It serves much more of an aesthetic purpose, which is different from the way I’m used to living my own life. 
+**AT:** And this picture is a lot of our cultural codes too, what pertains to this kind of purpose, this kind of chair, the ideas associated with hanging African art on this pristine Connecticut wall. What kind of person arranges space in such a way? In my experience, we had not been hanging out in this room that much. So, this room is some sort of a room in which you'll hang out occasionally, but it does not serve a constant functional purpose. It serves much more of an aesthetic purpose, which is different from the way I’m used to living my own life.
 
 (She gestures to an unpeopled photograph of a sofa, two symmetrical lamps, and a sofa cushion that has been noticeably dented)
 
-Same here: it’s more of a functional room [than the family portrait], but still, there are so many elements of communicating codes, as opposed to adhering to pure function. 
+Same here: it’s more of a functional room [than the family portrait], but still, there are so many elements of communicating codes, as opposed to adhering to pure function.
 
 **CV:** I love traces of people that were there and then are not, like this bunched-up blanket, or the bunched-in sofa cushion. So much photography is traces of beings who were once there, yet once you print the physical photograph, they aren’t there anymore—they’ve moved on, something has changed, somehow time has passed. You do well in filling presence with this palpable absence, and you ask “We’re here today, and gone tomorrow, so how will we deal with this?”
 
@@ -101,14 +101,12 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 
 **CV:** This is like one of those Chardin still lifes with the skinned rabbit and grapes and shit, but it's reworked in a modern idiom. Using everyday language. And yet somehow, for me, it goes beyond his proclamations for everlasting permanence, the court horns blowing, “this is our wealth, and will be here forever and ever.” In your picture, you crystallize impermanence, which is such a deeply felt element of the goddamn now. It's a hodgepodge, but a tightly-organized hodgepodge. Incidentally, those are the films recently that I've been gravitating towards: Mike Leigh movies, Jerry Schatzberg’s Scarecrow (1973), Varda capturing her lens-cap “dancing” in The Gleaners and I (2000). You have gravity and levity in equal measure.
 
-(Aliaksandra shows me a picture of pills on a window sill.) 
+(Aliaksandra shows me a picture of pills on a window sill.)
 
- 
-
- 
+\
 **AT:** I always have so many pills on me.
 
-**CV**: In this country, they really pill you. 
+**CV**: In this country, they really pill you.
 
 **AT**: I’m just so surprised about how many pills I'm carrying with me! Most of the time I think I have my head screwed on and I'm well, but to live in a society where there is so much unwellness, you have to do artificial things to be well.
 
@@ -124,17 +122,13 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 
 **AT:** It really depends on the context. How it’s done. Of course with my partner, there’s an exploration of sexuality and ritual and—here, this was our marriage ceremony in New York.
 
-(She shows me a photograph of James at their wedding.) 
-
- 
-
- 
+(She shows me a photograph of James at their wedding.)
 
 **CV:** I could have sworn this was a checkout counter at a supermarket.
 
 **AT:** (Laugh.) It could be. You know? It's just there's not enough context in this picture. But I guess, as usual, “if you know, you know.”
 
-**CV:** Do you title your works? 
+**CV:** Do you title your works?
 
 **AT:** I haven’t really thought about it. What I've been doing recently, I've been playing some sound recordings of my voice, explaining things, explaining what's going on, which I find a lot more—well, sometimes I do title, and titles are very important. But for this body of work, I just haven't thought about it. I think incorporating my voice and speaking was quite important. It relates to how I construct situations, like here.
 
@@ -174,10 +168,10 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 
 2024
 
-*City Hall* 
+*City Hall*
 
 2024
 
-*A Period Drama* 
+*A Period Drama*
 
 2024

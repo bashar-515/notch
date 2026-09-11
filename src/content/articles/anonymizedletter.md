@@ -21,7 +21,7 @@ At that time I also believed, as I still do, that us not talking is in your fami
 
 I am so ashamed and deeply sorry for how I came between you and xxxx. Even though I did not initiate what happened, I am guilty for participating. For the sake of your relationship with her, I will never, ever say a word – but I wonder if you have considered coming forward, or done so already.
 
-I did not realize until I became a mother how sacred family is, and how fragile.
+I did not realize until I became a mother how sacred family is, and how fragile.\
 I did not realize what we had sown until my (soon ex) husband cheated on me when I was pregnant and again at four months postpartum – on my birthday.
 
 It’s very easy as a young, single woman to rationalize participation in men’s wrongs. As a mother who has seen the glee and unapologetic fervor of the tens of women who pursued my husband knowing that my son and I existed, I feel horrified.

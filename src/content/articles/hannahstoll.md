@@ -9,8 +9,8 @@ related: [martinkahler, agnosis, interviewwithaliaksandratucha]
 # media pending: picture x1
 ---
 
-*Mountain of Faith.* 
+*Mountain of Faith.*
 
-2024
-oil on canvas
+2024\
+oil on canvas\
 10 x 12 in

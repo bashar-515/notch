@@ -9,16 +9,16 @@ related: [letterfromtheeditorsissue002, brendaerdei, alexanderbondoc]
 # media pending: picture x1
 ---
 
-Diego Velázquez
-*Water Carrier of Seville*
-c. 1618–1622        
-oil on canvas        
-105 × 80 cm         
+Diego Velázquez\
+*Water Carrier of Seville*\
+c. 1618–1622\
+oil on canvas\
+105 × 80 cm\
 Courtesy: Apsley House, London
 
 Descending into the Hyde Park Corner tube station in London, I passed a shaggy busker who blurted out, “There’s a lot of low-I.Q. people round here these days.” I turned to commiserate, then realized he meant me. He had a point. Who teaches and who learns and why does anyone do either?
 
- 
+\
 	I had taught this question in a lecture at Stanford—taught it in front of a big slide of the painting I had come to London to see, Diego Velázquez’s Water Carrier of Seville, installed at Apsley House, a few steps from where the busker stood.
 
 	The painting had clicked for me a few years ago. It seemed to tell all there is to know about the gravity of my chosen profession as a teacher. A gray-haired man in a dun-colored smock stands before a large earthen jug. Burnt by the sun, wearied at his task, the man looks down at the glass of pure water he has filled to the brim for a young boy who accepts the glass from his hand. A third figure, a young man possibly faded over time and more obscure than the boy and water carrier, quaffs a drink in the background between them. The water carrier is the teacher; the boy is the student; the mysterious drinker between them is some mix—who knows—of both.
@@ -35,7 +35,7 @@ It is all a mystery. How the water got into the glass is not shown. The jug is m
 
 And the drink-quaffer in the background? Perhaps he shows the quick-and-easy consumption of what is so precious it must be more delicately taken in hand. His very fading might stem from his vulgar thirst, as if whatever he drinks, water or otherwise, were a potion causing him to fade. Or perhaps he too was once avid, as up front and rounded as the boy and the old man, the old man who is the centrifuge of himself, throwing the energy of his inwardness outward. But over time the background drinker and the potion that once gave him life have faded. The elixir of learning has become only a quick drink. The potency of this fading lurks between the man and the boy.
 
- 
+\
 	There is something else. Are the man and the boy in the foreground the same person? Is teaching—the gravity of it—really a matter of teaching who one oneself has been? If so, the water carrier bestows a gift upon his former self, blessing and forgiving whoever he was when he was young and did not know better. The boy, for his part, might be returning the favor to his older self. The glass is so measured halfway between them that it might be the boy who bestows it on the man, even though we know otherwise. The boy gives to the person whom he will be, acknowledging that this person, sunburnt and ragged, is still as pure as when he was young.
 
 In the classroom, everyone—aged teacher and young students—is the same age. It is an age of all times, one in which each person is the sum of all the times they have ever lived and will live. The child is father to the man, as Wordsworth says, and the father generates the child whom he was. It is a gentle awareness. We are always who we have been and always who we will be. The lessons learned and the lessons forgotten are like the memory of a weight held in the hands. There is sorrow but redemption in the sadness, which takes the crystal-clear form of a realization, possibly a last thing (if one believes that Velázquez painted the glass last). It is that there is no such thing as a lecture that is not also a “last lecture,” that the meaningfulness of any day’s topic is the loss that it betokens, the fullness that it bestows, that of the generations shaped from the same clay, the world of disgust and violence redeemed in a moment of peace. The glass is heavy but so light.

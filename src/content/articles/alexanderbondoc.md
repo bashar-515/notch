@@ -9,11 +9,11 @@ related: [agnosis, letterfromtheeditorsissue002, interviewwithaliaksandratucha]
 # media pending: picture x2
 ---
 
-*Covalence*. 
+*Covalence*.
 
-2022
+2022\
 plastic and resin
 
-*Rarefraction*
-2022
+*Rarefraction*\
+2022\
 plastic, resin, acrylic powder

@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Layout from "./Layout.astro";
+
+type Props = CollectionEntry<"articles">["data"];
+
+const { title, author, issue, bio } = Astro.props;
+---
+
+<Layout title={title}>
+  <article class="px-frame py-frame">
+    <h1>{title}</h1>
+    <p>By {author}</p>
+    <p>Issue {issue}</p>
+
+    <slot />
+
+    {bio && <p set:html={bio} />}
+  </article>
+</Layout>

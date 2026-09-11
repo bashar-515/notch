@@ -8,7 +8,7 @@ related: [agnosis, nibhaakireddy, secretsofthepuckeredjug]
 # media pending: picture x1
 ---
 
-On a clear night, you can make out the craters on a full moon with a naked eye. On a similar night, a sixteenth-century astronomer wouldn’t have seen those same craters. The moon, like all celestial objects, was then believed to be a perfectly smooth sphere. Its imperfections were imperceptible, explained away by quirks of the eye, or just ignored altogether. It wasn’t until Galileo Galilei first looked at the moon through a telescope in 1609 that the existence of the craters became undeniable. 
+On a clear night, you can make out the craters on a full moon with a naked eye. On a similar night, a sixteenth-century astronomer wouldn’t have seen those same craters. The moon, like all celestial objects, was then believed to be a perfectly smooth sphere. Its imperfections were imperceptible, explained away by quirks of the eye, or just ignored altogether. It wasn’t until Galileo Galilei first looked at the moon through a telescope in 1609 that the existence of the craters became undeniable.
 
 We perceive the world through the limited lens of what we know to be possible. In 1962, the philosopher of science Thomas Kuhn introduced the idea that science is a series of progressive paradigm shifts, each getting humanity one step closer to uncovering the complete picture of reality. But modern science has come upon an impasse that challenges the idea that there is a single truth to uncover. The story of how it happened starts with a young man who went off-script and created a new way to interpret his world.
 
@@ -48,7 +48,7 @@ On the other side of the duality is CFT, or conformal field theory. This is a qu
 
 These two descriptions don’t just look different, they disagree on foundational truths. They disagree on the number of dimensions of space for instance; a three-dimensional anti-deSitter space is equivalent to a flat, two-dimensional CFT world. (For this reason, it’s called a holographic duality, since a three-dimensional world can be seen as emerging from a flat one.) The laws of physics in these two worlds also differ: A single particle in Einstein’s description may map onto multiple particles in the quantum one. And yet, ask both theories any practical question—for instance, to predict the chance of two particles colliding—and they return the same answer. They describe the same exact reality.
 
-Since we do not live in the universe described by this duality, it’s possible to write it off as a strange mathematical quirk. On the other hand, pay attention to it, and you’ll find a challenge to the nature of truth. Duality suggests there isn’t only one truth, or one theory of everything. What’s true depends on the language it’s spoken in. 
+Since we do not live in the universe described by this duality, it’s possible to write it off as a strange mathematical quirk. On the other hand, pay attention to it, and you’ll find a challenge to the nature of truth. Duality suggests there isn’t only one truth, or one theory of everything. What’s true depends on the language it’s spoken in.
 
 Even in human languages, translation is rarely one-to-one. A single word in one language can take a sentence to be described in another. Where one language may distinguish many kinds of sea, snow, or love, another may blend and blur them all together. Without the words with which to see the differences, we don’t. This is why Kuhn says that when we speak different languages, we experience different worlds. Language and world are learned together.
 

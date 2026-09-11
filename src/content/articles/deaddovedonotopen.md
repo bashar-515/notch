@@ -16,17 +16,17 @@ my head
 
 you are not above
 
- 
+\
 being a dead dove
 
 what did I expect?
 
- 
+\
 the note around your leg said
 
 this dove is dead, do not
 
- 
+\
 do not, do not, do not interact
 
 it dove, it took a dive for my hair, though
@@ -43,7 +43,7 @@ it’s just practice, it’s just fiction
 
 have they eaten
 
- 
+\
 the dead dove you left
 
 in the icebox, an aviary memorial
@@ -70,7 +70,7 @@ because I do the things when they’ve said, Don’t
 
 and then I look over, to the sidewalk near a café
 
- 
+\
 walking to school thinking of pastries much too expensive
 
 on the other side, no warning, no basic etiquette
@@ -81,14 +81,14 @@ I’d never seen a dead thing in real life, not as dead as that
 
 they cover it up before it gets to the guts rotting in the open,
 
- 
+\
 in front of children, in front of salad bars
 
 do you remember I told you when I got back
 
 and you said you’d seen a dead dove as well?
 
- 
+\
 on the very same path
 
 and we wondered how long it’d been dead
@@ -97,7 +97,7 @@ and why they wouldn’t clean it up
 
 so we wouldn’t have to look at it
 
- 
+\
 or if it could be that we’d seen two different doves
 
 in a similar state of decay, dead in the very same place

@@ -13,19 +13,19 @@ related: [playingfordays, oliverstokes-curtis, spinmeasurecut]
 
 Beginning any artistic endeavor requires a delusional combination of faith and patience. This state is one of potential energy. It can be deeply invigorating as truly anything seems possible, but frankly, it often borders on madness. Like an artist staring at a raw canvas, this is what our playlist will plunge you into: the state in which you believe in a potential that maddeningly taunts, leaving you waiting and begging for more.
 
-Our opening track, “The Beach” by Wolf Alice begins with a promise, introducing steady and determined guitar strums to quietly pulsing percussion. By the time the haunting backing vocals rise behind the main vocal melody, it's almost sure this ascension will find its release…but the song suddenly drops out before reaching its peak. 
+Our opening track, “The Beach” by Wolf Alice begins with a promise, introducing steady and determined guitar strums to quietly pulsing percussion. By the time the haunting backing vocals rise behind the main vocal melody, it's almost sure this ascension will find its release…but the song suddenly drops out before reaching its peak.
 
 As the playlist continues, the looping bass-and-drum lines of songs like “WDSG?” and “The Traitor” mirror the listlessness of waiting…
 
-We are offered some reprieve with the song “On” by Kelly Lee Owens, which begins with the most emotionally satisfying—if haunting—moments of the playlist so far. Do not be fooled. Before long, the tender vocals dissolve, leaving us with robust if clumsy electronic looping – calm and wading. What if you held yourself in this state, denying the catharsis even longer? Sounds a hell of a lot like edging. 
+We are offered some reprieve with the song “On” by Kelly Lee Owens, which begins with the most emotionally satisfying—if haunting—moments of the playlist so far. Do not be fooled. Before long, the tender vocals dissolve, leaving us with robust if clumsy electronic looping – calm and wading. What if you held yourself in this state, denying the catharsis even longer? Sounds a hell of a lot like edging.
 
 As we delve deeper into the playlist, the track “Spill The Milk,” plunges us into profoundly eerie territory, relying on heavy vocal dissonance and a sporadic bass line to keep us trapped in the dark.
 
-We’re soon offered a glimmer of light by SPELLLING’s ethereal lo-fi gem, “Under The Sun.” Its gloriously catchy and resonant synth melody anchors the song while reminding us of what we set out to achieve in the first place. Naturally, the song transitions into a dissonant and spooky as hell soundscape, reminding us of the cyclical nature of the creative burden. 
+We’re soon offered a glimmer of light by SPELLLING’s ethereal lo-fi gem, “Under The Sun.” Its gloriously catchy and resonant synth melody anchors the song while reminding us of what we set out to achieve in the first place. Naturally, the song transitions into a dissonant and spooky as hell soundscape, reminding us of the cyclical nature of the creative burden.
 
-The following tracks, “Deadly Valentine” and “Galatea’s Guitar,” add a pinch of fun while maintaining elasticity, driven by leisurely tempos that enhance the rhythmic allure of their repetitive structures. 
+The following tracks, “Deadly Valentine” and “Galatea’s Guitar,” add a pinch of fun while maintaining elasticity, driven by leisurely tempos that enhance the rhythmic allure of their repetitive structures.
 
-While suspended here, PJ Harvey delivers the most biting climax of the playlist in the title track of her sophomore album “Rid Of Me.” While the song undeniably lights a fire, its antagonistic chorus shifts relentlessly between two chords, leaving zero space for the listener to escape into a rewarding progression. 
+While suspended here, PJ Harvey delivers the most biting climax of the playlist in the title track of her sophomore album “Rid Of Me.” While the song undeniably lights a fire, its antagonistic chorus shifts relentlessly between two chords, leaving zero space for the listener to escape into a rewarding progression.
 
 Deeper still, we reach the obligatory masochist classic, The Velvet Underground and Nico’s “Venus in Furs.” The hypnotic viola, accompanied by various grating instruments and sounds, tethers us to the infinite pulse of the music, almost against our will.  (At this point, it’s clear that this playlist doesn’t function like most collections of songs; it’s not interested in solving any of the problems it presents.)
 

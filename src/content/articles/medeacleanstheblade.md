@@ -8,20 +8,20 @@ next: "agrocerylistforyou"
 related: [ongirlhood, agnosis, brendaerdei]
 ---
 
-You were born inside the knife 
+You were born inside the knife\
 Evidence of love made bone
 
-You were born inside the knife 
-Carved of a long stretch of losing, 
+You were born inside the knife\
+Carved of a long stretch of losing,
 
-You were born inside the knife
-Only ever half mine and always 
-Heavy, too close to the earth 
+You were born inside the knife\
+Only ever half mine and always\
+Heavy, too close to the earth
 
-I would spit-shine the coronet again, 
-Place poison on the twisted metal again, 
-Jump scare the ram from the pot again, 
-Curl my hands into claws again,
-Drag myself inside out, exile my mind, 
-turn it towards the green-blue sea, 
+I would spit-shine the coronet again,\
+Place poison on the twisted metal again,\
+Jump scare the ram from the pot again,\
+Curl my hands into claws again,\
+Drag myself inside out, exile my mind,\
+turn it towards the green-blue sea,\
 the white sun, the frothed water on the edge of the cliff

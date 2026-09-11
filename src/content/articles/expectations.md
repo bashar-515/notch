@@ -8,7 +8,7 @@ next: "transmissionispitwithsonicweather"
 related: [planningtimeoff, theballadofjeffbezos, playlist001]
 ---
 
-Halfway through the summer of perpetual storms, we are floating in the pool of my uncle’s house. The sky is swollen with dark clouds. I feel pinned beneath their weight. The pool is clotted with withered blossoms from the crepe myrtle tree.  
+Halfway through the summer of perpetual storms, we are floating in the pool of my uncle’s house. The sky is swollen with dark clouds. I feel pinned beneath their weight. The pool is clotted with withered blossoms from the crepe myrtle tree.
 
 Sloane is suspended in a deflated green inner tube. The tip of her ponytail has been wicked by the water as though dipped in ink. Sweat pearls on her upper lip. I want to lick it off, but she would laugh and call me ridiculous. I stay in my own inner tube, my legs moving through the tepid water. I let the wet heat drape my shoulders like a shroud.
 
@@ -24,7 +24,7 @@ I won’t tell her I love her again, not even when she looks at me that way. I�
 
 She says, “You know how I feel about you.”
 
-It’s a rhetorical statement, maybe, or maybe it is a question. Maybe she needs me to give her an answer, to explain her to herself. But she is inaccessible to me, a door with no handle.  
+It’s a rhetorical statement, maybe, or maybe it is a question. Maybe she needs me to give her an answer, to explain her to herself. But she is inaccessible to me, a door with no handle.
 
 “I never know how you feel.” I’m appalled at the desperation in my own voice.
 

@@ -8,47 +8,47 @@ next: "brunavettori"
 related: [provethatyoucantstaycrumpledonthebathroomfloorforever, briceafonso, mariafragosojara]
 ---
 
-J'ai perdu les traits de ma coquille
+J'ai perdu les traits de ma coquille\
 son image en entresol
 
-le corps à corps
-cruel
+le corps à corps\
+cruel\
 de l'étreinte et de l’empreinte
 
-j'ai refermé chaque doigt
+j'ai refermé chaque doigt\
 sur cette image - reflet inébranlable, impossible
 
-j'ai serré si fort
-tant détenue
+j'ai serré si fort\
+tant détenue\
 que je la nommais vérité
 
 en parallèle
 
-j'ai fait pâlir mon désir
-pour qu'il rencontre enfin l'instant
-pour que l'impatience se consume en conscience
+j'ai fait pâlir mon désir\
+pour qu'il rencontre enfin l'instant\
+pour que l'impatience se consume en conscience\
 pour, finalement - me retrouver seule
 
 aussi libre qu'un chapeau dans les vagues
 
-I lost the contours of my shell
+I lost the contours of my shell\
 its image on the cusp
 
-the cruel infighting
+the cruel infighting\
 of clasp and mark
 
-I closed each finger
+I closed each finger\
 around that image–unwavering, impossible reflection
 
-I grasped so hard
-so possessed
+I grasped so hard\
+so possessed\
 that I named it truth
 
 in parallel
 
-I palliated my desire
-so that at last it met the moment
-so that impatience consumes itself in conscience
+I palliated my desire\
+so that at last it met the moment\
+so that impatience consumes itself in conscience\
 so that finally - I find myself alone
 
 free as a hat in the waves

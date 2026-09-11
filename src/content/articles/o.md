@@ -8,11 +8,11 @@ next: "intotheunconscious"
 related: [ongirlhood, agnosis, brendaerdei]
 ---
 
-Sometimes it's enough to watch a single ant
-on a single leaf
-on a single branch of a mulberry tree
-struggle to carry a single wing
-of a dragonfly to the top.
-The rain has, for the moment, stopped.
-I peel an orange rind,
+Sometimes it's enough to watch a single ant\
+on a single leaf\
+on a single branch of a mulberry tree\
+struggle to carry a single wing\
+of a dragonfly to the top.\
+The rain has, for the moment, stopped.\
+I peel an orange rind,\
 waiting.

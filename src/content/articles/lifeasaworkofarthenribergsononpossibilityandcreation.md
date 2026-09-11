@@ -1,5 +1,5 @@
 ---
-title: "Life as a Work of Art: Henri Bergson on Possibility and Creation"
+title: "Life as a Work of Art:\\ Henri Bergson on Possibility and Creation"
 author: "Clara Zimmermann"
 issue: "001"
 bio: "Clara Zimmermann is a PhD candidate at Université Paris-1 Panthéon-Sorbonne and the Institut Catholique de Paris, focusing on the aesthetics of Bergson and Kant. She teaches aesthetics and philosophy and has published articles in various academic journals."
@@ -34,7 +34,7 @@ Of course, Bergson acknowledges that all creative activity has an “intellectua
 
 Moreover, Bergson defines a “fabricated object” as the result of a specific end—the artist’s “plan”—or of the total sum of its parts, which includes the different elements involved in the artistic process, such as techniques, materials used, and previous ideas. That being said, real creation must be distinguished from fabrication. In genuine creation, the artist transcends their initial concepts and manages to draw from within something more than what was initially conceived. While every invention—including both fabrication and creation—entails a process where a schematic representation (the original idea or the artist’s intuition) finds its expression, in fabrication this scheme remains unchanged throughout the process. It’s as if a filmmaker had a “plan” or scheme for a film that remained static through the creation process, reducing creation to a matter of executing this original idea. In contrast, Bergson argues that something fundamentally different occurs in true creation, where nothing of the primitive scheme remains in the final work.13
 
-The point is that while fabrication is certainly a significant part of creation, absolute novelty requires an element that transcends fabrication. As Bergson suggests, “even with the knowledge of what explains it, no one, not even the artist, could have foreseen exactly what the portrait would end up being, since predicting this would be to produce it in advance of its being produced,”—an absurd hypothesis, as we have seen.14 Just as “general rules” and “recipes” help us predict and thus control much of our future, an artist can anticipate much of their work based on the various elements involved: the idea they seek to express, the physiognomy of the model, the colors on the palette, the techniques they will use, the effect they seek to produce in the viewer, and so on. All of these elements fall under what Bergson defines as “fabrication,” and they cannot—whether considered separately or together—predict the final work.  
+The point is that while fabrication is certainly a significant part of creation, absolute novelty requires an element that transcends fabrication. As Bergson suggests, “even with the knowledge of what explains it, no one, not even the artist, could have foreseen exactly what the portrait would end up being, since predicting this would be to produce it in advance of its being produced,”—an absurd hypothesis, as we have seen.14 Just as “general rules” and “recipes” help us predict and thus control much of our future, an artist can anticipate much of their work based on the various elements involved: the idea they seek to express, the physiognomy of the model, the colors on the palette, the techniques they will use, the effect they seek to produce in the viewer, and so on. All of these elements fall under what Bergson defines as “fabrication,” and they cannot—whether considered separately or together—predict the final work.
 
 Novel creation arises from the artist’s effort to infuse freedom into the constraints of matter.15 Unlike the ease and automatism involved when imitating and repeating a pre-existing form, the creation of something new emerges from a reciprocal adaptation between form and matter.16 In this sense, while fabrication is immediate—since it involves executing a simple “image” predetermined by the artist’s scheme or plan—creation, on the other hand, involves a delay in time. If the artist has an initial plan, the struggle to achieve a viable and definite final product results in a “back and forth” between a multiplicity of versions and the original scheme. The challenge of aligning the scheme with the actual output, or vice versa, allows ideas to interact and intermingle, giving rise to a new form. Indeed, this arduous process distinguishes genuine artistic creation from the straightforward execution of fabrication.
 
@@ -54,15 +54,15 @@ As in the context of artistic creation, possibility is therefore more—and not 
 
 4 In this context, Bergson refers to the 17th-century German philosopher Gottfried Leibniz’s rationalist theory, which posits that, according to God’s will, we live in the best of all possible worlds. According to this view, even though we, as finite beings, cannot envision all other possibilities, they should be accessible to an omnipotent intelligence.*The Creative Mind*, “Introduction,”, p. 12, p. 13. From now on “PM” in reference to the original title:*La Pensée et le mouvant*.
 
-4 PR, p. 63, p. 99. 
+4 PR, p. 63, p. 99.
 
-6 PR, p. 39, p. 102. 
+6 PR, p. 39, p. 102.
 
-7 Bergson, H.*Creative Evolution*, Trans. Donald A. Landes, London/New York, Routledge, 2023, pp. 55-56, pp. 6-7. From now on: “EC”. 
+7 Bergson, H.*Creative Evolution*, Trans. Donald A. Landes, London/New York, Routledge, 2023, pp. 55-56, pp. 6-7. From now on: “EC”.
 
-8 PM, p. 8, p. 14. 
+8 PM, p. 8, p. 14.
 
-9 PM, p. 14, p. 16 (our italicizing). 
+9 PM, p. 14, p. 16 (our italicizing).
 
 10 PM, p. 8, p. 13.
 
@@ -70,23 +70,23 @@ As in the context of artistic creation, possibility is therefore more—and not 
 
 12 PR, p. 81, p. 113.
 
-13 Bergson, H. “The Intellectual Effort” in Mind Energy, p. 213, p. 175. From now on “EI” in reference to the original title:*L’effort intellectuel*. 
+13 Bergson, H. “The Intellectual Effort” in Mind Energy, p. 213, p. 175. From now on “EI” in reference to the original title:*L’effort intellectuel*.
 
-14 EC, p. 38, p. 6 (our italicizing). 
+14 EC, p. 38, p. 6 (our italicizing).
 
-15 EC, p. 18, p. 13. 
+15 EC, p. 18, p. 13.
 
-16 EI, p. 221, p. 182. 
+16 EI, p. 221, p. 182.
 
 17 Berson, H. "Life and consciousness" in*Mind Energy*, Trans. H. Wildon Carr, New York, Henry Holt and Company, 1920, pg. 24. From now on "CV" in reference to the original title: "*La conscience et la vie*"
 
-18 CV, pp. 28-29, pp. 22-23. 
+18 CV, pp. 28-29, pp. 22-23.
 
-19 CV, p. 29, pp. 22-23. 
+19 CV, p. 29, pp. 22-23.
 
-20 EC, p. 125, p. 224. 
+20 EC, p. 125, p. 224.
 
-21 PR, p. 72, p. 115.  
+21 PR, p. 72, p. 115.
 
 **Errata:**
 

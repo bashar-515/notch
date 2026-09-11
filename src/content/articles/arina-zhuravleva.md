@@ -9,6 +9,6 @@ related: [playingfordays, chrstipherlyr, pristine]
 # media pending: picture x2
 ---
 
-*untitled #11 (front and back)*. 2023. Paper and thread. 
+*untitled #11 (front and back)*. 2023. Paper and thread.
 
 24 x 18 in.

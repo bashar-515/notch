@@ -13,7 +13,7 @@ Au milieu de la brume, ici et maintenant (series)
 
 2025
 
-silver print on warm tone baryta paper 
+silver print on warm tone baryta paper
 
 18 x 24 cm
 
@@ -21,14 +21,14 @@ Nature is a real source of inspiration for me. It provides a veritable moment of
 
 On the day I took these photos, there was a thick fog creating a particular, timeless atmosphere, with everything bathed in soft, enveloping light. No more sky, no more horizon, no more elsewhere, just the here and now, infused with this near-divine white light.
 
-I shoot in film for its special connection with materials, but also for its distinctive temporality. It's a calmer way of envisioning photography, far from the instantaneous. Every image counts. With my tripod and medium-format camera, I observe, consider, then pose, frame, adjust, and finally take my photo, for which the exposure time alone lasts several seconds. 
+I shoot in film for its special connection with materials, but also for its distinctive temporality. It's a calmer way of envisioning photography, far from the instantaneous. Every image counts. With my tripod and medium-format camera, I observe, consider, then pose, frame, adjust, and finally take my photo, for which the exposure time alone lasts several seconds.
 
 The rest of the process takes place later. In the darkroom, the making of prints is also an experience of unique temporality—under the orange-red light of sodium, from one tray to the next, on paper—where photography becomes matter, more real than ever. I develop the negatives, produce the contact sheets, make my selection, and finally print my favorites. Through these steps, I bind myself to the material and to my photos.
 
-La nature est une vraie source d’inspiration pour moi; à travers l’errance, la solitude, la nature crée un vrai moment de liberté où je peux créer sans contraintes, notamment de temps.  
+La nature est une vraie source d’inspiration pour moi; à travers l’errance, la solitude, la nature crée un vrai moment de liberté où je peux créer sans contraintes, notamment de temps.
 
-Le jour où j’ai réalisé ces photos il y avait un épais brouillard, cela donnait une ambiance très singulière, hors du temps, tout baignait dans la lumière, douce et enveloppante. Plus de ciel, plus d’horizon, plus d’ailleurs, seulement le ici et maintenant, infusé de cette lumière blanche quasi divine.  
+Le jour où j’ai réalisé ces photos il y avait un épais brouillard, cela donnait une ambiance très singulière, hors du temps, tout baignait dans la lumière, douce et enveloppante. Plus de ciel, plus d’horizon, plus d’ailleurs, seulement le ici et maintenant, infusé de cette lumière blanche quasi divine.
 
-Je réalise mes prises de vues à l’argentique pour ce lien si particulier avec la matière, mais également avec sa temporalité différente. Une manière plus calme et posée d’envisager l’image, loin de l’instantané, où chaque image compte. Avec mon trépied et mon appareil moyen format, j’observe, j’envisage, puis je me pose, je cadre, j’ajuste et enfin je prends ma photo, dont le temps de pose est déjà à lui seul de plusieurs secondes.   
+Je réalise mes prises de vues à l’argentique pour ce lien si particulier avec la matière, mais également avec sa temporalité différente. Une manière plus calme et posée d’envisager l’image, loin de l’instantané, où chaque image compte. Avec mon trépied et mon appareil moyen format, j’observe, j’envisage, puis je me pose, je cadre, j’ajuste et enfin je prends ma photo, dont le temps de pose est déjà à lui seul de plusieurs secondes.
 
 La suite du procédé se fait dans un second temps, en chambre noire. La réalisation des tirages est elle aussi une expérience à la temporalité singulière, sous la lumière rouge orangée du sodium, d’un bac à l’autre, sur le papier, là où la photographie devient matière et plus réelle que jamais. Je développe les négatifs, réalise les planches contacts, fais ma sélection, puis enfin tire mes préférées. À travers ces étapes, je me relie à la matière et à mes photos.

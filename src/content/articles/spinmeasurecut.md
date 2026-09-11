@@ -22,12 +22,12 @@ For now she works alone. She can go to the kitchen, open a beer, take a look aro
 
 In the kitchen, posh men loom their shadowy faces over small woman writers in little leather shoes. The party hasn’t been going for long enough, yet. The air is still heavy with nervous conversation.
 
-Who are you?
-He has a soft, American accent. It catches her off guard.
-I’m Maya.
-And where are you going, Maya? He speaks slowly.
-I’m not sure.
-Upstairs?
+Who are you?\
+He has a soft, American accent. It catches her off guard.\
+I’m Maya.\
+And where are you going, Maya? He speaks slowly.\
+I’m not sure.\
+Upstairs?\
 No—she fights against his suggestion as a test of her own will—the study.
 
 And although she hadn’t wanted to go to the study, and nor had he, and she doesn’t know him, nor he her, and although she had decided that tonight she would be a different type of woman, who was more aloof, and cool, and harder to pursue, she submits to follow his lead—pulled by her wrist—into the large, book-lined room, where he pulls her close to him, and they dance.

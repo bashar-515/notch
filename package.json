@@ -18,7 +18,6 @@
     "@astrojs/check": "^0.9.10",
     "@tailwindcss/vite": "^4.2.2",
     "astro": "^7.2.2",
-    "remark-breaks": "^4.0.0",
     "sharp": "^0.35.3",
     "tailwindcss": "^4.2.2",
     "typescript": "^6.0.3"

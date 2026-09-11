@@ -9,6 +9,6 @@ related: [arina-zhuravleva, themanylivesofenergy, mariehazard]
 # media pending: picture x2
 ---
 
-*transmission I: spit with sonic weather.* 
+*transmission I: spit with sonic weather.*
 
 2024. Wool. 11¼ x 3⅛ in.

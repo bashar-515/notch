@@ -12,19 +12,19 @@ For a while, no one said anything. Ellis showed up to all the same parties weari
 
 So this was being twenty three, then being twenty-four. He worried less about getting laid; therefore, he got laid more. He was taller and stronger. He sprouted a thatch of chest hair that one girl told him smelled like ripe red peppers warming in the August sun. It was a weird compliment. In fact, it was more of a flex than anything. He knew the girl just wanted him to ask about the time she’d spent farming in Idaho during her gap year. But he didn’t mind. That was the kind of thing that happened to him now that he was finally gorgeous. He was twenty-five, then twenty-six, and in better shape than ever. When he went paddleboarding through the buttery dawn, he watched himself through the undergrads’ eyes: the long planes of his quads shedding sweat and freshwater, his crosshatched abs glistening in the severity of light. By twenty-seven he had conquered this place, every nook and cranny. By twenty-eight he had begun to think of himself as its curly, well-juiced brain, its vessel of cultural memory.
 
-Then he was twenty-nine, and he got the DUI. 
+Then he was twenty-nine, and he got the DUI.
 
 ◆
 
 He was on his way back from seeing Monica, who had, for the last nine years, been his solace and his rival. They had arrived at the same time—she a perky, voracious sophomore; he a dumb pinball of a junior, shiny with desperation. After graduation, when everyone left to develop migraines at their obligatory laptop jobs, abandoning their destinies to the whims of vicious, balding bosses, only he and she had stuck around, weathering not only the chaos of the summer but the emptiness of spring and fall. She could be fucking annoying—somehow both dismissive and a narc?—but sometimes, lying in bed, Ellis would look out his window and see her slim, solemn figure blacking out the stars over the dock, and he would feel like they were looking at the moon together, listening to the gentle lap of lake against the plastic-bottomed boats.
 
-More relevant than he would like it to be: she was also beautiful. Mesmerizing nebulae of freckles, densest just off the right side of her nose, curls that made her otherwise skeletal face seem round with joy. It never actually mattered. For nearly all the time he’d known her, she’d lusted oppressively after a volunteer firefighter she’d met at a bar in town one night, with whom she had a summer fling that caused him to divorce his wife. 
+More relevant than he would like it to be: she was also beautiful. Mesmerizing nebulae of freckles, densest just off the right side of her nose, curls that made her otherwise skeletal face seem round with joy. It never actually mattered. For nearly all the time he’d known her, she’d lusted oppressively after a volunteer firefighter she’d met at a bar in town one night, with whom she had a summer fling that caused him to divorce his wife.
 
 When she eventually got fired, years later, for a sin so nominally prohibited and seldom prosecuted Ellis always mixed up what it was—drinking on her dishwashing shift? going for a midnight swim?—the only story people ever told was about how she was a homewrecker. Everyone forgot the rest: the summer she taught all the younger girls to free-dive; the week she won the camp-wide sock-wrestling tournament by pinning a baseball player’s face to the floor with one leg; the morning of Ellis’s twenty-fifth birthday, when she covered the entire lodge in blown-up pictures of his face and recruited every last person on the property to write him a letter, so that during his perfunctory mailbox check, all of these construction paper cards in crumpled envelopes came swarming out to give him paper cuts. And she didn’t even like him that much. It was just the way she was. Who would remember that, Ellis wondered, if not for him? Who would anchor her memory to the community’s ongoing meaning; who was left to see what he had seen?
 
 ◆
 
-Anyway, right. He’d gone to visit Monica for dinner. Since getting fired two years before, she’d been commuting between a Master’s program in SF and the firefighter’s house in town. But, at long last—her words—she was finally! fucking! done! with! school! Now she was back in town for the long term. She and the firefighter eloped and moved into his house, an A-frame with a door he’d carved and painted the color of butter. 
+Anyway, right. He’d gone to visit Monica for dinner. Since getting fired two years before, she’d been commuting between a Master’s program in SF and the firefighter’s house in town. But, at long last—her words—she was finally! fucking! done! with! school! Now she was back in town for the long term. She and the firefighter eloped and moved into his house, an A-frame with a door he’d carved and painted the color of butter.
 
 Ellis wasn’t jealous or anything, but when Monica invited him over, she also revealed that the firefighter’s name was Jad, which seemed so self-parodic Ellis needed to know if he could hang. Could a “Jad” laugh at himself? Could he, perhaps, fuck around?
 
@@ -40,9 +40,9 @@ Monica looked from him to the keg to the older woman; her face compacted like se
 
 Then there was Jad: a do-gooder granite hunk looming over Monica’s shoulder. “Hey mom,” he said, kissing the older woman’s drooping cheek. “I didn’t realize we were racing to the door.” He stepped out onto the porch and hefted the keg onto one shoulder. “What a truly epic housewarming gift,” he said, now addressing Ellis. “Monica did mention you have a tendency to go above and beyond.”
 
-Relief trickled through like sap, then dried sticky. 
+Relief trickled through like sap, then dried sticky.
 
-“Would you come in?” asked Monica, so Ellis did. 
+“Would you come in?” asked Monica, so Ellis did.
 
 “Sorry,” he muttered. I thought it would be just us kids.”
 
@@ -66,7 +66,7 @@ Monica nodded, blew through her teeth. “Oh, yeah,” she said. “We all did.�
 
 “I log fifteen-hour days six days a week,” said Ellis. “On the seventh I run ten, twenty miles up the PCT. I earn my fun.”
 
-“And spend it wisely, I see.” 
+“And spend it wisely, I see.”
 
 Ellis licked a fleck of bolognese from his upper lip.
 
@@ -108,7 +108,7 @@ Ellis contemplated the implications of the first-person plural. “Of course it 
 
 “So humble! That’s my girl,” said Jad. He raised a glass. “To Monica. Wife of many wonders; God help me, she’ll be my wife of many years. Absolute shredder”—this with a wink at Ellis—“chef extraordinaire. Sexiest girl this side of the Sierra. And, last but certainly not least, the proud, hardworking—freshly-minted!—owner of a whole-ass Master’s degree.”
 
-“To leaving Neverland,” Jad’s mom offered, holding up a glass of her own. 
+“To leaving Neverland,” Jad’s mom offered, holding up a glass of her own.
 
 “Oh, Mom,” said Jad. “Please don’t.” He touched his mother’s shoulder, insinuating force.
 
@@ -142,7 +142,7 @@ Monica pushed up onto her palm. This was good, Ellis thought; soon, she’d be s
 
 Her smile faded. “No,” she said, fixing him with a steady gaze—not quite a provocation, but certainly a raising of the stakes. “I guess we didn’t.”
 
-So they decamped to her backyard for a porch beer and debrief, but a few pints in—a few each, more in total—they migrated to the lawn, where Monica pushed Ellis to the grass and motioned for him to lift his legs up. What was happening?, he wondered, suddenly vulnerable. He clenched his asscheeks together, lest she try to penetrate him … though even articulating such a thought felt crass, demeaning. He remembered Monica at nineteen, flapping at him to help her knot a bedsheet over her shoulder like a toga, the way he fucked it up and the drapery cascaded to the ground, revealing her body completely naked—not a sports bra, not a thong, just uneven pubes and a ribcage tattoo—the first but not the last time he’d seen her nude, and the unembarrassed way she’d gathered the fabric up again and handed it back to him, saying in her obnoxious, bossy way, “Start again.” In his dick, this memory competed with the biochemical suppressions of alcohol. 
+So they decamped to her backyard for a porch beer and debrief, but a few pints in—a few each, more in total—they migrated to the lawn, where Monica pushed Ellis to the grass and motioned for him to lift his legs up. What was happening?, he wondered, suddenly vulnerable. He clenched his asscheeks together, lest she try to penetrate him … though even articulating such a thought felt crass, demeaning. He remembered Monica at nineteen, flapping at him to help her knot a bedsheet over her shoulder like a toga, the way he fucked it up and the drapery cascaded to the ground, revealing her body completely naked—not a sports bra, not a thong, just uneven pubes and a ribcage tattoo—the first but not the last time he’d seen her nude, and the unembarrassed way she’d gathered the fabric up again and handed it back to him, saying in her obnoxious, bossy way, “Start again.” In his dick, this memory competed with the biochemical suppressions of alcohol.
 
 “Ellis,” she ordered, in the present, “Pay attention.” She took off her shirt—what the fuck? what the fuck?—and flexed her bare stomach against the soles of his feet. “Lift me up,” she said, pushing her palms into his, and he did, feeling her weight transfer to his forearms and hamstrings as she ascended over him. “I’m gonna let go,” she said, and he said, “What?”, but she was already flinging out her arms, arching her back so that she levitated there, near-magically. “Come on,” she said, “You’ve never done acro-yoga?”
 
@@ -170,7 +170,7 @@ Caught in Monica’s hair, brushing her lip, was a very slender twig. Ellis reac
 
 “Oh, Ellis. What, have you gotten old?”
 
-He swallowed. He imagined her skin hot and dripping, the close smell of her amid the irradiated eros of trespassing. He had to get back—wasn’t he working the line for breakfast the next morning?—but—fuck. He couldn’t remember the last time he’d wanted like this, instead of duly enduring being wanted so that he could scratch out an orgasm into a lumpy double bed. 
+He swallowed. He imagined her skin hot and dripping, the close smell of her amid the irradiated eros of trespassing. He had to get back—wasn’t he working the line for breakfast the next morning?—but—fuck. He couldn’t remember the last time he’d wanted like this, instead of duly enduring being wanted so that he could scratch out an orgasm into a lumpy double bed.
 
 “Of course not,” he said. “Come on.”
 
@@ -186,7 +186,7 @@ He gave her a boost; she landed catlike in the yard and eased the gate open from
 
 “Shut up and close the door behind you.”
 
-She lowered herself into the tub, shorts and sports bra still on; Ellis hesitated. “I don’t have a towel,” he said. 
+She lowered herself into the tub, shorts and sports bra still on; Ellis hesitated. “I don’t have a towel,” he said.
 
 “You can be naked,” she told him.
 
@@ -202,7 +202,7 @@ She lowered herself into the tub, shorts and sports bra still on; Ellis hesitate
 
 She passed him the bottle. He swigged, stripped, and plunged in, the hard water stinging his bare dick. She slid to the opposite side of the tub and rested her head against the rim.
 
-“Pass it back,” she said. Ellis did. He inched a foot along the inside of her calf. She set her legs demurely aside. 
+“Pass it back,” she said. Ellis did. He inched a foot along the inside of her calf. She set her legs demurely aside.
 
 “Monica,” he said. “What is this?”
 
@@ -214,9 +214,9 @@ Monica smiled, tipped the bottle to her lips. Ellis watched a drop slide down he
 
 Ellis looked down at his dick, wormy and defeated under the water’s surface. “In remission again.”
 
-“A miracle,” said Monica. 
+“A miracle,” said Monica.
 
-“Absolutely,” Ellis agreed. 
+“Absolutely,” Ellis agreed.
 
 “I told all my grad school friends about them, and they just wish they could visit. See the place for themselves. Meet the legends who run it.”
 
@@ -300,23 +300,23 @@ Monica sighed. “He’s had his place forever; it’s been in the family. I bar
 
 She laughed, a high and piercing caw in total defiance of her earlier insistence on staying quiet. “What’s left for me?” she asked. “I don’t know, maybe a house, a career path, a committed marriage—incidentally, to someone age-appropriate, an actual adult to come home to at night, who makes me dinner, and makes me better—more ambitious, more disciplined, more altruistic—and, not to put too fine a point on it, is my whole entire life partner, not just some random girl on an endless roster of nineteen-year-olds I get drunk with and deign to fuck?”
 
-The air stilled. Ellis’s brain glitched with the full range of possible rebuttals. Patience descended, a divine and unexpected gift. He counted down from ten and waited for her to apologize. If she didn’t by the time he got to one, he would rise from the tub, brush off the excess water, put on his boxers and his shorts and his belt and his shirt, and he would walk back to her house and get in the car. He looked down at his hand, flexed his fingers, tested their stability. No blurring, no quivering. He’d get a Gatorade at the gas station and be fine to drive back if he waited in the lot for thirty minutes. 
+The air stilled. Ellis’s brain glitched with the full range of possible rebuttals. Patience descended, a divine and unexpected gift. He counted down from ten and waited for her to apologize. If she didn’t by the time he got to one, he would rise from the tub, brush off the excess water, put on his boxers and his shorts and his belt and his shirt, and he would walk back to her house and get in the car. He looked down at his hand, flexed his fingers, tested their stability. No blurring, no quivering. He’d get a Gatorade at the gas station and be fine to drive back if he waited in the lot for thirty minutes.
 
-Ten seconds passed. He looked up at Monica, who stopped chewing her lip and lifted her chin. 
+Ten seconds passed. He looked up at Monica, who stopped chewing her lip and lifted her chin.
 
 “Okay,” he said. He got out of the tub. She let him. He conjured an imaginary dialogue—Where are you going?—Home.—You have nothing to say to me?—Not at the moment.—So I got under your skin.—If that’s the way you’d like to interpret this.—You’re being childish.—It’s getting late, and I have a shift in the morning.—that she did not interrupt. He pulled on all his clothes and stood, dripping, beside the tub.
 
-“Are you sure you’re okay to get home?” she asked—a formality of absolution. 
+“Are you sure you’re okay to get home?” she asked—a formality of absolution.
 
-A whiskey walk, a whiskey drive: What was the difference? A single syllable. 
+A whiskey walk, a whiskey drive: What was the difference? A single syllable.
 
-“M,” Ellis said, “be honest with me. Do you really believe that Jad sees you as more than a random, if overgrown, nineteen-year-old? A girl he once got drunk with and then—what was the word you used—deigned to fuck?” 
+“M,” Ellis said, “be honest with me. Do you really believe that Jad sees you as more than a random, if overgrown, nineteen-year-old? A girl he once got drunk with and then—what was the word you used—deigned to fuck?”
 
 He left without waiting for her response.
 
 ◆
 
-Slamming the gas on the westbound 50, furious with the future, his body and the car and their collective movement one changeless tunnel through the slippery flux of hours become years, Ellis overtook, with less of a berth than he’d expected, what he did not realize was a cop car until he heard himself say, “Fuck.” Beaming an oversized flashlight directly into Ellis’s eyes, the fucker asked him where he was driving at this time of night, and Ellis named the lake, the camp, the boss who, as it turned out, was this cop’s old buddy from back in their search-and-rescue days. Ellis slid down in his seat, pissed off anew. This was always how it turned out; every densely-built, middle-aged authority figure in a fifty-mile radius was somehow beholden to the man who wrote Ellis’s checks—but as he slunk earthward, his foot nudged the gas, causing the car to shriek and rev its discontent. The cop had a hand in his holster before Ellis could say, “Oops.” 
+Slamming the gas on the westbound 50, furious with the future, his body and the car and their collective movement one changeless tunnel through the slippery flux of hours become years, Ellis overtook, with less of a berth than he’d expected, what he did not realize was a cop car until he heard himself say, “Fuck.” Beaming an oversized flashlight directly into Ellis’s eyes, the fucker asked him where he was driving at this time of night, and Ellis named the lake, the camp, the boss who, as it turned out, was this cop’s old buddy from back in their search-and-rescue days. Ellis slid down in his seat, pissed off anew. This was always how it turned out; every densely-built, middle-aged authority figure in a fifty-mile radius was somehow beholden to the man who wrote Ellis’s checks—but as he slunk earthward, his foot nudged the gas, causing the car to shriek and rev its discontent. The cop had a hand in his holster before Ellis could say, “Oops.”
 
 The rest was a nervous blur: Out tumbled a crumpled beer can when Ellis rummaged for his registration—from a previous jaunt in town, but still, the optics were pretty shitty; arms out like a jackass artiste, he heel-toed the rubber yellow line along the road’s debris-strewn shoulder; then a hefty fine, a court date, and a humiliating pat-down, legs spread and right cheek pressed against the skin of his squeaking, still-warm car. He stayed bent like that for a long time, long enough to forget whether he’d been told to stay down or had volunteered himself to this submissive position; he even started to discern a hidden message in the engine’s troubled murmuring, and he pressed his ear closer to the hood, digging his heels in to gain leverage. He was so addled he felt geriatric, drooling from chapped lips. By the time the cop pried his face from the car, he was leaking from every orifice: spit and sweat and mucus, possibly tears, probably bile, all of it gone gluey against the hot metal, so that when his cheek met fresh air for the first time in almost an hour, it rasped in agitation.
 
@@ -324,23 +324,23 @@ The boss rolled up in his faded red truck, its windows smeared blue with the gla
 
 ◆
 
-They were both silent on the drive in, Ellis nauseous and grim. Was the mountain steeper tonight, Ellis wondered, or was that just the acute slosh of his stomach, untethered from his inner ear? He swallowed hard, hallucinating bile. Out the window, the moon sliced through the burnt forest with its brittle, renegade trees. 
+They were both silent on the drive in, Ellis nauseous and grim. Was the mountain steeper tonight, Ellis wondered, or was that just the acute slosh of his stomach, untethered from his inner ear? He swallowed hard, hallucinating bile. Out the window, the moon sliced through the burnt forest with its brittle, renegade trees.
 
-They reached the lakeside, leveled out. Dim stars spun and dilated in the water’s mirrored surface. Cathedral—the mountain, aptly named—rose heavy and green over the cabins. They were close now, twenty minutes out, gliding over the lopsided road whose every asymmetry Ellis knew in his bones; he settled into the familiar gravity of home. Landmarks accumulated: Beer Rock, the T, the neighbor’s automatic floodlight with its violent, strobing arrhythmia. Ellis breathed more deeply now; he could distinguish in from out. 
+They reached the lakeside, leveled out. Dim stars spun and dilated in the water’s mirrored surface. Cathedral—the mountain, aptly named—rose heavy and green over the cabins. They were close now, twenty minutes out, gliding over the lopsided road whose every asymmetry Ellis knew in his bones; he settled into the familiar gravity of home. Landmarks accumulated: Beer Rock, the T, the neighbor’s automatic floodlight with its violent, strobing arrhythmia. Ellis breathed more deeply now; he could distinguish in from out.
 
-The boss, who’d swerved every pothole thus far, missed one, which startled Ellis into farting. “Sorry,” he blurted, and just uttering the word he felt it all come trammeling out of him, this hot gush of remorse. The boss said nothing. 
+The boss, who’d swerved every pothole thus far, missed one, which startled Ellis into farting. “Sorry,” he blurted, and just uttering the word he felt it all come trammeling out of him, this hot gush of remorse. The boss said nothing.
 
-They crawled past the marina, the firehouse, the great stone gate. When they pulled into the staff parking lot—silent but for the churn of gravel under coarse-tread tires—the boss turned the car off and sat for a minute, jangling the keys. A density accumulated between them, languorous, uneasy. 
+They crawled past the marina, the firehouse, the great stone gate. When they pulled into the staff parking lot—silent but for the churn of gravel under coarse-tread tires—the boss turned the car off and sat for a minute, jangling the keys. A density accumulated between them, languorous, uneasy.
 
 The boss clicked open his door and lumbered into the night’s new chill; Ellis absorbed the darker quiet in his absence. But after a moment  the passenger door opened, and the boss yanked Ellis out of his seat. Ellis’s skull erupted into a pre-hangover headache, catalyzed by so many simultaneous shifts in pressure, motion, temperature.
 
-“Get some sleep,” grunted the boss, pivoting on his heel to leave. A split-second’s hesitation; then he turned back and tucked Ellis into a taut hug. His shirt smelled like forty years of being here—sun-baked cotton and greasy sunscreen, mildew embedded in the canvas sails’ seams, the scratched plastic of the kayaks, standing water unbailed from the motorboats, ozone sanitizer and Murphy’s oil soap, burnt coffee and yellow-green hot dog juice, unlaundered fur blankets crusted with semen, lacy vestiges of eggs caught in the Hobart drain—a hundred scents which had cemented and could no longer be rinsed out. Ellis mashed his nose against the boss’s sinewy shoulder, marveling that he could distinguish every one. 
+“Get some sleep,” grunted the boss, pivoting on his heel to leave. A split-second’s hesitation; then he turned back and tucked Ellis into a taut hug. His shirt smelled like forty years of being here—sun-baked cotton and greasy sunscreen, mildew embedded in the canvas sails’ seams, the scratched plastic of the kayaks, standing water unbailed from the motorboats, ozone sanitizer and Murphy’s oil soap, burnt coffee and yellow-green hot dog juice, unlaundered fur blankets crusted with semen, lacy vestiges of eggs caught in the Hobart drain—a hundred scents which had cemented and could no longer be rinsed out. Ellis mashed his nose against the boss’s sinewy shoulder, marveling that he could distinguish every one.
 
 The boss’s cool palm, steady on his neck. “See you in the morning,” he said. “My office, nine o’clock.” Then he left, for real this time; his back shrank into the middle distance. On the wind, Ellis tasted the butterscotch fervor of Jeffrey pinecones. He was alone again. He felt hopelessly, gratefully young.
 
 ◆
 
-The next morning, when Ellis stepped into the main office, the boss asked him to close the door. 
+The next morning, when Ellis stepped into the main office, the boss asked him to close the door.
 
 “I see a lot of myself in you, Ellis,” he said. Or maybe: “I see a lot of selfishness in you.”
 
@@ -348,15 +348,15 @@ The next morning, when Ellis stepped into the main office, the boss asked him to
 
 “You’ve done great work here.” (“You’ve gone berserk here.”)
 
-It continued like this: either Ellis was a pillar or a pillager of the community, a role model or a whole lot of work. Either way, by the end, the big boss laid out his destiny. This time next year, when Ellis turned thirty, the two of them would have a talk. If by then Ellis had cleaned up his act, he would stay, and they would give him a promotion, let him run the spring and autumn seasons on his own. They could even start to map the first inklings of a succession plan—if Ellis wanted to give his life to this, if he was serious, he could start to learn the boss’s job within five to ten years. But if a year passed and Ellis could not stop running so rakishly around, he would have to leave. For his own good, as much as anyone else’s. 
+It continued like this: either Ellis was a pillar or a pillager of the community, a role model or a whole lot of work. Either way, by the end, the big boss laid out his destiny. This time next year, when Ellis turned thirty, the two of them would have a talk. If by then Ellis had cleaned up his act, he would stay, and they would give him a promotion, let him run the spring and autumn seasons on his own. They could even start to map the first inklings of a succession plan—if Ellis wanted to give his life to this, if he was serious, he could start to learn the boss’s job within five to ten years. But if a year passed and Ellis could not stop running so rakishly around, he would have to leave. For his own good, as much as anyone else’s.
 
-“Also,” said the boss. “Ellis? Arriving at the party in only your underwear … always being the last person to leave. Ring any bells?” 
+“Also,” said the boss. “Ellis? Arriving at the party in only your underwear … always being the last person to leave. Ring any bells?”
 
-“Ah,” said Ellis, because it was a different sound than “Oh.” It was gracious of the boss not to put air quotes around “underwear”—this they both knew. 
+“Ah,” said Ellis, because it was a different sound than “Oh.” It was gracious of the boss not to put air quotes around “underwear”—this they both knew.
 
 “It’s making some of the younger girls uncomfortable. They feel like you’re watching them. They don’t know if you’re staff or management.”
 
-Relieved that was the crux of the issue, Ellis laughed. “Sure, sure. Can’t get too drunk around the guy who 
+Relieved that was the crux of the issue, Ellis laughed. “Sure, sure. Can’t get too drunk around the guy who
 
 schedules shifts for you.”
 
@@ -380,15 +380,15 @@ In June, almost a year after he got the DUI, a fire truck came to rescue a guest
 
 ◆
 
-Which is how Ellis came to be thirty, and for the first time in his life driving into town to date. It was truly awful—losing at pool on purpose, choking through karaoke. He watched movies with a fierce awareness of the distance between his and her elbows. He had so much mediocre sex that after a certain point he couldn’t blame it on getting sober. He was shocked by the volume of time he could spend wishing he was somewhere else. 
+Which is how Ellis came to be thirty, and for the first time in his life driving into town to date. It was truly awful—losing at pool on purpose, choking through karaoke. He watched movies with a fierce awareness of the distance between his and her elbows. He had so much mediocre sex that after a certain point he couldn’t blame it on getting sober. He was shocked by the volume of time he could spend wishing he was somewhere else.
 
 ◆
 
-Five to ten years passed, as promised. The boss invited Ellis back into his office. “Have you thought about my offer?” he asked, but Ellis hadn’t. It was like mainlining TV instead of choosing a movie; Ellis could waste fifteen hours binging if only no one asked him to commit to three. 
+Five to ten years passed, as promised. The boss invited Ellis back into his office. “Have you thought about my offer?” he asked, but Ellis hadn’t. It was like mainlining TV instead of choosing a movie; Ellis could waste fifteen hours binging if only no one asked him to commit to three.
 
-“You don’t want to pass the place on to your daughter?” 
+“You don’t want to pass the place on to your daughter?”
 
-The boss swiveled, tapped his knee. “I think she’d rather let the place die with me.” Outside, two long pulls on the boathouse horn; the guests had fifteen minutes to sail back in. Ellis saw the boss see him. 
+The boss swiveled, tapped his knee. “I think she’d rather let the place die with me.” Outside, two long pulls on the boathouse horn; the guests had fifteen minutes to sail back in. Ellis saw the boss see him.
 
 “It would be an honor,” Ellis said after a while. “I can’t imagine any better place for me to be.”
 
@@ -402,7 +402,7 @@ But anyway, there was the perfect silver lining; as the incoming director, he co
 
 Monica’s talk was that evening; she still had an hour or so to go. Ellis handed her a coffee—decaf, with cinnamon and undyed cayenne. She dangled her freckled legs over his balcony and nursed it.
 
-“Who gave me the right to give these smartass kids life advice?” she lamented, rubbing her shin. 
+“Who gave me the right to give these smartass kids life advice?” she lamented, rubbing her shin.
 
 “Well, that’s awkward for me to answer, because I guess, technically, I did.”
 
