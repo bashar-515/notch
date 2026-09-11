@@ -56,10 +56,10 @@ const { title, heading, contributors, content, columns } = Astro.props;
     {contributors.map((contributor) => <li>{contributor}</li>)}
   </ul>
 
-  <div class="grid grid-cols-5 gap-9 px-36 pt-36">
+  <div data-tracks class="grid grid-cols-5 items-start gap-9 px-36 pt-36">
     {
       columns.map((column) => (
-        <div class="flex flex-col gap-6">
+        <div data-track class="flex flex-col gap-6">
           {column.map((item) => {
             const Tag = item.href ? "a" : "div";
             return (
@@ -106,6 +106,8 @@ const { title, heading, contributors, content, columns } = Astro.props;
 <script>
   const block = document.querySelector<HTMLElement>("[data-issue-header]")!;
   const shadow = document.querySelector<HTMLElement>("[data-issue-shadow]")!;
+  const grid = document.querySelector<HTMLElement>("[data-tracks]")!;
+  const tracks = [...grid.querySelectorAll<HTMLElement>("[data-track]")];
 
   const progress = (px: number) => {
     const l = Math.min(1, Math.max(0, window.scrollY / px));
@@ -124,6 +126,14 @@ const { title, heading, contributors, content, columns } = Astro.props;
     const p = progress(300);
     block.style.marginTop = `${margin * (1 - p) - overlap * p}px`;
     shadow.style.opacity = String(p);
+
+    const { top, height } = grid.getBoundingClientRect();
+    const t = Math.min(1, Math.max(0, (window.innerHeight / 2 - top) / height));
+    const tallest = Math.max(...tracks.map((track) => track.offsetHeight));
+
+    for (const track of tracks) {
+      track.style.transform = `translateY(${t * (tallest - track.offsetHeight)}px)`;
+    }
   };
 
   measure();
