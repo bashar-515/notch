@@ -1,5 +1,10 @@
 ---
-title: "Carlos y Pablo, agua y espuma Leal Coppélia De la leche Nido"
+title: |-
+  Carlos y Pablo, agua y espuma
+  Leal
+  Coppélia
+  De la leche
+  Nido
 author: "María Fragoso Jara"
 issue: "001"
 bio: "María Fragoso Jara lives and works in New York City. She earned a BFA from the Maryland Institute College of Art (MICA) in Baltimore. Her solo exhibitions include <span class=\"not-italic\">El jardín entre tus dientes</span> (2021) and <span class=\"not-italic\">Bodas de sangre</span> (2023) at 1969 Gallery in New York."

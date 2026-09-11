@@ -2,7 +2,7 @@
 title: "Playlist"
 author: "Hayden Carr-Loize  and Pheobe Lippe"
 issue: "001"
-bio: |
+bio: |-
   Phoebe Lippe is an independent artist based in Paris who works primarily in printmaking. She is drawn to the quotidian, with much of her work reflecting small details of the everyday. The layering techniques found in her printmaking reflect her eagerness to leap into the unknown in the name of discovery, exemplified when she left her New York-based home to move to Europe.
   
   Hayden Carr-Loize is a New York-based artist whose contemplative storytelling traverses both music and film. Sockeye, his post-COVID-born musical project, explores themes of vulnerability, creative angst, and that all-too-familiar sense of listlessness we feel when coming to terms with adulthood. His latest work, Rough Draft—a short film he wrote, directed, and scored, currently available on YouTube—dissects the tension between artistic self-indulgence and the search for authenticity and true connection. He also swears that he once made Julian Casablancas laugh, which is probably his magnum opus.

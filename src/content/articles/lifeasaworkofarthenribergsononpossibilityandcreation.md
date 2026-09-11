@@ -1,5 +1,7 @@
 ---
-title: "Life as a Work of Art:\\ Henri Bergson on Possibility and Creation"
+title: |-
+  Life as a Work of Art:
+  Henri Bergson on Possibility and Creation
 author: "Clara Zimmermann"
 issue: "001"
 bio: "Clara Zimmermann is a PhD candidate at Université Paris-1 Panthéon-Sorbonne and the Institut Catholique de Paris, focusing on the aesthetics of Bergson and Kant. She teaches aesthetics and philosophy and has published articles in various academic journals."

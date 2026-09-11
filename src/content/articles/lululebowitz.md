@@ -1,5 +1,7 @@
 ---
-title: "And the Days Are Not Full Enough"
+title: |-
+  And the Days Are
+  Not Full Enough
 author: "Lulu Lebowitz"
 issue: "001"
 previous: "theballadofjeffbezos"

@@ -2,7 +2,7 @@
 title: "S'ouvre une grotte"
 author: "François Thiéry-Mourelet / Translated By Charles Rice-Davis"
 issue: "002"
-bio: |
+bio: |-
   <b>François Thiéry-Mourelet</b> is the General Secretary of the Société des Gens de Lettres, 
   France’s association of authors. A former reporter and a seasoned sailor, he has published 
   numerous novels and plays. His poetry collection Brise dans le miroir / Brise in the Mirror 
