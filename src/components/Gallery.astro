@@ -13,23 +13,28 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 );
 ---
 
-<div class="group/gallery mt-8 flex flex-col items-center gap-4">
+<div
+  class="group/gallery mt-8 flex flex-col items-center gap-4 data-open:fixed data-open:inset-0 data-open:z-50 data-open:mt-0 data-open:justify-center data-open:gap-6 data-open:bg-black data-open:p-8"
+>
   <div
     data-frame
     tabindex="0"
-    class="relative w-full cursor-none focus:outline-none"
+    class="relative w-full cursor-none group-data-open/gallery:min-h-0 group-data-open/gallery:flex-1 focus:outline-none"
   >
     <div
       data-slides
-      class="flex aspect-[7/5] snap-x snap-mandatory overflow-x-hidden [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      class="relative aspect-[7/5] group-data-open/gallery:aspect-auto group-data-open/gallery:h-full"
     >
       {
-        items.map((item) => (
+        items.map((item, i) => (
           <Image
             src={images[`../assets${item.image}`]!.default}
             alt=""
             width={1600}
-            class="h-full w-full shrink-0 snap-start object-contain"
+            class:list={[
+              "absolute inset-0 h-full w-full object-contain transition-opacity duration-700",
+              i === 0 ? "opacity-100" : "opacity-0",
+            ]}
           />
         ))
       }
@@ -43,15 +48,35 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     >
       ▶
     </span>
+
+    <button
+      type="button"
+      data-fullscreen
+      aria-label="View fullscreen"
+      class="absolute top-0 right-0 cursor-pointer p-3 opacity-0 transition-opacity duration-200 group-focus-within/gallery:opacity-100 group-hover/gallery:opacity-100 group-data-open/gallery:hidden"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+        class="size-6"
+      >
+        <path d="M15 3h6v6M21 3l-7 7M9 21H3v-6M3 21l7-7"></path>
+      </svg>
+    </button>
   </div>
 
   {
     items.length > 1 && (
-      <div class="flex gap-2 opacity-0 transition-opacity duration-200 group-focus-within/gallery:opacity-100 group-hover/gallery:opacity-100">
+      <div class="flex gap-2 text-black opacity-0 transition-opacity duration-200 group-focus-within/gallery:opacity-100 group-hover/gallery:opacity-100 group-data-open/gallery:text-white">
         {items.map(() => (
           <button
             type="button"
-            class="dot h-3 w-3 rounded-full border border-black [&:not(.bg-black)]:cursor-pointer"
+            class="dot h-3 w-3 rounded-full border border-current [&:not(.bg-current)]:cursor-pointer"
           />
         ))}
       </div>
@@ -62,7 +87,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     items.map((item, i) => (
       <p
         hidden={i !== 0}
-        class="caption font-times text-center text-xl leading-tight text-black/75"
+        class="caption font-times text-center text-xl leading-tight text-black/75 group-data-open/gallery:hidden"
         set:html={item.caption ?? ""}
       />
     ))
@@ -77,7 +102,8 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     const frame = root.querySelector<HTMLElement>("[data-frame]");
     const scroller = root.querySelector<HTMLElement>("[data-slides]");
     const cursor = root.querySelector<HTMLElement>("[data-cursor]");
-    if (!frame || !scroller || !cursor) return;
+    const fullscreen = root.querySelector<HTMLElement>("[data-fullscreen]");
+    if (!frame || !scroller || !cursor || !fullscreen) return;
 
     const count = scroller.children.length;
     const dots = [...root.querySelectorAll<HTMLElement>(".dot")];
@@ -87,12 +113,13 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 
     const go = (delta: number) => {
       index = (index + count + delta) % count;
-      scroller.scrollTo({
-        left: index * scroller.clientWidth,
-        behavior: "instant",
+      [...scroller.children].forEach((slide, i) => {
+        slide.classList.toggle("opacity-100", i === index);
+        slide.classList.toggle("opacity-0", i !== index);
       });
-      dots.forEach((dot, i) => dot.classList.toggle("bg-black", i === index));
+      dots.forEach((dot, i) => dot.classList.toggle("bg-current", i === index));
       captions.forEach((caption, i) => (caption.hidden = i !== index));
+      place(); // what's under the pointer may have changed
     };
 
     const stop = () => clearInterval(timer);
@@ -101,24 +128,93 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       if (autoplay && count > 1) timer = setInterval(() => go(1), 5000);
     };
 
-    const isLeft = (event: MouseEvent) => {
+    type Point = { clientX: number; clientY: number };
+    let pointer: Point | null = null;
+
+    const isLeft = ({ clientX }: Point) => {
       const { left, width } = frame.getBoundingClientRect();
-      return event.clientX - left < width / 2;
+      return clientX - left < width / 2;
     };
 
-    frame.addEventListener("pointermove", (event) => {
+    // In the overlay the frame is larger than the picture; only the picture itself is interactive.
+    const overPicture = ({ clientX, clientY }: Point) => {
+      if (!root.hasAttribute("data-open")) return true;
+      const img = scroller.children[index] as HTMLImageElement;
+      const box = img.getBoundingClientRect();
+      if (!img.naturalWidth) return true;
+      const scale = Math.min(
+        box.width / img.naturalWidth,
+        box.height / img.naturalHeight,
+      );
+      const w = img.naturalWidth * scale;
+      const h = img.naturalHeight * scale;
+      const x = clientX - (box.left + (box.width - w) / 2);
+      const y = clientY - (box.top + (box.height - h) / 2);
+      return x >= 0 && x <= w && y >= 0 && y <= h;
+    };
+
+    const within = ({ clientX, clientY }: Point, el: Element) => {
+      const b = el.getBoundingClientRect();
+      return (
+        clientX >= b.left &&
+        clientX <= b.right &&
+        clientY >= b.top &&
+        clientY <= b.bottom
+      );
+    };
+
+    // Place the arrow under the real pointer, or hide it when the pointer isn't over the picture.
+    // Autoplay pauses while the pointer is over the frame, whether it got there by moving or by scrolling.
+    let hovering = false;
+    const place = () => {
+      const p = pointer;
+      const over = !!p && within(p, frame);
+      if (over !== hovering) {
+        hovering = over;
+        if (over) stop();
+        else start();
+      }
+      if (!p || !over || within(p, fullscreen) || !overPicture(p)) {
+        cursor.hidden = true;
+        frame.classList.remove("cursor-none");
+        return;
+      }
       const { left, top } = frame.getBoundingClientRect();
-      cursor.style.left = `${event.clientX - left}px`;
-      cursor.style.top = `${event.clientY - top}px`;
-      cursor.textContent = isLeft(event) ? "◀" : "▶";
+      frame.classList.add("cursor-none");
+      cursor.style.left = `${p.clientX - left}px`;
+      cursor.style.top = `${p.clientY - top}px`;
+      cursor.textContent = isLeft(p) ? "◀" : "▶";
       cursor.hidden = false;
+    };
+
+    window.addEventListener("pointermove", (event) => {
+      pointer = { clientX: event.clientX, clientY: event.clientY };
+      place();
     });
-    frame.addEventListener("pointerenter", stop);
-    frame.addEventListener("pointerleave", () => {
-      cursor.hidden = true;
-      start();
+    window.addEventListener("scroll", place, { passive: true });
+    window.addEventListener("resize", place);
+    for (const img of scroller.querySelectorAll("img")) {
+      img.addEventListener("load", place);
+    }
+    document.addEventListener("pointerleave", () => {
+      pointer = null;
+      place();
     });
-    frame.addEventListener("click", (event) => go(isLeft(event) ? -1 : 1));
+    frame.addEventListener("click", (event) => {
+      if (fullscreen.contains(event.target as Node) || !overPicture(event))
+        return;
+      go(isLeft(event) ? -1 : 1);
+    });
+    const setOpen = (open: boolean) => {
+      root.toggleAttribute("data-open", open);
+      document.body.classList.toggle("overflow-hidden", open);
+      go(0);
+    };
+    fullscreen.addEventListener("click", () => setOpen(true));
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && root.hasAttribute("data-open"))
+        setOpen(false);
+    });
     frame.addEventListener("keydown", (event) => {
       if (event.key === "ArrowLeft") go(-1);
       if (event.key === "ArrowRight") go(1);
@@ -131,8 +227,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       }),
     );
 
-    dots[0]?.classList.add("bg-black");
+    dots[0]?.classList.add("bg-current");
     start();
-    window.addEventListener("resize", () => go(0));
   });
 </script>
