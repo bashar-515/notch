@@ -17,3 +17,7 @@ export type Content = {
   author: string;
   href?: string;
 };
+
+export type Thumbnail =
+  | { image: string; href?: string }
+  | { title: string; author: string; href?: string };

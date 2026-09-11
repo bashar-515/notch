@@ -1,15 +1,16 @@
 ---
 import Layout from "./Layout.astro";
-import type { Content } from "../types";
+import type { Content, Thumbnail } from "../types";
 
 type Props = {
   title: string;
   heading: string;
   contributors: string[];
   content: Content[];
+  columns: [Thumbnail[], Thumbnail[], Thumbnail[], Thumbnail[], Thumbnail[]];
 };
 
-const { title, heading, contributors, content } = Astro.props;
+const { title, heading, contributors, content, columns } = Astro.props;
 ---
 
 <Layout title={title}>
