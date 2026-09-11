@@ -4,6 +4,8 @@ import Layout from "./Layout.astro";
 
 type Props = CollectionEntry<"articles">["data"];
 
+const issueNames = { "001": "Potential Energy", "002": "Gravity" };
+
 const { title, author, issue, bio } = Astro.props;
 ---
 
@@ -15,13 +17,24 @@ const { title, author, issue, bio } = Astro.props;
       {title}
     </h1>
 
-    <div class="text-primary flex border-t border-b">
+    <div
+      class="text-primary mt-3 flex justify-between border-y border-black py-1 text-3xl italic"
+    >
       <p>{author}</p>
-      <p>Issue {issue}</p>
+      <a href={`/issue${issue}/`} class="hover:text-black"
+        >Issue {issue}: {issueNames[issue]}</a
+      >
     </div>
 
     <slot />
 
-    {bio && <p set:html={bio} />}
+    {
+      bio && (
+        <p
+          class="font-times text-primary mt-24 text-xl leading-none italic"
+          set:html={bio}
+        />
+      )
+    }
   </article>
 </Layout>
