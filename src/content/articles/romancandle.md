@@ -2,10 +2,11 @@
 title: "Roman Candle"
 author: "Oliver Beatty"
 issue: "001"
-bio: "Oliver Beatty is a writer originally from Kansas City who foolishly left the heartland for the East Coast. While his nonfiction work focuses on punk and local music, he has been trying to return to his roots through fiction."
 previous: "ellisisland"
 next: "playingfordays"
 related: [dirtpoem, pristine, lifeasaworkofarthenribergsononpossibilityandcreation]
+bio:
+  - "Oliver Beatty is a writer originally from Kansas City who foolishly left the heartland for the East Coast. While his nonfiction work focuses on punk and local music, he has been trying to return to his roots through fiction."
 ---
 
 Maintaining a quintessentially Midwestern social calendar is central to Valley View High School’s modus operandi. Chief among those events is the Homecoming dance, held the Saturday after the big football game against their rival high school. The dance often has themes like Disco Daydream or Night Among the Stars or Roman Romance. Alliteration is preferred in dance themes though not required.

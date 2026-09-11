@@ -8,7 +8,7 @@ const articles = defineCollection({
     title: z.string(),
     author: z.string(),
     issue: z.enum(["001", "002"]),
-    bio: z.string().optional(),
+    bio: z.array(z.string()).default([]),
     previous: z.string().optional(),
     next: z.string().optional(),
     related: z.array(z.string()).default([]),

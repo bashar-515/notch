@@ -2,10 +2,11 @@
 title: "The Drunken Walk"
 author: "Robert Pogue Harrison"
 issue: "001"
-bio: "Robert Pogue Harrison is a Stanford professor and the host of <span class=\"not-italic\">Entitled Opinions</span>, a long-running podcast about literature, philosophy, science, and music. He has authored five books."
 previous: "graycloudonsanjacintoplaza"
 next: "deadfriendhauntsmanwithmismatchedflip-flops"
 related: [nibhaakireddy, pristine, lifeasaworkofarthenribergsononpossibilityandcreation]
+bio:
+  - "Robert Pogue Harrison is a Stanford professor and the host of <span class=\"not-italic\">Entitled Opinions</span>, a long-running podcast about literature, philosophy, science, and music. He has authored five books."
 ---
 
 Nietzsche called his ultimate ideal amor fati, or love of fate, declaring, "I want to learn more and more to see as beautiful what is necessary in things. . . Amor fati: let that be my love henceforth!" It's a tall order to "want nothing to be different, not forward, not backward, not in all eternity," in other words, to say "yes" to all the events, accidents, contingencies and defining conditions of reality. I prefer a closely related form of love that is more free and indeterminate in nature—call it amor facti, the love of facts. If amor fati loves the infinite concatenations of necessity, amor facti loves the specific fact in its relation to that larger totality. It's the difference between subsuming the particular into the whole, and discovering the whole in the particular.

@@ -36,11 +36,12 @@ const relatedArticles = related.flatMap((id) =>
       </div>
 
       {
-        bio && (
-          <p
-            class="font-times text-primary mt-24 text-xl leading-tight italic"
-            set:html={bio}
-          />
+        bio.length > 0 && (
+          <div class="font-times text-primary mt-24 space-y-4 text-xl leading-tight italic">
+            {bio.map((paragraph) => (
+              <p set:html={paragraph} />
+            ))}
+          </div>
         )
       }
     </article>

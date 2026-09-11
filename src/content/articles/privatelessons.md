@@ -13,8 +13,6 @@ I was spearing pickles with toothpicks when you walked up to the counter, pushed
 
 “You’re not Lisa,” I said.
 
- 
-
 You rested your elbows on the counter.
 
 “I’m Ryan,” you said. “The new sitter.”
@@ -23,19 +21,13 @@ It was mid-afternoon, a blazing, lazy hour. Tables were strewn with plastic cups
 
 “Are the girls driving you nuts?” I asked.
 
- 
-
 I could make out the yellow straps of your bathing suit beneath your shirt; the neckline riven with tiny holes. The stud in your nose gleamed.
 
 “No, not at all,” you said, squinting a little. “I mean, not yet. Should I be worried?”
 
 Naomi and Olivia were fixtures at the club, had been virtually since they were born—you hadn’t yet heard the whispers, caught the glances. They’d grown from tiny vessels of cuteness into forces of sustained, low-grade terror. The coaches all lobbied Chip to bar them from group lessons, citing safety concerns—for the coaches. Naomi liked to steal bottles of sunscreen and empty them on the clubhouse floor and finger-paint murals. Olivia had developed a habit of slinking behind the deck chairs with a pair of scissors and snipping locks of hair from dozing swimmers. They had their own language, which at first seemed precocious and charming, until no one could figure out the pattern—the sound system—which seemed to consist entirely of vowels. We began sifting through garbage bins for discarded ball can covers, which Olivia and Naomi salvaged in bulk and learned to throw like ninja stars; they could sink them into the bulletin board from fifteen feet away. And they were climbers: they’d vanish from the pool deck and twenty minutes later be discovered on the roof, pelting pigeons with rocks, or shimmying up the juniper trees behind the south courts, disappearing into the needled branches and making them rustle and rock, as though roosting for the season. Over the last three summers I’d counted five babysitters.
 
-  
-
 “If you enlist them as allies I think things go better,” I said, and went about making the sandwiches. The TV in the corner was playing Roland Garros highlights from earlier in the day. Paris looked blowy and cold, the crowds wrapped in scarves, players wearing long sleeves under their kits.
-
- 
 
 “I’ve never been here,” you said, looking out at the courtyard, the pool, the north courts. “Driven by hundreds of times. I’ve never actually known anyone who plays tennis.”
 
@@ -51,15 +43,10 @@ Naomi and Olivia were fixtures at the club, had been virtually since they were b
 
 You nodded.
 
- 
-
 I pinched the brim of my hat.
-
- 
 
 “And yet, still here.”
 
- \
 You kept looking out the window and ran your tongue along your bottom teeth. Naomi and Olivia were sitting on the bench under the elm tree and peeling strips of bark like old paint. That you didn’t dash out to admonish them seemed a good sign. I put your sandwiches onto paper plates and slid them across the counter.\
 “If you ever need anything and I’m not here, just come back and sign the slip and take what you like. No one keeps track anyway.”\
 You leaned forward and pushed up onto your toes to peer over the counter. “Are there any pickles back there?” I turned to the steel fridge and took out a jar of kosher dills, herbs and garlic swirling in the brine. I wrapped four or five in tinfoil and handed them to you. “From my private jar,” I said, and you smiled.\
@@ -77,8 +64,8 @@ I didn’t like to sit still: there were always coolers to restock, folded napki
 You didn’t look like this at all. Restlessness seemed foreign to you, a feeling not worth indulging in. It was in the way you didn’t rush when one of the girls screamed for you, how you’d put a hand over your eyes to block out the sun and follow their voices. In how you always had a book—something slim, with a cracked spine. I’d see you reclining on a deck chair reading Play It As It Lays while pulling a forefinger between each of your toes, letting the breeze move through them. I felt I could see something in your features, an expression that’d come over you as you sat at the picnic tables or folded beach towels: a slackness, a calm, as though your days of having something to prove had long since passed.\
 One day I’d see you doing a crossword, the next flipping through a prep guide for the LSAT, wetting your thumb on your tongue before turning each page. Your headphones always dangled from your collar, but I never once saw you on your phone. Every hour or so you’d take a bottle of Coppertone, hold it in front of your face, close your eyes, and spray your skin. I could sense when you’d come for a snack, would mix sauerkraut into your grilled cheese, heap your plates with extra pickles. I worried about the stud in your nose, which seemed to keep getting infected. We kept a first aid kit at the front desk, and I wanted to wet a cotton ball with peroxide and dab the piercing while you sat and ate your sandwich. But I minded my own business. Nadal won the French, and I was possibly the only person in the world not to have predicted it.
 
-When Wimbledon started I saw you talking to Kenny on the pool deck. You were in your navy one piece, and you had your legs dipped in the water, hands behind you. Kenny was standing next to you in his red trunks holding his arrow-shaped flotation device, whistle hanging from his neck, ready to save. His tan was deep and he had a kind of puffed look about him, as though each morning he opened a valve in his ribcage and inflated himself. You moved your legs gently through the water, as though pedaling. You looked up at him with your big sunglasses while he explained things to you. You looked bored, and a little amused, as though you were accustomed to this. I was watching from my stool, tapping my pencil to my chin, trying to determine whether Kenny shaved his chest hair and if that was something I should be doing. I shredded a paper napkin to confetti and balanced on my Bosu ball and watched it start to rain in London, suspending play, the grounds staff scurrying out to cover the courts with those immaculate green tarps.\
- \
+When Wimbledon started I saw you talking to Kenny on the pool deck. You were in your navy one piece, and you had your legs dipped in the water, hands behind you. Kenny was standing next to you in his red trunks holding his arrow-shaped flotation device, whistle hanging from his neck, ready to save. His tan was deep and he had a kind of puffed look about him, as though each morning he opened a valve in his ribcage and inflated himself. You moved your legs gently through the water, as though pedaling. You looked up at him with your big sunglasses while he explained things to you. You looked bored, and a little amused, as though you were accustomed to this. I was watching from my stool, tapping my pencil to my chin, trying to determine whether Kenny shaved his chest hair and if that was something I should be doing. I shredded a paper napkin to confetti and balanced on my Bosu ball and watched it start to rain in London, suspending play, the grounds staff scurrying out to cover the courts with those immaculate green tarps.
+
 Late one afternoon I wheeled a ball machine onto Court 4. I missed the sweat of exertion, the stinging sun on my neck. I taped my ankle and resolved not to sprint or split step. I camped in the backhand corner and hit inside-out forehands until my shirt was soaked through. Heat rippled the air and the court’s white lines seemed to wiggle as in a mirage. I set up cones and ball cans for targets. I sequenced the sounds of the ball machine’s mechanized wheel, the bounce, and my exhale on contact. I felt the rhythm take root. A breeze came through and filled the windscreens like sails. The sky was a sheer blue on white’s edge. The shouts from the pool were distant and sporadic, and the court’s surrounding wall ricocheted the sound of the ball coming off the strings, forming a kind of echo, as though the shot itself had a memory.\
 When my vision started to shimmer I came off the court and into the snack bar. I pulled a bottle of Powerade from the cooler, taking its cold air on my face. I drank half of the bottle in one sip, spilling some down my chin and staining my shirt. The fans hit me like ice. When you spoke, I jumped. You were sitting at the table behind the door, your LSAT guide open in front of you, a highlighter in your hand. You had grass clippings in your hair, the neck of your shirt looked stretched.\
 “I didn’t realize that was possible,” you said, pointing your highlighter at the court behind me. “I thought tennis was a two-person thing.”\
@@ -131,8 +118,8 @@ You looked at me and squinted, as though this were some ploy. “Hand-eye isn’
 You flipped a Dib into your mouth, then moved a hair tie up and down your wrist, where it’d pressed a ring into your skin. I drank the second half of my Powerade, wiped my lips on the back of my hand, and got up before you could invent excuses.
 
 To our lesson you wore ankle socks. I think it was evident how much I enjoyed outlining why this would not do. Ankle socks are for scrubs—the uninitiated. Scanning the grounds on day one of a tourney you can immediately recognize the talents from the height of their socks. Crew socks are the only socks. You want a tan line at mid-calf so deep it looks tattooed. I might have been projecting; mine had begun to fade. You were a good sport. It was the one speech I allowed myself. I got you a racquet from the pro shop, and opened three new cans of balls, bringing them to my nose and inhaling their industrial scent.\
-We were on one of the back courts, out of view of the snack bar so we wouldn’t be interrupted by my being summoned to make a quesadilla. We started short court, from the service line. Immediately I could tell you had something. Your grip was off, you shanked every other shot, and you misjudged the distance between the ball and your hip, but you had a way of gathering and releasing your body’s energy that no coach can ever fully impart. When you connected cleanly, wherever the ball went, the sound took on a shape, a shape that parted the air around us. It hung in the wind screens, in the court’s high corners. You’d kind of laugh-squeal after each shot, as though in surprise at your own ability, and I’d sprint after the ball, trying to maintain the rally, making sure not to plant on my ankle. I tried not to sweat.\
- \
+We were on one of the back courts, out of view of the snack bar so we wouldn’t be interrupted by my being summoned to make a quesadilla. We started short court, from the service line. Immediately I could tell you had something. Your grip was off, you shanked every other shot, and you misjudged the distance between the ball and your hip, but you had a way of gathering and releasing your body’s energy that no coach can ever fully impart. When you connected cleanly, wherever the ball went, the sound took on a shape, a shape that parted the air around us. It hung in the wind screens, in the court’s high corners. You’d kind of laugh-squeal after each shot, as though in surprise at your own ability, and I’d sprint after the ball, trying to maintain the rally, making sure not to plant on my ankle. I tried not to sweat.
+
 You had gotten a taste, felt the razz move up your arm on a clean forehand, and wanted more. For our next lesson, we played on Court 12, the one where the cottonwood tree had grown into the back fence, its trunk beginning to swallow the chain-link, offering us an arch of shade. You wanted to play a set, but that required learning how to serve. We lined up on the baseline and I said to take your face to the ball, pop your hip, uncoil your body like a bow. We practiced tossing, keeping our left arms extended. I tried modeling what to do with your wrist, how to whip it across its axis.\
 “Pronation,” you said.\
 “Exactly,” I said, and committed the word to memory.\
@@ -174,8 +161,8 @@ You looked at me with reddened eyes, eyes that felt suddenly sunken and distant.
 “I don’t want to know where you live. I don’t want to see it.”\
 I pulled away slightly from your shoulder. I felt abruptly aware of my skin, the spots on my chest. I wanted to cover the creases in my stomach.\
 “I don’t have any agenda here,” I said. I moved to touch your hand but you pulled away.\
-“Don’t,” you said, and began to stand up. You fanned out your hair, and reached your hand to me. You pulled me up, and I tried to meet your gaze, return to the look that bound us just a moment before, but it was as if a film had descended over you, distorting the face that had grown so familiar to me. You began to erase the mess we’d made, stacking towels while I put my shirt back on. The rain pattered the skylight, casting the room in a gray flat light, and a silence grew between us that hung in the air like mist, breaking only with the whine of the locker room door as you walked back out into the storm\
- \
+“Don’t,” you said, and began to stand up. You fanned out your hair, and reached your hand to me. You pulled me up, and I tried to meet your gaze, return to the look that bound us just a moment before, but it was as if a film had descended over you, distorting the face that had grown so familiar to me. You began to erase the mess we’d made, stacking towels while I put my shirt back on. The rain pattered the skylight, casting the room in a gray flat light, and a silence grew between us that hung in the air like mist, breaking only with the whine of the locker room door as you walked back out into the storm
+
 You weren’t at the club the next week, or the one after that. Nor were the girls back, still out boating in the Northwest, establishing diplomatic ties with Orcas. I was growing to miss their insurgency, as though some essential pulley was absent in the club’s inner machine.\
 It was the week of the junior open, that bitter late-summer signpost, the first I hadn’t played in six years. Kids in their match gear swarmed the clubhouse, crowded the ping-pong table, took naps on the floor with their heads on their bags, towels covering their faces. Chip’s voice crackled over the loudspeaker, calling out court assignments.\
 At lunch on Friday, Lisa came into the snack bar in her big sun hat. She ordered me to step out from behind the counter for one of her customarily crushing hugs. She asked about my parents. I asked her about the San Juans. She pulled up pictures on her Blackberry.\
@@ -196,4 +183,6 @@ I trained with the other promising juniors and shed some summer weight. Chip fou
 Fall came and with it a new energy. I’d get to the club early for evening squad sessions. The pool was somber, only the lanes filled with an old guy or two undeterred by the cooling season. The juniors would spread out over the south courts, radiating that intensity of young people taking a singular task very seriously.\
 During these sessions I avoided Court 2, where we had our last lesson. It held our sweat in its paint; I could hear your shoes scuffing across the backcourt, your shouts and groans and long breaths, and I’d find myself turning, looking up abruptly, thinking I’d glimpsed a sliver of a yellow two-piece, your ponytail whipping around your shoulder as you shuffled back to the center hash. Maybe it was the heat, the altitude, or just a false impression. I blamed the court. Its surface was slow and a network of cracks was spreading across the service line. It was too open, too exposed, and anyway I didn’t trust its bounce.
 
-***Miles Parnegg*** *is a graduate of the Programs in Writing at the University of California, Irvine, and my work has appeared or is forthcoming in* The Normal School, Subtropics, Fractured Literary*, and elsewhere. He is based in Los Angeles.*
+ \
+ \
+<span class="text-primary">***Miles Parnegg***</span> <span class="text-primary">*is a graduate of the Programs in Writing at the University of California, Irvine, and my work has appeared or is forthcoming in*</span> <span class="text-primary">The Normal School, Subtropics, Fractured Literary</span><span class="text-primary">*, and elsewhere. He is based in Los Angeles.*</span>

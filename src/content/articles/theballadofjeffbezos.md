@@ -2,10 +2,11 @@
 title: "The Ballad of Jeff Bezos"
 author: "Margot Kaiser"
 issue: "001"
-bio: "Margot Kaiser is a Brooklyn-based writer from the great state of New Jersey. She received a degree from Stanford in English and Creative Writing, and trained professionally at the SF Conservatory of Dance, in case you’d like to know. She works in indie film production."
 previous: "mariafragosojara"
 next: "lululebowitz"
 related: [mariafragosojara, kaelinpalcu, lululebowitz]
+bio:
+  - "Margot Kaiser is a Brooklyn-based writer from the great state of New Jersey. She received a degree from Stanford in English and Creative Writing, and trained professionally at the SF Conservatory of Dance, in case you’d like to know. She works in indie film production."
 ---
 
 When Jeff Bezos catapulted himself into orbit,\

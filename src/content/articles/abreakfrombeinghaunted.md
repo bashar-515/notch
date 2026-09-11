@@ -2,10 +2,11 @@
 title: "A break from being haunted"
 author: "Purbasha Roy"
 issue: "002"
-bio: "<b>Purbasha Roy</b> is a writer from Jharkhand India. Her work has appeared or is forthcoming in <span class=\"not-italic\">Iron Horse Literary Review, The Margins, Reckoning Magazine</span> as of late. Attained 2nd Position in 8th <span class=\"not-italic\">Singapore Poetry Contest</span>. <span class=\"not-italic\">Best of the Net</span> Nominee."
 previous: "wristwatchandangeltrap"
 next: "ongirlhood"
 related: [hannahstoll, agnosis, brendaerdei]
+bio:
+  - "<b>Purbasha Roy</b> is a writer from Jharkhand India. Her work has appeared or is forthcoming in <span class=\"not-italic\">Iron Horse Literary Review, The Margins, Reckoning Magazine</span> as of late. Attained 2nd Position in 8th <span class=\"not-italic\">Singapore Poetry Contest</span>. <span class=\"not-italic\">Best of the Net</span> Nominee."
 ---
 
 I do not have any reason to think that\

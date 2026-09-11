@@ -2,10 +2,11 @@
 title: "Pandæmonium"
 author: "Matthew Schultz"
 issue: "001"
-bio: "Matthew Schultz teaches creative writing at Vassar College. His most recent chapbook, An Oblique Voice, is available from Bottlecap Press."
 previous: "lettertoyouasatallgrassmeridian"
 next: "spinmeasurecut"
 related: [playingfordays, oliverstokes-curtis, spinmeasurecut]
+bio:
+  - "Matthew Schultz teaches creative writing at Vassar College. His most recent chapbook, An Oblique Voice, is available from Bottlecap Press."
 ---
 
 When I’m walking in the city,\

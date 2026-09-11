@@ -2,10 +2,11 @@
 title: "The Many Lives of Energy"
 author: "Anna-Sofia Lesiv"
 issue: "001"
-bio: "Anna-Sofia Lesiv is the founder of the digital publication Foundations & Frontiers, where she profiles emerging technologies."
 previous: "lululebowitz"
 next: "chrstipherlyr"
 related: [ugoferro, briceafonso, lettertoyouasatallgrassmeridian]
+bio:
+  - "Anna-Sofia Lesiv is the founder of the digital publication Foundations & Frontiers, where she profiles emerging technologies."
 ---
 
 No one can say what energy is. The last, most precise definition came from Richard Feynman when he said it was a “certain quantity” that “does not change in the manifold changes which nature undergoes.” It’s an elusive description, careful to make no comment on any actual characteristics.

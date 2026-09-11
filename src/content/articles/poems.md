@@ -2,10 +2,11 @@
 title: "Poems"
 author: "Xiadi Zhai"
 issue: "002"
-bio: "<b>Xiadi Zhai</b> is from Boston, Massachusetts. A graduate of the Iowa Writers’ Workshop, she has recent or forthcoming work in Bennington Review, Court Green, F(r)iction, and Quarterly West, among others. She's an ex-physicist and ex-chemist."
 previous: "agrocerylistforyou"
 next: "invisiblelandscapes"
 related: [ongirlhood, agnosis, brendaerdei]
+bio:
+  - "<b>Xiadi Zhai</b> is from Boston, Massachusetts. A graduate of the Iowa Writers’ Workshop, she has recent or forthcoming work in Bennington Review, Court Green, F(r)iction, and Quarterly West, among others. She's an ex-physicist and ex-chemist."
 # media pending: picture x4
 ---
 
@@ -49,7 +50,9 @@ it knocks, it slows. That stony\
 pulse designs its steadfast echo.
 
  \
-
+ \
+ \
+ \
 INHERITANCE: FATHER TURNS 60
 
 **Problem 1.1**\
@@ -67,7 +70,13 @@ disturb me.\
                                                       us, traveling like		        the bug’s shadow.
 
  \
-
+ \
+ \
+ \
+ \
+ \
+ \
+ \
 **Problem 1.2**
 
 someone drops (        	) off a cliff.\
@@ -80,18 +89,29 @@ surely even (	 ) won’t know which is\
                                                                           it’s no good, it collapses—
 
  \
-                
-
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
 my father, very roughly—speaking:\
                                                     “this is safe.”
 
  \
-
-**Problem 1.3**
-
+ \
+**Problem 1.3**\
           safety &	           there is no guarantee		      there is no housed 	      blame\
                                                                   it only confirms what we already knew
 
+ \
+ \
+ \
 let’s simply hope for the\
                                  best. (the agnostic) refusal to answer: how many\
                                                                                                 angels sit on the point of                        a needle?          my father, couched. (please)		           fall back.\
@@ -106,7 +126,8 @@ that is to say	              “—it’s possible, but painful”\
                   hellish, equal parts living & dead 	  	        (I have tried)\
 that is to say					                     I warned you
 
-         \
+ \
+ \
                   how could we have been so\
                                                                          (I prefer to avoid\
                                                                                                such language)
@@ -114,7 +135,11 @@ that is to say					                     I warned you
  \
  \
  \
-
+ \
+ \
+ \
+ \
+ \
 Note:
 
 This is a liberal erasure of Griffiths’ Introduction to Quantum Mechanics, one of the most used textbooks for physical/mathematical approaches to quantum systems. I depended upon it as an early physicist. At the core of quantum mechanics is reliable, quantifiable uncertainty. Additionally, quantum mechanics shows that you can’t know where small things are unless you are actively looking at them; the moment you look away you can know only where you observed them to once be.

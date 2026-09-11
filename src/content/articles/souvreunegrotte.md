@@ -2,23 +2,12 @@
 title: "S'ouvre une grotte"
 author: "François Thiéry-Mourelet / Translated By Charles Rice-Davis"
 issue: "002"
-bio: |-
-  <b>François Thiéry-Mourelet</b> is the General Secretary of the Société des Gens de Lettres, 
-  France’s association of authors. A former reporter and a seasoned sailor, he has published 
-  numerous novels and plays. His poetry collection Brise dans le miroir / Brise in the Mirror 
-  (Sans Escale, 2022), from which this poem is extracted, is a decades-long composition of 89 
-  cantos, received the Prix Jeanne Marvig. 
-   
-  <b>Charles Rice-Davis</b> published the first English-language translation of Haitian poet 
-  Coutechève Lavoie Aupont, winner of the Prix René Philoctève and Prix Dominique 
-  Batraville. He has also translated uncollected poems by Mário de Sá-Carneiro and Nguyễn 
-  Trọng Hiệp’s Paris, capitale de la France / 大法國玻璃都城襍詠. He teaches in the programs of French and Intercultural Communication at Victoria University of Wellington / Te Herenga Waka in New Zealand.
 previous: "ongirlhood"
 next: "spacetravel"
 related: [hannahstoll, agnosis, brendaerdei]
+bio:
+  - "<b>François Thiéry-Mourelet</b> is the General Secretary of the Société des Gens de Lettres, \nFrance’s association of authors. A former reporter and a seasoned sailor, he has published \nnumerous novels and plays. His poetry collection Brise dans le miroir / Brise in the Mirror \n(Sans Escale, 2022), from which this poem is extracted, is a decades-long composition of 89 \ncantos, received the Prix Jeanne Marvig. \n \n<b>Charles Rice-Davis</b> published the first English-language translation of Haitian poet \nCoutechève Lavoie Aupont, winner of the Prix René Philoctève and Prix Dominique \nBatraville. He has also translated uncollected poems by Mário de Sá-Carneiro and Nguyễn \nTrọng Hiệp’s Paris, capitale de la France / 大法國玻璃都城襍詠. He teaches in the programs of French and Intercultural Communication at Victoria University of Wellington / Te Herenga Waka in New Zealand."
 ---
-
-A Grotto Opens
 
 On the steps, to the river’s left,\
 A bored and solitary boy. Marbles collide\
@@ -89,7 +78,3 @@ Je rêvasse de plages, de forêts, de terrasses,\
 Dans un état d’abandon, d’hébétude, de planage\
 Comme avec le vin, la poudre ou l’herbe.\
 Une nausée légère enfle et le pouls s’accélère.
-
- \
- \
- \

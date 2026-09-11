@@ -31,4 +31,6 @@ And indeed, when I rewatch the video I see that Lydia is beautiful, with her red
 
 Lumière hangs in Lydia’s bedroom. The rest of Lydia’s house is packed with objects but Lumière is her only lover. Towards the end of the piece Lydia says she’s found love, but she’ll never stop collecting. She goes on eBay every night before bed.
 
-***Lillian Mottern*** *is a writer from Eastside LA, now living in New York. Her work has been published and is upcoming in Currant Jam, The Big One, Dream Boy Book Club, Waif Magazine, Wigleaf, and Discount Guillotine, among others. She edits Perennial Mag and curates a very casual experimental literary project called Future Darling.*
+ \
+ \
+<span class="text-primary">***Lillian Mottern***</span> <span class="text-primary">*is a writer from Eastside LA, now living in New York. Her work has been published and is upcoming in Currant Jam, The Big One, Dream Boy Book Club, Waif Magazine, Wigleaf, and Discount Guillotine, among others. She edits Perennial Mag and curates a very casual experimental literary project called Future Darling.*</span>

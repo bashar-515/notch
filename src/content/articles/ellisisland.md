@@ -2,10 +2,11 @@
 title: "Ellis, Island"
 author: "Izzy Ampil"
 issue: "001"
-bio: "<span class=\"not-italic\"><b>Izzy Ampil</b></span> is an editor at <span class=\"not-italic\">Blank Forms</span>, a <span class=\"not-italic\">Margins</span> Fellow in Fiction at the Asian American Writers Workshop, and a critic whose work appears in <span class=\"not-italic\">The Drift, Reboot, The Daily Beast,</span> and elsewhere. She lives in Brooklyn."
 previous: "nibhaakireddy"
 next: "playlist001"
 related: [mariafragosojara, kaelinpalcu, lululebowitz]
+bio:
+  - "<span class=\"not-italic\"><b>Izzy Ampil</b></span> is an editor at <span class=\"not-italic\">Blank Forms</span>, a <span class=\"not-italic\">Margins</span> Fellow in Fiction at the Asian American Writers Workshop, and a critic whose work appears in <span class=\"not-italic\">The Drift, Reboot, The Daily Beast,</span> and elsewhere. She lives in Brooklyn."
 ---
 
 For a while, no one said anything. Ellis showed up to all the same parties wearing all the same clothes—which is to say, a checkered napkin Saran-wrapped to his groin, and little else—and it felt just like being twenty, except easier. A few minutes before midnight he’d show up on the boys’ side of RoZo—the co-ed cliffside cabin at the far end of the lake, which had once been short for the “Erosion Zone,” but which had been recently rechristened by smug revisionists as the “Erogenous Zone”—ready to spend the next four hours lobbing humidified beer caps at whoever’s nipples seemed stickiest with sweat. As soon as he crossed the threshold, the freshman girls would suck him dry with just their eyes.
@@ -356,8 +357,7 @@ It continued like this: either Ellis was a pillar or a pillager of the community
 
 “It’s making some of the younger girls uncomfortable. They feel like you’re watching them. They don’t know if you’re staff or management.”
 
-Relieved that was the crux of the issue, Ellis laughed. “Sure, sure. Can’t get too drunk around the guy who
-
+Relieved that was the crux of the issue, Ellis laughed. “Sure, sure. Can’t get too drunk around the guy who\
 schedules shifts for you.”
 
 “Especially if you think that guy will pull something over you—do you get my meaning?”
@@ -436,8 +436,7 @@ Ellis didn’t laugh. “You know,” he said. “It wasn’t the boss. Who shot
 
 “Oh,” said Monica. “I didn’t know—”
 
-“Maybe the boss was off the property. I don’t remember. Frankie handed the gun to me and said, ‘It’s just like paintball; it’ll be easy.’ And I didn’t even think; I barely aimed; I took two shots. One to the shoulder to bring the thing down, and another one through both the lungs. I didn’t know I had it in me until I did it. And then Frankie put a hand on my shoulder, and I felt this schism: before and after. Do you know what that feels like?”
-
+“Maybe the boss was off the property. I don’t remember. Frankie handed the gun to me and said, ‘It’s just like paintball; it’ll be easy.’ And I didn’t even think; I barely aimed; I took two shots. One to the shoulder to bring the thing down, and another one through both the lungs. I didn’t know I had it in me until I did it. And then Frankie put a hand on my shoulder, and I felt this schism: before and after. Do you know what that feels like?”\
 Monica was very quiet. For a while she gazed across the lake, where the dusk was sewing up the ridgeline. The lone pine atop Angora shivered in the waning sun. “I work in healthcare,” she said. “I get it; it’s horrible. I can count on one hand the number of people I’ve watched die, but of course it’s seared into my brain—I remember, so vividly, every single time.”
 
 “No,” said Ellis, swelling with indignation. “I’m not talking about that. It’s one thing if you fail to save a life, but ending one? All by yourself? You know, it actually matters—what we do here. I know you think it’s all just sex and drugs and debauchery; you’re all grown up now, your life is elsewhere, this shit was just a game you played for too long in your twenties—”

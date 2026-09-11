@@ -2,20 +2,15 @@
 title: "Au milieu de la brume, ici et maintenant"
 author: "Bastien Torterüe de Sazilly"
 issue: "002"
-bio: "<b>Bastien Torterüe de Sazilly</b> was born in Paris in 2002 and grew up in the foothills of the Pyrenees, where his attachment to nature began. After graduating with a BTS in photography, he worked with Diamantino Quintas to develop his skills in the darkroom. Here, through the physical and intimate relationship with images, his love of film photography solidified. He also studied documentary photography at Le 75 in Brussels."
 previous: "allself-vanishingfarewellsaresudden"
 next: "alexandrazhukova-ss26"
 related: [brendaerdei, augustalardymicheli, interviewwithaliaksandratucha]
+bio:
+  - "<b>Bastien Torterüe de Sazilly</b> was born in Paris in 2002 and grew up in the foothills of the Pyrenees, where his attachment to nature began. After graduating with a BTS in photography, he worked with Diamantino Quintas to develop his skills in the darkroom. Here, through the physical and intimate relationship with images, his love of film photography solidified. He also studied documentary photography at Le 75 in Brussels."
 # media pending: picture x5
 ---
 
-Au milieu de la brume, ici et maintenant (series)
-
-2025
-
-silver print on warm tone baryta paper
-
-18 x 24 cm
+<p class="text-right"><span class="text-primary">Au milieu de la brume, ici et maintenant (series)</span><br><span class="text-primary">2025</span><br><span class="text-primary">silver print on warm tone baryta paper</span><br><span class="text-primary">18 x 24 cm</span></p>
 
 Nature is a real source of inspiration for me. It provides a veritable moment of freedom where I, through wandering and solitude, can create without constraints, particularly constraints of time.
 

@@ -2,10 +2,11 @@
 title: "Expectations"
 author: "Madeline Haze Curtis"
 issue: "001"
-bio: "Madeline Haze Curtis holds an MFA in Fiction from the University of Wisconsin–Madison. Her stories and comics have appeared in publications including Copper Nickel, Bellevue Literary Review, and the Florida Review."
 previous: "sarahchess"
 next: "transmissionispitwithsonicweather"
 related: [planningtimeoff, theballadofjeffbezos, playlist001]
+bio:
+  - "Madeline Haze Curtis holds an MFA in Fiction from the University of Wisconsin–Madison. Her stories and comics have appeared in publications including Copper Nickel, Bellevue Literary Review, and the Florida Review."
 ---
 
 Halfway through the summer of perpetual storms, we are floating in the pool of my uncle’s house. The sky is swollen with dark clouds. I feel pinned beneath their weight. The pool is clotted with withered blossoms from the crepe myrtle tree.

@@ -24,8 +24,10 @@ Einstein published the theory, called general relativity, in 1915. According to 
 
 General relativity is captured by a set of equations, called the field equations, which can be expressed in a single line of dense mathematics. These equations tell you exactly how space-time is reshaped by the matter and energy contained inside of it. They can describe any universe, not just ours. The field of dreams was expanded.
 
-Einstein’s field equations, first published in 1915. On the left side of the equals sign are the terms describing the curvature of space-time. On the right side is a description of the matter and energy held inside. The shape of space-time is determined by what’s inside of it, and vice versa. Each capital letter represents a complex four-by-four mathematical object, so that this one line contains many equations inside of it.
+<p class="text-center">&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>Einstein’s field equations, first published in 1915. On the left side of the equals sign are the terms describing the curvature of space-time. On the right side is a description of the matter and energy held inside. The shape of space-time is determined by what’s inside of it, and vice versa. Each capital letter represents a complex four-by-four mathematical object, so that this one line contains many equations inside of it.</p>
 
+ \
+ \
 Einstein’s equations say that if you squeeze matter into a small enough space, the space-time around that matter will reach infinite curvature. The result would be an object so gravitationally intense that nothing can escape it, what we now call a black hole. Even light, which has no mass and was previously believed to be impervious to gravity, would follow the curves of space-time into a black hole, never to be seen again.
 
 Once imagined, black holes remained science fiction for decades. Most people believed that they were a physical impossibility. This changed in 1965, when the physicist Roger Penrose proved that a black hole must form after the death of a large enough star. The proof, which won a Nobel Prize, dragged black holes out of fiction and into reality. They have since settled comfortably into the cultural consciousness. We now know that our own galaxy would not exist without the giant black hole in its center, and in 2022 we took its photograph. An object that’s been in our cosmic backyard all along has only just come into view.
@@ -59,4 +61,6 @@ What’s left unsaid in the gaps between our theories? Duality lets us portal ba
  \
 *At the time of writing, the Ads-CFT paper has 25,435 citations. Einstein’s general relativity paper has 2,210, though for fairness the original paper is in German.
 
-***Shalma Wegsman Gueron*** *is currently a science writing fellow at Quanta Magazine, and co-host of the podcast Why This Universe. She holds a Master’s in Physics from NYU*.
+ \
+ \
+<span class="text-primary">***Shalma Wegsman Gueron***</span> <span class="text-primary">*is currently a science writing fellow at Quanta Magazine, and co-host of the podcast Why This Universe. She holds a Master’s in Physics from NYU*</span>.

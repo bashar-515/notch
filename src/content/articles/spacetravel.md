@@ -2,10 +2,11 @@
 title: "Space Travel"
 author: "Gospel Chinedu"
 issue: "002"
-bio: "<b>Gospel Chinedu</b> is a Nigerian poet from the Igbo descent. He currently is an undergraduate at the College Of Health Sciences, Okofia where he studies Anatomy. He loves music and is a big fan of Isak Danielson. His poems are mostly speculative and cuts across different themes. He is a 2021 Starlit Award Winner, 1st Runner Up for the Blurred Genre Contest (Invisible City Lit), 2023, Honorable Mention in the Stephen A. Dibiase Poetry Prize, 2023 and also a finalist in the Dan Veach prize for younger poets, 2023. His works of poetry have appeared or are forthcoming in Chestnut Review, Worcester Review, Augur Magazine, Fantasy, Fiyah, The Deadlands, Channel, Apparition Lit, Mud Season Review, Trampset, The Drift, Consequence Forum, The Rialto, BathMagg and other places. Gospel tweets @gonspoetry"
 previous: "souvreunegrotte"
 next: "o"
 related: [ongirlhood, agnosis, brendaerdei]
+bio:
+  - "<b>Gospel Chinedu</b> is a Nigerian poet from the Igbo descent. He currently is an undergraduate at the College Of Health Sciences, Okofia where he studies Anatomy. He loves music and is a big fan of Isak Danielson. His poems are mostly speculative and cuts across different themes. He is a 2021 Starlit Award Winner, 1st Runner Up for the Blurred Genre Contest (Invisible City Lit), 2023, Honorable Mention in the Stephen A. Dibiase Poetry Prize, 2023 and also a finalist in the Dan Veach prize for younger poets, 2023. His works of poetry have appeared or are forthcoming in Chestnut Review, Worcester Review, Augur Magazine, Fantasy, Fiyah, The Deadlands, Channel, Apparition Lit, Mud Season Review, Trampset, The Drift, Consequence Forum, The Rialto, BathMagg and other places. Gospel tweets @gonspoetry"
 ---
 
 They said each shuttle would contain six\

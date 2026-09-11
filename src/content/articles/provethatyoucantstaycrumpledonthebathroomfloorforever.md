@@ -2,10 +2,11 @@
 title: "Prove That You Can't Stay Crumpled on the Bathroom Floor Forever"
 author: "Sam Ertelt"
 issue: "001"
-bio: "Sam Ertelt is currently an MFA candidate at the Sewanee School of Letters. He works at the duPont Library in Sewanee and assists in the Fencing program during the school year. He has been previously published in About Place Journal."
 previous: "planningtimeoff"
 next: "ugoferro"
 related: [playingfordays, chrstipherlyr, pristine]
+bio:
+  - "Sam Ertelt is currently an MFA candidate at the Sewanee School of Letters. He works at the duPont Library in Sewanee and assists in the Fencing program during the school year. He has been previously published in About Place Journal."
 ---
 
 **Prove** that you can’t stay crumpled on the bathroom floor forever.

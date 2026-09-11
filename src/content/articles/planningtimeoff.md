@@ -2,10 +2,11 @@
 title: "Planning Time Off"
 author: "Clay Davis"
 issue: "001"
-bio: "Clay Davis 6'1\". 165 lbs. Hazel eyes. Born in Los Angeles, currently at large in New York City. I write because I can't seem to shut up, and feel the need to save some of this brain chatter in a more lasting impermanent form. I'm just making this up as I go."
 previous: "trytorun"
 next: "provethatyoucantstaycrumpledonthebathroomfloorforever"
 related: [chrstipherlyr, brunavettori, mariehazard]
+bio:
+  - "Clay Davis 6'1\". 165 lbs. Hazel eyes. Born in Los Angeles, currently at large in New York City. I write because I can't seem to shut up, and feel the need to save some of this brain chatter in a more lasting impermanent form. I'm just making this up as I go."
 ---
 
 It had taken the group over a year to agree on which lodge to rent and less than a minute to regret it. For months they had been trapped in a cyclone of intransigent bickering, squabbling in circles, arguing over the most trivial plans for the trip, and in the heat of debate and the cool silences of refusing to talk, they watched the initial vacation date pass by, missing the ideal summer season, and settling for the late autumn. Most of the original group dropped out and the surviving five harbored unique, private hopes for the weekend in thecountry. Those hopes existed in their minds as if they had already transpired, each heavy construction dissimilar and teetering as imagination marched toward actuality.
@@ -18,7 +19,7 @@ Parker was single, and lonelier than a painting of an empty street. He was an ol
 
 It was a Friday in October. They entered what was once a grove of old firs—now a dated lodge in the style of the American West—touring with a restrained urgency in an unspoken communal hunt for the best room. Each room that was picked would later, in each mind, lack something desired yet unknown in other rooms. They wandered the lodge, pointing out flaws as the space opened itself up to their siege of criticism. The curtains were too thick. The chimney flue was a little finicky, there wasn’t any firewood, and even though winter had not arrived, they wanted the option of lighting a fire. The refrigerator was brand new and anachronistic—not at all in line with the Old West décor. One of the showers worked in a wrong way, spewing hot water when turned to “cold,” and cold water when turned to “hot.” Photos of the lodge’s permanent residents were neatly placed in the living room and bedrooms and their frozen smiles were boastful reminders that the space was borrowed. There was a beautiful antique grandfather clock in the entrance hall that chimed time like each hour was humanity’s last. The collective minor disappointment felt like a harbinger of greater disappointment to come, the beginning of a trend, as the group overlooked the fact that the trip was made for the purpose of hiking in the wilderness. They had planned to spend hardly any time in the lodge.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 Nadine and Audrey settled in a bedroom with east-facing windows, a cowhide duvet, and the type of artwork that’s forgotten after it’s hung up. Nadine unpacked her suitcase, placed her folded clothing neatly in a pine dresser after dusting its interior with wetted toilet paper, and set up her toiletries on one side of the sink while Audrey watched Nadine from the bed. Nadine watched Audrey watching her through the bathroom mirror as she washed her hands.
 
@@ -30,7 +31,7 @@ Nadine and Audrey settled in a bedroom with east-facing windows, a cowhide duvet
 
 Nadine joined Audrey on the bed. They lay in the stink of travel, their airplane clothes corrupting the blanket, quietly locked in a shared weariness that both hoped would be broken by the other. Audrey drifted into the early stage of sleep and was roped back into the early stage of wakefulness by Nadine’s hand running down the side of her stomach, teasing the underside of her waistline. Audrey sprung up and tore at Nadine’s shirt, tugged at her elastic shorts, then slowed the pace, descending with measured, light kisses. An alarm sounded from Audrey’s phone—the dire, intense, heavy alarm of a ship giving an evacuation order. It was a false alarm, one Audrey set accidentally with some forgotten finger tap. The lovers stopped loving, the interruption murdering the moment, and they lay like planks atop the covers, deflating. Nadine turned to her side and pretended to relax, while Audrey drifted off into the shallow waters of sleep, snoring lightly with faint purring exhalations. Her phone buzzed with a few intermittent texts, but she didn’t wake, the notifications for her instead alerting Nadine, who casually, with an effort neither hurried nor expressly surreptitious, unlocked the screen and scrolled through its glowing well of information with a blank face.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 Andy stood naked, peeing. Liz leafed through a book categorizing plants of the American West, glancing at photographs, ignoring the text. She was focusing intently on a picture of larkspur (*Delphinium geraniifolium*), attempting to commit its image to memory in the hope she’d be able to identify it in the wild. Andy came into the room and took stock of its simplicity—no decoration, as if the walls had just been repainted, the space utilitarian and bare. He scratched his ass and looked at Liz not looking at him, wondering if she was deliberately avoiding his eyes, becoming convinced of it, until she turned to him and he forgot his surmised certainty and pivoted away from her to look out the window. Black mountains in the distance flirted with the clouds. In the yard, saplings were supported by wires tied to stakes pulling the trunks in opposite directions. There was a translucent smudge on the glass at shoulder height, the oily imprint of a face pressed in the past.
 
@@ -44,7 +45,7 @@ Andy stood naked, peeing. Liz leafed through a book categorizing plants of the A
 
 Andy started the shower, held his hand under the water, gauging the temperament of the two foreign knobs, tinkering with the temperature. Liz unpacked her bag, then unpacked Andy’s. As she put the bags away, she noticed a lump on Andy’s, a little suitcase tumor protruding from an outside pocket. She listened to the splatter of water on body, distinct from the uniform sound of shower water on shower floor, opened the outside pocket, pulled out a small jewelry box—the kind used for rings—and gently placed the box back inside the pocket. Then she carefully repacked Andy’s bag, retracing her steps with the mechanical precision of a bomb-defusing robot, and put the bag back where she thought she found it. A few minutes later Andy emerged in a towel. Liz went to take her turn in the shower, and as they exchanged spaces, each felt the other feel something odd. Liz closed the bathroom door and Andy opened his suitcase, pulling out neatly folded clothes. Liz stood in the shower smiling, silently celebrating into hot water. Andy watched the closed door, listened to the water running, water on body, and, squatting in his towel, unzipped the outside pocket, pulled out the small jewelry box, opened it, unwound the cap of the vial within, licked his pinky finger, dabbed it in the vial, and rubbed powder on his gums.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 An illustrated map of vanished Native American tribes rested on the floor, leaning against the wall. Parker surveyed the names, mispronouncing them under his breath. He fished a vape out of his backpack and stood puffing in front of a smoky mirror hung on the wall above the map, trying to blow rings and coughing. He dug his toes into the carpet, a beige spongy fabric reminiscent of the alpine moss that covers boulder fields. This was his rehearsal time. Parker held a yellow legal pad with a toast he’d written, or rather, notes on a toast he intended to write and then perform for the others. They were words of another man, the man he hoped to appear to be. As he mumbled through lines, he noticed a miniscule insect crawling on the margin of the paper, one of those tiny brown mites that reminds one of the immensity of the microscopic world. Parker traced a line with his felt-tip pen in front of the bug’s path and it changed its course. He drew another line and discovered he could direct the insect with his pen. He drew it off the page.
 
@@ -52,7 +53,7 @@ To his smoky reflection, “So the sherpa told me, ‘The secret to the mountain
 
 Pop country music sounded from downstairs. The presence of others out of sight nagged Parker like the suspicious sensation one feels when they believe they’re being watched. He wanted to stare into that watchful eye, meet the communal gaze. He set down the yellow legal pad and thought, without ignoring the shame and surrender of indolence nor the self-loathing that would likely ensue, that he probably would not give the toast.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 That first night, the group failed to agree on a plan for the first day. Hiking gear that cost a month’s rent sat in the dust-covered mudroom accumulating fresh dust. Under the high ceilings of the main room, bathed in a faded light reminiscent of restaurants past their prime, the couples settled together on couches and chairs that bore the faint smell of mouse. The first hike, it was decided, should include everybody, a thoughtful stipulation that proved immensely thoughtless once the impossibility of a consensus was evident. There was a rude type of politeness in the discussion as they hovered around the point in which honest feelings rest, delicately lying about what they truly desired, ultimately settling down, dissatisfied, in a state of tame animosity.
 
@@ -64,7 +65,7 @@ Parker wanted to hike, but didn’t care where everybody went, as long as he was
 
 As the evening unraveled, a moldy bitterness flourished—a wretched growth of antagonism thriving in the decay of whatever loose ties made this party by definition a group. They were stripped to pieces in search of unanimity, scattered like a giant puzzle set abandoned upon unboxing due the enormity of the task ahead. Factions formed—the partners partnered out of habit and vied for the coveted swing vote: Parker—and these small alliances were undercut by other, overlapping alliances in a web of contradicting will and expectation. It would have been more productive to take no action, but moves were made by the immobile hikers, subtle and seemingly involuntary commitments were forged, leaving the fractured whole further entrenched in a state of paralysis. As the night wound down and the fatigue of travel swallowed the excitement of being in a new place, everybody felt a step behind the starting point. Parker suggested setting a deadline for a decision, and after some weary talk everybody agreed that the deadline for setting a deadline would be the following day around noon, but not exactly noon.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 In the morning Nadine poured herself a beer. She watched the bubbles rise to the surface and crater in the foam, the carbonation within bursting out, interior meteors erupting with an incessant volcanism like the guts of a planet exposing its kinship to other bodies on the farthest ends of space. In her blank focus she failed to listen to Audrey’s proposal for a hike to pitch to the others, and that void of attention compelled Audrey to seek out Andy’s support.
 
@@ -74,7 +75,7 @@ Liz sat in a straight-backed chair in the dining hall, tracing patterns in the k
 
 Nadine quietly entered the silence. The three separately found something to look at without seeing it—an antler, motes of dust floating in the light from the window, a watercolor still life with waterfowl—objects their eyes glided over as their gaze turned inward. There they found flashes of the things they did not until then realize they ought to be looking for: those secretive, hidden vistas of the heart the mind elects to ignore without one’s consent, avoided and cut off due to some defunct evolutionary precaution. Nadine spied unacknowledged heartbreak simmering in the distance of her memory, blurred and potent and dreamlike, a mirage consuming her and evading exact representation, garnering power in its imprecision. Audrey was overcome by a voice calling her back to the mock security of a time before her current struggles, nostalgia obscuring all past strife. Liz found something in nothing. Her mind was blank, and the void of corrupting influences unveiled the fleeting ability of resurrection, of living life moment to moment as children and animals seem to live. The three confronted these latent nagging visions they feared to act on yet which seemed to demand the most urgent action, and they dodged and deflected with the age-old diversion: a promise to themselves to address the matter in the future. Parker stopped at the threshold to the dining hall, decided against breaking the silent tableau, and passed on unnoticed. The grandfather clock chimed twelve times.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 The communal courtship of Parker, up to that point hardly exercised, succeeded in further alienating him from the group. Parker was a writer, struggling, as even successful writers tend to do, so he worked as a sculptor. He forged immaterial little creations, and his slapdash output of molded clay and recycled materials was misinterpreted by the public as bold artistic fervor, a lost virtuosity akin to the attitude once possessed by those now stuck in museums. He received no small amount of praise for his “Formless Series,” but writing was his primary passion. He wrote about his trouble writing. His finest work was unfinished and, likely, never to be seen. His best ideas were lost in thought, sparks of brilliance that faded quickly in distraction, relegated to the mental tip-of-the-tongue, and were therefore all the more glorious and incorruptible, existing only in the vague notion that whatever it was that came to pass and was lost was a flash of self-defined genius.
 
@@ -84,11 +85,11 @@ Andy and Liz found Parker in the same chair an hour later, stroking the phantom 
 
 Parker hardly noticed them walk away. In his head there lurked a fantasy as discordant with the moment as the entire group’s expectation of a consensus was with reality—he imagined, as he watched the sun flee behind the distant mountains, the trip he had forgone to be a part of this one. A four-day writer’s workshop in the Hudson Valley. He wondered what creative adventure he could be having, second guessing his commitment to this noncommittal bunch. He was the type of man who straddled the present, always thinking of things past or what might happen, only settling in the moment when it was relevant to the narrative lying outside of it—clocking how it came to be, or how it would seem in the future’s past. Now he felt this wider moment, this vacation, would not appear favorable when he would inevitably look back on it.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 Night fell and the group ordered pizzas. When the Italian food of the American West arrived, everybody realized how hungry they had been. No one was satisfied with the meal. Each person removed toppings from their slice as they thought, like a prisoner thinks of the highway visible beyond the barbed wire, with its passing cars and trucks hauling people not giving a thought to those imprisoned and stationary lives, of the moment when the delivery man cracked open the door, letting in a whiff, a dying flash, of the space outside the lodge. Over the meal they spoke of home and the paused lives awaiting their return, avoiding any discussion of a hike. The word “hike” seemed illicit, extreme, unutterable. Each couple and solitary Parker went to their respective unsatisfactory rooms exhausted yet bubbling with self-censored things that ought to have been said. The air inside was heavy, suffocating, rife with cloistered sentiments and particles. The quiet of the lodge was drowned out by the inner cacophony of its inhabitants.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 Audrey put on a hydrating mask, her opaque plastic visage a horror show of health. Something that could break through the active paralysis of the group came to mind, a perfect way to get everybody out of the lodge. She rushed into the bedroom and caught Nadine hurriedly returning her phone, with its greasy glittered case and “Audreyxx” sticker, to its resting place. Audrey’s solution for the group was torn from her mind by this tableau of breached privacy. Nadine’s frozen and diverted eyes, her pursed lips, the stillness of her body seated in an uncomfortable position at the edge of the bed, betrayed a clear sense of guilt. The couple stood and sat for moment in time that stretched far beyond its representational measurement in a grueling, soundless, violent stillness.
 
@@ -138,7 +139,7 @@ Audrey turned to Nadine, who was now on her back with her forearm draped over he
 
 The muffled sound of wind through trees mixed with the light buzz of the electric lamp on the nightstand. Audrey settled slowly on the bed, gently removed Nadine’s arm from its place on her forehead, cradled it in her own arm, curled up against her stiff body, and shut her eyes behind her mask.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 Andy was worried about how happy Liz appeared. He feared its inevitable undoing, and the mystery of its origin sent him down a speculative spiral, forming an exhausting root system of uncertainty in the front of his mind that sucked up all other thought. Liz smiled at him from under the covers as he prepared for bed.
 
@@ -168,11 +169,11 @@ Liz patted the blanket, inviting him to lie down. Andy switched off a lamp by th
 
         “Ask you what?”
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 That night, each person in the group dreamed from their blanketed cocoon a different picture of the outdoors. Their unconscious vignettes served as a response to their absurd stasis, visions of what did and did not exist beyond the threshold of the front door. Audrey: a desert wash, crime scene of past rains, was flooded with the output of a new storm, ushering the past into obscurity and destroying a small wooden bridge long past its capacity for bearing anything larger than a wandering fox. Nadine: a hawk spiraled, its shadow flickering like the blink of an eye trying to clear floating gunk, screeching, the shadow growing, the screeching sounding within, the shadow eclipsing the sun. Andy: two trees battled for nutrients, fighting on both sides of the surface, roots strangling roots, branches competing for sunlight, prodding into each other’s borrowed space until each root system lay beneath the opposite tree’s trunk, and as the assault appeared to reach a stalemate, two surrounding trees of the same species extended their canopies above the embattled. Liz: a serpent slithered through gopher tunnels, hunting, then being hunted by an unknown predator, feeling its confidence on the frontier transform into the terror of being lost, trapped in a foreign maze, no tunnel leading to anything but another tunnel. Parker: a vine wrapped itself around an ancient enduring redwood, thickened, choked the giant, and sprouted gorgeous flowers on its skeleton. Each dream shepherded its sleeper into a pre-dawn wakefulness bearing a fatigue that barred a return to sleep. The lodge had mutated into a mausoleum for the spiritually deceased. An oppressive exhaustion settled in the comfort of warm beds in cool rooms. The imagined outdoors surrounding the dreamers grew more vivid and wondrous in their heads, like Monet's artistic vision aided by his deteriorating eyesight, yet not a single person had the energy to hike, even to the toilet.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 Parker, willed by a desperate sense of missing out on something he could not identify, slipped outside, and as he met the light, was consumed by an effort to capture a morning sunrise that evaded poetic description. He felt its playful evanescence could never be refracted into print, or a misprint, of its reality—the language would only be effective as a distortion. And yet he mentally dictated. Orange and red light bounced off the underside of sweeping cirrocumulus clouds. Its fading brilliance, which drew power from its ephemerality, coated the landscape in an effusive mood, as if there were a pressure imbalance between living things and their environment that compelled them to draw from the well of their being and pour themselves into the world. Birds sang and chittered like active volcanoes. Pollen and spores were released to the whims of the wind. Microbes tunneled and devoured, creating new channels for life to sprout. Mammals mated for pleasure.
 
@@ -196,7 +197,7 @@ Parker could not be found in the lodge. They searched every room, checked and re
 
 This brought everybody back together. They went back inside to prepare for what they’d been planning for all this time. The light outside was already beginning to fade. It was clear that any hike would require the hikers to return in darkness.
 
-◆◆◆
+<p class="text-center">◆◆◆</p>
 
 The group packed into the dusty mudroom, packed their packs, jammed feet into unbroken shoes, added layers that in the heat of preparation were shortly taken off, poked through their supplies in search of anything forgotten. When everybody appeared ready, everything stopped. They stood still, like ruminants in the middle of the herd, the sounds of their discordant breathing a soft whistling symphony, the sun beginning to set through the small window on the door, each understanding in their own way that going out on a hike was not possible, for there were too many justifications—logistical, emotional, irrational—available to bail them out. There was something logical yet ludicrous in the air, like when somebody is acquainted with someone, has known them for a good stretch of time, yet doesn’t know their name, and is long past the point of asking. One by one they sat on the hardwood benches in their gear, sweating with backpacks on, the glowing light of the dying sun shining like candlelight in a Baroque tavern scene. After some time, someone, that nobody in the moment could identify as the first someone, began untying their boots, setting off a chain reaction of unlacing. When the natural light had faded entirely, an overhead bulb was switched on and the group had shed everything that could guard them against the elements. Their gear lay in piles on the floor.
 

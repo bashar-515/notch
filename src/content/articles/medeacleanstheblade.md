@@ -2,10 +2,11 @@
 title: "Medea cleans the blade"
 author: "Gillian Goodman"
 issue: "002"
-bio: "<b>Gillian Goodman</b> is a journalist and writer from New York, with work in <span class=\"not-italic\">The Intercept, Prism, Truthout</span>, and <span class=\"not-italic\">Democracy Now!</span> among others."
 previous: "intotheunconscious"
 next: "agrocerylistforyou"
 related: [ongirlhood, agnosis, brendaerdei]
+bio:
+  - "<b>Gillian Goodman</b> is a journalist and writer from New York, with work in <span class=\"not-italic\">The Intercept, Prism, Truthout</span>, and <span class=\"not-italic\">Democracy Now!</span> among others."
 ---
 
 You were born inside the knife\

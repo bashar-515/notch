@@ -2,10 +2,11 @@
 title: "Letter to You as a Tallgrass Meridian"
 author: "Maxwell Putnam"
 issue: "001"
-bio: "Maxwell Putnam is a poet, essayist, and MFA candidate at Sewanee's School of Letters. He lives in the Catskills; currently in residence at Dar Meso, Tunis."
 previous: "jonahpruitt"
 next: "pandaemonium"
 related: [metanoia2, ellisisland, vityafitsner]
+bio:
+  - "Maxwell Putnam is a poet, essayist, and MFA candidate at Sewanee's School of Letters. He lives in the Catskills; currently in residence at Dar Meso, Tunis."
 ---
 
 Up ahead,\

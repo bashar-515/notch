@@ -2,10 +2,11 @@
 title: "Dead Friend Haunts Man with Mismatched Flip-Flops"
 author: "R. W. Haynes"
 issue: "001"
-bio: "R. W. Haynes, product of the South Georgia swampland and the South Texas cactus country, is Regents Professor of Humanities at Texas A&M International University. His published poetry collections are \"Laredo Light,\" \"Let the Whales Escape,\" \"Heidegger Looks at the Moon,\" and \"The Deadly Shadow of the Wall.\""
 previous: "thedrunkenwalk"
 next: "mariehazard"
 related: [provethatyoucantstaycrumpledonthebathroomfloorforever, briceafonso, mariafragosojara]
+bio:
+  - "R. W. Haynes, product of the South Georgia swampland and the South Texas cactus country, is Regents Professor of Humanities at Texas A&M International University. His published poetry collections are \"Laredo Light,\" \"Let the Whales Escape,\" \"Heidegger Looks at the Moon,\" and \"The Deadly Shadow of the Wall.\""
 ---
 
 She sculpted a Medusa.\

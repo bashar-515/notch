@@ -7,8 +7,7 @@ next: "poems"
 related: [ongirlhood, agnosis, brendaerdei]
 ---
 
-(I wish I had a receipt to write it on. Perhaps then the romance of this act would be more romantic.)
-
+(I wish I had a receipt to write it on. Perhaps then the romance of this act would be more romantic.)\
           ★   From the butcher counter—\
                     ○    Two ribeyes, one for me, and one for the cat in that window on Christopher St.\
                     ○    Chicken bones to boil for stock. There’s a long winter coming.\

@@ -7,10 +7,11 @@ title: |-
   Nido
 author: "María Fragoso Jara"
 issue: "001"
-bio: "María Fragoso Jara lives and works in New York City. She earned a BFA from the Maryland Institute College of Art (MICA) in Baltimore. Her solo exhibitions include <span class=\"not-italic\">El jardín entre tus dientes</span> (2021) and <span class=\"not-italic\">Bodas de sangre</span> (2023) at 1969 Gallery in New York."
 previous: "evahoffman"
 next: "theballadofjeffbezos"
 related: [nibhaakireddy, pristine, lifeasaworkofarthenribergsononpossibilityandcreation]
+bio:
+  - "María Fragoso Jara lives and works in New York City. She earned a BFA from the Maryland Institute College of Art (MICA) in Baltimore. Her solo exhibitions include <span class=\"not-italic\">El jardín entre tus dientes</span> (2021) and <span class=\"not-italic\">Bodas de sangre</span> (2023) at 1969 Gallery in New York."
 # media pending: picture x5
 ---
 

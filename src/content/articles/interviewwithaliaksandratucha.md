@@ -2,16 +2,17 @@
 title: "Interview with Aliaksandra Tucha"
 author: "Aliaksandra Tucha"
 issue: "002"
-bio: "<b>Aliaksandra Tucha</b> photographs and writes between New Haven, Connecticut, and Warsaw, Poland. Her work focuses on intimate portraiture. Aliaksandra often thinks of the intricate balance of familial and social systems. In her practice, she reflects on the pressure of feminine beauty and the subtle, everyday moments that offer a sense of being unburdened. <b>Carlos Valladares</b> is a writer, critic, and curator. He writes for many magazines, including Gagosian Quarterly, Art in America, and n+1. He is currently devising his first feature film. He lives in New York, grew up in Los Angeles, and misses Paris."
 previous: "themystic"
 next: "secretsofthepuckeredjug"
 related: [letterfromtheeditorsissue002, agnosis, alexanderbondoc]
+bio:
+  - "<b>Aliaksandra Tucha</b> photographs and writes between New Haven, Connecticut, and Warsaw, Poland. Her work focuses on intimate portraiture. Aliaksandra often thinks of the intricate balance of familial and social systems. In her practice, she reflects on the pressure of feminine beauty and the subtle, everyday moments that offer a sense of being unburdened."
+  - "<b>Carlos Valladares</b> is a writer, critic, and curator. He writes for many magazines, including Gagosian Quarterly, Art in America, and n+1. He is currently devising his first feature film. He lives in New York, grew up in Los Angeles, and misses Paris."
 # media pending: picture x10
 ---
 
-*Pillow Fighter*
-
-2025
+<span class="text-primary">*Pillow Fighter*</span>\
+<span class="text-primary">2025</span>
 
 These photographed beings of flesh and plastic and shadow are enchanting. That is to say, confronting them, I know I stand on real earth. Language, in its current taken-for-granted and banality-stoking use, does not have the steel clarity to face the fraught social, economic, and soul questions before us—but Aliaksandra Tucha’s photography does.
 
@@ -23,15 +24,19 @@ Tucha knows the weight of vision. Her photographs still us. They beg us to pay t
 
 I caught up with Tucha in her studio in New Haven, Connecticut, where she is now a student at the Yale School of Art.
 
-*– Carlos Valladares*
+<p class="text-right">– Carlos Valladares</p>
 
-■ ■ ■ ■
+<p class="text-center">■ ■ ■ ■</p>
 
 **Aliaksandra Tucha:** I've started making more sexual pictures recently—something I approached more allegorically when we first met. Back then, my work alluded to sexuality, but now it’s much more transparent, more fleshed out. I’ve been thinking a lot about my relationship with my partner, a man, and what it means to be a woman in relation to a man. What it means to be seen. I work within the larger context of family, and I’m deeply interested in family systems—my own family, his family. Our marriage this summer wasn’t just a marriage; it was a merging of two families, two vast systems. And now my work partly explores how this event disrupted equilibrium within both the families.
 
 **Carlos Valladares:** Is there a distance, then, that photography prescribes in you? It’s fascinating to hear you break down these concepts of “man” and “woman” and “family” as almost these alien forms, alien in much the way basic language is alien to all of us. And perhaps, in a way, how the camera approaches such concepts.
 
 **AT:** A couple of years ago, my approach was much more direct, focusing on specific objects. My frames were tighter. Now, I’m interested in creating a broader image that contains these symbols within it. Take this photograph, for instance—it shows a woman’s hands, a champagne glass. You immediately understand it’s either some sort of a party or a cocktail hour. The class markers are evident—who these people are, what kind of person would make these gestures. It’s all embedded in the image.
+
+
+<span class="text-primary">*Cocktail Hour*</span>\
+<span class="text-primary">2024</span>
 
 **CV:** When you photograph, are you conscious of your status as one who is from Belarus, now situated within the U.S.?
 
@@ -57,6 +62,13 @@ I caught up with Tucha in her studio in New Haven, Connecticut, where she is now
 
 (Aliaksandra now walks me through a picture of her husband’s family.)
 
+
+<span class="text-primary">*The Perfect Family*</span>\
+<span class="text-primary">2024</span>
+
+<span class="text-primary">*Mother-in-law*</span>\
+<span class="text-primary">2024</span>
+
 **AT:** This one contains the idea of a picture-perfect family.
 
 **CV:** But you presented them in this crazy blur, which is funny.
@@ -69,6 +81,13 @@ I caught up with Tucha in her studio in New Haven, Connecticut, where she is now
 
 (She gestures to an unpeopled photograph of a sofa, two symmetrical lamps, and a sofa cushion that has been noticeably dented)
 
+
+<span class="text-primary">*A Trivial Pursuit*</span>\
+<span class="text-primary">2024</span>
+
+<span class="text-primary">*Boy Place Turned into a Girl Place*</span>\
+<span class="text-primary">2023</span>
+
 Same here: it’s more of a functional room [than the family portrait], but still, there are so many elements of communicating codes, as opposed to adhering to pure function.
 
 **CV:** I love traces of people that were there and then are not, like this bunched-up blanket, or the bunched-in sofa cushion. So much photography is traces of beings who were once there, yet once you print the physical photograph, they aren’t there anymore—they’ve moved on, something has changed, somehow time has passed. You do well in filling presence with this palpable absence, and you ask “We’re here today, and gone tomorrow, so how will we deal with this?”
@@ -77,9 +96,30 @@ Same here: it’s more of a functional room [than the family portrait], but stil
 
 (Aliaksandra now shows me a picture of a dinner table, with hands playing a game of Trivial Pursuit, and a jar of jelly beans.)
 
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
 This is our dinner table. We host game nights and people come and it's just nice to play board games.
 
 (Aliaksandra shows me a photograph of the interior of a bathroom, flanked by a hallway. Inside the bathroom, there is a shower. It is bare—except for a hanging swimsuit, and a set of differently gendered cosmetics.)
+
+
+<span class="text-primary">*Still LIfe*</span>\
+<span class="text-primary">2023</span>
 
 This is a set where I was going to take portraits of two young women. And I took this in my partner's apartment. His apartment is very much a “male” apartment, so there was just bareness and men’s cosmetics. So I decided to put in all sorts of objects that I had in my room. And I turned this austere male space into a kind of “female” space. For me, female space is always about some form of clutter and untidiness, but beautiful untidiness. Whereas a male space is always so, so stark, needing such little things.
 
@@ -95,6 +135,10 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 
 (I point to a still life of flowers, tissues, a coffee cup, and scissors.)
 
+
+<span class="text-primary">*Pills*</span>\
+<span class="text-primary">2024</span>
+
 **CV:** This is just phenomenal. I fucking love this. Like everything: the coffee cup, tissues, scissors, the flowers in a makeshift vase made from a green plastic Pellegrino bottle…
 
 **AT:** My partner just gave me several bunches of flowers and I ran out of vases—I just had one—because I was living in a dormitory last year. Which I really loved. It was like a constructed space, and I love constructed spaces. That kind of organization of society is very familiar to me, whereas in the U.S., it usually is more freestyle.
@@ -103,6 +147,22 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 
 (Aliaksandra shows me a picture of pills on a window sill.)
 
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
  \
 **AT:** I always have so many pills on me.
 
@@ -124,7 +184,9 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 
 (She shows me a photograph of James at their wedding.)
 
- 
+
+<span class="text-primary">*City Hall*</span>\
+<span class="text-primary">2024</span>
 
 **CV:** I could have sworn this was a checkout counter at a supermarket.
 
@@ -136,6 +198,10 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 
 (Aliaksandra shows me one final photograph, in black and white, of an interior, with ceiling fan, a crouched male figure, and a half-standing nude female figure).
 
+
+<span class="text-primary">*A Period Drama*</span>\
+<span class="text-primary">2024</span>
+
 **CV:** This is beautiful, the lighting . . . !
 
 **AT:** I like this picture. There’s this kind of sense of threat. A woman, being naked. A man, being the actor. You look closely, here, there is a pad for a period. A vulnerable space. In heterosexuality, male aggression plays a huge part. It is strange and disturbing. But if we were to give it an honest look, without fear of judgement, we could see something else too. And what that “something else” is, I don’t have words for. But maybe it is there in the photographs.
@@ -144,39 +210,3 @@ So much of my life is about objects, what they represent, what they mean. Wherea
  \
  \
 *Editor's note: Aliaksandra has since deleted her Instagram.*
-
-*Cocktail Hour*
-
-2024
-
-*The Perfect Family*
-
-2024
-
-*Mother-in-law*
-
-2024
-
-*A Trivial Pursuit*
-
-2024
-
-*Boy Place Turned into a Girl Place*
-
-2023
-
-*Still LIfe*
-
-2023
-
-*Pills*
-
-2024
-
-*City Hall*
-
-2024
-
-*A Period Drama*
-
-2024

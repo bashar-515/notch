@@ -2,13 +2,11 @@
 title: "Playlist"
 author: "Hayden Carr-Loize  and Pheobe Lippe"
 issue: "001"
-bio: |-
-  Phoebe Lippe is an independent artist based in Paris who works primarily in printmaking. She is drawn to the quotidian, with much of her work reflecting small details of the everyday. The layering techniques found in her printmaking reflect her eagerness to leap into the unknown in the name of discovery, exemplified when she left her New York-based home to move to Europe.
-  
-  Hayden Carr-Loize is a New York-based artist whose contemplative storytelling traverses both music and film. Sockeye, his post-COVID-born musical project, explores themes of vulnerability, creative angst, and that all-too-familiar sense of listlessness we feel when coming to terms with adulthood. His latest work, Rough Draft—a short film he wrote, directed, and scored, currently available on YouTube—dissects the tension between artistic self-indulgence and the search for authenticity and true connection. He also swears that he once made Julian Casablancas laugh, which is probably his magnum opus.
 previous: "playingfordays"
 next: "sarahchess"
 related: [playingfordays, oliverstokes-curtis, spinmeasurecut]
+bio:
+  - "Phoebe Lippe is an independent artist based in Paris who works primarily in printmaking. She is drawn to the quotidian, with much of her work reflecting small details of the everyday. The layering techniques found in her printmaking reflect her eagerness to leap into the unknown in the name of discovery, exemplified when she left her New York-based home to move to Europe.\n\nHayden Carr-Loize is a New York-based artist whose contemplative storytelling traverses both music and film. Sockeye, his post-COVID-born musical project, explores themes of vulnerability, creative angst, and that all-too-familiar sense of listlessness we feel when coming to terms with adulthood. His latest work, Rough Draft—a short film he wrote, directed, and scored, currently available on YouTube—dissects the tension between artistic self-indulgence and the search for authenticity and true connection. He also swears that he once made Julian Casablancas laugh, which is probably his magnum opus."
 ---
 
 Beginning any artistic endeavor requires a delusional combination of faith and patience. This state is one of potential energy. It can be deeply invigorating as truly anything seems possible, but frankly, it often borders on madness. Like an artist staring at a raw canvas, this is what our playlist will plunge you into: the state in which you believe in a potential that maddeningly taunts, leaving you waiting and begging for more.
@@ -32,5 +30,3 @@ Deeper still, we reach the obligatory masochist classic, The Velvet Underground 
 There are no closing tracks on the entire playlist. Hoping for a final resolution in the 25th and final song “Work This Time” from King Gizz? Bad news, pal. The song is unbelievably chill, its end mirroring its start, presenting a one last dose of casual infinitude before bringing the playlist to a close.
 
 We apologize if your experience wasn’t satisfying. But here’s the good news: every artist you just listened to spent time in this transitory state before launching into material creation.  Their work is evidence of what potential energy can become. And now that you’ve finished this nearly 2-hour playlist that has no interest in gratification, we hope you, as a prospective creator of magical things, can find your own catharsis through your next project. There’s only one person who can do the translating from potential to kinetic. And that’d be you.
-
- \
