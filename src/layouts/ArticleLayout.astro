@@ -10,31 +10,33 @@ const { title, author, issue, bio } = Astro.props;
 ---
 
 <Layout title={title}>
-  <article class="pt-frame w-3/4 px-36">
-    <h1
-      class="[font-feature-settings:'ss05'] text-7xl leading-none font-medium tracking-tighter whitespace-pre-line"
-    >
-      {title}
-    </h1>
-
-    <div
-      class="text-primary mt-3 flex justify-between border-y border-black py-1 text-3xl italic"
-    >
-      <p>{author}</p>
-      <a href={`/issue${issue}/`} class="hover:text-black"
-        >Issue {issue}: {issueNames[issue]}</a
+  <div class="flex pb-42">
+    <article class="pt-frame w-3/4 px-36">
+      <h1
+        class="[font-feature-settings:'ss05'] text-7xl leading-none font-medium tracking-tighter whitespace-pre-line"
       >
-    </div>
+        {title}
+      </h1>
 
-    <slot />
+      <div
+        class="text-primary mt-3 flex justify-between border-y border-black py-1 text-3xl italic"
+      >
+        <p>{author}</p>
+        <a href={`/issue${issue}/`} class="hover:text-black"
+          >Issue {issue}: {issueNames[issue]}</a
+        >
+      </div>
 
-    {
-      bio && (
-        <p
-          class="font-times text-primary mt-24 text-xl leading-none italic"
-          set:html={bio}
-        />
-      )
-    }
-  </article>
+      <slot />
+
+      {
+        bio && (
+          <p
+            class="font-times text-primary mt-24 text-xl leading-none italic"
+            set:html={bio}
+          />
+        )
+      }
+    </article>
+  </div>
 </Layout>
