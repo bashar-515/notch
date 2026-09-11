@@ -31,7 +31,9 @@ const relatedArticles = related.flatMap((id) =>
         >
       </div>
 
-      <slot />
+      <div class="font-times mt-8 space-y-6 text-2xl leading-tight">
+        <slot />
+      </div>
 
       {
         bio && (

@@ -128,7 +128,7 @@ Monica rolled onto one elbow. “I, uh,” she said. “I wanted.” She plucked
 
 “Oh,” said Ellis. “Well.” He considered a few possible responses, all lies along the lines of, No, I did! Jad’s mom’s a hoot! I’m gonna talk about her antics for years to come! Monica peered up at him, chewed off a strip of hangnail. Ellis melted. “I mean, the night’s still young.”
 
- She laughed—a fresh, invigorating gust. “Is it?” she asked, waving a hand at the house’s sterile darkness.
+ She laughed—a fresh, invigorating gust. “Is it?” she asked, waving a hand at the house’s sterile darkness.
 
 “Sure,” Ellis said. “I’ve got another round or three in me.”
 

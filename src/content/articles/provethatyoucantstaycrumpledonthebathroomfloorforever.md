@@ -19,20 +19,20 @@ No, not the sea. The rumble of a tectonic plate shifting. No. The\
 scheming of my insides to reclaim everything I have ever given up.\
 Assume all of this — then forget.
 
-                                                                                                   Breathe out.
+                                                                                                   Breathe out.
 
 Assume I am lying on the bathroom floor.
 
 Bathroom floor                     = a sheet of ice that has quieted my hot skin\
-                                              = not having to look at the mirror again.\
-                                              = vinyl that stinks of lemon and salt\
-                                              = rougher on my face than my feet ever knew\
-                                              = easyish to press my hands against\
-                                              = pushing back against my bruised shins\
-                                              = getting farther and farther away
+                                              = not having to look at the mirror again.\
+                                              = vinyl that stinks of lemon and salt\
+                                              = rougher on my face than my feet ever knew\
+                                              = easyish to press my hands against\
+                                              = pushing back against my bruised shins\
+                                              = getting farther and farther away
 
 Bathroom floor                    = slick like guilt and soap underfoot\
-                                            = reblossomed bruises on the knee that crashes back down
+                                            = reblossomed bruises on the knee that crashes back down
 
 This isn’t working. Let’s start again.
 

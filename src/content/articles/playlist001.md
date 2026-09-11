@@ -32,3 +32,5 @@ Deeper still, we reach the obligatory masochist classic, The Velvet Underground 
 There are no closing tracks on the entire playlist. Hoping for a final resolution in the 25th and final song “Work This Time” from King Gizz? Bad news, pal. The song is unbelievably chill, its end mirroring its start, presenting a one last dose of casual infinitude before bringing the playlist to a close.
 
 We apologize if your experience wasn’t satisfying. But here’s the good news: every artist you just listened to spent time in this transitory state before launching into material creation.  Their work is evidence of what potential energy can become. And now that you’ve finished this nearly 2-hour playlist that has no interest in gratification, we hope you, as a prospective creator of magical things, can find your own catharsis through your next project. There’s only one person who can do the translating from potential to kinetic. And that’d be you.
+
+ \

@@ -22,11 +22,11 @@ It was a Friday in October. They entered what was once a grove of old firs—now
 
 Nadine and Audrey settled in a bedroom with east-facing windows, a cowhide duvet, and the type of artwork that’s forgotten after it’s hung up. Nadine unpacked her suitcase, placed her folded clothing neatly in a pine dresser after dusting its interior with wetted toilet paper, and set up her toiletries on one side of the sink while Audrey watched Nadine from the bed. Nadine watched Audrey watching her through the bathroom mirror as she washed her hands.
 
-        “What do you want to do before dinner?”
+        “What do you want to do before dinner?”
 
-        “Maybe we just rest for a while,” Nadine replied. Nadine expressed what she wanted by saying what she didn’t want, hoping people would have the sense to correct her.
+        “Maybe we just rest for a while,” Nadine replied. Nadine expressed what she wanted by saying what she didn’t want, hoping people would have the sense to correct her.
 
-         “Yeah, I could nap.”
+         “Yeah, I could nap.”
 
 Nadine joined Audrey on the bed. They lay in the stink of travel, their airplane clothes corrupting the blanket, quietly locked in a shared weariness that both hoped would be broken by the other. Audrey drifted into the early stage of sleep and was roped back into the early stage of wakefulness by Nadine’s hand running down the side of her stomach, teasing the underside of her waistline. Audrey sprung up and tore at Nadine’s shirt, tugged at her elastic shorts, then slowed the pace, descending with measured, light kisses. An alarm sounded from Audrey’s phone—the dire, intense, heavy alarm of a ship giving an evacuation order. It was a false alarm, one Audrey set accidentally with some forgotten finger tap. The lovers stopped loving, the interruption murdering the moment, and they lay like planks atop the covers, deflating. Nadine turned to her side and pretended to relax, while Audrey drifted off into the shallow waters of sleep, snoring lightly with faint purring exhalations. Her phone buzzed with a few intermittent texts, but she didn’t wake, the notifications for her instead alerting Nadine, who casually, with an effort neither hurried nor expressly surreptitious, unlocked the screen and scrolled through its glowing well of information with a blank face.
 
@@ -34,13 +34,13 @@ Nadine joined Audrey on the bed. They lay in the stink of travel, their airplane
 
 Andy stood naked, peeing. Liz leafed through a book categorizing plants of the American West, glancing at photographs, ignoring the text. She was focusing intently on a picture of larkspur (*Delphinium geraniifolium*), attempting to commit its image to memory in the hope she’d be able to identify it in the wild. Andy came into the room and took stock of its simplicity—no decoration, as if the walls had just been repainted, the space utilitarian and bare. He scratched his ass and looked at Liz not looking at him, wondering if she was deliberately avoiding his eyes, becoming convinced of it, until she turned to him and he forgot his surmised certainty and pivoted away from her to look out the window. Black mountains in the distance flirted with the clouds. In the yard, saplings were supported by wires tied to stakes pulling the trunks in opposite directions. There was a translucent smudge on the glass at shoulder height, the oily imprint of a face pressed in the past.
 
-            “You should get ready.”
+            “You should get ready.”
 
-            “For what?”
+            “For what?”
 
-            “Dinner, I suppose.”
+            “Dinner, I suppose.”
 
-            “I guess.”
+            “I guess.”
 
 Andy started the shower, held his hand under the water, gauging the temperament of the two foreign knobs, tinkering with the temperature. Liz unpacked her bag, then unpacked Andy’s. As she put the bags away, she noticed a lump on Andy’s, a little suitcase tumor protruding from an outside pocket. She listened to the splatter of water on body, distinct from the uniform sound of shower water on shower floor, opened the outside pocket, pulled out a small jewelry box—the kind used for rings—and gently placed the box back inside the pocket. Then she carefully repacked Andy’s bag, retracing her steps with the mechanical precision of a bomb-defusing robot, and put the bag back where she thought she found it. A few minutes later Andy emerged in a towel. Liz went to take her turn in the shower, and as they exchanged spaces, each felt the other feel something odd. Liz closed the bathroom door and Andy opened his suitcase, pulling out neatly folded clothes. Liz stood in the shower smiling, silently celebrating into hot water. Andy watched the closed door, listened to the water running, water on body, and, squatting in his towel, unzipped the outside pocket, pulled out the small jewelry box, opened it, unwound the cap of the vial within, licked his pinky finger, dabbed it in the vial, and rubbed powder on his gums.
 
@@ -92,49 +92,49 @@ Night fell and the group ordered pizzas. When the Italian food of the American W
 
 Audrey put on a hydrating mask, her opaque plastic visage a horror show of health. Something that could break through the active paralysis of the group came to mind, a perfect way to get everybody out of the lodge. She rushed into the bedroom and caught Nadine hurriedly returning her phone, with its greasy glittered case and “Audreyxx” sticker, to its resting place. Audrey’s solution for the group was torn from her mind by this tableau of breached privacy. Nadine’s frozen and diverted eyes, her pursed lips, the stillness of her body seated in an uncomfortable position at the edge of the bed, betrayed a clear sense of guilt. The couple stood and sat for moment in time that stretched far beyond its representational measurement in a grueling, soundless, violent stillness.
 
-            “Who is H.?”
+            “Who is H.?”
 
-            “Why are you going through my phone?”
+            “Why are you going through my phone?”
 
-            “Who is H.?”
+            “Who is H.?”
 
-            “Nobody.”
+            “Nobody.”
 
-            “Well, you and nobody have had a lot to say to each other.”
+            “Well, you and nobody have had a lot to say to each other.”
 
-            “I have nothing to say about this.”
+            “I have nothing to say about this.”
 
-            “You’ve been talking every day for months.”
+            “You’ve been talking every day for months.”
 
-            “So you’ve been breaking into my phone for months?”
+            “So you’ve been breaking into my phone for months?”
 
 Audrey turned to the window and looked out at nothing in the darkness, ignoring the faint reflection of her masked face on the glass. Both women sighed at the same time, and the jinx caused them to laugh little quiet laughs, and that double jinx ushered them back to a quiet state of discontent.
 
 Audrey turned to Nadine, who was now on her back with her forearm draped over her eyes. “Maybe we should finally just get it over with,” she suggested.
 
-            “You mean break up?”
+            “You mean break up?”
 
-            “Yeah, right?”
+            “Yeah, right?”
 
-            “Yes, we should.”
+            “Yes, we should.”
 
-            “We will.”
+            “We will.”
 
-            “Yes, we will.”
+            “Yes, we will.”
 
-            “It’s the right thing to do.”
+            “It’s the right thing to do.”
 
-            “It is.”
+            “It is.”
 
-            “But not here. Not right now.”
+            “But not here. Not right now.”
 
-            “No, definitely. Not right now. When the time’s right.”
+            “No, definitely. Not right now. When the time’s right.”
 
-            “When the setting is right.”
+            “When the setting is right.”
 
-            “It’ll be a good break up, Audrey.”
+            “It’ll be a good break up, Audrey.”
 
-            “It will.”
+            “It will.”
 
 The muffled sound of wind through trees mixed with the light buzz of the electric lamp on the nightstand. Audrey settled slowly on the bed, gently removed Nadine’s arm from its place on her forehead, cradled it in her own arm, curled up against her stiff body, and shut her eyes behind her mask.
 
@@ -142,31 +142,31 @@ The muffled sound of wind through trees mixed with the light buzz of the electri
 
 Andy was worried about how happy Liz appeared. He feared its inevitable undoing, and the mystery of its origin sent him down a speculative spiral, forming an exhausting root system of uncertainty in the front of his mind that sucked up all other thought. Liz smiled at him from under the covers as he prepared for bed.
 
-        “I have a confession to make,” she said. “I found the jewelry box.”
+        “I have a confession to make,” she said. “I found the jewelry box.”
 
-        Andy froze with his shirt in his hands, his pallid face shielding clenched teeth.
+        Andy froze with his shirt in his hands, his pallid face shielding clenched teeth.
 
-        “Don’t be nervous. It’s ok. I just want you to do it right,” she said.
+        “Don’t be nervous. It’s ok. I just want you to do it right,” she said.
 
-        “You’re not mad?”
+        “You’re not mad?”
 
-        “Why would I be?”
+        “Why would I be?”
 
-        “There are reasons to be mad, but if you’re not, then none of those reasons matter.”
+        “There are reasons to be mad, but if you’re not, then none of those reasons matter.”
 
 Liz patted the blanket, inviting him to lie down. Andy switched off a lamp by the window. He wiped his nose with the back of his forefinger, shed his boxers, and flung them toward his suitcase with his foot. As he joined Liz in bed, the surprise of her tolerance filled him with apprehension—the unexpected attitude, though in a way positive, upended all the assumptions he clung to, and the loss of those fearful securities left him disoriented beside a woman he thought he could predict. She turned to him and kissed his neck, tugged at him, cajoled with pleading fingers, but it was no use on a man so quietly coked up he might as well be stored in an evidence locker. He was rigid, his eyes darting around the room as if they were trying to catch his runaway thoughts.
 
-        “What’s wrong?”
+        “What’s wrong?”
 
-        “Nothing, I’m just preoccupied.”
+        “Nothing, I’m just preoccupied.”
 
-        “Is it because I found the box?”
+        “Is it because I found the box?”
 
-        “No. Or yeah, I suppose. I just don’t know how respond.”
+        “No. Or yeah, I suppose. I just don’t know how respond.”
 
-        “Oh, baby. It’s fine. There’s no rush, we have our whole lives ahead of us. You can ask me whenever you’re ready,” she cooed, wrapping a warm leg around him and resting her head on his chest.
+        “Oh, baby. It’s fine. There’s no rush, we have our whole lives ahead of us. You can ask me whenever you’re ready,” she cooed, wrapping a warm leg around him and resting her head on his chest.
 
-        “Ask you what?”
+        “Ask you what?”
 
 ◆◆◆
 
@@ -180,19 +180,19 @@ The rest of the group woke up late to a beautiful day spoiled by poor sleep. The
 
 Parker could not be found in the lodge. They searched every room, checked and rechecked, retracing fruitless steps, scouring utility closets, the lodge’s various lounge spaces, the pantry, the study, Parker’s and their own rooms in the mad hope that their previous efforts had overlooked the obvious. They agreed Parker was either hiding very well, or outside. As they filed out the front door into the crisp April afternoon—one of those days that transforms humans into cats, the sun warm and nurturing, invigorating in its contrast to the looming winter of the shade—they were collectively overwhelmed by the expanse of the open air. Deciduous trees and bushes swayed drunkenly, their bright green buds shifting in the breeze. The earth stunk of wet new growth. A sense of flux pervaded, washing out the stagnancy of the indoors. Everybody stood in the driveway feeling oversaturated, looking out into the world with tourist eyes. Parker walked around the side of the house, carrying a backpack, scratching his nose with the bottom of his shirt. The group accosted him with overlapping questions that choked out any chance at a response.
 
-        “I just went on a walk,” Parker finally got out.
+        “I just went on a walk,” Parker finally got out.
 
-        “A walk?”
+        “A walk?”
 
-        “What kind of walk?”
+        “What kind of walk?”
 
-        “Where?”
+        “Where?”
 
-        “Why didn’t you come get us?”
+        “Why didn’t you come get us?”
 
-        “I can’t believe you.”
+        “I can’t believe you.”
 
-        “I just lingered around the property,” Parker said. “Was on the phone most of the time, really. We can all go on a real hike. There’s still time.”
+        “I just lingered around the property,” Parker said. “Was on the phone most of the time, really. We can all go on a real hike. There’s still time.”
 
 This brought everybody back together. They went back inside to prepare for what they’d been planning for all this time. The light outside was already beginning to fade. It was clear that any hike would require the hikers to return in darkness.
 

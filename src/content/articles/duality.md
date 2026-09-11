@@ -56,6 +56,7 @@ What we express in any language can only approximate the wealth of our inner exp
 
 What’s left unsaid in the gaps between our theories? Duality lets us portal back and forth between different scientific realities; from one where the universe is made up of space and time, to another where space and time are illusions, like holograms, emerging from a deeper quantum reality. Whether our world has a preference is yet to be known, or perhaps never will be.
 
+ \
 *At the time of writing, the Ads-CFT paper has 25,435 citations. Einstein’s general relativity paper has 2,210, though for fairness the original paper is in German.
 
 ***Shalma Wegsman Gueron*** *is currently a science writing fellow at Quanta Magazine, and co-host of the podcast Why This Universe. She holds a Master’s in Physics from NYU*.

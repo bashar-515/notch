@@ -11,95 +11,109 @@ related: [ongirlhood, agnosis, brendaerdei]
 
 CALIBRATION
 
+ \
 In faith and feint my soul\
 was spun, makeshift.
 
 The strangeness within me\
 seeps slick. I re-magnetize\
-             my compass along a freezer’s\
-             seal. My home slit
+             my compass along a freezer’s\
+             seal. My home slit
 
-             at the kitchen, swept corner-clean:\
-             wormy chestnut floorboards creak\
+             at the kitchen, swept corner-clean:\
+             wormy chestnut floorboards creak\
 inside my weekday dream, ghosts fatten\
 like whisked white peaks beneath and I
 
 am lifted to another room,\
 quite nearly the same.\
-             What I did was what was done.\
-             No action from within, no cloud
+             What I did was what was done.\
+             No action from within, no cloud
 
-	     outrun, I left the house cold before\
-             the sky’s pliant skin was lost.\
+         outrun, I left the house cold before\
+             the sky’s pliant skin was lost.\
 Between the clicks of subway turnstiles\
 I strove to count: luckless lap,
 
 medieval face, clacking jaw.\
 The stovetop warms.\
-             Overnight, two orchids\
-             wilted on my desk.
+             Overnight, two orchids\
+             wilted on my desk.
 
-             Overnight, someone snuffed\
-             my pilot light: smoke.\
+             Overnight, someone snuffed\
+             my pilot light: smoke.\
 I have yet to examine my pale,\
 proprietary heart, but I know
 
 it knocks, it slows. That stony\
 pulse designs its steadfast echo.
 
+ \
+
 INHERITANCE: FATHER TURNS 60
 
 **Problem 1.1**\
 all this, like carpentry:\
-			                 an infant tooth extracted with\
-					         	        	                     shovels. tell me to start digging. my father                     & I will develop blisters, imagine striking\
-					                                  our bodies’ roots. adequate,\
-											                                                           by all means.\
-	     how I crumble, wear 			                garden gloves, start digging—     to flame—\
-								                                               (how do I) safely say: this should\
+                             an infant tooth extracted with\
+                                                                  shovels. tell me to start digging. my father                     & I will develop blisters, imagine striking\
+                                                      our bodies’ roots. adequate,\
+                                                                                                       by all means.\
+         how I crumble, wear 			                garden gloves, start digging—     to flame—\
+                                                                               (how do I) safely say: this should\
 disturb me.\
-	             suppose\
-		                   it will, let us stipulate.\
-					                                  squeamish about all this, far enough away,\
-					                                  us, traveling like		        the bug’s shadow.
+                 suppose\
+                           it will, let us stipulate.\
+                                                      squeamish about all this, far enough away,\
+                                                      us, traveling like		        the bug’s shadow.
+
+ \
 
 **Problem 1.2**
 
 someone drops (        	) off a cliff.\
-				                     I snap a million photographs\
-				                     I measure the distance\
-				                     it strikes		             (it delivers)\
+                                     I snap a million photographs\
+                                     I measure the distance\
+                                     it strikes		             (it delivers)\
 question: 										                                                  solution:\
 surely even (	 ) won’t know which is\
-				                           which. surely ethereal.\
-							                                              it’s no good, it collapses—
+                                           which. surely ethereal.\
+                                                                          it’s no good, it collapses—
+
+ \
+                
 
 my father, very roughly—speaking:\
-				                                    “this is safe.”
+                                                    “this is safe.”
+
+ \
 
 **Problem 1.3**
 
-          safety &	           there is no guarantee		      there is no housed 	      blame\
-							                                      it only confirms what we already knew
+          safety &	           there is no guarantee		      there is no housed 	      blame\
+                                                                  it only confirms what we already knew
 
 let’s simply hope for the\
-			                     best. (the agnostic) refusal to answer: how many\
-									                                                            angels sit on the point of                        a needle?          my father, couched. (please)		           fall back.\
-							                                   sell me.\
-							                                   retreat. 		                   (how can you)
+                                 best. (the agnostic) refusal to answer: how many\
+                                                                                                angels sit on the point of                        a needle?          my father, couched. (please)		           fall back.\
+                                                               sell me.\
+                                                               retreat. 		                   (how can you)
 
 **Solution: In this case**\
 I warned you:	              these guts—(mouthfuls)\
-					                               introduce a kind— 	        of indeterminacy\
-											                                                          blip-by-blip\
+                                                   introduce a kind— 	        of indeterminacy\
+                                                                                                      blip-by-blip\
 that is to say	              “—it’s possible, but painful”\
-	              hellish, equal parts living & dead 	  	        (I have tried)\
+                  hellish, equal parts living & dead 	  	        (I have tried)\
 that is to say					                     I warned you
 
-\
-	              how could we have been so\
-								                                         (I prefer to avoid\
-										                                                       such language)
+         \
+                  how could we have been so\
+                                                                         (I prefer to avoid\
+                                                                                               such language)
+
+ \
+ \
+ \
 
 Note:
 

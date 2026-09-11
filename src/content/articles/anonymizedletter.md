@@ -9,6 +9,8 @@ related: [lappesa, expectations, transmissionispitwithsonicweather]
 
 L,,
 
+ \
+ \
 I’ve been trying so hard to not write this letter, but holding it in won’t work any longer.
 
 I hope you’re well, that your family is healthy, that your work fulfills you. I think about these things often.
@@ -28,6 +30,9 @@ It’s very easy as a young, single woman to rationalize participation in men’
 
 I don’t have much else to say. I still think of you. Which I suppose, without wanting to be presumptuous but given our tie, likely means you still think of me.
 
+ \
+ \
 With fondness from a distance,,
 
+ \
 C

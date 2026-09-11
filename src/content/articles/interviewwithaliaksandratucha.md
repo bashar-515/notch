@@ -103,7 +103,7 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 
 (Aliaksandra shows me a picture of pills on a window sill.)
 
-\
+ \
 **AT:** I always have so many pills on me.
 
 **CV**: In this country, they really pill you.
@@ -124,6 +124,8 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 
 (She shows me a photograph of James at their wedding.)
 
+ 
+
 **CV:** I could have sworn this was a checkout counter at a supermarket.
 
 **AT:** (Laugh.) It could be. You know? It's just there's not enough context in this picture. But I guess, as usual, “if you know, you know.”
@@ -138,6 +140,9 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 
 **AT:** I like this picture. There’s this kind of sense of threat. A woman, being naked. A man, being the actor. You look closely, here, there is a pad for a period. A vulnerable space. In heterosexuality, male aggression plays a huge part. It is strange and disturbing. But if we were to give it an honest look, without fear of judgement, we could see something else too. And what that “something else” is, I don’t have words for. But maybe it is there in the photographs.
 
+ \
+ \
+ \
 *Editor's note: Aliaksandra has since deleted her Instagram.*
 
 *Cocktail Hour*

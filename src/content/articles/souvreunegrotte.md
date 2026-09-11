@@ -54,6 +54,8 @@ Unkempt, ramshackle, squashed\
 As with wine, powder, or grass.\
 A light nausea sets in. My pulse quickens.
 
+ \
+ \
 S’OUVRE UNE GROTTE\
 Sur des marches, à gauche du fleuve,\
 Un garçon s’ennuie solitaire. Les billes claquent\
@@ -87,3 +89,7 @@ Je rêvasse de plages, de forêts, de terrasses,\
 Dans un état d’abandon, d’hébétude, de planage\
 Comme avec le vin, la poudre ou l’herbe.\
 Une nausée légère enfle et le pouls s’accélère.
+
+ \
+ \
+ \
