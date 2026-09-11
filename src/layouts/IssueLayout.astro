@@ -64,7 +64,10 @@ const { title, heading, contributors, content, columns, cards } = Astro.props;
           {column.map((item) => {
             const Tag = item.href ? "a" : "div";
             return (
-              <Tag href={item.href}>
+              <Tag
+                href={item.href}
+                class="transition-opacity duration-200 hover:opacity-75"
+              >
                 {"image" in item ? (
                   <Image
                     src={images[`../assets${item.image}`]!.default}
