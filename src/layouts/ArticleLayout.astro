@@ -8,10 +8,17 @@ const { title, author, issue, bio } = Astro.props;
 ---
 
 <Layout title={title}>
-  <article class="px-frame py-frame">
-    <h1>{title}</h1>
-    <p>By {author}</p>
-    <p>Issue {issue}</p>
+  <article class="px-frame pt-frame w-3/5">
+    <h1
+      class="[font-feature-settings:'ss05'] text-7xl leading-none font-medium tracking-tighter"
+    >
+      {title}
+    </h1>
+
+    <div class="text-primary flex border-t border-b">
+      <p>{author}</p>
+      <p>Issue {issue}</p>
+    </div>
 
     <slot />
 
