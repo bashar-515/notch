@@ -11,13 +11,13 @@ bio:
 
 <div class="grid grid-cols-2 gap-8">
 <div class="space-y-6">
-<p class="text-right"><span class="text-primary">J'ai perdu les traits de ma coquille<br>son image en entresol</p>
-<p class="text-right">le corps à corps<br>cruel<br>de l'étreinte et de l’empreinte</p>
-<p class="text-right">j'ai refermé chaque doigt<br>sur cette image - reflet inébranlable, impossible</p>
-<p class="text-right">j'ai serré si fort<br>tant détenue<br>que je la nommais vérité</p>
-<p class="text-right">en parallèle</p>
-<p class="text-right">j'ai fait pâlir mon désir<br>pour qu'il rencontre enfin l'instant<br>pour que l'impatience se consume en conscience<br>pour, finalement - me retrouver seule</p>
-<p class="text-right">aussi libre qu'un chapeau dans les vagues</span></p>
+<p class="text-primary text-right">J'ai perdu les traits de ma coquille<br>son image en entresol</p>
+<p class="text-primary text-right">le corps à corps<br>cruel<br>de l'étreinte et de l’empreinte</p>
+<p class="text-primary text-right">j'ai refermé chaque doigt<br>sur cette image - reflet inébranlable, impossible</p>
+<p class="text-primary text-right">j'ai serré si fort<br>tant détenue<br>que je la nommais vérité</p>
+<p class="text-primary text-right">en parallèle</p>
+<p class="text-primary text-right">j'ai fait pâlir mon désir<br>pour qu'il rencontre enfin l'instant<br>pour que l'impatience se consume en conscience<br>pour, finalement - me retrouver seule</p>
+<p class="text-primary text-right">aussi libre qu'un chapeau dans les vagues</p>
 </div>
 <div class="space-y-6">
 <p>I lost the contours of my shell<br>its image on the cusp</p>

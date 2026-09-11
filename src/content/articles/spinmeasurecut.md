@@ -34,7 +34,7 @@ No—she fights against his suggestion as a test of her own will—the study.
 And although she hadn’t wanted to go to the study, and nor had he, and she doesn’t know him, nor he her, and although she had decided that tonight she would be a different type of woman, who was more aloof, and cool, and harder to pursue, she submits to follow his lead—pulled by her wrist—into the large, book-lined room, where he pulls her close to him, and they dance.
 
 
-<p class="text-right"><span class="text-primary">Her friends saw it from the top of the stairs: her white dress, the top of his rough blond head, the power of his coarse hand’s grip. She spun like silk behind him.</span></p>
+<p class="text-primary text-right">Her friends saw it from the top of the stairs: her white dress, the top of his rough blond head, the power of his coarse hand’s grip. She spun like silk behind him.</p>
 
 And as they dance, they talk closely: him stooped, with his mouth right up against her ear; she ever so slightly on tiptoe, cheek pressed against his jaw. She likes the shapes his warm words make as they land on her neck. He likes her replies, which seem passive, but contain all sorts of traps. She is elegant, spider-like. She coils her arms around him.
 
@@ -45,7 +45,7 @@ They wind their way back down the corridor, through the kitchen, and out into th
 He has huge hands—fingers that don’t taper and fat white palms which the bottle caps disappear into as he removes them—and when he hands her a brown bottle the caps fall, ringing as they hit the floor.
 
 
-<p class="text-right"><span class="text-primary">Her friends watched as the pair melted together. They listened to the warm flow of have you heard of— and did you read— and oh I love that— and I can’t believe you love it, too. Of course they can believe it. They flirt with fate.</span></p>
+<p class="text-primary text-right">Her friends watched as the pair melted together. They listened to the warm flow of have you heard of— and did you read— and oh I love that— and I can’t believe you love it, too. Of course they can believe it. They flirt with fate.</p>
 
 The first thing he knew about her was that he wanted to kiss her. He’d left a conversation without saying sorry or goodbye to follow the tress of hair that had stolen into the kitchen. He was so certain of her. And he was right. She was exactly as he’d imagined her to be. Clever, quick. He glows with the satisfaction of competent conviction.
 
@@ -66,7 +66,7 @@ Keep telling that story.
 About watching his grandmother skin rabbits on her porch. The porch on the old house in Vermont, in the woods, with Delft tiles around the wood-burning stove. Long summers there, Christmas, Thanksgiving. He can feel the weight of her body relaxing. It’s his house, now, and when he moves there at the end of the year, he’ll—
 
 
-<p class="text-right"><span class="text-primary">Her friends weren’t concerned by her absence, but bored by it. They were ready to draw her into their night, to listen to tall tales of other people’s troubles.</span></p>
+<p class="text-primary text-right">Her friends weren’t concerned by her absence, but bored by it. They were ready to draw her into their night, to listen to tall tales of other people’s troubles.</p>
 
 The words wake her.
 
@@ -76,4 +76,4 @@ She pushes herself away, up, out, leaving all the possibilities on that bed in t
 
 Not without me—
 
-<p class="text-right"><span class="text-primary">One closed the door, the other snapped the thread.</span></p>
+<p class="text-primary text-right">One closed the door, the other snapped the thread.</p>

@@ -10,7 +10,7 @@ bio:
 # media pending: picture x5
 ---
 
-<p class="text-right"><span class="text-primary">Au milieu de la brume, ici et maintenant (series)</span><br><span class="text-primary">2025</span><br><span class="text-primary">silver print on warm tone baryta paper</span><br><span class="text-primary">18 x 24 cm</span></p>
+<p class="text-primary text-right">Au milieu de la brume, ici et maintenant (series)<br>2025<br>silver print on warm tone baryta paper<br>18 x 24 cm</p>
 
 Nature is a real source of inspiration for me. It provides a veritable moment of freedom where I, through wandering and solitude, can create without constraints, particularly constraints of time.
 

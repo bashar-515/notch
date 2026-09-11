@@ -7,7 +7,7 @@ next: "trytorun"
 related: [arina-zhuravleva, themanylivesofenergy, mariehazard]
 bio:
   - "Claire Dauge-Roth is a poet, weaver, and scholar based in Brooklyn, New York. She has published in <span class=\"not-italic\">The Brooklyn Review</span> and has forthcoming poetry in <span class=\"not-italic\">ethics magazine</span>."
-  - "<span class=\"text-lg\">© 2024, Notch Magazine, LLC</span>"
+  - "<span class=\"text-xl\">© 2024, Notch Magazine, LLC</span>"
 # media pending: picture x2
 ---
 

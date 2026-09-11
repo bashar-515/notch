@@ -9,6 +9,7 @@ bio:
   - "<b>François Thiéry-Mourelet</b> is the General Secretary of the Société des Gens de Lettres, \nFrance’s association of authors. A former reporter and a seasoned sailor, he has published \nnumerous novels and plays. His poetry collection Brise dans le miroir / Brise in the Mirror \n(Sans Escale, 2022), from which this poem is extracted, is a decades-long composition of 89 \ncantos, received the Prix Jeanne Marvig. \n \n<b>Charles Rice-Davis</b> published the first English-language translation of Haitian poet \nCoutechève Lavoie Aupont, winner of the Prix René Philoctève and Prix Dominique \nBatraville. He has also translated uncollected poems by Mário de Sá-Carneiro and Nguyễn \nTrọng Hiệp’s Paris, capitale de la France / 大法國玻璃都城襍詠. He teaches in the programs of French and Intercultural Communication at Victoria University of Wellington / Te Herenga Waka in New Zealand."
 ---
 
+\
 On the steps, to the river’s left,\
 A bored and solitary boy. Marbles collide\
 Like children circling and smacking each other, one\

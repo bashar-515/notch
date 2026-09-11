@@ -17,6 +17,4 @@ Behind my eyelids, reflective of some real, tangible situation long forgotten: y
 
 I am terrified that I’m going to scrape the bottom of the jar once filled with that thick salty universe, and I will have heaped spoon after spoon to get to the end, the understanding, the dirty nakedness of all that is wrong, all of the chunky time and the sharp teeth and hard pillows—In my dream I rip the peel off of existence, digest the core of my own life, *crack the bottom of that stained jar,* and under it all at the center of everything is just you.
 
- \
- \
-<span class="text-primary">***Samantha Backlund-Clapp***</span> <span class="text-primary">*is a student at the University of Amsterdam, writing on napkin scraps in her spare time. The lead on her chain is planted in rural middle America, where she learned the love language of desolate wastelands and dried corn husks. She has been printed in Pinky magazine, Pacific Review, and Dakota Warren’s Nowhere Girl, among others.*</span>
+<p class="text-primary">&nbsp;<br>&nbsp;<br><i><b>Samantha Backlund-Clapp</b></i> <i>is a student at the University of Amsterdam, writing on napkin scraps in her spare time. The lead on her chain is planted in rural middle America, where she learned the love language of desolate wastelands and dried corn husks. She has been printed in Pinky magazine, Pacific Review, and Dakota Warren’s Nowhere Girl, among others.</i></p>

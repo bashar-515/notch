@@ -11,12 +11,7 @@ bio:
 # media pending: picture x1
 ---
 
-<span class="text-primary">Diego Velázquez</span>\
-<span class="text-primary">*Water Carrier of Seville*</span>\
-<span class="text-primary">c. 1618–1622\
-oil on canvas\
-105 × 80 cm\
-Courtesy: Apsley House, London</span>
+<p class="text-primary">Diego Velázquez<br><i>Water Carrier of Seville</i><br>c. 1618–1622<br>oil on canvas<br>105 × 80 cm<br>Courtesy: Apsley House, London</p>
 
 Descending into the Hyde Park Corner tube station in London, I passed a shaggy busker who blurted out, “There’s a lot of low-I.Q. people round here these days.” I turned to commiserate, then realized he meant me. He had a point. Who teaches and who learns and why does anyone do either?
 

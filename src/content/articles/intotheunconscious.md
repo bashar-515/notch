@@ -46,7 +46,4 @@ through wind we stood in, tossed out,
 and we watched it break the surface\
 first, then sink into the depths.
 
- \
- \
- \
-<span class="text-primary"><span class="text-xl">***Thom Schramm***</span></span> <span class="text-primary"><span class="text-xl">*is the author of Thorn House (Yas Press, 2025) and The Leaf Blower (Blue Cubicle Press, 2016), and editor of the anthology Living in Storms: Contemporary Poetry and the Moods of Manic-Depression (Eastern Washington University Press, 2008). He lives in Seattle*</span></span><span class="text-xl">.</span>
+<p class="text-xl leading-none">&nbsp;<br>&nbsp;<br>&nbsp;<br><span class="text-primary"><i><b>Thom Schramm</b></i></span> <span class="text-primary"><i>is the author of Thorn House (Yas Press, 2025) and The Leaf Blower (Blue Cubicle Press, 2016), and editor of the anthology Living in Storms: Contemporary Poetry and the Moods of Manic-Depression (Eastern Washington University Press, 2008). He lives in Seattle</i></span>.</p>

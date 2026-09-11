@@ -92,6 +92,4 @@ She stepped forward again and her foot landed on a large stone, which shifted un
 
 When she woke in the rear seat of a police vehicle with her hands tied behind her back, head throbbing, she began to pray. “Lord forgive them, for they know not what they do.” Pine trees flickered by outside the darkly tinted windows.
 
- \
- \
-<span class="text-primary">***Andrea Felland***</span> <span class="text-primary">*is a student of Comparative Literature at the Université Sorbonne Nouvelle. She lives and works in Paris.*</span>
+<p class="text-primary">&nbsp;<br>&nbsp;<br><i><b>Andrea Felland</b></i> <i>is a student of Comparative Literature at the Université Sorbonne Nouvelle. She lives and works in Paris.</i></p>

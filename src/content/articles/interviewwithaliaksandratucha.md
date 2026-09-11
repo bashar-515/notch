@@ -11,8 +11,7 @@ bio:
 # media pending: picture x10
 ---
 
-<span class="text-primary">*Pillow Fighter*</span>\
-<span class="text-primary">2025</span>
+<p class="text-primary"><i>Pillow Fighter</i><br>2025</p>
 
 These photographed beings of flesh and plastic and shadow are enchanting. That is to say, confronting them, I know I stand on real earth. Language, in its current taken-for-granted and banality-stoking use, does not have the steel clarity to face the fraught social, economic, and soul questions before us—but Aliaksandra Tucha’s photography does.
 
@@ -24,7 +23,7 @@ Tucha knows the weight of vision. Her photographs still us. They beg us to pay t
 
 I caught up with Tucha in her studio in New Haven, Connecticut, where she is now a student at the Yale School of Art.
 
-<p class="text-right">– Carlos Valladares</p>
+<p class="text-right"><i>– Carlos Valladares</i></p>
 
 <p class="text-center">■ ■ ■ ■</p>
 
@@ -35,8 +34,7 @@ I caught up with Tucha in her studio in New Haven, Connecticut, where she is now
 **AT:** A couple of years ago, my approach was much more direct, focusing on specific objects. My frames were tighter. Now, I’m interested in creating a broader image that contains these symbols within it. Take this photograph, for instance—it shows a woman’s hands, a champagne glass. You immediately understand it’s either some sort of a party or a cocktail hour. The class markers are evident—who these people are, what kind of person would make these gestures. It’s all embedded in the image.
 
 
-<span class="text-primary">*Cocktail Hour*</span>\
-<span class="text-primary">2024</span>
+<p class="text-primary"><i>Cocktail Hour</i><br>2024</p>
 
 **CV:** When you photograph, are you conscious of your status as one who is from Belarus, now situated within the U.S.?
 
@@ -63,11 +61,9 @@ I caught up with Tucha in her studio in New Haven, Connecticut, where she is now
 (Aliaksandra now walks me through a picture of her husband’s family.)
 
 
-<span class="text-primary">*The Perfect Family*</span>\
-<span class="text-primary">2024</span>
+<p class="text-primary"><i>The Perfect Family</i><br>2024</p>
 
-<span class="text-primary">*Mother-in-law*</span>\
-<span class="text-primary">2024</span>
+<p class="text-primary"><i>Mother-in-law</i><br>2024</p>
 
 **AT:** This one contains the idea of a picture-perfect family.
 
@@ -82,11 +78,9 @@ I caught up with Tucha in her studio in New Haven, Connecticut, where she is now
 (She gestures to an unpeopled photograph of a sofa, two symmetrical lamps, and a sofa cushion that has been noticeably dented)
 
 
-<span class="text-primary">*A Trivial Pursuit*</span>\
-<span class="text-primary">2024</span>
+<p class="text-primary"><i>A Trivial Pursuit</i><br>2024</p>
 
-<span class="text-primary">*Boy Place Turned into a Girl Place*</span>\
-<span class="text-primary">2023</span>
+<p class="text-primary"><i>Boy Place Turned into a Girl Place</i><br>2023</p>
 
 Same here: it’s more of a functional room [than the family portrait], but still, there are so many elements of communicating codes, as opposed to adhering to pure function.
 
@@ -118,8 +112,7 @@ This is our dinner table. We host game nights and people come and it's just nice
 (Aliaksandra shows me a photograph of the interior of a bathroom, flanked by a hallway. Inside the bathroom, there is a shower. It is bare—except for a hanging swimsuit, and a set of differently gendered cosmetics.)
 
 
-<span class="text-primary">*Still LIfe*</span>\
-<span class="text-primary">2023</span>
+<p class="text-primary"><i>Still LIfe</i><br>2023</p>
 
 This is a set where I was going to take portraits of two young women. And I took this in my partner's apartment. His apartment is very much a “male” apartment, so there was just bareness and men’s cosmetics. So I decided to put in all sorts of objects that I had in my room. And I turned this austere male space into a kind of “female” space. For me, female space is always about some form of clutter and untidiness, but beautiful untidiness. Whereas a male space is always so, so stark, needing such little things.
 
@@ -136,8 +129,7 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 (I point to a still life of flowers, tissues, a coffee cup, and scissors.)
 
 
-<span class="text-primary">*Pills*</span>\
-<span class="text-primary">2024</span>
+<p class="text-primary"><i>Pills</i><br>2024</p>
 
 **CV:** This is just phenomenal. I fucking love this. Like everything: the coffee cup, tissues, scissors, the flowers in a makeshift vase made from a green plastic Pellegrino bottle…
 
@@ -185,8 +177,7 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 (She shows me a photograph of James at their wedding.)
 
 
-<span class="text-primary">*City Hall*</span>\
-<span class="text-primary">2024</span>
+<p class="text-primary"><i>City Hall</i><br>2024</p>
 
 **CV:** I could have sworn this was a checkout counter at a supermarket.
 
@@ -199,8 +190,7 @@ So much of my life is about objects, what they represent, what they mean. Wherea
 (Aliaksandra shows me one final photograph, in black and white, of an interior, with ceiling fan, a crouched male figure, and a half-standing nude female figure).
 
 
-<span class="text-primary">*A Period Drama*</span>\
-<span class="text-primary">2024</span>
+<p class="text-primary"><i>A Period Drama</i><br>2024</p>
 
 **CV:** This is beautiful, the lighting . . . !
 

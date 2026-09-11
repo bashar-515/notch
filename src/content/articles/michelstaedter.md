@@ -40,4 +40,4 @@ Our editors invite us to consider gravity as the language of the relational. Fro
 
 Michelstaedter writes: “Persuaded is *he who has his life within himself.*” Perfect persuasion is unattainable, and perhaps even undesirable—extreme gravitational forces lead to equally extreme collapse and compression. Yet, the individual without any semblance of persuasion—perpetually drifting, always seeking, hollow and shallow—resembles a universe without gravity: unstable, structureless, and ultimately illiterate in the language of the relational. Just like Michelstaedter’s weight, those who move the most may also be those whose motion is the most meaningless.
 
-<span class="text-primary">***Andrea Capra***</span> <span class="text-primary">*is an Assistant Professor of Italian Studies at NYU.*</span>
+<p class="text-primary"><i><b>Andrea Capra</b></i> <i>is an Assistant Professor of Italian Studies at NYU.</i></p>

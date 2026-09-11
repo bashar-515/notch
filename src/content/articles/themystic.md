@@ -149,6 +149,4 @@ She looked up at me, smiling, and briefly, my heart flushed with hope. I prepare
 
 A few days later, I quit. Soon after, I nixed California. I called my mother and asked what color her life was. I borrowed her car and drove down the coast. Working my feet into the sand, I watched the moon gild the waves from Folly Beach in Charleston. I camped in Talladega National Forest and woke up covered in ticks. I teared up reading a poem about a mouse in a Waffle House in Biloxi. Sometimes, in down moments, I would Google “cobalt blue” and scroll through the infinite squares of the color, as if it was a calendar grid of days or a path.
 
- \
- \
-<span class="text-primary">**S**</span><span class="text-primary">***am Schieren's***</span> <span class="text-primary">*stories have been published in The Iowa Review, Wigleaf, Bellevue Literary Review, and Gulf Coast, among other journals. He lives in Richmond, Virginia, and teaches at VCU, where he is the reviews and interviews editor for Blackbird.*</span>
+<p class="text-primary">&nbsp;<br>&nbsp;<br><b>S</b><i><b>am Schieren's</b></i> <i>stories have been published in The Iowa Review, Wigleaf, Bellevue Literary Review, and Gulf Coast, among other journals. He lives in Richmond, Virginia, and teaches at VCU, where he is the reviews and interviews editor for Blackbird.</i></p>

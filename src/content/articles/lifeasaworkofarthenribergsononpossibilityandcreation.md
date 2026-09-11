@@ -52,27 +52,29 @@ Matter is not, therefore, a mere obstacle to the genius’ élan (creative impul
 
 As in the context of artistic creation, possibility is therefore more—and not less—than reality. When we look back and imagine all the other possible outcomes of our life, our intelligence is merely reflecting our present in our past. Since the same antecedents may lead to completely unpredictable outcomes, these outcomes become “possible” once they have been realized in the present. This means that while the past pushes and shapes the present, in turn, the present—through its perpetual novelty—continues to reshape the past. We can conclude, then, that both in art and in life, it is the real that makes the possible, rather than the possible becoming real. By placing the possible where it belongs, Bergson concludes that life “becomes something quite different from the realization of a program; the gates of the future open wide,” offering unlimited fields of freedom<sup>21</sup>
 
-<span class="text-primary"><span class="text-lg"><sup>1</sup></span></span> <span class="text-primary"><span class="text-lg">Sinclair, M. Bergson, London/New York, Routledge, 2020, p. 186.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>2</sup></span></span> <span class="text-primary"><span class="text-lg">Bergson, H. “The Possible and the Real” in</span></span><span class="text-primary"><span class="text-lg">*The Creative Mind*</span></span><span class="text-primary"><span class="text-lg">, trans. Mabelle L. Andison, New York, Dover Publications, p. 43, p. 112. From now on “PR”</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>3</sup></span></span> <span class="text-primary"><span class="text-lg">PR, p. 43, p. 112.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>4</sup></span></span> <span class="text-primary"><span class="text-lg">In this context, Bergson refers to the 17th-century German philosopher Gottfried Leibniz’s rationalist theory, which posits that, according to God’s will, we live in the best of all possible worlds. According to this view, even though we, as finite beings, cannot envision all other possibilities, they should be accessible to an omnipotent intelligence.</span></span><span class="text-primary"><span class="text-lg">*The Creative Mind*</span></span><span class="text-primary"><span class="text-lg">, “Introduction,”, p. 12, p. 13. From now on “PM” in reference to the original title:</span></span><span class="text-primary"><span class="text-lg">*La Pensée et le mouvant*</span></span><span class="text-primary"><span class="text-lg">.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>4</sup></span></span> <span class="text-primary"><span class="text-lg">PR, p. 63, p. 99.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>6</sup></span></span> <span class="text-primary"><span class="text-lg">PR, p. 39, p. 102.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>7</sup></span></span> <span class="text-primary"><span class="text-lg">Bergson, H.</span></span><span class="text-primary"><span class="text-lg">*Creative Evolution*</span></span><span class="text-primary"><span class="text-lg">, Trans. Donald A. Landes, London/New York, Routledge, 2023, pp. 55-56, pp. 6-7. From now on: “EC”.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>8</sup></span></span> <span class="text-primary"><span class="text-lg">PM, p. 8, p. 14.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>9</sup></span></span> <span class="text-primary"><span class="text-lg">PM, p. 14, p. 16 (our italicizing).</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>10</sup></span></span> <span class="text-primary"><span class="text-lg">PM, p. 8, p. 13.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>11</sup></span></span> <span class="text-primary"><span class="text-lg">PR, p. 43, p. 112.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>12</sup></span></span> <span class="text-primary"><span class="text-lg">PR, p. 81, p. 113.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>13</sup></span></span> <span class="text-primary"><span class="text-lg">Bergson, H. “The Intellectual Effort” in Mind Energy, p. 213, p. 175. From now on “EI” in reference to the original title:</span></span><span class="text-primary"><span class="text-lg">*L’effort intellectuel*</span></span><span class="text-primary"><span class="text-lg">.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>14</sup></span></span> <span class="text-primary"><span class="text-lg">EC, p. 38, p. 6 (our italicizing).</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>15</sup></span></span> <span class="text-primary"><span class="text-lg">EC, p. 18, p. 13.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>16</sup></span></span> <span class="text-primary"><span class="text-lg">EI, p. 221, p. 182.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>17</sup></span></span> <span class="text-primary"><span class="text-lg">Berson, H. "Life and consciousness" in</span></span><span class="text-primary"><span class="text-lg">*Mind Energy*</span></span><span class="text-primary"><span class="text-lg">, Trans. H. Wildon Carr, New York, Henry Holt and Company, 1920, pg. 24. From now on "CV" in reference to the original title: "</span></span><span class="text-primary"><span class="text-lg">*La conscience et la vie*</span></span><span class="text-primary"><span class="text-lg">"</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>18</sup></span></span> <span class="text-primary"><span class="text-lg">CV, pp. 28-29, pp. 22-23.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>19</sup></span></span> <span class="text-primary"><span class="text-lg">CV, p. 29, pp. 22-23.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>20</sup></span></span> <span class="text-primary"><span class="text-lg">EC, p. 125, p. 224.</span></span>\
-<span class="text-primary"><span class="text-lg"><sup>21</sup></span></span> <span class="text-primary"><span class="text-lg">PR, p. 72, p. 115.</span></span>
+<div class="mt-12 space-y-1.5">
+<p class="text-primary text-xl leading-none"><sup>1</sup> Sinclair, M. Bergson, London/New York, Routledge, 2020, p. 186.</p>
+<p class="text-primary text-xl leading-none"><sup>2</sup> Bergson, H. “The Possible and the Real” in<i>The Creative Mind</i>, trans. Mabelle L. Andison, New York, Dover Publications, p. 43, p. 112. From now on “PR”</p>
+<p class="text-primary text-xl leading-none"><sup>3</sup> PR, p. 43, p. 112.</p>
+<p class="text-primary text-xl leading-none"><sup>4</sup> In this context, Bergson refers to the 17th-century German philosopher Gottfried Leibniz’s rationalist theory, which posits that, according to God’s will, we live in the best of all possible worlds. According to this view, even though we, as finite beings, cannot envision all other possibilities, they should be accessible to an omnipotent intelligence.<i>The Creative Mind</i>, “Introduction,”, p. 12, p. 13. From now on “PM” in reference to the original title:<i>La Pensée et le mouvant</i>.</p>
+<p class="text-primary text-xl leading-none"><sup>4</sup> PR, p. 63, p. 99.</p>
+<p class="text-primary text-xl leading-none"><sup>6</sup> PR, p. 39, p. 102.</p>
+<p class="text-primary text-xl leading-none"><sup>7</sup> Bergson, H.<i>Creative Evolution</i>, Trans. Donald A. Landes, London/New York, Routledge, 2023, pp. 55-56, pp. 6-7. From now on: “EC”.</p>
+<p class="text-primary text-xl leading-none"><sup>8</sup> PM, p. 8, p. 14.</p>
+<p class="text-primary text-xl leading-none"><sup>9</sup> PM, p. 14, p. 16 (our italicizing).</p>
+<p class="text-primary text-xl leading-none"><sup>10</sup> PM, p. 8, p. 13.</p>
+<p class="text-primary text-xl leading-none"><sup>11</sup> PR, p. 43, p. 112.</p>
+<p class="text-primary text-xl leading-none"><sup>12</sup> PR, p. 81, p. 113.</p>
+<p class="text-primary text-xl leading-none"><sup>13</sup> Bergson, H. “The Intellectual Effort” in Mind Energy, p. 213, p. 175. From now on “EI” in reference to the original title:<i>L’effort intellectuel</i>.</p>
+<p class="text-primary text-xl leading-none"><sup>14</sup> EC, p. 38, p. 6 (our italicizing).</p>
+<p class="text-primary text-xl leading-none"><sup>15</sup> EC, p. 18, p. 13.</p>
+<p class="text-primary text-xl leading-none"><sup>16</sup> EI, p. 221, p. 182.</p>
+<p class="text-primary text-xl leading-none"><sup>17</sup> Berson, H. "Life and consciousness" in<i>Mind Energy</i>, Trans. H. Wildon Carr, New York, Henry Holt and Company, 1920, pg. 24. From now on "CV" in reference to the original title: "<i>La conscience et la vie</i>"</p>
+<p class="text-primary text-xl leading-none"><sup>18</sup> CV, pp. 28-29, pp. 22-23.</p>
+<p class="text-primary text-xl leading-none"><sup>19</sup> CV, p. 29, pp. 22-23.</p>
+<p class="text-primary text-xl leading-none"><sup>20</sup> EC, p. 125, p. 224.</p>
+<p class="text-primary text-xl leading-none"><sup>21</sup> PR, p. 72, p. 115.</p>
+</div>
 
  \
 **Errata:**\
