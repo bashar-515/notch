@@ -56,7 +56,7 @@ const { title, heading, contributors, content } = Astro.props;
         return (
           <>
             {i > 0 && " / "}{" "}
-            <Tag href={entry.href}>
+            <Tag href={entry.href} class={entry.href && "hover:text-primary"}>
               {entry.title.startsWith('"') ? entry.title : <i>{entry.title}</i>}
               , {entry.author}
             </Tag>
