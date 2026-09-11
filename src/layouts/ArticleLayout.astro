@@ -1,12 +1,16 @@
 ---
-import type { CollectionEntry } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "./Layout.astro";
 
 type Props = CollectionEntry<"articles">["data"];
+const { title, author, issue, bio, related } = Astro.props;
 
 const issueNames = { "001": "Potential Energy", "002": "Gravity" };
 
-const { title, author, issue, bio } = Astro.props;
+const articles = await getCollection("articles");
+const relatedArticles = related.flatMap((id) =>
+  articles.filter((article) => article.id === id),
+);
 ---
 
 <Layout title={title}>
@@ -47,6 +51,21 @@ const { title, author, issue, bio } = Astro.props;
         class="hover:bg-primary hover:border-primary rounded-lg border border-black bg-black px-2 py-1 text-2xl tracking-widest text-white italic"
         >subscribe</a
       >
+
+      <ul
+        class="text-primary mt-6 w-full list-none divide-y divide-black border-t border-black text-right text-2xl"
+      >
+        {
+          relatedArticles.map((article) => (
+            <li class="py-2">
+              <a href={`/${article.id}/`}>
+                <p class="italic">{article.data.title}</p>
+                <p>by {article.data.author}</p>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
     </div>
   </div>
 </Layout>
