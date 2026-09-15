@@ -1,12 +1,31 @@
 ---
-import { Image } from "astro:assets";
-import type { ImageMetadata } from "astro";
 import type { Product as ProductType } from "../types";
 import Product from "../components/Product.astro";
 import Layout from "../layouts/Layout.astro";
-import Logos from "../components/Logos.astro";
 
 const products: ProductType[] = [
+  {
+    name: "ISSUE 004: IF/ELSE",
+    descriptionParagraphs: ["Hello, World!"],
+    coverCredit: "FIRST LAST",
+    price: 29,
+    stripeUrl: "https://buy.stripe.com/28E5kD63kddWfkV0Pi9ws08",
+    images: [
+      "/shop/004/1.png",
+      "/shop/004/2.png",
+      "/shop/004/3.png",
+      "/shop/004/4.png",
+      "/shop/004/5.png",
+      "/shop/004/6.png",
+      "/shop/004/7.png",
+      "/shop/004/8.png",
+      "/shop/004/9.png",
+      "/shop/004/10.png",
+      "/shop/004/11.png",
+      "/shop/004/12.png",
+    ],
+    isIssue: true,
+  },
   {
     name: "SUBSCRIPTION",
     descriptionParagraphs: [
