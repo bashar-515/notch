@@ -10,11 +10,11 @@ const issues: { front: string; back: string; href?: string }[] = [
 ---
 
 <Layout title="issues">
-  <div class="p-frame flex items-center justify-between">
+  <div class="p-frame my-auto grid grid-cols-4 gap-x-10 gap-y-20">
     {
       issues.map((issue) => (
         <div class="flex flex-col gap-10">
-          <div class="group relative w-100 shadow-2xl">
+          <div class="group relative shadow-2xl">
             <img src={issue.front} />
 
             <img
