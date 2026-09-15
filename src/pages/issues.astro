@@ -1,11 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-const issues: { front: string; back: string; href?: string }[] = [
+const issues: {
+  front: string;
+  back: string;
+  href?: string;
+  preorder?: boolean;
+}[] = [
   { front: "/001_front.webp", back: "/001_back.webp", href: "/issue001/" },
   { front: "/002_front.webp", back: "/002_back.webp", href: "/issue002/" },
   { front: "/003_front.jpg", back: "/003_back.jpg" },
-  { front: "/004_front.webp", back: "/004_back.webp" },
+  { front: "/004_front.webp", back: "/004_back.webp", preorder: true },
 ];
 ---
 
@@ -31,7 +36,7 @@ const issues: { front: string; back: string; href?: string }[] = [
                 issue.href ? "px-4" : "px-10",
               ]}
             >
-              order
+              {issue.preorder ? "preorder" : "order"}
             </a>
 
             {issue.href && (
