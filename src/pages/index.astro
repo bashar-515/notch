@@ -21,10 +21,14 @@ import Logos from "../components/Logos.astro";
       class="bg-secondary flex h-[75vh] flex-col items-center justify-center gap-14 px-120 text-center text-4xl"
     >
       <p>
-        <span class="block">Notch is a literary and arts magazine</span>
-        <span class="block">based in New York and Paris. We</span>
-        <span class="block">publish biannually in print and online.</span>
-        <span class="block"
+        <span class="block" data-reveal
+          >Notch is a literary and arts magazine</span
+        >
+        <span class="block" data-reveal>based in New York and Paris. We</span>
+        <span class="block" data-reveal
+          >publish biannually in print and online.</span
+        >
+        <span class="block" data-reveal
           >Subscribe <a
             href="/shop"
             class="hover:text-primary underline decoration-1 underline-offset-8"
@@ -34,8 +38,28 @@ import Logos from "../components/Logos.astro";
       </p>
 
       <p>
-        <span class="block">Submissions are currently closed.</span>
+        <span class="block" data-reveal>Submissions are currently closed.</span>
       </p>
     </div>
   </div>
 </Layout>
+
+<script>
+  const lines = document.querySelectorAll<HTMLElement>("[data-reveal]");
+
+  const update = () => {
+    const revealY = 0.75 * window.innerHeight;
+    const band = 0.15 * window.innerHeight;
+
+    for (const line of lines) {
+      const { top } = line.getBoundingClientRect();
+      line.style.opacity = String(
+        Math.min(1, Math.max(0, (revealY - top) / band)),
+      );
+    }
+  };
+
+  update();
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update, { passive: true });
+</script>
