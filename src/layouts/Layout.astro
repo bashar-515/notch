@@ -60,6 +60,9 @@ const footerLinksByColumn: Link[][] = [
   </head>
 
   <body class={Astro.url.pathname === "/" ? undefined : "bg-secondary"}>
+    <div class="border-primary pointer-events-none fixed inset-0 z-10 border-8">
+    </div>
+
     <div class="flex min-h-dvh flex-col">
       <header
         data-home={Astro.url.pathname === "/" || undefined}
