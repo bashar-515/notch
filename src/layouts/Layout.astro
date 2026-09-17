@@ -127,7 +127,7 @@ const footerLinksByColumn: Link[][] = [
       class="bg-tertiary font-times grid grid-cols-3 items-center px-24 py-6"
     >
       <div class="flex">
-        <a href="/"
+        <a href="/" data-footer-logo
           ><Logo
             class="hover:text-secondary h-32 w-auto text-white transition-colors duration-200"
           /></a
@@ -262,6 +262,23 @@ const footerLinksByColumn: Link[][] = [
     update();
 
     window.addEventListener("scroll", update, { passive: true });
+  }
+</script>
+
+<script>
+  const logo = document.querySelector<HTMLElement>("[data-footer-logo]");
+
+  if (logo) {
+    const update = () => {
+      const { top, height } = logo.getBoundingClientRect();
+      logo.style.opacity = String(
+        Math.min(1, Math.max(0, (window.innerHeight - top) / height)),
+      );
+    };
+
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update, { passive: true });
   }
 </script>
 
