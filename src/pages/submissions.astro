@@ -23,6 +23,7 @@ import Layout from "../layouts/Layout.astro";
       netlify
       class="flex w-100 flex-col gap-1"
     >
+      <input type="hidden" name="form-name" value="subscribe" />
       <input
         type="email"
         name="email"
@@ -31,7 +32,7 @@ import Layout from "../layouts/Layout.astro";
       />
       <button
         type="submit"
-        class="text-primary bg-primary text-secondary hover:text-secondary rounded-sm py-4 transition-colors duration-200 duration-300 hover:bg-[rgb(101,101,101)]"
+        class="text-primary bg-primary text-secondary hover:text-secondary cursor-pointer rounded-sm py-4 transition-colors duration-200 duration-300 hover:bg-[rgb(101,101,101)]"
         >Sign up</button
       >
     </form>

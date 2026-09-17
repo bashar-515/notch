@@ -178,6 +178,7 @@ const footerLinksByColumn: Link[][] = [
         netlify
         class="flex flex-col gap-1 justify-self-end"
       >
+        <input type="hidden" name="form-name" value="subscribe" />
         <p class="px-2 text-lg italic">Sign up to receive news and updates</p>
 
         <input
@@ -188,7 +189,7 @@ const footerLinksByColumn: Link[][] = [
         />
         <button
           type="submit"
-          class="hover:bg-secondary text-primary rounded-sm bg-white py-1 transition-colors duration-200"
+          class="hover:bg-secondary text-primary cursor-pointer rounded-sm bg-white py-1 transition-colors duration-200"
           >Sign up</button
         >
       </form>
@@ -285,6 +286,29 @@ const footerLinksByColumn: Link[][] = [
     update();
     window.addEventListener("scroll", update, { passive: true });
     window.addEventListener("resize", update, { passive: true });
+  }
+</script>
+
+<script>
+  for (const form of document.querySelectorAll<HTMLFormElement>(
+    "form[name=subscribe]",
+  )) {
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const button = form.querySelector("button")!;
+      button.disabled = true;
+      button.classList.add("animate-pulse");
+
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams([...new FormData(form)] as string[][]),
+      });
+
+      button.classList.remove("animate-pulse");
+      if (response.ok) button.textContent = "Thank you";
+      else button.disabled = false;
+    });
   }
 </script>
 
