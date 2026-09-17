@@ -190,7 +190,7 @@ const footerLinksByColumn: Link[][] = [
         data-netlify="true"
         class="flex flex-col gap-1 justify-self-end"
       >
-        <input type="hidden" name="form-name" value="subscribe" />
+        <input type="hidden" name="form-name" value="subscribe-footer" />
         <p class="px-2 text-lg italic">Sign up to receive news and updates</p>
 
         <input
@@ -303,7 +303,7 @@ const footerLinksByColumn: Link[][] = [
 
 <script>
   for (const form of document.querySelectorAll<HTMLFormElement>(
-    "form[name=subscribe]",
+    "form[name^=subscribe]",
   )) {
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
