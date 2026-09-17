@@ -5,6 +5,23 @@ import Layout from "../layouts/Layout.astro";
 
 const products: ProductType[] = [
   {
+    name: "SUBSCRIPTION",
+    descriptionParagraphs: [
+      "Subscribe now to secure ISSUE 003: CURRENTS.",
+      "Your subscription continues with each biannual release moving forward.",
+      "Subscribers receive complimentary access to Notch events in New York, Paris, and London.",
+    ],
+    price: "$40/year",
+    buttonText: "subscribe",
+    stripeUrl: "https://buy.stripe.com/5kAcMY4iX5V24z6eUU",
+    images: [
+      "/shop/subscription/1.jpg",
+      "/shop/subscription/2.jpg",
+      "/shop/subscription/3.jpg",
+      "/shop/subscription/4.jpg",
+    ],
+  },
+  {
     name: "ISSUE 004: IF/ELSE",
     descriptionParagraphs: ["Hello, World!"],
     coverCredit: "FIRST LAST",
@@ -26,23 +43,6 @@ const products: ProductType[] = [
       "/shop/004/12.png",
     ],
     isIssue: true,
-  },
-  {
-    name: "SUBSCRIPTION",
-    descriptionParagraphs: [
-      "Subscribe now to secure ISSUE 003: CURRENTS.",
-      "Your subscription continues with each biannual release moving forward.",
-      "Subscribers receive complimentary access to Notch events in New York, Paris, and London.",
-    ],
-    price: "$40/year",
-    buttonText: "subscribe",
-    stripeUrl: "https://buy.stripe.com/5kAcMY4iX5V24z6eUU",
-    images: [
-      "/shop/subscription/1.jpg",
-      "/shop/subscription/2.jpg",
-      "/shop/subscription/3.jpg",
-      "/shop/subscription/4.jpg",
-    ],
   },
   {
     name: "ISSUE 003: CURRENTS",
