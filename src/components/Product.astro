@@ -53,19 +53,18 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       ]}
     >
       {
-        product.images.map((image) => (
-          <Image
-            src={images[`../assets${image}`].default}
-            alt={product.name}
-            width={1600}
-            class:list={[
-              "h-full w-full shrink-0 snap-start",
-              product.fit === "cover" || !product.isIssue
-                ? "object-cover"
-                : "object-contain",
-            ]}
-          />
-        ))
+        product.images.map((image) =>
+          product.isIssue ? (
+            <div class="w-full shrink-0 snap-start" />
+          ) : (
+            <Image
+              src={images[`../assets${image}`].default}
+              alt={product.name}
+              width={1600}
+              class="h-full w-full shrink-0 snap-start object-cover"
+            />
+          ),
+        )
       }
     </div>
 

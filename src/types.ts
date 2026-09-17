@@ -9,7 +9,6 @@ export type Product = {
   stripeUrl: string;
   images: string[];
   isIssue?: boolean;
-  fit?: "cover";
 };
 
 export type Content = {
