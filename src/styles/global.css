@@ -20,6 +20,10 @@ body {
   --font-times: "Times New Roman", Times, serif;
   --font-georgia: Georgia, serif;
 
+  --text-statement: 2.5rem;
+  --text-statement--line-height: 1.2;
+  --text-statement--letter-spacing: -0.04em;
+
   --shadow-cover: 2rem 2rem 2rem -1rem rgb(0 0 0 / 0.5);
   --shadow-left: -2rem 0 2rem -1rem rgb(0 0 0 / 0.5);
   --shadow-right: 2rem 0 2rem -1rem rgb(0 0 0 / 0.5);
