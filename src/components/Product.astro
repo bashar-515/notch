@@ -53,7 +53,10 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       ]}
     >
       {
-        product.images.map((image) =>
+        (product.isIssue
+          ? [product.images[0], ...product.images.slice(1).sort()]
+          : product.images
+        ).map((image) =>
           product.isIssue ? (
             <div class="flex w-full shrink-0 snap-start items-center justify-center py-10">
               <Image
