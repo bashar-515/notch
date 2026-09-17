@@ -55,7 +55,14 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       {
         product.images.map((image) =>
           product.isIssue ? (
-            <div class="w-full shrink-0 snap-start" />
+            <div class="flex w-full shrink-0 snap-start items-center justify-center py-10">
+              <Image
+                src={images[`../assets${image}`].default}
+                alt={product.name}
+                width={1600}
+                class="h-full w-auto"
+              />
+            </div>
           ) : (
             <Image
               src={images[`../assets${image}`].default}
