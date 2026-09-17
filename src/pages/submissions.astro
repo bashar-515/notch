@@ -17,17 +17,23 @@ import Layout from "../layouts/Layout.astro";
       > to be notified when submissions reopen.
     </p>
 
-    <div class="flex w-100 flex-col gap-1">
+    <form
+      name="subscribe"
+      method="POST"
+      netlify
+      class="flex w-100 flex-col gap-1"
+    >
       <input
         type="email"
+        name="email"
         placeholder="Email"
         class="border-primary rounded-sm border px-6 py-4 focus:outline-none"
       />
       <button
-        type="button"
+        type="submit"
         class="text-primary bg-primary text-secondary hover:text-secondary rounded-sm py-4 transition-colors duration-200 duration-300 hover:bg-[rgb(101,101,101)]"
         >Sign up</button
       >
-    </div>
+    </form>
   </div>
 </Layout>
