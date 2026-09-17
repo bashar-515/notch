@@ -97,7 +97,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       class="pointer-events-none absolute bottom-5 left-1/2 flex -translate-x-1/2 gap-2 opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100"
     >
       {
-        product.images.map((_, i) => (
+        product.images.map(() => (
           <button
             type="button"
             class="dot h-3 w-3 rounded-full border border-white [&:not(.bg-white)]:cursor-pointer"
