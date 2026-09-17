@@ -19,6 +19,10 @@ body {
   --font-sans: "ABC Gravity", sans-serif;
   --font-times: "Times New Roman", Times, serif;
   --font-georgia: Georgia, serif;
+
+  --shadow-cover: 2rem 2rem 2rem -1rem rgb(0 0 0 / 0.5);
+  --shadow-left: -2rem 0 2rem -1rem rgb(0 0 0 / 0.5);
+  --shadow-right: 2rem 0 2rem -1rem rgb(0 0 0 / 0.5);
 }
 
 :root {
