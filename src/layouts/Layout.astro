@@ -103,13 +103,22 @@ const footerLinksByColumn: Link[][] = [
             navLinks.map((link) => (
               <a
                 href={link.href}
+                data-title={link.href === "/" || undefined}
                 class={
                   link.href === "/"
-                    ? "font-sans text-6xl"
+                    ? "relative font-sans text-6xl"
                     : `font-sans text-3xl ${Astro.url.pathname === link.href ? "" : "decoration-1 underline-offset-4 hover:underline"}`
                 }
               >
                 {link.label}
+                {link.href === "/" && (
+                  <span
+                    class="text-secondary absolute inset-0"
+                    aria-hidden="true"
+                  >
+                    {link.label}
+                  </span>
+                )}
               </a>
             ))
           }
@@ -310,6 +319,32 @@ const footerLinksByColumn: Link[][] = [
       else button.disabled = false;
     });
   }
+</script>
+
+<script>
+  const title = document.querySelector<HTMLElement>("[data-title]")!;
+  const overlay = title.querySelector<HTMLElement>("span")!;
+  const sections = document.querySelectorAll("[data-dark]");
+
+  const update = () => {
+    const t = title.getBoundingClientRect();
+    let top = 100;
+    let bottom = 0;
+
+    for (const section of sections) {
+      const r = section.getBoundingClientRect();
+      if (r.bottom > t.top && r.top < t.bottom) {
+        top = (Math.max(0, r.top - t.top) / t.height) * 100;
+        bottom = (Math.max(0, t.bottom - r.bottom) / t.height) * 100;
+      }
+    }
+
+    overlay.style.clipPath = `inset(${top}% 0 ${bottom}% 0)`;
+  };
+
+  update();
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update, { passive: true });
 </script>
 
 <style>
