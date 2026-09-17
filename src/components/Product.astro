@@ -59,19 +59,31 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
         ).map((image, i) =>
           product.isIssue ? (
             <div class="flex w-full shrink-0 snap-start items-center justify-center py-12">
-              <Image
-                src={images[`../assets${image}`].default}
-                alt={product.name}
-                width={1600}
-                class:list={[
-                  "h-full w-auto",
-                  i === 0
-                    ? "shadow-cover"
-                    : i % 2
-                      ? "shadow-left"
-                      : "shadow-right",
-                ]}
-              />
+              <div class="relative h-full">
+                <Image
+                  src={images[`../assets${image}`].default}
+                  alt={product.name}
+                  width={1600}
+                  class:list={[
+                    "h-full w-auto",
+                    i === 0
+                      ? "shadow-cover"
+                      : i % 2
+                        ? "shadow-left"
+                        : "shadow-right",
+                  ]}
+                />
+                {i > 0 && (
+                  <div
+                    class:list={[
+                      "pointer-events-none absolute inset-y-0 w-1/12",
+                      i % 2
+                        ? "right-1/2 bg-linear-to-l from-black/15 to-transparent"
+                        : "left-1/2 bg-linear-to-r from-black/15 to-transparent",
+                    ]}
+                  />
+                )}
+              </div>
             </div>
           ) : (
             <Image
