@@ -80,7 +80,10 @@ const relatedArticles = related.flatMap((id) =>
           {
             relatedArticles.map((article) => (
               <li class="py-2">
-                <a href={`/${article.id}/`} class="flex flex-col gap-3">
+                <a
+                  href={`/${article.id}/`}
+                  class="flex flex-col gap-3 hover:text-black"
+                >
                   <p class="italic">{article.data.title}</p>
                   <p>by {article.data.author}</p>
                 </a>
