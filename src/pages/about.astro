@@ -46,7 +46,18 @@ const people: Person[] = [
   <div
     class="bg-primary font-times flex flex-col gap-14 px-32 py-28 text-2xl leading-none text-white"
   >
-    <h2 class="font-sans text-7xl tracking-widest">MASTHEAD</h2>
+    <h2 class="group font-sans text-7xl tracking-widest" data-masthead>
+      {
+        "MASTHEAD".split("").map((letter, i) => (
+          <span
+            class="opacity-0 transition-none duration-300 ease-in-out group-data-inview:opacity-100 group-data-inview:transition-opacity motion-reduce:group-data-inview:transition-none"
+            style={`transition-delay: ${i * 100}ms`}
+          >
+            {letter}
+          </span>
+        ))
+      }
+    </h2>
 
     <div
       class="grid grid-cols-[auto_auto_auto] justify-between gap-x-14 gap-y-14"
@@ -64,3 +75,14 @@ const people: Person[] = [
     <p class="italic">For inquiries: editors@notch.ink.</p>
   </div>
 </Layout>
+
+<script>
+  const heading = document.querySelector<HTMLElement>("[data-masthead]");
+
+  if (heading) {
+    new IntersectionObserver(([entry]) => {
+      if (entry!.isIntersecting) heading.dataset.inview = "";
+      else delete heading.dataset.inview;
+    }).observe(heading);
+  }
+</script>
