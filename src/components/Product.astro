@@ -8,7 +8,7 @@ type Props = { product: Product; idx: number };
 const { product, idx } = Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "../assets/{shop,donate}/**/*.{jpg,png}",
+  "../assets/{shop,donate,magazines}/**/*.{jpg,png}",
   { eager: true },
 );
 ---
