@@ -237,15 +237,17 @@ const posters: {
         <form
           name="subscribe-events"
           method="POST"
+          novalidate
           data-netlify="true"
           class="flex w-100 flex-col gap-1"
         >
           <input type="hidden" name="form-name" value="subscribe-events" />
           <input
             type="email"
+            required
             name="email"
             placeholder="Email"
-            class="border-primary rounded-sm border px-6 py-4 focus:outline-none"
+            class="border-primary rounded-sm border px-6 py-4 focus:outline-none aria-invalid:ring-2 aria-invalid:ring-red-500"
           />
           <button
             type="submit"
