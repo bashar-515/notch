@@ -401,6 +401,10 @@ const footerLinksByColumn: Link[][] = [
 <!-- </style> -->
 
 <script>
+  document.addEventListener("touchstart", () => {}, { passive: true });
+</script>
+
+<script>
   const pill = document.querySelector<HTMLElement>("[data-substack]");
 
   if (pill) {

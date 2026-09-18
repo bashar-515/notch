@@ -14,6 +14,8 @@ type Event = {
   coverImage: string;
   collageImagesByColumn: string[][];
   href?: string;
+  /** Phone collage grid: rows of `rowHeight` rem, columns scroll sideways */
+  mobile: { rows: number; rowHeight: number };
 };
 
 const events: Event[] = [
@@ -26,6 +28,7 @@ const events: Event[] = [
       ["/events/003/col-3/1.jpg"],
     ],
     href: "/issue003release/",
+    mobile: { rows: 2, rowHeight: 12 },
   },
   {
     name: "issue 002: gravity launch, nyc",
@@ -38,6 +41,7 @@ const events: Event[] = [
       ["/events/002/col-5/1.jpg", "/events/002/col-5/2.jpg"],
     ],
     href: "/issue002release/",
+    mobile: { rows: 2, rowHeight: 20 },
   },
   {
     name: "notch x color of sound, atelier, paris",
@@ -65,6 +69,7 @@ const events: Event[] = [
       ],
     ],
     href: "/gravityatelier",
+    mobile: { rows: 3, rowHeight: 11 },
   },
   {
     name: "notch magazine launch, nyc",
@@ -92,8 +97,14 @@ const events: Event[] = [
       ],
     ],
     href: "/issue001launch",
+    mobile: { rows: 3, rowHeight: 11 },
   },
 ];
+
+const collageStyle = ({ mobile, collageImagesByColumn }: Event) => {
+  const first = images[`../assets${collageImagesByColumn[0][0]}`].default;
+  return `--rows: repeat(${mobile.rows}, minmax(0, 1fr)); --h: ${mobile.rows * mobile.rowHeight}rem; --col: ${(mobile.rowHeight * first.width) / first.height}rem`;
+};
 
 const posters: {
   image: string;
@@ -101,30 +112,87 @@ const posters: {
   height: number;
   zoom?: boolean;
   href?: string;
+  /** Phone grid placement: rows of 3, 2, 3 posters */
+  mobile: string;
 }[] = [
-  { image: "/events/1.png", width: 512, height: 689 },
-  { image: "/events/2.jpg", width: 533, height: 689 },
-  { image: "/events/3.png", width: 528, height: 695 },
-  { image: "/events/4.jpg", width: 561, height: 702, zoom: true },
-  { image: "/events/5.jpg", width: 507, height: 720, href: "/issue001launch" },
-  { image: "/events/6.png", width: 510, height: 717 },
-  { image: "/events/7.jpg", width: 705, height: 720 },
-  { image: "/events/8.jpg", width: 510, height: 717, href: "/gravityatelier" },
+  {
+    image: "/events/1.png",
+    width: 512,
+    height: 689,
+    mobile:
+      "max-md:col-span-2 max-md:col-start-3 max-md:row-start-1 max-md:h-60",
+  },
+  {
+    image: "/events/2.jpg",
+    width: 533,
+    height: 689,
+    mobile:
+      "max-md:col-span-2 max-md:col-start-1 max-md:row-start-1 max-md:h-60",
+  },
+  {
+    image: "/events/3.png",
+    width: 528,
+    height: 695,
+    mobile:
+      "max-md:col-span-2 max-md:col-start-5 max-md:row-start-1 max-md:h-60",
+  },
+  {
+    image: "/events/4.jpg",
+    width: 561,
+    height: 702,
+    zoom: true,
+    mobile:
+      "max-md:col-span-3 max-md:col-start-4 max-md:row-start-2 max-md:h-92",
+  },
+  {
+    image: "/events/5.jpg",
+    width: 507,
+    height: 720,
+    href: "/issue001launch",
+    mobile:
+      "max-md:col-span-2 max-md:col-start-1 max-md:row-start-3 max-md:h-64",
+  },
+  {
+    image: "/events/6.png",
+    width: 510,
+    height: 717,
+    mobile:
+      "max-md:col-span-2 max-md:col-start-3 max-md:row-start-3 max-md:h-64",
+  },
+  {
+    image: "/events/7.jpg",
+    width: 705,
+    height: 720,
+    mobile:
+      "max-md:col-span-2 max-md:col-start-5 max-md:row-start-3 max-md:h-64",
+  },
+  {
+    image: "/events/8.jpg",
+    width: 510,
+    height: 717,
+    href: "/gravityatelier",
+    mobile:
+      "max-md:col-span-3 max-md:col-start-1 max-md:row-start-2 max-md:h-92",
+  },
 ];
 ---
 
 <Layout title="events">
-  <div class="bg-primary isolate flex flex-col">
-    <Logos />
+  <div class="bg-primary max-md:bg-secondary isolate flex flex-col">
+    <div class="max-md:hidden">
+      <Logos />
+    </div>
 
-    <div class="bg-secondary px-frame divide-primary min-h-dvh divide-y pb-10">
+    <div
+      class="bg-secondary px-frame divide-primary min-h-dvh divide-y pb-10 max-md:min-h-0 max-md:divide-y-0 max-md:px-0 max-md:pb-0"
+    >
       {
         events.map((event) => (
-          <div class="group/event flex py-18 first:-mt-4 even:flex-row-reverse">
+          <div class="group/event flex py-18 first:-mt-4 even:flex-row-reverse max-md:-mt-px max-md:py-0 max-md:first:mt-0">
             {event.href ? (
               <a
                 href={event.href}
-                class="w-96 shrink-0 transition-opacity duration-200 hover:opacity-75"
+                class="w-96 shrink-0 transition-opacity duration-200 hover:opacity-75 active:opacity-75 max-md:hidden max-md:transition-none"
               >
                 <Image
                   src={images[`../assets${event.coverImage}`].default}
@@ -138,30 +206,33 @@ const posters: {
                 src={images[`../assets${event.coverImage}`].default}
                 alt={event.name}
                 width={800}
-                class="aspect-[7/10] w-96 object-cover"
+                class="aspect-[7/10] w-96 object-cover max-md:hidden"
               />
             )}
 
             {event.href ? (
-              <div class="rotate-0 self-center py-7 text-3xl leading-none italic [writing-mode:vertical-rl] group-even/event:rotate-180">
+              <div class="rotate-0 self-center py-7 text-3xl leading-none italic [writing-mode:vertical-rl] group-even/event:rotate-180 max-md:hidden">
                 <a href={event.href} class="hover:text-primary">
                   {event.name}
                 </a>
               </div>
             ) : (
-              <div class="rotate-0 self-center py-7 text-3xl leading-none italic [writing-mode:vertical-rl] group-even/event:rotate-180">
+              <div class="rotate-0 self-center py-7 text-3xl leading-none italic [writing-mode:vertical-rl] group-even/event:rotate-180 max-md:hidden">
                 {event.name}
               </div>
             )}
 
-            <div class="flex flex-1">
+            <div
+              class="flex flex-1 max-md:grid max-md:h-(--h) max-md:auto-cols-(--col) max-md:grid-flow-col max-md:grid-rows-(--rows) max-md:overflow-x-auto max-md:[scrollbar-width:none]"
+              style={collageStyle(event)}
+            >
               {event.collageImagesByColumn.map((column) => (
-                <div class="flex min-w-0 flex-1 flex-col">
+                <div class="flex min-w-0 flex-1 flex-col max-md:contents">
                   {column.map((image) =>
                     event.href ? (
                       <a
                         href={event.href}
-                        class="min-h-0 w-full flex-1 transition-opacity duration-200 hover:opacity-75"
+                        class="min-h-0 w-full flex-1 transition-opacity duration-200 hover:opacity-75 active:opacity-75 max-md:transition-none max-md:only:row-span-2"
                       >
                         <Image
                           src={images[`../assets${image}`].default}
@@ -175,7 +246,7 @@ const posters: {
                         src={images[`../assets${image}`].default}
                         alt={event.name}
                         width={500}
-                        class="min-h-0 w-full flex-1 object-cover"
+                        class="min-h-0 w-full flex-1 object-cover max-md:h-full max-md:only:row-span-2"
                       />
                     ),
                   )}
@@ -186,15 +257,22 @@ const posters: {
         ))
       }
     </div>
-    <div data-dark class="h-28"></div>
-    <div class="bg-secondary px-frame min-h-dvh pb-36">
-      <div class="flex flex-wrap justify-center gap-x-11 gap-y-7 pt-24">
+    <div data-dark class="h-28 max-md:hidden"></div>
+    <div
+      class="bg-secondary px-frame min-h-dvh pb-36 max-md:order-first max-md:min-h-0 max-md:px-0 max-md:pb-0"
+    >
+      <div
+        class="flex flex-wrap justify-center gap-x-11 gap-y-7 pt-24 max-md:grid max-md:grid-cols-6 max-md:gap-0"
+      >
         {
           posters.map((poster, i) =>
             poster.href ? (
               <a
                 href={poster.href}
-                class="overflow-hidden shadow-xl transition-opacity duration-200 hover:opacity-75"
+                class:list={[
+                  "overflow-hidden shadow-xl transition-opacity duration-200 hover:opacity-75 active:opacity-75 max-md:shadow-none max-md:transition-none",
+                  poster.mobile,
+                ]}
               >
                 <Image
                   src={images[`../assets${poster.image}`].default}
@@ -202,21 +280,26 @@ const posters: {
                   width={poster.width}
                   height={poster.height}
                   class:list={[
-                    "w-auto",
+                    "w-auto max-md:h-full max-md:w-full max-md:object-cover",
                     i < 4 ? "h-88" : "h-92",
                     poster.zoom && "scale-150",
                   ]}
                 />
               </a>
             ) : (
-              <div class="overflow-hidden shadow-xl">
+              <div
+                class:list={[
+                  "overflow-hidden shadow-xl max-md:shadow-none",
+                  poster.mobile,
+                ]}
+              >
                 <Image
                   src={images[`../assets${poster.image}`].default}
                   alt="Notch event poster"
                   width={poster.width}
                   height={poster.height}
                   class:list={[
-                    "w-auto",
+                    "w-auto max-md:h-full max-md:w-full max-md:object-cover",
                     i < 4 ? "h-88" : "h-92",
                     poster.zoom && "scale-150",
                   ]}
@@ -228,9 +311,11 @@ const posters: {
       </div>
 
       <div
-        class="border-primary mx-21 mt-28 flex flex-col items-center gap-18 border-t pt-18"
+        class="border-primary mx-21 mt-28 flex flex-col items-center gap-18 border-t pt-18 max-md:mx-0 max-md:mt-0 max-md:gap-20 max-md:border-5 max-md:pt-24 max-md:pb-20"
       >
-        <p class="text-statement px-80 text-center">
+        <p
+          class="text-statement px-80 text-center max-md:px-24 max-md:text-3xl"
+        >
           Join our newsletter and be the first to hear about exclusive events.
         </p>
 
@@ -239,7 +324,7 @@ const posters: {
           method="POST"
           novalidate
           data-netlify="true"
-          class="flex w-100 flex-col gap-1"
+          class="flex w-100 flex-col gap-1 max-md:gap-2"
         >
           <input type="hidden" name="form-name" value="subscribe-events" />
           <input
