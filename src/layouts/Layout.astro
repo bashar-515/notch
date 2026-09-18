@@ -50,7 +50,7 @@ const footerLinksByColumn: Link[][] = [
 ];
 ---
 
-<html lang="en" class="bg-primary">
+<html lang="en" class="bg-primary max-md:overflow-x-hidden">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -67,7 +67,12 @@ const footerLinksByColumn: Link[][] = [
     <title>{title ? `Notch Magazine — ${title}` : "Notch Magazine"}</title>
   </head>
 
-  <body class={Astro.url.pathname === "/" ? undefined : "bg-secondary"}>
+  <body
+    class:list={[
+      "max-md:overflow-x-clip",
+      Astro.url.pathname !== "/" && "bg-secondary",
+    ]}
+  >
     <div
       class="border-primary pointer-events-none fixed inset-0 z-10 border-[0.5rem]"
     >
