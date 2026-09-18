@@ -60,7 +60,9 @@ const footerLinksByColumn: Link[][] = [
   </head>
 
   <body class={Astro.url.pathname === "/" ? undefined : "bg-secondary"}>
-    <div class="border-primary pointer-events-none fixed inset-0 z-10 border-8">
+    <div
+      class="border-primary pointer-events-none fixed inset-0 z-10 border-[0.5rem]"
+    >
     </div>
 
     <div class="flex min-h-dvh flex-col">
@@ -68,36 +70,38 @@ const footerLinksByColumn: Link[][] = [
         data-home={Astro.url.pathname === "/" || undefined}
         data-fade={fadeHeader || undefined}
         class:list={[
-          "group inset-x-0 top-0 z-1 data-[home=true]:opacity-0",
+          "group inset-x-0 top-0 z-20 data-[home=true]:top-2 data-[home=true]:z-1 data-[home=true]:opacity-0",
           overlayHeader ? "fixed" : "sticky",
           Astro.slots.has("header") && "bg-secondary",
         ]}
       >
-        <a
-          href="https://notchmagazine.substack.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="bg-primary text-secondary block overflow-hidden py-2 text-xl font-medium whitespace-nowrap select-none"
-        >
-          <div class="marquee flex w-max">
-            {
-              [0, 1].map((half) => (
-                <div class="flex" aria-hidden={half === 1}>
-                  {Array.from({ length: 10 }).map(() => (
-                    <span class="flex items-center gap-1 px-12">
-                      <img
-                        src="/substack.png"
-                        alt=""
-                        class="h-[1.5em] w-auto"
-                      />
-                      NOTCH IS NOW ON SUBSTACK
-                    </span>
-                  ))}
-                </div>
-              ))
-            }
-          </div>
-        </a>
+        {
+          Astro.url.pathname !== "/" && (
+            <a
+              href="https://notchmagazine.substack.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-primary text-secondary block overflow-hidden py-2 text-xl font-medium whitespace-nowrap select-none"
+            >
+              <div class="marquee flex w-max">
+                {[0, 1].map((half) => (
+                  <div class="flex" aria-hidden={half === 1}>
+                    {Array.from({ length: 10 }).map(() => (
+                      <span class="flex items-center gap-1 px-12">
+                        <img
+                          src="/substack.png"
+                          alt=""
+                          class="h-[1.5em] w-auto"
+                        />
+                        NOTCH IS NOW ON SUBSTACK
+                      </span>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </a>
+          )
+        }
 
         <nav
           class="text-primary group-data-[home=true]:bg-secondary flex items-center justify-between px-27 py-3"
