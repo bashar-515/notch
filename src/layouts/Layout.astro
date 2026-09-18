@@ -101,6 +101,8 @@ const footerLinksByColumn: Link[][] = [
             "group inset-x-0",
             overlayHeader ? "fixed" : "sticky",
             banner ? "top-0 z-20" : "top-2 z-1 max-md:top-0",
+            "max-md:pt-3",
+            !home && "max-md:bg-white",
           ]}
         >
           {
@@ -133,7 +135,10 @@ const footerLinksByColumn: Link[][] = [
 
           <div class:list={[Astro.slots.has("header") && "bg-secondary mx-2"]}>
             <nav
-              class="text-primary relative flex items-center justify-between px-27 py-3 max-md:px-6 max-md:pt-6"
+              class:list={[
+                "text-primary relative flex items-center justify-between px-27 py-3 max-md:px-6 max-md:pt-6",
+                !home && "max-md:bg-secondary max-md:shadow-md",
+              ]}
             >
               <div
                 data-nav-fade
@@ -256,7 +261,7 @@ const footerLinksByColumn: Link[][] = [
 
     <details class="group/menu peer md:hidden">
       <summary
-        class="text-primary pointer-events-none absolute inset-x-0 top-0 z-40 flex list-none items-center justify-between px-6 pt-6 pb-3 [&::-webkit-details-marker]:hidden"
+        class="text-primary pointer-events-none absolute inset-x-0 top-0 z-40 flex list-none items-center justify-between px-6 pt-9 pb-3 [&::-webkit-details-marker]:hidden"
       >
         <span
           class="invisible font-sans text-6xl text-white group-open/menu:visible"
@@ -275,7 +280,7 @@ const footerLinksByColumn: Link[][] = [
     </details>
 
     <div
-      class="menu-panel bg-tertiary pointer-events-none absolute inset-0 z-30 flex touch-none flex-col px-6 pt-6 pb-10 opacity-0 transition-opacity duration-400 peer-open:pointer-events-auto peer-open:opacity-100 md:hidden"
+      class="menu-panel bg-tertiary pointer-events-none absolute inset-0 z-30 flex touch-none flex-col px-6 pt-9 pb-10 opacity-0 transition-opacity duration-400 peer-open:pointer-events-auto peer-open:opacity-100 md:hidden"
     >
       <div class="invisible pb-3 font-sans text-6xl" aria-hidden="true">
         NOTCH MAGAZINE
@@ -444,7 +449,12 @@ const footerLinksByColumn: Link[][] = [
 
     scroller.addEventListener("scroll", update, { passive: true });
     window.addEventListener("resize", update, { passive: true });
-  } else if (nav) {
+  } else if (
+    nav &&
+    matchMedia(
+      `(width >= ${getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-md")})`,
+    ).matches
+  ) {
     const progress = (px: number) => {
       const l = Math.min(
         1,
