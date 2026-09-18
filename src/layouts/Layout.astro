@@ -76,6 +76,19 @@ const footerLinksByColumn: Link[][] = [
     />
 
     <title>{title ? `Notch Magazine — ${title}` : "Notch Magazine"}</title>
+
+    <script
+      is:inline
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-B6JXG3C0K3"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-B6JXG3C0K3");
+    </script>
   </head>
 
   <body
