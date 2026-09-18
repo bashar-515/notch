@@ -10,5 +10,6 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 
+  site: "https://notch.ink",
   integrations: [mdx(), sitemap()],
 });
