@@ -13,12 +13,21 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 );
 ---
 
-<div class:list={["flex gap-14", idx % 2 === 1 && "flex-row-reverse"]}>
+<div
+  class:list={[
+    "flex gap-14 max-md:flex-col max-md:gap-6",
+    idx % 2 === 1 && "flex-row-reverse",
+  ]}
+>
   <div class="flex flex-col">
     <div class="flex flex-col gap-5">
-      <h2 class="text-3xl leading-none font-medium">{product.name}</h2>
+      <h2 class="text-3xl leading-none font-medium max-md:text-4xl">
+        {product.name}
+      </h2>
 
-      <p class="font-times text-xl leading-none whitespace-pre-line">
+      <p
+        class="font-times text-xl leading-none whitespace-pre-line max-md:text-2xl"
+      >
         <Fragment set:html={product.descriptionParagraphs.join("\n\n")} />
         {
           product.coverCredit && (
@@ -29,27 +38,34 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
         }
       </p>
     </div>
-    <p class="mt-auto text-3xl leading-none font-medium">
-      {
-        typeof product.price === "number"
-          ? `$${product.price.toLocaleString("en-US")}`
-          : product.price
-      }
-    </p>
-
-    <a
-      href={product.stripeUrl}
-      class="font-times hover:text-primary border-primary bg-primary mt-3 mr-auto rounded-sm border px-3 py-1 text-xl text-white hover:bg-white"
+    <div
+      class="mt-auto flex flex-col max-md:mt-18 max-md:flex-row max-md:items-center max-md:justify-end max-md:gap-3"
     >
-      {product.buttonText ?? "buy now"}
-    </a>
+      <p class="text-3xl leading-none font-medium max-md:text-4xl">
+        {
+          typeof product.price === "number"
+            ? `$${product.price.toLocaleString("en-US")}`
+            : product.price
+        }
+      </p>
+
+      <a
+        href={product.stripeUrl}
+        class="font-times hover:text-primary border-primary bg-primary mt-3 mr-auto rounded-sm border px-3 py-1 text-xl text-white hover:bg-white max-md:mt-0 max-md:mr-0 max-md:py-2.5 max-md:text-2xl"
+      >
+        {product.buttonText ?? "buy now"}
+      </a>
+    </div>
   </div>
 
-  <div class="group/carousel relative w-252 shrink-0">
+  <div
+    class="group/carousel relative w-252 shrink-0 max-md:order-first max-md:w-full"
+  >
     <div
       class:list={[
         "bg-tertiary flex snap-x snap-mandatory overflow-x-hidden rounded-sm [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
         product.isIssue ? "aspect-[5/3]" : "aspect-[15/8]",
+        "max-md:aspect-[2/1]",
       ]}
     >
       {
@@ -58,7 +74,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
           : product.images
         ).map((image, i) =>
           product.isIssue ? (
-            <div class="flex w-full shrink-0 snap-start items-center justify-center py-12">
+            <div class="flex w-full shrink-0 snap-start items-center justify-center py-12 max-md:py-4">
               <div class="relative h-full">
                 <Image
                   src={images[`../assets${image}`].default}
@@ -100,20 +116,20 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     <button
       type="button"
       id={`prev-${idx}`}
-      class="hover:text-secondary pointer-events-none absolute top-1/2 left-5 -translate-y-1/2 cursor-pointer font-[system-ui] text-5xl text-white opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100"
+      class="hover:text-secondary pointer-events-none absolute top-1/2 left-5 -translate-y-1/2 cursor-pointer font-[system-ui] text-5xl text-white opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100 max-md:pointer-events-auto max-md:opacity-100"
     >
       ◀
     </button>
     <button
       type="button"
       id={`next-${idx}`}
-      class="hover:text-secondary pointer-events-none absolute top-1/2 right-5 -translate-y-1/2 cursor-pointer font-[system-ui] text-5xl text-white opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100"
+      class="hover:text-secondary pointer-events-none absolute top-1/2 right-5 -translate-y-1/2 cursor-pointer font-[system-ui] text-5xl text-white opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100 max-md:pointer-events-auto max-md:opacity-100"
     >
       ▶
     </button>
 
     <div
-      class="pointer-events-none absolute bottom-5 left-1/2 flex -translate-x-1/2 gap-2 opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100"
+      class="pointer-events-none absolute bottom-5 left-1/2 flex -translate-x-1/2 gap-2 opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100 max-md:pointer-events-auto max-md:opacity-100"
     >
       {
         product.images.map(() => (

@@ -150,7 +150,9 @@ const products: ProductType[] = [
 ---
 
 <Layout title="shop">
-  <div class="p-frame flex flex-col gap-26">
+  <div
+    class="p-frame flex flex-col gap-26 max-md:gap-16 max-md:px-8 max-md:pt-40 max-md:pb-16"
+  >
     {products.map((product, idx) => <Product product={product} idx={idx} />)}
   </div>
 </Layout>
