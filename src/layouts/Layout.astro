@@ -284,11 +284,25 @@ const footerLinksByColumn: Link[][] = [
           class="invisible font-sans text-6xl text-white group-open/menu:visible"
           >NOTCH MAGAZINE</span
         >
-        <Menu
-          class="pointer-events-auto h-8 w-10 cursor-pointer group-open/menu:hidden"
-          preserveAspectRatio="none"
-          aria-label="Open menu"
-        />
+        <span
+          class="pointer-events-auto relative cursor-pointer group-open/menu:hidden"
+        >
+          <Menu
+            class="h-8 w-10"
+            preserveAspectRatio="none"
+            aria-label="Open menu"
+          />
+          {
+            home && (
+              <Menu
+                data-menu
+                class="text-secondary absolute inset-0 h-8 w-10"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+              />
+            )
+          }
+        </span>
         <Close
           class="pointer-events-auto hidden size-14 cursor-pointer text-white group-open/menu:block"
           aria-label="Close menu"
@@ -573,9 +587,10 @@ const footerLinksByColumn: Link[][] = [
   const title = document.querySelector<HTMLElement>("[data-title]")!;
   const overlay = title.querySelector<HTMLElement>("span")!;
   const sections = document.querySelectorAll("[data-dark]");
+  const menu = document.querySelector<HTMLElement>("[data-menu]");
 
-  const update = () => {
-    const t = title.getBoundingClientRect();
+  const clip = (el: HTMLElement) => {
+    const t = el.getBoundingClientRect();
     let top = 100;
     let bottom = 0;
 
@@ -587,7 +602,12 @@ const footerLinksByColumn: Link[][] = [
       }
     }
 
-    overlay.style.clipPath = `inset(${top}% 0 ${bottom}% 0)`;
+    return `inset(${top}% 0 ${bottom}% 0)`;
+  };
+
+  const update = () => {
+    overlay.style.clipPath = clip(title);
+    if (menu) menu.style.clipPath = clip(menu);
   };
 
   update();
