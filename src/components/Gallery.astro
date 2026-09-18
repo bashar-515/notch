@@ -19,11 +19,11 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   <div
     data-frame
     tabindex="0"
-    class="relative w-full cursor-none group-data-open/gallery:min-h-0 group-data-open/gallery:flex-1 focus:outline-none"
+    class="relative w-full cursor-none group-data-open/gallery:min-h-0 group-data-open/gallery:flex-1 focus:outline-none max-md:touch-pan-y"
   >
     <div
       data-slides
-      class="relative aspect-[7/5] group-data-open/gallery:aspect-auto group-data-open/gallery:h-full"
+      class="relative aspect-[7/5] group-data-open/gallery:aspect-auto group-data-open/gallery:h-full max-md:aspect-square"
     >
       {
         items.map((item, i) => (
@@ -32,7 +32,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
             alt=""
             width={1600}
             class:list={[
-              "absolute inset-0 h-full w-full object-contain transition-opacity duration-700",
+              "absolute inset-0 h-full w-full object-contain transition-opacity duration-700 group-data-instant/gallery:transition-none",
               i === 0 ? "opacity-100" : "opacity-0",
             ]}
           />
@@ -53,7 +53,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       type="button"
       data-fullscreen
       aria-label="View fullscreen"
-      class="absolute top-0 right-0 cursor-pointer p-3 opacity-0 transition-opacity duration-200 group-focus-within/gallery:opacity-100 group-hover/gallery:opacity-100 group-data-open/gallery:hidden"
+      class="absolute top-0 right-0 cursor-pointer p-3 opacity-0 transition-opacity duration-200 group-focus-within/gallery:opacity-100 group-hover/gallery:opacity-100 group-data-open/gallery:hidden max-md:opacity-100"
     >
       <svg
         viewBox="0 0 24 24"
@@ -72,7 +72,15 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 
   {
     items.length > 1 && (
-      <div class="flex gap-2 text-black opacity-0 transition-opacity duration-200 group-focus-within/gallery:opacity-100 group-hover/gallery:opacity-100 group-data-open/gallery:text-white">
+      <div class="relative flex gap-2 text-black opacity-0 transition-opacity duration-200 group-focus-within/gallery:opacity-100 group-hover/gallery:opacity-100 group-data-open/gallery:w-full group-data-open/gallery:justify-center group-data-open/gallery:text-white max-md:opacity-100">
+        <button
+          type="button"
+          data-close
+          aria-label="Close"
+          class="font-times absolute top-1/2 left-6 hidden -translate-y-1/2 cursor-pointer text-3xl leading-none group-data-open/gallery:max-md:block"
+        >
+          ←
+        </button>
         {items.map(() => (
           <button
             type="button"
@@ -95,9 +103,10 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 </div>
 
 <script>
-  const pageScroller = document.querySelector<HTMLElement>(
-    "[data-pageScroller]",
-  )!;
+  const pageScroller = document.querySelector<HTMLElement>("[data-scroller]")!;
+  const desktop = matchMedia(
+    `(width >= ${getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-md")})`,
+  ).matches;
 
   const autoplay = !window.matchMedia("(prefers-reduced-motion: reduce)")
     .matches;
@@ -191,30 +200,63 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       cursor.hidden = false;
     };
 
-    window.addEventListener("pointermove", (event) => {
-      pointer = { clientX: event.clientX, clientY: event.clientY };
-      place();
-    });
-    window.addEventListener("scroll", place, { passive: true });
-    pageScroller.addEventListener("scroll", place, { passive: true });
-    window.addEventListener("resize", place);
-    for (const img of scroller.querySelectorAll("img")) {
-      img.addEventListener("load", place);
-    }
-    document.addEventListener("pointerleave", () => {
-      pointer = null;
-      place();
-    });
-    frame.addEventListener("click", (event) => {
-      if (fullscreen.contains(event.target as Node) || !overPicture(event))
-        return;
-      go(isLeft(event) ? -1 : 1);
-    });
     const setOpen = (open: boolean) => {
       root.toggleAttribute("data-open", open);
+      document.documentElement.toggleAttribute("data-overlay", open);
       document.body.classList.toggle("overflow-hidden", open);
       go(0);
     };
+    root
+      .querySelector("[data-close]")
+      ?.addEventListener("click", () => setOpen(false));
+
+    if (desktop) {
+      window.addEventListener("pointermove", (event) => {
+        pointer = { clientX: event.clientX, clientY: event.clientY };
+        place();
+      });
+      window.addEventListener("scroll", place, { passive: true });
+      pageScroller.addEventListener("scroll", place, { passive: true });
+      window.addEventListener("resize", place);
+      for (const img of scroller.querySelectorAll("img")) {
+        img.addEventListener("load", place);
+      }
+      document.addEventListener("pointerleave", () => {
+        pointer = null;
+        place();
+      });
+      frame.addEventListener("click", (event) => {
+        if (fullscreen.contains(event.target as Node) || !overPicture(event))
+          return;
+        go(isLeft(event) ? -1 : 1);
+      });
+    } else {
+      const swipe = 40;
+      let startX: number | null = null;
+
+      frame.addEventListener("pointerdown", (event) => {
+        startX = event.clientX;
+      });
+      frame.addEventListener("pointerup", (event) => {
+        if (startX === null) return;
+        const dx = event.clientX - startX;
+        startX = null;
+
+        if (Math.abs(dx) > swipe) {
+          root.setAttribute("data-instant", "");
+          go(dx < 0 ? 1 : -1);
+          void getComputedStyle(scroller.children[index]!).opacity;
+          root.removeAttribute("data-instant");
+          start();
+        } else if (
+          root.hasAttribute("data-open") &&
+          !fullscreen.contains(event.target as Node) &&
+          !overPicture(event)
+        ) {
+          setOpen(false);
+        }
+      });
+    }
     fullscreen.addEventListener("click", () => setOpen(true));
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape" && root.hasAttribute("data-open"))

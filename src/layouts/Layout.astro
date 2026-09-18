@@ -272,11 +272,13 @@ const footerLinksByColumn: Link[][] = [
           >
         </form>
       </footer>
+
+      <slot name="toolbar" />
     </div>
 
     <details class="group/menu peer md:hidden">
       <summary
-        class="text-primary pointer-events-none absolute inset-x-0 top-0 z-40 flex list-none items-center justify-between px-6 pt-6 pb-3 [&::-webkit-details-marker]:hidden"
+        class="text-primary pointer-events-none absolute inset-x-0 top-0 z-40 flex list-none items-center justify-between px-6 pt-6 pb-3 [&::-webkit-details-marker]:hidden [[data-overlay]_&]:hidden"
       >
         <span
           class="invisible font-sans text-6xl text-white group-open/menu:visible"
