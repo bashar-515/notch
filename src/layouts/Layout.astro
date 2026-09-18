@@ -69,7 +69,7 @@ const footerLinksByColumn: Link[][] = [
 
   <body
     class:list={[
-      "max-md:overflow-x-clip",
+      "max-md:h-dvh max-md:overflow-hidden max-md:bg-white",
       Astro.url.pathname !== "/" && "bg-secondary",
     ]}
   >
@@ -78,153 +78,159 @@ const footerLinksByColumn: Link[][] = [
     >
     </div>
 
-    <div class="flex min-h-dvh flex-col">
-      <header
-        data-home={Astro.url.pathname === "/" || undefined}
-        data-fade={fadeHeader || undefined}
-        class:list={[
-          "group inset-x-0 data-[home=true]:opacity-0",
-          overlayHeader ? "fixed" : "sticky",
-          banner ? "top-0 z-20" : "top-2 z-1",
-        ]}
-      >
-        {
-          banner && (
-            <a
-              href="https://notchmagazine.substack.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="bg-primary text-secondary block overflow-hidden py-2 text-xl font-medium whitespace-nowrap select-none"
-            >
-              <div class="marquee flex w-max">
-                {[0, 1].map((half) => (
-                  <div class="flex" aria-hidden={half === 1}>
-                    {Array.from({ length: 10 }).map(() => (
-                      <span class="flex items-center gap-1 px-12">
-                        <img
-                          src="/substack.png"
-                          alt=""
-                          class="h-[1.5em] w-auto"
-                        />
-                        NOTCH IS NOW ON SUBSTACK
-                      </span>
-                    ))}
-                  </div>
-                ))}
-              </div>
-            </a>
-          )
-        }
-
-        <div class:list={[Astro.slots.has("header") && "bg-secondary mx-2"]}>
-          <nav
-            class="text-primary group-data-[home=true]:bg-secondary flex items-center justify-between px-27 py-3"
-          >
-            {
-              navLinks.map((link) => (
-                <a
-                  href={link.href}
-                  data-title={link.href === "/" || undefined}
-                  class={
-                    link.href === "/"
-                      ? "relative font-sans text-6xl"
-                      : `font-sans text-3xl ${Astro.url.pathname === link.href ? "" : "decoration-1 underline-offset-4 hover:underline"}`
-                  }
-                >
-                  {link.label}
-                  {link.href === "/" && (
-                    <span
-                      class="text-secondary absolute inset-0"
-                      aria-hidden="true"
-                    >
-                      {link.label}
-                    </span>
-                  )}
-                </a>
-              ))
-            }
-          </nav>
-
-          <slot name="header" />
-        </div>
-      </header>
-
-      <main class="flex flex-1 flex-col">
-        <slot />
-      </main>
-    </div>
-
-    <footer
-      class="bg-tertiary font-times grid grid-cols-3 items-center px-24 py-6"
+    <div
+      class="max-md:bg-primary max-md:isolate max-md:h-dvh max-md:overflow-x-hidden max-md:overflow-y-auto max-md:overscroll-y-contain"
     >
-      <div class="flex">
-        <a href="/" data-footer-logo
-          ><Logo
-            class="hover:text-secondary h-32 w-auto text-white transition-colors duration-200"
-          /></a
+      <div
+        class:list={["flex min-h-dvh flex-col", !home && "max-md:bg-secondary"]}
+      >
+        <header
+          data-home={Astro.url.pathname === "/" || undefined}
+          data-fade={fadeHeader || undefined}
+          class:list={[
+            "group inset-x-0 data-[home=true]:opacity-0",
+            overlayHeader ? "fixed" : "sticky",
+            banner ? "top-0 z-20" : "top-2 z-1",
+          ]}
         >
-
-        <div class="ml-auto flex gap-4 self-center">
           {
-            footerLinksByColumn.map((column) => (
-              <div class="flex flex-col gap-2">
-                {column.map((link) => (
+            banner && (
+              <a
+                href="https://notchmagazine.substack.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-primary text-secondary block overflow-hidden py-2 text-xl font-medium whitespace-nowrap select-none max-md:hidden"
+              >
+                <div class="marquee flex w-max">
+                  {[0, 1].map((half) => (
+                    <div class="flex" aria-hidden={half === 1}>
+                      {Array.from({ length: 10 }).map(() => (
+                        <span class="flex items-center gap-1 px-12">
+                          <img
+                            src="/substack.png"
+                            alt=""
+                            class="h-[1.5em] w-auto"
+                          />
+                          NOTCH IS NOW ON SUBSTACK
+                        </span>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              </a>
+            )
+          }
+
+          <div class:list={[Astro.slots.has("header") && "bg-secondary mx-2"]}>
+            <nav
+              class="text-primary group-data-[home=true]:bg-secondary flex items-center justify-between px-27 py-3"
+            >
+              {
+                navLinks.map((link) => (
                   <a
                     href={link.href}
-                    class="text-primary hover:text-secondary text-lg font-bold"
+                    data-title={link.href === "/" || undefined}
+                    class={
+                      link.href === "/"
+                        ? "relative font-sans text-6xl"
+                        : `font-sans text-3xl ${Astro.url.pathname === link.href ? "" : "decoration-1 underline-offset-4 hover:underline"}`
+                    }
                   >
                     {link.label}
+                    {link.href === "/" && (
+                      <span
+                        class="text-secondary absolute inset-0"
+                        aria-hidden="true"
+                      >
+                        {link.label}
+                      </span>
+                    )}
                   </a>
-                ))}
-              </div>
-            ))
-          }
-        </div>
+                ))
+              }
+            </nav>
+
+            <slot name="header" />
+          </div>
+        </header>
+
+        <main class="flex flex-1 flex-col">
+          <slot />
+        </main>
       </div>
 
-      <div class="text-center">
-        <div class="m-8 flex justify-center gap-6">
-          <a
-            href="https://www.instagram.com/notch.magazine/"
-            rel="noopener noreferrer"
-            class="hover:text-secondary font-bold text-white transition-colors duration-200"
-            ><Instagram class="h-7 w-auto" /></a
-          >
-          <a
-            href="https://x.com/notch_magazine"
-            rel="noopener noreferrer"
-            class="hover:text-secondary text-white transition-colors duration-200"
-            ><X class="h-7 w-auto" /></a
-          >
-        </div>
-
-        <p class="text-lg">
-          © <span class="italic">2026, Notch Magazine, LLC</span>
-        </p>
-      </div>
-
-      <form
-        name="subscribe-footer"
-        method="POST"
-        data-netlify="true"
-        class="flex flex-col gap-1 justify-self-end"
+      <footer
+        class="bg-tertiary font-times grid grid-cols-3 items-center px-24 py-6"
       >
-        <input type="hidden" name="form-name" value="subscribe-footer" />
-        <p class="px-2 text-lg italic">Sign up to receive news and updates</p>
+        <div class="flex">
+          <a href="/" data-footer-logo
+            ><Logo
+              class="hover:text-secondary h-32 w-auto text-white transition-colors duration-200"
+            /></a
+          >
 
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          class="border-secondary rounded-sm border px-6 py-1 focus:outline-none"
-        />
-        <button
-          type="submit"
-          class="hover:bg-secondary text-primary cursor-pointer rounded-sm bg-white py-1 transition-colors duration-200"
-          >Sign up</button
+          <div class="ml-auto flex gap-4 self-center">
+            {
+              footerLinksByColumn.map((column) => (
+                <div class="flex flex-col gap-2">
+                  {column.map((link) => (
+                    <a
+                      href={link.href}
+                      class="text-primary hover:text-secondary text-lg font-bold"
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+              ))
+            }
+          </div>
+        </div>
+
+        <div class="text-center">
+          <div class="m-8 flex justify-center gap-6">
+            <a
+              href="https://www.instagram.com/notch.magazine/"
+              rel="noopener noreferrer"
+              class="hover:text-secondary font-bold text-white transition-colors duration-200"
+              ><Instagram class="h-7 w-auto" /></a
+            >
+            <a
+              href="https://x.com/notch_magazine"
+              rel="noopener noreferrer"
+              class="hover:text-secondary text-white transition-colors duration-200"
+              ><X class="h-7 w-auto" /></a
+            >
+          </div>
+
+          <p class="text-lg">
+            © <span class="italic">2026, Notch Magazine, LLC</span>
+          </p>
+        </div>
+
+        <form
+          name="subscribe-footer"
+          method="POST"
+          data-netlify="true"
+          class="flex flex-col gap-1 justify-self-end"
         >
-      </form>
-    </footer>
+          <input type="hidden" name="form-name" value="subscribe-footer" />
+          <p class="px-2 text-lg italic">Sign up to receive news and updates</p>
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="border-secondary rounded-sm border px-6 py-1 focus:outline-none"
+          />
+          <button
+            type="submit"
+            class="hover:bg-secondary text-primary cursor-pointer rounded-sm bg-white py-1 transition-colors duration-200"
+            >Sign up</button
+          >
+        </form>
+      </footer>
+    </div>
 
     {
       !banner && (
