@@ -134,7 +134,9 @@ const footerLinksByColumn: Link[][] = [
             )
           }
 
-          <div class:list={[Astro.slots.has("header") && "bg-secondary mx-2"]}>
+          <div
+            class:list={[Astro.slots.has("header") && "bg-secondary md:mx-2"]}
+          >
             <nav
               class:list={[
                 "text-primary relative flex items-center justify-between px-27 py-3 max-md:px-6 max-md:pt-6",

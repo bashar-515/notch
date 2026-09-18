@@ -19,13 +19,29 @@ type Props = {
 };
 
 const { title, heading, contributors, content, columns, cards } = Astro.props;
+
+const ratio = (item: Thumbnail) =>
+  "image" in item
+    ? images[`../assets${item.image}`]!.default.height /
+      images[`../assets${item.image}`]!.default.width
+    : cards === "filled"
+      ? 4 / 3
+      : 9 / 8;
+
+const mobileColumns: Thumbnail[][] = [[], [], []];
+const heights = [0, 0, 0];
+for (const item of columns.flat()) {
+  const i = heights.indexOf(Math.min(...heights));
+  mobileColumns[i]!.push(item);
+  heights[i]! += ratio(item);
+}
 ---
 
 <Layout title={title}>
   <div
     slot="header"
     data-issue-header
-    class="relative mt-10 flex flex-col gap-3 pb-2"
+    class="relative mt-10 flex flex-col gap-3 pb-2 max-md:hidden"
   >
     <div
       data-issue-shadow
@@ -51,13 +67,30 @@ const { title, heading, contributors, content, columns, cards } = Astro.props;
     </div>
   </div>
 
+  <div class="flex flex-col items-center gap-9 px-8 pt-32 md:hidden">
+    <h1
+      class="text-center [font-feature-settings:'ss05'] text-5xl leading-none font-medium tracking-tighter"
+    >
+      {heading}
+    </h1>
+
+    <a
+      href="/shop"
+      class="hover:bg-primary hover:border-primary rounded-lg border border-black bg-black px-6 py-2 text-xl tracking-widest text-white italic"
+      >subscribe</a
+    >
+  </div>
+
   <ul
-    class="list-none columns-3 px-36 pt-24 text-center text-3xl leading-tight"
+    class="list-none columns-3 px-36 pt-24 text-center text-3xl leading-tight max-md:columns-2 max-md:px-3 max-md:pt-11 max-md:text-2xl"
   >
     {contributors.map((contributor) => <li>{contributor}</li>)}
   </ul>
 
-  <div data-tracks class="grid grid-cols-5 items-start gap-9 px-36 pt-36">
+  <div
+    data-tracks="desktop"
+    class="grid grid-cols-5 items-start gap-9 px-36 pt-36 max-md:hidden"
+  >
     {
       columns.map((column) => (
         <div data-track class="flex flex-col gap-6">
@@ -104,7 +137,56 @@ const { title, heading, contributors, content, columns, cards } = Astro.props;
     }
   </div>
 
-  <p class="font-times p-36 text-justify text-xl leading-tight">
+  <div
+    data-tracks="mobile"
+    class="grid grid-cols-3 items-start gap-8 px-8 pt-16 md:hidden"
+  >
+    {
+      mobileColumns.map((column) => (
+        <div data-track class="flex flex-col gap-6">
+          {column.map((item) => {
+            const Tag = item.href ? "a" : "div";
+            return (
+              <Tag href={item.href} class="hover:opacity-75 active:opacity-75">
+                {"image" in item ? (
+                  <Image
+                    src={images[`../assets${item.image}`]!.default}
+                    alt=""
+                    class="h-auto w-full"
+                  />
+                ) : (
+                  <div
+                    class:list={[
+                      "border-primary font-times flex flex-col border-2",
+                      cards === "filled"
+                        ? "bg-primary text-secondary aspect-[3/4] pr-3 text-lg leading-tight italic"
+                        : "aspect-[8/9] justify-between bg-white p-3 text-sm leading-none",
+                    ]}
+                  >
+                    <span class:list={{ uppercase: cards === "filled" }}>
+                      {item.title}
+                    </span>
+                    <span
+                      class:list={[
+                        "self-end text-right",
+                        { "my-auto": cards === "filled" },
+                      ]}
+                    >
+                      {item.author}
+                    </span>
+                  </div>
+                )}
+              </Tag>
+            );
+          })}
+        </div>
+      ))
+    }
+  </div>
+
+  <p
+    class="font-times p-36 text-justify text-xl leading-tight max-md:px-8 max-md:py-16 max-md:text-2xl"
+  >
     {
       content.map((entry, i) => {
         const Tag = entry.href ? "a" : "span";
@@ -124,51 +206,65 @@ const { title, heading, contributors, content, columns, cards } = Astro.props;
 </Layout>
 
 <script>
-  const scroller = document.querySelector<HTMLElement>("[data-scroller]")!;
+  const desktop = matchMedia(
+    `(width >= ${getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-md")})`,
+  ).matches;
 
-  const block = document.querySelector<HTMLElement>("[data-issue-header]")!;
-  const shadow = document.querySelector<HTMLElement>("[data-issue-shadow]")!;
-  const grid = document.querySelector<HTMLElement>("[data-tracks]")!;
-  const tracks = [...grid.querySelectorAll<HTMLElement>("[data-track]")];
+  {
+    const scroller = document.querySelector<HTMLElement>("[data-scroller]")!;
 
-  const progress = (px: number) => {
-    const l = Math.min(
-      1,
-      Math.max(0, (window.scrollY + scroller.scrollTop) / px),
-    );
-    return l < 0.5 ? 2 * l * l : 2 * l * (2 - l) - 1;
-  };
+    const block = document.querySelector<HTMLElement>("[data-issue-header]")!;
+    const shadow = document.querySelector<HTMLElement>("[data-issue-shadow]")!;
+    const grid = document.querySelector<HTMLElement>(
+      `[data-tracks="${desktop ? "desktop" : "mobile"}"]`,
+    )!;
+    const tracks = [...grid.querySelectorAll<HTMLElement>("[data-track]")];
 
-  let margin = 0;
-  const overlap = 12;
+    const progress = (px: number) => {
+      const l = Math.min(
+        1,
+        Math.max(0, (window.scrollY + scroller.scrollTop) / px),
+      );
+      return l < 0.5 ? 2 * l * l : 2 * l * (2 - l) - 1;
+    };
 
-  const measure = () => {
-    block.style.marginTop = "";
-    margin = parseFloat(getComputedStyle(block).marginTop);
-  };
+    let margin = 0;
+    const overlap = 12;
 
-  const update = () => {
-    const p = progress(300);
-    block.style.marginTop = `${margin * (1 - p) - overlap * p}px`;
-    shadow.style.opacity = String(p);
+    const measure = () => {
+      if (!desktop) return;
+      block.style.marginTop = "";
+      margin = parseFloat(getComputedStyle(block).marginTop);
+    };
 
-    const { top, height } = grid.getBoundingClientRect();
-    const t = Math.min(1, Math.max(0, (window.innerHeight / 2 - top) / height));
-    const tallest = Math.max(...tracks.map((track) => track.offsetHeight));
+    const update = () => {
+      if (desktop) {
+        const p = progress(300);
+        block.style.marginTop = `${margin * (1 - p) - overlap * p}px`;
+        shadow.style.opacity = String(p);
+      }
 
-    for (const track of tracks) {
-      track.style.transform = `translateY(${t * (tallest - track.offsetHeight)}px)`;
-    }
-  };
+      const { top, height } = grid.getBoundingClientRect();
+      const t = Math.min(
+        1,
+        Math.max(0, (window.innerHeight / 2 - top) / height),
+      );
+      const tallest = Math.max(...tracks.map((track) => track.offsetHeight));
 
-  measure();
-  update();
+      for (const track of tracks) {
+        track.style.transform = `translateY(${t * (tallest - track.offsetHeight)}px)`;
+      }
+    };
 
-  window.addEventListener("scroll", update, { passive: true });
-
-  scroller.addEventListener("scroll", update, { passive: true });
-  window.addEventListener("resize", () => {
     measure();
     update();
-  });
+
+    window.addEventListener("scroll", update, { passive: true });
+
+    scroller.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", () => {
+      measure();
+      update();
+    });
+  }
 </script>
