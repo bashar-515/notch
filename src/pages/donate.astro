@@ -36,8 +36,10 @@ const products: ProductType[] = [
 ---
 
 <Layout title="support">
-  <div class="p-frame">
-    <p class="text-statement text-justify">
+  <div class="p-frame max-md:px-8 max-md:pt-38 max-md:pb-12">
+    <p
+      class="text-statement text-justify max-md:px-6 max-md:text-center max-md:text-3xl"
+    >
       Notch Magazine is an independent publication devoted to de-siloing the
       creative arts and publishing ambitious work across all artistic genres.
       Produced by a team of volunteers, Notch remains unaffiliated with any
@@ -46,13 +48,15 @@ const products: ProductType[] = [
       becoming a Friend of Notch or a Lifetime Subscriber.
     </p>
 
-    <div class="mt-28 mb-36 flex flex-col gap-26">
+    <div
+      class="mt-28 mb-36 flex flex-col gap-26 max-md:mt-16 max-md:mb-18 max-md:gap-16"
+    >
       {products.map((product, idx) => <Product product={product} idx={idx} />)}
     </div>
 
-    <hr class="border-primary mx-auto mb-14 w-3/4 border-t" />
+    <hr class="border-primary mx-auto mb-14 w-3/4 border-t max-md:w-full" />
 
-    <p class="text-statement px-93 text-center">
+    <p class="text-statement px-93 text-center max-md:px-24 max-md:text-3xl">
       Looking to advertise or partner with us? <a
         href="mailto:editors@notch.ink"
         class="hover:text-primary underline decoration-1 underline-offset-8"
