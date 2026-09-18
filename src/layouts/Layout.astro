@@ -2,6 +2,7 @@
 import Instagram from "../components/icons/Instagram.astro";
 import Logo from "../components/icons/Logo.astro";
 import X from "../components/icons/X.astro";
+import { Menu } from "@lucide/astro";
 import "../styles/global.css";
 
 type Link = { href: string; label: string };
@@ -89,7 +90,7 @@ const footerLinksByColumn: Link[][] = [
           data-home={Astro.url.pathname === "/" || undefined}
           data-fade={fadeHeader || undefined}
           class:list={[
-            "group inset-x-0 data-[home=true]:opacity-0",
+            "group inset-x-0",
             overlayHeader ? "fixed" : "sticky",
             banner ? "top-0 z-20" : "top-2 z-1",
           ]}
@@ -124,17 +125,23 @@ const footerLinksByColumn: Link[][] = [
 
           <div class:list={[Astro.slots.has("header") && "bg-secondary mx-2"]}>
             <nav
-              class="text-primary md:group-data-[home=true]:bg-secondary flex items-center justify-between px-27 py-3 max-md:px-6"
+              class="text-primary relative flex items-center justify-between px-27 py-3 max-md:px-6"
             >
+              <div
+                data-nav-fade
+                class="md:group-data-[home=true]:bg-secondary absolute inset-0 -z-1 group-data-[home=true]:opacity-0"
+              >
+              </div>
               {
                 navLinks.map((link) => (
                   <a
                     href={link.href}
+                    data-nav-fade
                     data-title={link.href === "/" || undefined}
                     class={
                       link.href === "/"
-                        ? "relative font-sans text-6xl"
-                        : `font-sans text-3xl max-md:hidden ${Astro.url.pathname === link.href ? "" : "decoration-1 underline-offset-4 hover:underline"}`
+                        ? "relative font-sans text-6xl group-data-[home=true]:opacity-0"
+                        : `font-sans text-3xl group-data-[home=true]:opacity-0 max-md:hidden ${Astro.url.pathname === link.href ? "" : "decoration-1 underline-offset-4 hover:underline"}`
                     }
                   >
                     {link.label}
@@ -149,6 +156,14 @@ const footerLinksByColumn: Link[][] = [
                   </a>
                 ))
               }
+
+              <button
+                type="button"
+                aria-label="Menu"
+                class="cursor-pointer md:hidden"
+              >
+                <Menu class="h-8 w-10" preserveAspectRatio="none" />
+              </button>
             </nav>
 
             <slot name="header" />
@@ -334,8 +349,12 @@ const footerLinksByColumn: Link[][] = [
         ),
       );
 
-      header.style.opacity = String(progress);
-      header.style.pointerEvents = progress < 0.05 ? "none" : "auto";
+      for (const el of header.querySelectorAll<HTMLElement>(
+        "[data-nav-fade]",
+      )) {
+        el.style.opacity = String(progress);
+        el.style.pointerEvents = progress < 0.05 ? "none" : "auto";
+      }
     };
 
     update();
@@ -367,8 +386,12 @@ const footerLinksByColumn: Link[][] = [
 
       if (header && "fade" in header.dataset) {
         const visible = 1 - progress(50);
-        header.style.opacity = String(visible);
-        header.style.pointerEvents = visible ? "auto" : "none";
+        for (const el of header.querySelectorAll<HTMLElement>(
+          "[data-nav-fade]",
+        )) {
+          el.style.opacity = String(visible);
+          el.style.pointerEvents = visible ? "auto" : "none";
+        }
       }
     };
 
