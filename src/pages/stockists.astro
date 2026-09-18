@@ -24,24 +24,41 @@ type Stockist = {
 };
 
 const boxAnchor = {
-  top: "top-full left-1/2 mt-2 -translate-x-1/2",
-  bottom: "bottom-full left-1/2 mb-2 -translate-x-1/2",
-  left: "top-1/2 left-full ml-2 -translate-y-1/2",
-  right: "top-1/2 right-full mr-2 -translate-y-1/2",
-  "top-left": "top-full left-full mt-1 ml-1",
-  "top-right": "top-full right-full mt-1 mr-1",
-  "bottom-left": "bottom-full left-full mb-1 ml-1",
-  "bottom-right": "right-full bottom-full mr-1 mb-1",
+  top: "md:top-full md:left-1/2 md:mt-2 md:-translate-x-1/2",
+  bottom: "md:bottom-full md:left-1/2 md:mb-2 md:-translate-x-1/2",
+  left: "md:top-1/2 md:left-full md:ml-2 md:-translate-y-1/2",
+  right: "md:top-1/2 md:right-full md:mr-2 md:-translate-y-1/2",
+  "top-left": "md:top-full md:left-full md:mt-1 md:ml-1",
+  "top-right": "md:top-full md:right-full md:mt-1 md:mr-1",
+  "bottom-left": "md:bottom-full md:left-full md:mb-1 md:ml-1",
+  "bottom-right": "md:right-full md:bottom-full md:mr-1 md:mb-1",
 };
 
 type BoxAnchor = keyof typeof boxAnchor;
 
+const mobileBoxAnchor: Record<BoxAnchor, string> = {
+  top: "max-md:top-full max-md:left-1/2 max-md:mt-2 max-md:-translate-x-1/2",
+  bottom:
+    "max-md:bottom-full max-md:left-1/2 max-md:mb-2 max-md:-translate-x-1/2",
+  left: "max-md:top-1/2 max-md:left-full max-md:ml-2 max-md:-translate-y-1/2",
+  right: "max-md:top-1/2 max-md:right-full max-md:mr-2 max-md:-translate-y-1/2",
+  "top-left": "max-md:top-full max-md:left-full max-md:mt-1 max-md:ml-1",
+  "top-right": "max-md:top-full max-md:right-full max-md:mt-1 max-md:mr-1",
+  "bottom-left": "max-md:bottom-full max-md:left-full max-md:mb-1 max-md:ml-1",
+  "bottom-right":
+    "max-md:right-full max-md:bottom-full max-md:mr-1 max-md:mb-1",
+};
+
 type Dot = {
   label: DotLabel;
   anchor: BoxAnchor;
+  mobileAnchor: BoxAnchor;
   x: number;
   y: number;
 };
+
+// Prod's phone crop of the map, in map.png pixels
+const phoneCrop = { x: 402, y: 102, w: 3551, h: 2819 };
 
 const stockistsByLocation: Record<string, [Stockist[], Stockist[]]> = {
   "NEW YORK": [
@@ -229,73 +246,136 @@ const stockistsByLocation: Record<string, [Stockist[], Stockist[]]> = {
 };
 
 const dots: Dot[] = [
-  { label: "SAN FRANCISCO", anchor: "bottom", x: 14.58, y: 41.55 },
-  { label: "SAN DIEGO", anchor: "left", x: 15.53, y: 44.08 },
-  { label: "MEXICO CITY", anchor: "left", x: 19.55, y: 52.23 },
-  { label: "NEW YORK", anchor: "left", x: 27.17, y: 41.55 },
-  { label: "GLASGOW", anchor: "bottom-right", x: 45.17, y: 32.62 },
-  { label: "LONDON", anchor: "top-right", x: 46.44, y: 35.73 },
-  { label: "PARIS", anchor: "right", x: 46.86, y: 38.06 },
-  { label: "BERLIN", anchor: "bottom-left", x: 50.04, y: 35.34 },
-  { label: "STOCKHOLM", anchor: "bottom-left", x: 50.04, y: 29.9 },
-  { label: "ATHENS", anchor: "top", x: 52.05, y: 43.3 },
+  {
+    label: "SAN FRANCISCO",
+    anchor: "bottom",
+    mobileAnchor: "left",
+    x: 14.58,
+    y: 41.55,
+  },
+  {
+    label: "SAN DIEGO",
+    anchor: "left",
+    mobileAnchor: "left",
+    x: 15.53,
+    y: 44.08,
+  },
+  {
+    label: "MEXICO CITY",
+    anchor: "left",
+    mobileAnchor: "top-left",
+    x: 19.55,
+    y: 52.23,
+  },
+  {
+    label: "NEW YORK",
+    anchor: "left",
+    mobileAnchor: "left",
+    x: 27.17,
+    y: 41.55,
+  },
+  {
+    label: "GLASGOW",
+    anchor: "bottom-right",
+    mobileAnchor: "top-right",
+    x: 45.17,
+    y: 32.62,
+  },
+  {
+    label: "LONDON",
+    anchor: "top-right",
+    mobileAnchor: "right",
+    x: 46.44,
+    y: 35.73,
+  },
+  {
+    label: "PARIS",
+    anchor: "right",
+    mobileAnchor: "top-right",
+    x: 46.86,
+    y: 38.06,
+  },
+  {
+    label: "BERLIN",
+    anchor: "bottom-left",
+    mobileAnchor: "bottom-right",
+    x: 50.04,
+    y: 35.34,
+  },
+  {
+    label: "STOCKHOLM",
+    anchor: "bottom-left",
+    mobileAnchor: "bottom-right",
+    x: 50.04,
+    y: 29.9,
+  },
+  { label: "ATHENS", anchor: "top", mobileAnchor: "top", x: 52.05, y: 43.3 },
 ];
 
 const stockists = Object.values(stockistsByLocation).flat(2);
 ---
 
 <Layout title="stockists">
-  <div class="py-frame grid grid-cols-2">
-    <div class="col-span-full row-start-1 grid w-[82%] self-start">
-      <Image
-        src={map}
-        alt="Map of Notch stockists"
-        widths={[960, 1440, 1920, 2880]}
-        sizes="82vw"
-        loading="eager"
-        fetchpriority="high"
-        class="col-start-1 row-start-1 h-auto w-full text-transparent"
-      />
+  <div class="py-frame grid grid-cols-2 max-md:block max-md:pt-26 max-md:pb-12">
+    <div
+      class="col-span-full row-start-1 self-start max-md:aspect-(--map-aspect) max-md:overflow-hidden"
+      style={`--map-aspect: ${phoneCrop.w} / ${phoneCrop.h}; --map-width: ${(100 * map.width) / phoneCrop.w}%; --map-x: ${(100 * phoneCrop.x) / map.width}%; --map-y: ${(100 * phoneCrop.y) / map.height}%`}
+    >
+      <div
+        class="relative grid w-[82%] max-md:w-(--map-width) max-md:-translate-x-(--map-x) max-md:-translate-y-(--map-y)"
+      >
+        <Image
+          src={map}
+          alt="Map of Notch stockists"
+          widths={[960, 1440, 1920, 2880]}
+          sizes="82vw"
+          loading="eager"
+          fetchpriority="high"
+          class="col-start-1 row-start-1 h-auto w-full text-transparent"
+        />
 
-      {
-        dots.map((dot) => (
-          <div
-            class="group bg-primary relative col-start-1 row-start-1 size-4 -translate-x-1/2 -translate-y-1/2 cursor-pointer self-start justify-self-start rounded-full hover:order-last"
-            style={`left: ${dot.x}%; top: ${dot.y}%`}
-          >
+        {
+          dots.map((dot) => (
             <div
-              class:list={[
-                "text-primary invisible absolute w-max rounded-sm bg-white px-1 pt-0.5 leading-[1.74rem] whitespace-nowrap opacity-0 shadow-[0_1px_3px_rgba(0,0,0,.18),0_-1px_0_rgba(0,0,0,.03)] group-hover:visible group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-100",
-                boxAnchor[dot.anchor],
-              ]}
+              data-dot
+              class="group bg-primary absolute size-4 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full hover:z-10 data-open:z-10"
+              style={`left: ${dot.x}%; top: ${dot.y}%`}
             >
-              {Object.entries(
-                Object.groupBy(
-                  stockists.filter((s) => s.dotLabel === dot.label),
-                  (s) => s.heading ?? dot.label,
-                ),
-              ).map(([heading, group], index) => (
-                <>
-                  {index > 0 && <br />}
-                  <p class="font-times text-[1.65rem] font-bold">{heading}</p>
-                  {[...new Set(group!.map((s) => s.name))].map((name) => (
-                    <p class="font-georgia text-[1.28rem] italic">{name}</p>
-                  ))}
-                </>
-              ))}
+              <div
+                class:list={[
+                  "text-primary invisible absolute w-max rounded-sm bg-white px-1 pt-0.5 leading-[1.74rem] whitespace-nowrap opacity-0 shadow-[0_1px_3px_rgba(0,0,0,.18),0_-1px_0_rgba(0,0,0,.03)] group-hover:visible group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-100 group-data-open:visible group-data-open:opacity-100 max-md:transition-all max-md:duration-200",
+                  boxAnchor[dot.anchor],
+                  mobileBoxAnchor[dot.mobileAnchor],
+                ]}
+              >
+                {Object.entries(
+                  Object.groupBy(
+                    stockists.filter((s) => s.dotLabel === dot.label),
+                    (s) => s.heading ?? dot.label,
+                  ),
+                ).map(([heading, group], index) => (
+                  <>
+                    {index > 0 && <br />}
+                    <p class="font-times text-[1.65rem] font-bold">{heading}</p>
+                    {[...new Set(group!.map((s) => s.name))].map((name) => (
+                      <p class="font-georgia text-[1.28rem] italic">{name}</p>
+                    ))}
+                  </>
+                ))}
+              </div>
             </div>
-          </div>
-        ))
-      }
+          ))
+        }
+      </div>
     </div>
 
     <div
-      class="col-start-2 row-start-1 mx-24 flex flex-col items-center self-start border-b-2 border-black"
+      class="col-start-2 row-start-1 mx-24 flex flex-col items-center self-start border-b-3 border-black max-md:mx-5 max-md:-mt-28"
     >
       {
         Object.entries(stockistsByLocation).map(([location, columns]) => (
           <details name="stockist" class="drawer w-full">
-            <summary class="font-times relative flex cursor-pointer list-none items-center justify-center border-t-2 border-black py-4 text-3xl [&::-webkit-details-marker]:hidden">
+            <summary class="font-times relative flex cursor-pointer list-none items-center justify-center border-t-3 border-black py-4 text-3xl max-md:py-5 max-md:text-4xl [&::-webkit-details-marker]:hidden">
               {location}
               <span class="absolute right-4 transition-transform duration-200 [[open]>summary>&]:rotate-90">
                 ❯
@@ -306,7 +386,7 @@ const stockists = Object.values(stockistsByLocation).flat(2);
                 {columns.map((column) => (
                   <div class="flex flex-1 flex-col gap-6">
                     {column.map((stockist) => (
-                      <div class="font-times ml-8 text-[1.375rem] leading-none">
+                      <div class="font-times ml-8 text-[1.375rem] leading-none max-md:text-2xl">
                         <p class="font-bold">{stockist.name}</p>
                         <p>{stockist.address},</p>
                         <p>{stockist.place}</p>
@@ -323,14 +403,31 @@ const stockists = Object.values(stockistsByLocation).flat(2);
   </div>
 </Layout>
 
+<script>
+  if (
+    !matchMedia(
+      `(width >= ${getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-md")})`,
+    ).matches
+  ) {
+    const dots = document.querySelectorAll<HTMLElement>("[data-dot]");
+
+    document.addEventListener("pointerdown", (event) => {
+      const dot = (event.target as Element).closest<HTMLElement>("[data-dot]");
+      for (const d of dots) {
+        if (d === dot && !("open" in d.dataset)) d.dataset.open = "";
+        else delete d.dataset.open;
+      }
+    });
+  }
+</script>
+
 <style>
   .drawer::details-content {
+    content-visibility: visible;
     display: grid;
     grid-template-rows: 0fr;
     overflow: clip;
-    transition:
-      grid-template-rows 200ms ease-out,
-      content-visibility 200ms allow-discrete;
+    transition: grid-template-rows 200ms ease-out;
   }
 
   .drawer[open]::details-content {
