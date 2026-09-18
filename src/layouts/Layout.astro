@@ -223,7 +223,10 @@ const footerLinksByColumn: Link[][] = [
 
     {
       !banner && (
-        <div class="group fixed right-6 bottom-6 z-30 rounded-l-full after:absolute after:inset-y-0 after:-right-6 after:w-6">
+        <div
+          data-pill
+          class="group fixed right-6 bottom-6 z-30 rounded-l-full transition-all duration-500 after:absolute after:inset-y-0 after:-right-6 after:w-6"
+        >
           <div
             class:list={[
               "rounded-l-full",
@@ -287,6 +290,16 @@ const footerLinksByColumn: Link[][] = [
     });
     group.addEventListener("mouseenter", () => clearTimeout(timer));
     group.addEventListener("mouseleave", hide);
+  }
+
+  const wrapper = document.querySelector<HTMLElement>("[data-pill]");
+  const footer = document.querySelector("footer");
+
+  if (wrapper && footer) {
+    new IntersectionObserver(([entry]) => {
+      for (const c of ["translate-x-full", "-mr-6", "pointer-events-none"])
+        wrapper.classList.toggle(c, entry!.isIntersecting);
+    }).observe(footer);
   }
 </script>
 
@@ -408,6 +421,26 @@ const footerLinksByColumn: Link[][] = [
   update();
   window.addEventListener("scroll", update, { passive: true });
   window.addEventListener("resize", update, { passive: true });
+</script>
+
+<script>
+  const box = document.querySelector<HTMLElement>("[data-pill]");
+  const footer = document.querySelector("footer");
+
+  if (box && footer) {
+    const update = () => {
+      const clear =
+        footer.getBoundingClientRect().top >=
+        box.getBoundingClientRect().bottom;
+      if (clear) box.classList.add("group");
+      else if (!box.matches(":hover")) box.classList.remove("group");
+    };
+
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update, { passive: true });
+    box.addEventListener("mouseleave", () => requestAnimationFrame(update));
+  }
 </script>
 
 <style>
