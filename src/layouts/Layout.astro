@@ -318,6 +318,8 @@ const footerLinksByColumn: Link[][] = [
 </script>
 
 <script>
+  const scroller = document.querySelector<HTMLElement>("[data-scroller]")!;
+
   const header = document.querySelector<HTMLElement>("header");
   const nav = document.querySelector<HTMLElement>("nav");
 
@@ -327,7 +329,7 @@ const footerLinksByColumn: Link[][] = [
         1,
         Math.max(
           0,
-          (window.scrollY - 0.5 * window.innerHeight) /
+          (window.scrollY + scroller.scrollTop - 0.5 * window.innerHeight) /
             (0.25 * window.innerHeight),
         ),
       );
@@ -339,10 +341,15 @@ const footerLinksByColumn: Link[][] = [
     update();
 
     window.addEventListener("scroll", update, { passive: true });
+
+    scroller.addEventListener("scroll", update, { passive: true });
     window.addEventListener("resize", update, { passive: true });
   } else if (nav) {
     const progress = (px: number) => {
-      const l = Math.min(1, Math.max(0, window.scrollY / px));
+      const l = Math.min(
+        1,
+        Math.max(0, (window.scrollY + scroller.scrollTop) / px),
+      );
       return l < 0.5 ? 2 * l * l : 2 * l * (2 - l) - 1;
     };
 
@@ -368,10 +375,14 @@ const footerLinksByColumn: Link[][] = [
     update();
 
     window.addEventListener("scroll", update, { passive: true });
+
+    scroller.addEventListener("scroll", update, { passive: true });
   }
 </script>
 
 <script>
+  const scroller = document.querySelector<HTMLElement>("[data-scroller]")!;
+
   const logo = document.querySelector<HTMLElement>("[data-footer-logo]");
 
   if (logo) {
@@ -384,6 +395,7 @@ const footerLinksByColumn: Link[][] = [
 
     update();
     window.addEventListener("scroll", update, { passive: true });
+    scroller.addEventListener("scroll", update, { passive: true });
     window.addEventListener("resize", update, { passive: true });
   }
 </script>
@@ -412,6 +424,8 @@ const footerLinksByColumn: Link[][] = [
 </script>
 
 <script>
+  const scroller = document.querySelector<HTMLElement>("[data-scroller]")!;
+
   const title = document.querySelector<HTMLElement>("[data-title]")!;
   const overlay = title.querySelector<HTMLElement>("span")!;
   const sections = document.querySelectorAll("[data-dark]");
@@ -434,10 +448,13 @@ const footerLinksByColumn: Link[][] = [
 
   update();
   window.addEventListener("scroll", update, { passive: true });
+  scroller.addEventListener("scroll", update, { passive: true });
   window.addEventListener("resize", update, { passive: true });
 </script>
 
 <script>
+  const scroller = document.querySelector<HTMLElement>("[data-scroller]")!;
+
   const box = document.querySelector<HTMLElement>("[data-pill]");
   const footer = document.querySelector("footer");
 
@@ -452,6 +469,7 @@ const footerLinksByColumn: Link[][] = [
 
     update();
     window.addEventListener("scroll", update, { passive: true });
+    scroller.addEventListener("scroll", update, { passive: true });
     window.addEventListener("resize", update, { passive: true });
     box.addEventListener("mouseleave", () => requestAnimationFrame(update));
   }

@@ -95,6 +95,10 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 </div>
 
 <script>
+  const pageScroller = document.querySelector<HTMLElement>(
+    "[data-pageScroller]",
+  )!;
+
   const autoplay = !window.matchMedia("(prefers-reduced-motion: reduce)")
     .matches;
 
@@ -192,6 +196,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       place();
     });
     window.addEventListener("scroll", place, { passive: true });
+    pageScroller.addEventListener("scroll", place, { passive: true });
     window.addEventListener("resize", place);
     for (const img of scroller.querySelectorAll("img")) {
       img.addEventListener("load", place);

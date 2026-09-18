@@ -45,6 +45,8 @@ import Logos from "../components/Logos.astro";
 </Layout>
 
 <script>
+  const scroller = document.querySelector<HTMLElement>("[data-scroller]")!;
+
   const lines = document.querySelectorAll<HTMLElement>("[data-reveal]");
 
   const update = () => {
@@ -61,5 +63,6 @@ import Logos from "../components/Logos.astro";
 
   update();
   window.addEventListener("scroll", update, { passive: true });
+  scroller.addEventListener("scroll", update, { passive: true });
   window.addEventListener("resize", update, { passive: true });
 </script>

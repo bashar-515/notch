@@ -83,6 +83,8 @@ const { title, name, heading, location, description, topImages, bottomImages } =
 </style>
 
 <script>
+  const scroller = document.querySelector<HTMLElement>("[data-scroller]")!;
+
   const tracks = [...document.querySelectorAll<HTMLElement>("[data-track]")];
   const overflow = (track: HTMLElement) =>
     track.offsetWidth - track.parentElement!.clientWidth;
@@ -90,7 +92,10 @@ const { title, name, heading, location, description, topImages, bottomImages } =
   let progress = 0.5;
 
   const apply = () => {
-    if (progress < 1) window.scrollTo(0, 0);
+    if (progress < 1) {
+      window.scrollTo(0, 0);
+      scroller.scrollTo(0, 0);
+    }
 
     for (const track of tracks) {
       track.style.transform = `translateX(${-progress * overflow(track)}px)`;
@@ -104,7 +109,8 @@ const { title, name, heading, location, description, topImages, bottomImages } =
     (event) => {
       const down = event.deltaY > 0;
       const horizontal =
-        window.scrollY < 1 && (down ? progress < 1 : progress > 0);
+        window.scrollY + scroller.scrollTop < 1 &&
+        (down ? progress < 1 : progress > 0);
       if (!horizontal) return;
 
       event.preventDefault();
@@ -115,9 +121,14 @@ const { title, name, heading, location, description, topImages, bottomImages } =
     { passive: false },
   );
 
-  window.addEventListener("scroll", () => {
-    if (progress < 1 && window.scrollY > 0) window.scrollTo(0, 0);
-  });
+  const pin = () => {
+    if (progress < 1 && window.scrollY + scroller.scrollTop > 0) {
+      window.scrollTo(0, 0);
+      scroller.scrollTo(0, 0);
+    }
+  };
+  window.addEventListener("scroll", pin);
+  scroller.addEventListener("scroll", pin);
 
   window.addEventListener("resize", apply);
 </script>

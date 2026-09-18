@@ -124,13 +124,18 @@ const { title, heading, contributors, content, columns, cards } = Astro.props;
 </Layout>
 
 <script>
+  const scroller = document.querySelector<HTMLElement>("[data-scroller]")!;
+
   const block = document.querySelector<HTMLElement>("[data-issue-header]")!;
   const shadow = document.querySelector<HTMLElement>("[data-issue-shadow]")!;
   const grid = document.querySelector<HTMLElement>("[data-tracks]")!;
   const tracks = [...grid.querySelectorAll<HTMLElement>("[data-track]")];
 
   const progress = (px: number) => {
-    const l = Math.min(1, Math.max(0, window.scrollY / px));
+    const l = Math.min(
+      1,
+      Math.max(0, (window.scrollY + scroller.scrollTop) / px),
+    );
     return l < 0.5 ? 2 * l * l : 2 * l * (2 - l) - 1;
   };
 
@@ -160,6 +165,8 @@ const { title, heading, contributors, content, columns, cards } = Astro.props;
   update();
 
   window.addEventListener("scroll", update, { passive: true });
+
+  scroller.addEventListener("scroll", update, { passive: true });
   window.addEventListener("resize", () => {
     measure();
     update();
