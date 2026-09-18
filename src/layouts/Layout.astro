@@ -50,7 +50,7 @@ const footerLinksByColumn: Link[][] = [
 ];
 ---
 
-<html lang="en" class="bg-primary max-md:overflow-x-hidden">
+<html lang="en" class="bg-primary max-md:overflow-x-hidden max-md:bg-white">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -79,6 +79,7 @@ const footerLinksByColumn: Link[][] = [
     </div>
 
     <div
+      data-scroller
       class="max-md:bg-primary max-md:isolate max-md:h-dvh max-md:overflow-x-hidden max-md:overflow-y-auto max-md:overscroll-y-contain"
     >
       <div
@@ -160,9 +161,9 @@ const footerLinksByColumn: Link[][] = [
       </div>
 
       <footer
-        class="bg-tertiary font-times grid grid-cols-3 items-center px-24 py-6"
+        class="bg-tertiary font-times max-md:bg-secondary grid grid-cols-3 items-center px-24 py-6 max-md:grid-cols-1 max-md:px-6 max-md:py-0"
       >
-        <div class="flex">
+        <div class="flex max-md:hidden">
           <a href="/" data-footer-logo
             ><Logo
               class="hover:text-secondary h-32 w-auto text-white transition-colors duration-200"
@@ -188,7 +189,7 @@ const footerLinksByColumn: Link[][] = [
         </div>
 
         <div class="text-center">
-          <div class="m-8 flex justify-center gap-6">
+          <div class="m-8 flex justify-center gap-6 max-md:hidden">
             <a
               href="https://www.instagram.com/notch.magazine/"
               rel="noopener noreferrer"
@@ -203,7 +204,9 @@ const footerLinksByColumn: Link[][] = [
             >
           </div>
 
-          <p class="text-lg">
+          <p
+            class="text-lg max-md:mx-auto max-md:w-fit max-md:py-3 max-md:text-xl max-md:italic max-md:before:mx-auto max-md:before:mb-3 max-md:before:block max-md:before:w-1/2 max-md:before:border-t max-md:before:border-black"
+          >
             © <span class="italic">2026, Notch Magazine, LLC</span>
           </p>
         </div>
@@ -212,7 +215,7 @@ const footerLinksByColumn: Link[][] = [
           name="subscribe-footer"
           method="POST"
           data-netlify="true"
-          class="flex flex-col gap-1 justify-self-end"
+          class="flex flex-col gap-1 justify-self-end max-md:hidden"
         >
           <input type="hidden" name="form-name" value="subscribe-footer" />
           <p class="px-2 text-lg italic">Sign up to receive news and updates</p>
