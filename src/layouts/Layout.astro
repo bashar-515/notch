@@ -72,7 +72,6 @@ const footerLinksByColumn: Link[][] = [
         class:list={[
           "group inset-x-0 top-0 z-20 data-[home=true]:top-2 data-[home=true]:z-1 data-[home=true]:opacity-0",
           overlayHeader ? "fixed" : "sticky",
-          Astro.slots.has("header") && "bg-secondary",
         ]}
       >
         {
@@ -103,35 +102,37 @@ const footerLinksByColumn: Link[][] = [
           )
         }
 
-        <nav
-          class="text-primary group-data-[home=true]:bg-secondary flex items-center justify-between px-27 py-3"
-        >
-          {
-            navLinks.map((link) => (
-              <a
-                href={link.href}
-                data-title={link.href === "/" || undefined}
-                class={
-                  link.href === "/"
-                    ? "relative font-sans text-6xl"
-                    : `font-sans text-3xl ${Astro.url.pathname === link.href ? "" : "decoration-1 underline-offset-4 hover:underline"}`
-                }
-              >
-                {link.label}
-                {link.href === "/" && (
-                  <span
-                    class="text-secondary absolute inset-0"
-                    aria-hidden="true"
-                  >
-                    {link.label}
-                  </span>
-                )}
-              </a>
-            ))
-          }
-        </nav>
+        <div class:list={[Astro.slots.has("header") && "bg-secondary mx-2"]}>
+          <nav
+            class="text-primary group-data-[home=true]:bg-secondary flex items-center justify-between px-27 py-3"
+          >
+            {
+              navLinks.map((link) => (
+                <a
+                  href={link.href}
+                  data-title={link.href === "/" || undefined}
+                  class={
+                    link.href === "/"
+                      ? "relative font-sans text-6xl"
+                      : `font-sans text-3xl ${Astro.url.pathname === link.href ? "" : "decoration-1 underline-offset-4 hover:underline"}`
+                  }
+                >
+                  {link.label}
+                  {link.href === "/" && (
+                    <span
+                      class="text-secondary absolute inset-0"
+                      aria-hidden="true"
+                    >
+                      {link.label}
+                    </span>
+                  )}
+                </a>
+              ))
+            }
+          </nav>
 
-        <slot name="header" />
+          <slot name="header" />
+        </div>
       </header>
 
       <main class="flex flex-1 flex-col">
