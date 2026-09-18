@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://notch.ink/sitemap.xml
+Sitemap: https://notch.ink/sitemap-index.xml
