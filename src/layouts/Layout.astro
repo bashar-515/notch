@@ -133,7 +133,7 @@ const footerLinksByColumn: Link[][] = [
 
           <div class:list={[Astro.slots.has("header") && "bg-secondary mx-2"]}>
             <nav
-              class="text-primary relative flex items-center justify-between px-27 py-3 max-md:px-6"
+              class="text-primary relative flex items-center justify-between px-27 py-3 max-md:px-6 max-md:pt-6"
             >
               <div
                 data-nav-fade
@@ -164,85 +164,6 @@ const footerLinksByColumn: Link[][] = [
                   </a>
                 ))
               }
-
-              <details class="group/menu md:hidden">
-                <summary
-                  class="relative z-40 flex cursor-pointer list-none [&::-webkit-details-marker]:hidden"
-                >
-                  <Menu
-                    class="h-8 w-10 group-open/menu:hidden"
-                    preserveAspectRatio="none"
-                    aria-label="Open menu"
-                  />
-                  <Close
-                    class="hidden size-14 text-white group-open/menu:block"
-                    aria-label="Close menu"
-                  />
-                </summary>
-
-                <div
-                  class="bg-tertiary fixed inset-0 z-30 flex flex-col px-6 py-3 transition-opacity duration-200 starting:opacity-0"
-                >
-                  <p class="font-sans text-6xl text-white">NOTCH MAGAZINE</p>
-
-                  <ul
-                    class="font-times text-primary my-auto flex flex-col items-center gap-4 text-4xl font-medium"
-                  >
-                    {
-                      menuLinks.map((link) => (
-                        <li>
-                          <a href={link.href}>{link.label}</a>
-                        </li>
-                      ))
-                    }
-                  </ul>
-
-                  <div
-                    class="font-times flex flex-col gap-3 text-[1.7rem] text-white"
-                  >
-                    <form
-                      name="subscribe-mobile"
-                      method="POST"
-                      novalidate
-                      data-netlify="true"
-                      class="flex flex-col gap-3"
-                    >
-                      <input
-                        type="hidden"
-                        name="form-name"
-                        value="subscribe-mobile"
-                      />
-                      <input
-                        type="email"
-                        required
-                        name="email"
-                        placeholder="email"
-                        class="rounded-sm bg-white px-6 py-1 text-black focus:outline-none aria-invalid:ring-2 aria-invalid:ring-red-500"
-                      />
-                      <button
-                        type="submit"
-                        class="cursor-pointer rounded-sm border border-white py-1"
-                        >sign up</button
-                      >
-                    </form>
-
-                    <div class="mt-2 flex items-center justify-between px-4">
-                      <div class="flex gap-6">
-                        <a
-                          href="https://www.instagram.com/notch.magazine/"
-                          rel="noopener noreferrer"
-                          ><Instagram class="h-10 w-auto" /></a
-                        >
-                        <a
-                          href="https://x.com/notch_magazine"
-                          rel="noopener noreferrer"><X class="h-10 w-auto" /></a
-                        >
-                      </div>
-                      <a href="/donate">support</a>
-                    </div>
-                  </div>
-                </div>
-              </details>
             </nav>
 
             <slot name="header" />
@@ -331,6 +252,83 @@ const footerLinksByColumn: Link[][] = [
           >
         </form>
       </footer>
+    </div>
+
+    <details class="group/menu peer md:hidden">
+      <summary
+        class="text-primary pointer-events-none absolute inset-x-0 top-0 z-40 flex list-none items-center justify-between px-6 pt-6 pb-3 [&::-webkit-details-marker]:hidden"
+      >
+        <span
+          class="invisible font-sans text-6xl text-white group-open/menu:visible"
+          >NOTCH MAGAZINE</span
+        >
+        <Menu
+          class="pointer-events-auto h-8 w-10 cursor-pointer group-open/menu:hidden"
+          preserveAspectRatio="none"
+          aria-label="Open menu"
+        />
+        <Close
+          class="pointer-events-auto hidden size-14 cursor-pointer text-white group-open/menu:block"
+          aria-label="Close menu"
+        />
+      </summary>
+    </details>
+
+    <div
+      class="menu-panel bg-tertiary pointer-events-none absolute inset-0 z-30 flex touch-none flex-col px-6 pt-6 pb-10 opacity-0 transition-opacity duration-400 peer-open:pointer-events-auto peer-open:opacity-100 md:hidden"
+    >
+      <div class="invisible pb-3 font-sans text-6xl" aria-hidden="true">
+        NOTCH MAGAZINE
+      </div>
+
+      <ul
+        class="font-times text-primary my-auto flex flex-col items-center gap-4 text-4xl font-medium"
+      >
+        {
+          menuLinks.map((link, i) => (
+            <li class="menu-item opacity-0" style={`--i: ${i}`}>
+              <a href={link.href}>{link.label}</a>
+            </li>
+          ))
+        }
+      </ul>
+
+      <div class="font-times flex flex-col gap-3 text-[1.7rem] text-white">
+        <form
+          name="subscribe-mobile"
+          method="POST"
+          novalidate
+          data-netlify="true"
+          class="flex flex-col gap-3"
+        >
+          <input type="hidden" name="form-name" value="subscribe-mobile" />
+          <input
+            type="email"
+            required
+            name="email"
+            placeholder="email"
+            class="rounded-sm bg-white px-6 py-1 text-black focus:outline-none aria-invalid:ring-2 aria-invalid:ring-red-500"
+          />
+          <button
+            type="submit"
+            class="cursor-pointer rounded-sm border border-white py-1"
+            >sign up</button
+          >
+        </form>
+
+        <div class="mt-2 flex items-center justify-between px-4">
+          <div class="flex gap-6">
+            <a
+              href="https://www.instagram.com/notch.magazine/"
+              rel="noopener noreferrer"><Instagram class="h-10 w-auto" /></a
+            >
+            <a href="https://x.com/notch_magazine" rel="noopener noreferrer"
+              ><X class="h-10 w-auto" /></a
+            >
+          </div>
+          <a href="/donate">support</a>
+        </div>
+      </div>
     </div>
 
     {
@@ -599,5 +597,20 @@ const footerLinksByColumn: Link[][] = [
 
   .marquee {
     animation: marquee 60s linear infinite;
+  }
+
+  @keyframes menu-item {
+    from {
+      opacity: 0;
+      translate: 0 -0.5rem;
+    }
+    to {
+      opacity: 1;
+      translate: 0 0;
+    }
+  }
+
+  details[open] ~ .menu-panel .menu-item {
+    animation: menu-item 300ms ease-in-out calc(var(--i) * 100ms) both;
   }
 </style>
