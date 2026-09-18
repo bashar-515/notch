@@ -223,22 +223,25 @@ const footerLinksByColumn: Link[][] = [
 
     {
       !banner && (
-        <div class:list={["fixed right-6 bottom-6 z-30", home && "group"]}>
-          <a
-            data-substack={home || undefined}
-            href="https://notchmagazine.substack.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+        <div class="group fixed right-6 bottom-6 z-30 rounded-l-full after:absolute after:inset-y-0 after:-right-6 after:w-6">
+          <div
             class:list={[
-              "bg-primary text-secondary relative flex translate-x-full items-center gap-1 rounded-full px-6 py-2 text-xl font-medium whitespace-nowrap transition-all duration-500 select-none",
-              home
-                ? "ml-6 group-hover:ml-0 group-hover:translate-x-0"
-                : "after:absolute after:inset-y-0 after:-right-6 after:w-6 hover:translate-x-0",
+              "rounded-l-full",
+              home &&
+                "translate-x-6 transition-transform duration-500 group-hover:translate-x-0",
             ]}
           >
-            <img src="/substack.png" alt="" class="h-[1.5em] w-auto" />
-            NOTCH IS NOW ON SUBSTACK
-          </a>
+            <a
+              data-substack={home || undefined}
+              href="https://notchmagazine.substack.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-primary text-secondary relative flex translate-x-full items-center gap-1 rounded-full px-6 py-2 text-xl font-medium whitespace-nowrap transition-transform duration-500 select-none group-hover:translate-x-0"
+            >
+              <img src="/substack.png" alt="" class="h-[1.5em] w-auto" />
+              NOTCH IS NOW ON SUBSTACK
+            </a>
+          </div>
         </div>
       )
     }
@@ -270,15 +273,20 @@ const footerLinksByColumn: Link[][] = [
   const pill = document.querySelector<HTMLElement>("[data-substack]");
 
   if (pill) {
-    const hidden = ["translate-x-full", "ml-6"];
-    const hide = () => pill.classList.add(...hidden);
+    const shift = pill.parentElement!;
+    const group = shift.parentElement!;
+    const hide = () => {
+      pill.classList.add("translate-x-full");
+      shift.classList.add("translate-x-6");
+    };
     const timer = setTimeout(hide, 5000);
 
-    requestAnimationFrame(() => pill.classList.remove(...hidden));
-    pill.parentElement!.addEventListener("mouseenter", () =>
-      clearTimeout(timer),
-    );
-    pill.parentElement!.addEventListener("mouseleave", hide);
+    requestAnimationFrame(() => {
+      pill.classList.remove("translate-x-full");
+      shift.classList.remove("translate-x-6");
+    });
+    group.addEventListener("mouseenter", () => clearTimeout(timer));
+    group.addEventListener("mouseleave", hide);
   }
 </script>
 
