@@ -8,48 +8,56 @@ import Logos from "../components/Logos.astro";
 
   <div class="flex flex-col gap-28">
     <div
-      class="bg-secondary grid h-[125vh] content-center px-72 pb-[25vh] max-md:h-lvh max-md:px-14 max-md:pb-0"
+      class="bg-secondary grid h-[125vh] content-center px-72 pb-[25vh] max-md:h-lvh max-md:content-start max-md:px-14 max-md:pb-0"
     >
-      <p
-        class="text-primary font-sans text-[16rem] leading-none max-md:text-[12rem]"
-      >
-        NOTCH
-      </p>
-      <p
-        class="font-times -mt-9 text-4xl italic max-md:-mt-6 max-md:w-3/4 max-md:text-3xl max-md:leading-tight"
-      >
-        Interweaving artistic genres, inviting unfamiliar encounters
-      </p>
-      <p
-        class="text-primary font-times text-right text-2xl max-md:mt-2 max-md:w-5/12 max-md:justify-self-end max-md:leading-tight"
-      >
-        a literary and arts magazine
-      </p>
+      <div class="grid h-svh content-center md:contents">
+        <p
+          class="text-primary font-sans text-[16rem] leading-none max-md:text-[12rem]"
+        >
+          NOTCH
+        </p>
+        <p
+          class="font-times -mt-9 text-4xl italic max-md:-mt-6 max-md:w-3/4 max-md:text-3xl max-md:leading-tight"
+        >
+          Interweaving artistic genres, inviting unfamiliar encounters
+        </p>
+        <p
+          class="text-primary font-times text-right text-2xl max-md:mt-2 max-md:w-5/12 max-md:justify-self-end max-md:leading-tight"
+        >
+          a literary and arts magazine
+        </p>
+      </div>
     </div>
 
     <div
-      class="bg-secondary text-statement flex h-[75vh] flex-col items-center justify-center gap-14 px-120 text-center max-md:h-svh max-md:px-6 max-md:text-2xl"
+      class="bg-secondary text-statement flex h-[75vh] flex-col items-center justify-center gap-14 px-120 text-center max-md:h-svh max-md:justify-start max-md:px-6 max-md:text-2xl"
     >
-      <p>
-        <span class="block" data-reveal
-          >Notch is a literary and arts magazine</span
-        >
-        <span class="block" data-reveal>based in New York and Paris. We</span>
-        <span class="block" data-reveal
-          >publish biannually in print and online.</span
-        >
-        <span class="block" data-reveal
-          >Subscribe <a
-            href="/shop"
-            class="hover:text-primary underline decoration-1 underline-offset-8"
-            >here</a
-          >.
-        </span>
-      </p>
+      <div
+        class="mt-20 flex h-svh flex-col items-center justify-center gap-14 md:contents"
+      >
+        <p>
+          <span class="block" data-reveal
+            >Notch is a literary and arts magazine</span
+          >
+          <span class="block" data-reveal>based in New York and Paris. We</span>
+          <span class="block" data-reveal
+            >publish biannually in print and online.</span
+          >
+          <span class="block" data-reveal
+            >Subscribe <a
+              href="/shop"
+              class="hover:text-primary underline decoration-1 underline-offset-8"
+              >here</a
+            >.
+          </span>
+        </p>
 
-      <p>
-        <span class="block" data-reveal>Submissions are currently closed.</span>
-      </p>
+        <p>
+          <span class="block" data-reveal
+            >Submissions are currently closed.</span
+          >
+        </p>
+      </div>
     </div>
   </div>
 </Layout>
