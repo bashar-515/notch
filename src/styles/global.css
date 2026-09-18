@@ -2,6 +2,10 @@
 
 html {
   font-size: 1vw;
+
+  @variant max-md {
+    font-size: 3vw;
+  }
 }
 
 body {
