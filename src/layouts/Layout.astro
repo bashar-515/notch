@@ -20,6 +20,8 @@ const {
   banner = Astro.url.pathname !== "/",
 } = Astro.props;
 
+const home = Astro.url.pathname === "/";
+
 const navLinks: Link[] = [
   { href: "/issues", label: "ISSUES" },
   { href: "/events", label: "EVENTS" },
@@ -218,6 +220,28 @@ const footerLinksByColumn: Link[][] = [
         >
       </form>
     </footer>
+
+    {
+      !banner && (
+        <div class:list={["fixed right-6 bottom-6 z-30", home && "group"]}>
+          <a
+            data-substack={home || undefined}
+            href="https://notchmagazine.substack.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class:list={[
+              "bg-primary text-secondary relative flex translate-x-full items-center gap-1 rounded-full px-6 py-2 text-xl font-medium whitespace-nowrap transition-all duration-500 select-none",
+              home
+                ? "ml-6 group-hover:ml-0 group-hover:translate-x-0"
+                : "after:absolute after:inset-y-0 after:-right-6 after:w-6 hover:translate-x-0",
+            ]}
+          >
+            <img src="/substack.png" alt="" class="h-[1.5em] w-auto" />
+            NOTCH IS NOW ON SUBSTACK
+          </a>
+        </div>
+      )
+    }
   </body>
 </html>
 
@@ -241,6 +265,22 @@ const footerLinksByColumn: Link[][] = [
 <!--     } -->
 <!--   } -->
 <!-- </style> -->
+
+<script>
+  const pill = document.querySelector<HTMLElement>("[data-substack]");
+
+  if (pill) {
+    const hidden = ["translate-x-full", "ml-6"];
+    const hide = () => pill.classList.add(...hidden);
+    const timer = setTimeout(hide, 5000);
+
+    requestAnimationFrame(() => pill.classList.remove(...hidden));
+    pill.parentElement!.addEventListener("mouseenter", () =>
+      clearTimeout(timer),
+    );
+    pill.parentElement!.addEventListener("mouseleave", hide);
+  }
+</script>
 
 <script>
   const header = document.querySelector<HTMLElement>("header");
