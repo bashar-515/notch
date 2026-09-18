@@ -4,27 +4,60 @@ import Layout from "../layouts/Layout.astro";
 type Person = {
   name: string;
   role: string;
+  mobile: string;
 };
 
 const people: Person[] = [
-  { name: "SASHA LANDAUER", role: "Editor, Writing" },
-  { name: "ANGELA BLACK", role: "Editor, Art & Essays\nArt Director" },
-  { name: "ARINA ZHURAVLEVA", role: "Designer" },
-  { name: "MADELINE HAZE CURTIS", role: "Copyeditor" },
-  { name: "KATERINA PAVLIDIS", role: "Reader, Poetry" },
-  { name: "MARY BERG", role: "Curatorial Consultant" },
-  { name: "ANDI GRENE", role: "Editorial Assistant, Writing" },
-  { name: "NEDA RAD", role: "Creative Strategist & Marketing" },
-  { name: "TEDDY OGBORN", role: "Social Media Lead" },
-  { name: "TAMSYN CHANDLER", role: "Stockists Manager & Events" },
-  { name: "CROFT & JOHNSON LLP", role: "Legal Counsel" },
-  { name: "BASHAR EID", role: "Web Developer" },
+  { name: "SASHA LANDAUER", role: "Editor, Writing", mobile: "max-md:order-1" },
+  {
+    name: "ANGELA BLACK",
+    role: "Editor, Art & Essays\nArt Director",
+    mobile: "max-md:order-2",
+  },
+  { name: "ARINA ZHURAVLEVA", role: "Designer", mobile: "max-md:order-5" },
+  {
+    name: "MADELINE HAZE CURTIS",
+    role: "Copyeditor",
+    mobile: "max-md:order-3",
+  },
+  {
+    name: "KATERINA PAVLIDIS",
+    role: "Reader, Poetry",
+    mobile: "max-md:order-4",
+  },
+  {
+    name: "MARY BERG",
+    role: "Curatorial Consultant",
+    mobile: "max-md:order-7",
+  },
+  {
+    name: "ANDI GRENE",
+    role: "Editorial Assistant, Writing",
+    mobile: "max-md:order-6",
+  },
+  {
+    name: "NEDA RAD",
+    role: "Creative Strategist & Marketing",
+    mobile: "max-md:order-9",
+  },
+  { name: "TEDDY OGBORN", role: "Social Media Lead", mobile: "max-md:order-12" },
+  {
+    name: "TAMSYN CHANDLER",
+    role: "Stockists Manager & Events",
+    mobile: "max-md:order-11",
+  },
+  {
+    name: "CROFT & JOHNSON LLP",
+    role: "Legal Counsel",
+    mobile: "max-md:order-10",
+  },
+  { name: "BASHAR EID", role: "Web Developer", mobile: "max-md:order-8" },
 ];
 ---
 
-<Layout title="about" overlayHeader>
+<Layout title="about" overlayHeader transparentFooter>
   <div
-    class="text-statement flex h-[110vh] flex-col items-center justify-center gap-14 px-85 text-center"
+    class="text-statement max-md:bg-secondary flex h-[110vh] flex-col items-center justify-center gap-14 px-85 text-center max-md:relative max-md:z-10 max-md:h-auto max-md:gap-8 max-md:px-12 max-md:py-24 max-md:text-3xl"
   >
     <p>
       Notch is a literary and arts magazine based in New York and Paris,
@@ -41,13 +74,20 @@ const people: Person[] = [
     </p>
 
     <p>Submissions are currently closed.</p>
+
+    <p class="text-xl text-black/60 italic md:hidden">
+      For inquiries: editors@notch.ink.
+    </p>
   </div>
 
   <div
     data-dark
-    class="bg-primary font-times flex flex-col gap-14 px-32 py-28 text-2xl leading-none text-white"
+    class="bg-primary font-times flex flex-col gap-14 px-32 py-28 text-2xl leading-none text-white max-md:fixed max-md:inset-0 max-md:justify-center max-md:px-6 max-md:pt-27 max-md:pb-20"
   >
-    <h2 class="group font-sans text-7xl tracking-widest" data-masthead>
+    <h2
+      class="group font-sans text-7xl tracking-widest max-md:hidden"
+      data-masthead
+    >
       {
         "MASTHEAD".split("").map((letter, i) => (
           <span
@@ -61,11 +101,11 @@ const people: Person[] = [
     </h2>
 
     <div
-      class="grid grid-cols-[auto_auto_auto] justify-between gap-x-14 gap-y-14"
+      class="grid grid-cols-[auto_auto_auto] justify-between gap-x-14 gap-y-14 max-md:grid-cols-2 max-md:gap-6 max-md:text-center"
     >
       {
         people.map((person) => (
-          <div>
+          <div class={person.mobile}>
             <p>{person.name}</p>
             <p class="whitespace-pre-line">{person.role}</p>
           </div>
@@ -73,8 +113,10 @@ const people: Person[] = [
       }
     </div>
 
-    <p class="italic">For inquiries: editors@notch.ink.</p>
+    <p class="italic max-md:hidden">For inquiries: editors@notch.ink.</p>
   </div>
+
+  <div class="h-dvh md:hidden"></div>
 </Layout>
 
 <script>

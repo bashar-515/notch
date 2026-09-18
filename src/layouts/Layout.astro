@@ -12,6 +12,7 @@ type Props = {
   overlayHeader?: boolean;
   fadeHeader?: boolean;
   banner?: boolean;
+  transparentFooter?: boolean;
 };
 
 const {
@@ -19,6 +20,7 @@ const {
   overlayHeader = Astro.url.pathname === "/",
   fadeHeader = false,
   banner = Astro.url.pathname !== "/",
+  transparentFooter = false,
 } = Astro.props;
 
 const home = Astro.url.pathname === "/";
@@ -100,6 +102,7 @@ const footerLinksByColumn: Link[][] = [
           class:list={[
             "group inset-x-0",
             overlayHeader ? "fixed" : "sticky",
+            overlayHeader && !home && "max-md:sticky",
             banner ? "top-0 z-20" : "top-2 z-1 max-md:top-0",
             "max-md:pt-3",
             !home && "max-md:bg-white",
@@ -160,7 +163,10 @@ const footerLinksByColumn: Link[][] = [
                     {link.label}
                     {link.href === "/" && (
                       <span
-                        class="text-secondary absolute inset-0"
+                        class:list={[
+                          "text-secondary absolute inset-0",
+                          !home && "max-md:hidden",
+                        ]}
                         aria-hidden="true"
                       >
                         {link.label}
@@ -182,7 +188,10 @@ const footerLinksByColumn: Link[][] = [
 
       <footer
         class:list={[
-          "bg-tertiary font-times max-md:bg-secondary grid grid-cols-3 items-center px-24 py-6 max-md:h-20 max-md:grid-cols-1 max-md:px-6 max-md:py-0",
+          "bg-tertiary font-times grid grid-cols-3 items-center px-24 py-6 max-md:relative max-md:h-20 max-md:grid-cols-1 max-md:px-6 max-md:py-0",
+          transparentFooter
+            ? "max-md:bg-transparent max-md:text-white"
+            : "max-md:bg-secondary",
         ]}
       >
         <div class="flex max-md:hidden">
@@ -227,7 +236,12 @@ const footerLinksByColumn: Link[][] = [
           </div>
 
           <p
-            class="text-lg max-md:mx-auto max-md:w-fit max-md:py-3 max-md:text-xl max-md:italic max-md:before:mx-auto max-md:before:mb-3 max-md:before:block max-md:before:w-1/2 max-md:before:border-t max-md:before:border-black"
+            class:list={[
+              "text-lg max-md:mx-auto max-md:w-fit max-md:py-3 max-md:text-xl max-md:italic max-md:before:mx-auto max-md:before:mb-3 max-md:before:block max-md:before:w-1/2 max-md:before:border-t",
+              transparentFooter
+                ? "max-md:before:border-white"
+                : "max-md:before:border-black",
+            ]}
           >
             © <span class="italic">2026, Notch Magazine, LLC</span>
           </p>
