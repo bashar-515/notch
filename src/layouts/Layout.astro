@@ -100,11 +100,9 @@ const footerLinksByColumn: Link[][] = [
           data-home={Astro.url.pathname === "/" || undefined}
           data-fade={fadeHeader || undefined}
           class:list={[
-            "group inset-x-0",
+            "group inset-x-0 max-md:fixed",
             overlayHeader ? "fixed" : "sticky",
-            overlayHeader && !home && "max-md:sticky",
             banner ? "top-0 z-20" : "top-2 z-1 max-md:top-0",
-            "max-md:pt-3",
             !home && "max-md:bg-white",
           ]}
         >
@@ -140,7 +138,8 @@ const footerLinksByColumn: Link[][] = [
             <nav
               class:list={[
                 "text-primary relative flex items-center justify-between px-27 py-3 max-md:px-6 max-md:pt-6",
-                !home && "max-md:bg-secondary max-md:shadow-md",
+                !home &&
+                  "max-md:before:bg-secondary max-md:shadow-md max-md:before:absolute max-md:before:inset-0 max-md:before:-z-1",
               ]}
             >
               <div
@@ -275,7 +274,7 @@ const footerLinksByColumn: Link[][] = [
 
     <details class="group/menu peer md:hidden">
       <summary
-        class="text-primary pointer-events-none absolute inset-x-0 top-0 z-40 flex list-none items-center justify-between px-6 pt-9 pb-3 [&::-webkit-details-marker]:hidden"
+        class="text-primary pointer-events-none absolute inset-x-0 top-0 z-40 flex list-none items-center justify-between px-6 pt-6 pb-3 [&::-webkit-details-marker]:hidden"
       >
         <span
           class="invisible font-sans text-6xl text-white group-open/menu:visible"
@@ -294,7 +293,7 @@ const footerLinksByColumn: Link[][] = [
     </details>
 
     <div
-      class="menu-panel bg-tertiary pointer-events-none absolute inset-0 z-30 flex touch-none flex-col px-6 pt-9 pb-10 opacity-0 transition-opacity duration-400 peer-open:pointer-events-auto peer-open:opacity-100 md:hidden"
+      class="menu-panel bg-tertiary pointer-events-none absolute inset-0 z-30 flex touch-none flex-col px-6 pt-6 pb-10 opacity-0 transition-opacity duration-400 peer-open:pointer-events-auto peer-open:opacity-100 md:hidden"
     >
       <div class="invisible pb-3 font-sans text-6xl" aria-hidden="true">
         NOTCH MAGAZINE
