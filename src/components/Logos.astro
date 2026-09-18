@@ -3,7 +3,7 @@ import Logo from "./icons/Logo.astro";
 ---
 
 <div
-  class="fixed top-1/2 left-1/2 -z-1 flex -translate-x-1/2 -translate-y-1/2 gap-62 text-white"
+  class="fixed top-1/2 left-1/2 -z-1 flex -translate-x-1/2 -translate-y-1/2 gap-62 text-white max-md:gap-24"
 >
-  {Array.from({ length: 3 }).map(() => <Logo class="h-78" />)}
+  {Array.from({ length: 3 }).map(() => <Logo class="h-78 max-md:h-28" />)}
 </div>
