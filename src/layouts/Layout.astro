@@ -6,12 +6,18 @@ import "../styles/global.css";
 
 type Link = { href: string; label: string };
 
-type Props = { title?: string; overlayHeader?: boolean; fadeHeader?: boolean };
+type Props = {
+  title?: string;
+  overlayHeader?: boolean;
+  fadeHeader?: boolean;
+  banner?: boolean;
+};
 
 const {
   title,
   overlayHeader = Astro.url.pathname === "/",
   fadeHeader = false,
+  banner = Astro.url.pathname !== "/",
 } = Astro.props;
 
 const navLinks: Link[] = [
@@ -70,12 +76,13 @@ const footerLinksByColumn: Link[][] = [
         data-home={Astro.url.pathname === "/" || undefined}
         data-fade={fadeHeader || undefined}
         class:list={[
-          "group inset-x-0 top-0 z-20 data-[home=true]:top-2 data-[home=true]:z-1 data-[home=true]:opacity-0",
+          "group inset-x-0 data-[home=true]:opacity-0",
           overlayHeader ? "fixed" : "sticky",
+          banner ? "top-0 z-20" : "top-2 z-1",
         ]}
       >
         {
-          Astro.url.pathname !== "/" && (
+          banner && (
             <a
               href="https://notchmagazine.substack.com/"
               target="_blank"
