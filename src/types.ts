@@ -7,6 +7,7 @@ export type Product = {
   price: number | string;
   buttonText?: string;
   stripeUrl: string;
+  covers?: string[];
   images: string[];
   isIssue?: boolean;
 };

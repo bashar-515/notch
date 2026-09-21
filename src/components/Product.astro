@@ -11,6 +11,11 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   "../assets/{shop,donate,magazines}/**/*.{jpg,png}",
   { eager: true },
 );
+
+const covers = product.covers ?? [];
+const slides = product.isIssue
+  ? [...covers, ...[...product.images].sort()]
+  : product.images;
 ---
 
 <div
@@ -19,8 +24,11 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     idx % 2 === 1 && "flex-row-reverse",
   ]}
 >
-  <div class="flex flex-col">
-    <div class="flex flex-col gap-5">
+  <div class="flex flex-col md:grow md:gap-6 md:contain-size">
+    <div
+      data-scroll-fade
+      class="flex flex-col gap-5 overflow-y-auto pb-1 [scrollbar-width:none] data-scrollable:mask-b-from-85% [&::-webkit-scrollbar]:hidden"
+    >
       <h2 class="text-3xl leading-none font-medium max-md:text-4xl">
         {product.name}
       </h2>
@@ -69,10 +77,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       ]}
     >
       {
-        (product.isIssue
-          ? [product.images[0], ...product.images.slice(1).sort()]
-          : product.images
-        ).map((image, i) =>
+        slides.map((image, i) =>
           product.isIssue ? (
             <div class="flex w-full shrink-0 snap-start items-center justify-center py-12 max-md:py-4">
               <div class="relative h-full">
@@ -82,14 +87,16 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
                   width={1600}
                   class:list={[
                     "h-full w-auto",
-                    i === 0
-                      ? "shadow-cover"
+                    i < covers.length
+                      ? i % 2
+                        ? "shadow-cover-left"
+                        : "shadow-cover-right"
                       : i % 2
                         ? "shadow-left"
                         : "shadow-right",
                   ]}
                 />
-                {i > 0 && (
+                {i >= covers.length && (
                   <div
                     class:list={[
                       "pointer-events-none absolute inset-y-0 w-1/12",
@@ -113,26 +120,32 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       }
     </div>
 
-    <button
-      type="button"
-      id={`prev-${idx}`}
-      class="hover:text-secondary pointer-events-none absolute top-1/2 left-5 -translate-y-1/2 cursor-pointer font-[system-ui] text-5xl text-white opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100 max-md:pointer-events-auto max-md:opacity-100"
-    >
-      ◀
-    </button>
-    <button
-      type="button"
-      id={`next-${idx}`}
-      class="hover:text-secondary pointer-events-none absolute top-1/2 right-5 -translate-y-1/2 cursor-pointer font-[system-ui] text-5xl text-white opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100 max-md:pointer-events-auto max-md:opacity-100"
-    >
-      ▶
-    </button>
+    {
+      slides.length > 1 && (
+        <>
+          <button
+            type="button"
+            id={`prev-${idx}`}
+            class="hover:text-secondary pointer-events-none absolute top-1/2 left-5 -translate-y-1/2 cursor-pointer font-[system-ui] text-5xl text-white opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100 max-md:pointer-events-auto max-md:opacity-100"
+          >
+            ◀
+          </button>
+          <button
+            type="button"
+            id={`next-${idx}`}
+            class="hover:text-secondary pointer-events-none absolute top-1/2 right-5 -translate-y-1/2 cursor-pointer font-[system-ui] text-5xl text-white opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100 max-md:pointer-events-auto max-md:opacity-100"
+          >
+            ▶
+          </button>
+        </>
+      )
+    }
 
     <div
       class="pointer-events-none absolute bottom-5 left-1/2 flex -translate-x-1/2 gap-2 opacity-0 transition-opacity duration-200 group-focus-within/carousel:opacity-100 group-hover/carousel:pointer-events-auto group-hover/carousel:opacity-100 max-md:pointer-events-auto max-md:opacity-100"
     >
       {
-        product.images.map(() => (
+        slides.map(() => (
           <button
             type="button"
             class="dot h-3 w-3 rounded-full border border-white [&:not(.bg-white)]:cursor-pointer"
@@ -153,7 +166,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       const scroller = root.querySelector<HTMLElement>("div");
       const prev = document.getElementById(`prev-${productIndex}`);
       const next = document.getElementById(`next-${productIndex}`);
-      if (!scroller || !prev || !next) return;
+      if (!scroller) return;
 
       const count = scroller.children.length;
       const dots = [...root.querySelectorAll<HTMLElement>(".dot")];
@@ -178,8 +191,8 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
         go(delta);
       };
 
-      prev.addEventListener("click", () => manual(-1));
-      next.addEventListener("click", () => manual(1));
+      prev?.addEventListener("click", () => manual(-1));
+      next?.addEventListener("click", () => manual(1));
 
       dots.forEach((dot, i) =>
         dot.addEventListener("click", () => {
@@ -187,4 +200,16 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
         }),
       );
     });
+
+  const overflow = new ResizeObserver((entries) =>
+    entries.forEach(({ target }) =>
+      target.toggleAttribute(
+        "data-scrollable",
+        target.scrollHeight - target.clientHeight > 1,
+      ),
+    ),
+  );
+  document
+    .querySelectorAll("[data-scroll-fade]")
+    .forEach((box) => overflow.observe(box));
 </script>
