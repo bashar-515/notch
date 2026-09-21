@@ -6,15 +6,32 @@ const issues: {
   back: string;
   href?: string;
   preorder?: boolean;
+  shop: string;
 }[] = [
-  { front: "/001_front.webp", back: "/001_back.webp", href: "/issue001/" },
-  { front: "/002_front.webp", back: "/002_back.webp", href: "/issue002/" },
+  {
+    front: "/001_front.webp",
+    back: "/001_back.webp",
+    href: "/issue001/",
+    shop: "issue001",
+  },
+  {
+    front: "/002_front.webp",
+    back: "/002_back.webp",
+    href: "/issue002/",
+    shop: "issue002",
+  },
   {
     front: "/003_front.jpg",
     back: "/003_back.jpg",
     href: "https://notchmagazine.substack.com/",
+    shop: "issue003",
   },
-  { front: "/004_front.webp", back: "/004_back.webp", preorder: true },
+  {
+    front: "/004_front.webp",
+    back: "/004_back.webp",
+    preorder: true,
+    shop: "issue004",
+  },
 ];
 ---
 
@@ -36,7 +53,7 @@ const issues: {
 
           <div class="flex">
             <a
-              href="/shop/"
+              href={`/shop/#${issue.shop}`}
               class="font-times hover:bg-primary hover:border-primary mr-auto rounded-sm border border-black bg-black px-4 py-1 text-2xl tracking-widest text-white italic"
             >
               {issue.preorder ? "preorder" : "order"}

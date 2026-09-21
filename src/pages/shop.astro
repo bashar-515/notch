@@ -39,6 +39,7 @@ const products: ProductType[] = [
   },
   {
     name: "ISSUE 004: IF/ELSE",
+    id: "issue004",
     descriptionParagraphs: [
       "Featuring Adams Adeosun, Noah Berrie, Olivia Bryant, Maya Gurung-Russell Campbell, Willem Deisinger, David Douard, Sasha Dugdale, Mattia Guarnera, Clare James, Salomé Jishkariani, Hyun Woo Kim, Preslav Kostov, Artur Leão, Jack Nancy, Katerina Pavlidis, Andrew Ridker, David Bailey Ross, Alia Shaukat, Alona Sobolevska, Marie Spellerberg, Maria Stepanova, Yukang Tao, Alexey Titarenko, William T. Vollmann, and Arina Zhuravleva.",
     ],
@@ -64,6 +65,7 @@ const products: ProductType[] = [
   },
   {
     name: "ISSUE 003: CURRENTS",
+    id: "issue003",
     descriptionParagraphs: [
       "Sean Cho A., Quinn Adikes, Banan Al-Nasery, Mischelle Anthony, Dana-Fiona Armour, André Breton, Torry Brown, Allison Dobry, Reyumeh Ejue, Arvee Fantilagan, RK Fauth, Kalliste Hardy, Noé Herbet, Hermann Hesse, Linus Kauschat, Magdalene Kennedy, Hannan Khan, Olga Kovalenko, Emily Kraus, Linda Lach, Phoebe Lippe, Diego León, Christopher Lyr, Jared Michaud, Fonie Mitsopoulou, Nicholas Montemarano, Vivienne Müller, Gustavo Munoz, Nirris Nagendrarajah, Daniel J. O'Malley, ariel rosé, Kaare Ruud, Taylor Strickland, Connor Van Looveren-Baines, Alexis Vasilikos, Linda Zhengová.",
     ],
@@ -86,6 +88,7 @@ const products: ProductType[] = [
   },
   {
     name: "ISSUE 002: GRAVITY",
+    id: "issue002",
     descriptionParagraphs: [
       "Phi Phi An, Samantha Backlund-Clapp, Leticia Bernaus, Alexander Bondoc, Andrea Capra, Gospel Chinedu, Pauline-Rose Dumas, Brenda Erdei, Andrea Felland, Lukas Felzmann, E.F. Flynn, Miller Ganovsky, Gillian Goodman, Magda Gourinchas, Martin Kähler, Ryder Kimball, Augusta Lardy Micheli, Carlo Michelstaeder, Lillian Mottern, Alexander Nemerov, Miles Parnegg, Purbasha Roy, Charles Rice-Davis and François Thiéry-Mourelet, Sam Schieren, Beatriz Seelander, Hannah Stoll, Bastien Torterüe de Sazilly, Misha Todirascu and Ben Barbetta Thompson, Aliaksandra Tucha, Carlos Valladares, Shalma Wegsman, Joanna Yamakami, Marianna Xenophontos, Alexandra Zhukova, Xiadi Zhai.",
     ],
@@ -105,6 +108,7 @@ const products: ProductType[] = [
   },
   {
     name: "ISSUE 001: POTENTIAL ENERGY",
+    id: "issue001",
     descriptionParagraphs: [
       "Brice Afonso, Nibha Akireddy, Oliver Beatty, Sarah Chess, Madeline Haze Curtis, Clay Davis, Claire Dauge-Roth, Lorraine de Thibault, Ugo Ferro, Viktor Fitsner, Maria Fragoso Jara, Dagoberto Gilb, Robert Pogue Harrison, Marie Hazard, Eva Hoffman, Margot Kaiser, Anna-Sofia Lesiv, Christopher Lyr, Douglas Milliken, Kaelin Palcu, Katerina Pavlidis, Molly Pepper Steemson, Matthew Schultz, Oliver Stokes-Curtis, Jonah Pruitt, Arina Zhuravleva, Clara Zimmermann.",
     ],
@@ -172,3 +176,18 @@ const products: ProductType[] = [
     {products.map((product, idx) => <Product product={product} idx={idx} />)}
   </div>
 </Layout>
+
+<script>
+  const center = () => {
+    const target =
+      location.hash &&
+      document.querySelector(`[data-id="${location.hash.slice(1)}"]`);
+    if (target) {
+      target.scrollIntoView({ block: "center", behavior: "smooth" });
+    }
+  };
+
+  if (document.querySelector('meta[name="astro-view-transitions-enabled"]'))
+    document.addEventListener("astro:page-load", center);
+  else center();
+</script>

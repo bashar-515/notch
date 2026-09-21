@@ -2,6 +2,7 @@ export type Link = { href: string; label: string };
 
 export type Product = {
   name: string;
+  id?: string;
   descriptionParagraphs: string[];
   coverCredit?: string;
   price: number | string;
