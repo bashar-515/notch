@@ -5,13 +5,20 @@ type Props = {
   href?: string;
   cta?: string;
   external?: boolean;
+  mobile?: boolean;
 };
 
-const { href, cta = "learn more", external = false } = Astro.props;
+const {
+  href,
+  cta = "learn more",
+  external = false,
+  mobile = false,
+} = Astro.props;
 ---
 
 <dialog
   data-dialog
+  data-mobile={mobile || undefined}
   class="bg-primary text-secondary m-auto rounded-sm p-0 text-xl font-medium backdrop:bg-black/50 max-md:mx-6 max-md:w-auto max-md:max-w-none md:max-w-xl"
 >
   <div class="relative flex flex-col items-start gap-8 p-10 pr-20">
@@ -43,9 +50,15 @@ const { href, cta = "learn more", external = false } = Astro.props;
 </dialog>
 
 <script>
+  const desktop = matchMedia(
+    `(width >= ${getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-md")})`,
+  );
+
   for (const dialog of document.querySelectorAll<HTMLDialogElement>(
     "dialog[data-dialog]",
   )) {
+    if ("mobile" in dialog.dataset && desktop.matches) continue;
+
     dialog.addEventListener("click", (event) => {
       if (event.target === dialog) dialog.close();
     });
