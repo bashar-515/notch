@@ -1,0 +1,54 @@
+---
+import { X as Close } from "@lucide/astro";
+
+type Props = {
+  href?: string;
+  cta?: string;
+  external?: boolean;
+};
+
+const { href, cta = "learn more", external = false } = Astro.props;
+---
+
+<dialog
+  data-dialog
+  class="bg-primary text-secondary m-auto rounded-sm p-0 text-xl font-medium backdrop:bg-black/50 max-md:mx-6 max-md:w-auto max-md:max-w-none md:max-w-xl"
+>
+  <div class="relative flex flex-col items-start gap-8 p-10 pr-20">
+    <form method="dialog" class="absolute top-3 right-3">
+      <button
+        type="submit"
+        class="block cursor-pointer outline-none"
+        aria-label="Close"
+      >
+        <Close class="size-10" />
+      </button>
+    </form>
+
+    <slot />
+
+    {
+      href && (
+        <a
+          href={href}
+          target={external ? "_blank" : undefined}
+          rel={external ? "noopener noreferrer" : undefined}
+          class="font-times border-secondary hover:bg-secondary hover:text-primary rounded-sm border px-3 py-1 text-xl transition-colors duration-200"
+        >
+          {cta}
+        </a>
+      )
+    }
+  </div>
+</dialog>
+
+<script>
+  for (const dialog of document.querySelectorAll<HTMLDialogElement>(
+    "dialog[data-dialog]",
+  )) {
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+    dialog.showModal();
+  }
+</script>

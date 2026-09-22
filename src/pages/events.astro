@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import Layout from "../layouts/Layout.astro";
 import Logos from "../components/Logos.astro";
+import Dialog from "../components/Dialog.astro";
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "../assets/events/**/*.{jpg,png}",
@@ -178,6 +179,13 @@ const posters: {
 ---
 
 <Layout title="events">
+  <Dialog href="/shop#issue004release" cta="buy tickets">
+    <p>
+      Join us for the release of ISSUE 004: IF/ELSE on October 15 at Telos Haus,
+      Brooklyn.
+    </p>
+  </Dialog>
+
   <div class="bg-primary max-md:bg-secondary isolate flex flex-col">
     <div class="max-md:hidden">
       <Logos />
