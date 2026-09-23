@@ -3,7 +3,7 @@ import Instagram from "../components/icons/Instagram.astro";
 import Logo from "../components/icons/Logo.astro";
 import X from "../components/icons/X.astro";
 import { Menu, X as Close } from "@lucide/astro";
-import "../styles/global.css";
+import BaseLayout from "./BaseLayout.astro";
 
 type Link = { href: string; label: string };
 
@@ -59,356 +59,324 @@ const footerLinksByColumn: Link[][] = [
     { href: "/submissions", label: "Submit" },
   ],
 ];
+
+const bodyClass = `max-md:h-dvh max-md:overflow-hidden max-md:bg-white ${home ? "" : "bg-secondary"}`;
 ---
 
-<html lang="en" class="bg-primary max-md:overflow-x-hidden max-md:bg-white">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="/favicon.png" />
+<BaseLayout
+  {title}
+  htmlClass="bg-primary max-md:overflow-x-hidden max-md:bg-white"
+  {bodyClass}
+>
+  <div
+    class="border-primary pointer-events-none fixed inset-0 z-10 border-[0.5rem] max-md:hidden"
+  >
+  </div>
 
-    <link
-      rel="preload"
-      href="/fonts/Gravity/Gravity/ABCGravity-Compressed.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-
-    <title>{title ? `Notch Magazine — ${title}` : "Notch Magazine"}</title>
-
-    <script
-      is:inline
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-B6JXG3C0K3"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-B6JXG3C0K3");
-    </script>
-  </head>
-
-  <body
-    class:list={[
-      "max-md:h-dvh max-md:overflow-hidden max-md:bg-white",
-      Astro.url.pathname !== "/" && "bg-secondary",
-    ]}
+  <div
+    data-scroller
+    class="max-md:bg-primary max-md:isolate max-md:h-dvh max-md:overflow-x-hidden max-md:overflow-y-auto max-md:overscroll-y-contain"
   >
     <div
-      class="border-primary pointer-events-none fixed inset-0 z-10 border-[0.5rem] max-md:hidden"
+      class:list={["flex min-h-dvh flex-col", !home && "max-md:bg-secondary"]}
     >
-    </div>
-
-    <div
-      data-scroller
-      class="max-md:bg-primary max-md:isolate max-md:h-dvh max-md:overflow-x-hidden max-md:overflow-y-auto max-md:overscroll-y-contain"
-    >
-      <div
-        class:list={["flex min-h-dvh flex-col", !home && "max-md:bg-secondary"]}
-      >
-        <header
-          data-home={Astro.url.pathname === "/" || undefined}
-          data-fade={fadeHeader || undefined}
-          class:list={[
-            "group inset-x-0 max-md:fixed",
-            overlayHeader ? "fixed" : "sticky",
-            banner ? "top-0 z-20" : "top-2 z-1 max-md:top-0",
-            !home && "max-md:bg-white",
-          ]}
-        >
-          {
-            banner && (
-              <a
-                href="https://notchmagazine.substack.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="bg-primary text-secondary block overflow-hidden py-2 text-xl font-medium whitespace-nowrap select-none max-md:hidden"
-              >
-                <div class="marquee flex w-max">
-                  {[0, 1].map((half) => (
-                    <div class="flex" aria-hidden={half === 1}>
-                      {Array.from({ length: 10 }).map(() => (
-                        <span class="flex items-center gap-1 px-12">
-                          <img
-                            src="/substack.png"
-                            alt=""
-                            class="h-[1.5em] w-auto"
-                          />
-                          NOTCH IS NOW ON SUBSTACK
-                        </span>
-                      ))}
-                    </div>
-                  ))}
-                </div>
-              </a>
-            )
-          }
-
-          <div
-            class:list={[Astro.slots.has("header") && "bg-secondary md:mx-2"]}
-          >
-            <nav
-              class:list={[
-                "text-primary relative flex items-center justify-between px-27 py-3 max-md:px-6 max-md:pt-6",
-                !home &&
-                  "max-md:before:bg-secondary max-md:shadow-md max-md:before:absolute max-md:before:inset-0 max-md:before:-z-1",
-              ]}
-            >
-              <div
-                data-nav-fade
-                class="md:group-data-[home=true]:bg-secondary absolute inset-0 -z-1 group-data-[home=true]:opacity-0"
-              >
-              </div>
-              {
-                navLinks.map((link) => (
-                  <a
-                    href={link.href}
-                    data-nav-fade
-                    data-title={link.href === "/" || undefined}
-                    class={
-                      link.href === "/"
-                        ? "relative font-sans text-6xl group-data-[home=true]:opacity-0"
-                        : `font-sans text-3xl group-data-[home=true]:opacity-0 max-md:hidden ${Astro.url.pathname === link.href ? "" : "decoration-1 underline-offset-4 hover:underline"}`
-                    }
-                  >
-                    {link.label}
-                    {link.href === "/" && (
-                      <span
-                        class:list={[
-                          "text-secondary absolute inset-0",
-                          !home && "max-md:hidden",
-                        ]}
-                        aria-hidden="true"
-                      >
-                        {link.label}
-                      </span>
-                    )}
-                  </a>
-                ))
-              }
-            </nav>
-
-            <slot name="header" />
-          </div>
-        </header>
-
-        <main class="flex flex-1 flex-col">
-          <slot />
-        </main>
-      </div>
-
-      <footer
+      <header
+        data-home={Astro.url.pathname === "/" || undefined}
+        data-fade={fadeHeader || undefined}
         class:list={[
-          "bg-tertiary font-times grid grid-cols-3 items-center px-24 py-6 max-md:relative max-md:h-20 max-md:grid-cols-1 max-md:px-6 max-md:py-0",
-          transparentFooter
-            ? "max-md:bg-transparent max-md:text-white"
-            : "max-md:bg-secondary",
+          "group inset-x-0 max-md:fixed",
+          overlayHeader ? "fixed" : "sticky",
+          banner ? "top-0 z-20" : "top-2 z-1 max-md:top-0",
+          !home && "max-md:bg-white",
         ]}
       >
-        <div class="flex max-md:hidden">
-          <a href="/" data-footer-logo
-            ><Logo
-              class="hover:text-secondary h-32 w-auto text-white transition-colors duration-200"
-            /></a
-          >
-
-          <div class="ml-auto flex gap-4 self-center">
-            {
-              footerLinksByColumn.map((column) => (
-                <div class="flex flex-col gap-2">
-                  {column.map((link) => (
-                    <a
-                      href={link.href}
-                      class="text-primary hover:text-secondary text-lg font-bold"
-                    >
-                      {link.label}
-                    </a>
-                  ))}
-                </div>
-              ))
-            }
-          </div>
-        </div>
-
-        <div class="text-center">
-          <div class="m-8 flex justify-center gap-6 max-md:hidden">
-            <a
-              href="https://www.instagram.com/notch.magazine/"
-              rel="noopener noreferrer"
-              class="hover:text-secondary font-bold text-white transition-colors duration-200"
-              ><Instagram class="h-7 w-auto" /></a
-            >
-            <a
-              href="https://x.com/notch_magazine"
-              rel="noopener noreferrer"
-              class="hover:text-secondary text-white transition-colors duration-200"
-              ><X class="h-7 w-auto" /></a
-            >
-          </div>
-
-          <p
-            class:list={[
-              "text-lg max-md:mx-auto max-md:w-fit max-md:py-3 max-md:text-xl max-md:italic max-md:before:mx-auto max-md:before:mb-3 max-md:before:block max-md:before:w-1/2 max-md:before:border-t",
-              transparentFooter
-                ? "max-md:before:border-white"
-                : "max-md:before:border-black",
-            ]}
-          >
-            © <span class="italic">2026, Notch Magazine, LLC</span>
-          </p>
-        </div>
-
-        <form
-          name="subscribe-footer"
-          method="POST"
-          novalidate
-          data-netlify="true"
-          class="flex flex-col gap-1 justify-self-end max-md:hidden"
-        >
-          <input type="hidden" name="form-name" value="subscribe-footer" />
-          <p class="px-2 text-lg italic">Sign up to receive news and updates</p>
-
-          <input
-            type="email"
-            required
-            name="email"
-            placeholder="Email"
-            class="border-secondary rounded-sm border px-6 py-1 focus:outline-none aria-invalid:ring-2 aria-invalid:ring-red-500"
-          />
-          <button
-            type="submit"
-            class="hover:bg-secondary text-primary cursor-pointer rounded-sm bg-white py-1 transition-colors duration-200"
-            >Sign up</button
-          >
-        </form>
-      </footer>
-
-      <slot name="toolbar" />
-    </div>
-
-    <details class="group/menu peer md:hidden">
-      <summary
-        class="text-primary pointer-events-none absolute inset-x-0 top-0 z-40 flex list-none items-center justify-between px-6 pt-6 pb-3 [&::-webkit-details-marker]:hidden [[data-overlay]_&]:hidden"
-      >
-        <span
-          class="invisible font-sans text-6xl text-white group-open/menu:visible"
-          >NOTCH MAGAZINE</span
-        >
-        <span
-          class="pointer-events-auto relative cursor-pointer group-open/menu:hidden"
-        >
-          <Menu
-            class="h-8 w-10"
-            preserveAspectRatio="none"
-            aria-label="Open menu"
-          />
-          {
-            home && (
-              <Menu
-                data-menu
-                class="text-secondary absolute inset-0 h-8 w-10"
-                preserveAspectRatio="none"
-                aria-hidden="true"
-              />
-            )
-          }
-        </span>
-        <Close
-          class="pointer-events-auto hidden size-14 cursor-pointer text-white group-open/menu:block"
-          aria-label="Close menu"
-        />
-      </summary>
-    </details>
-
-    <div
-      class="menu-panel bg-tertiary pointer-events-none absolute inset-0 z-30 flex touch-none flex-col px-6 pt-6 pb-10 opacity-0 transition-opacity duration-400 peer-open:pointer-events-auto peer-open:opacity-100 md:hidden"
-    >
-      <div class="invisible pb-3 font-sans text-6xl" aria-hidden="true">
-        NOTCH MAGAZINE
-      </div>
-
-      <ul
-        class="font-times text-primary my-auto flex flex-col items-center gap-4 text-4xl font-medium"
-      >
         {
-          menuLinks.map((link, i) => (
-            <li class="menu-item opacity-0" style={`--i: ${i}`}>
-              <a href={link.href}>{link.label}</a>
-            </li>
-          ))
-        }
-      </ul>
-
-      <div class="font-times flex flex-col gap-3 text-[1.7rem] text-white">
-        <form
-          name="subscribe-mobile"
-          method="POST"
-          novalidate
-          data-netlify="true"
-          class="flex flex-col gap-3"
-        >
-          <input type="hidden" name="form-name" value="subscribe-mobile" />
-          <input
-            type="email"
-            required
-            name="email"
-            placeholder="email"
-            class="rounded-sm bg-white px-6 py-1 text-black focus:outline-none aria-invalid:ring-2 aria-invalid:ring-red-500"
-          />
-          <button
-            type="submit"
-            class="cursor-pointer rounded-sm border border-white py-1"
-            >sign up</button
-          >
-        </form>
-
-        <div class="mt-2 flex items-center justify-between px-4">
-          <div class="flex gap-6">
+          banner && (
             <a
-              href="https://www.instagram.com/notch.magazine/"
-              rel="noopener noreferrer"><Instagram class="h-10 w-auto" /></a
-            >
-            <a href="https://x.com/notch_magazine" rel="noopener noreferrer"
-              ><X class="h-10 w-auto" /></a
-            >
-          </div>
-          <a href="/donate">support</a>
-        </div>
-      </div>
-    </div>
-
-    {
-      !banner && (
-        <div
-          data-pill
-          class="group fixed right-6 bottom-6 z-30 rounded-l-full transition-all duration-500 after:absolute after:inset-y-0 after:-right-6 after:w-6 max-md:hidden"
-        >
-          <div
-            class:list={[
-              "rounded-l-full",
-              home &&
-                "translate-x-6 transition-transform duration-500 group-hover:translate-x-0",
-            ]}
-          >
-            <a
-              data-substack={home || undefined}
               href="https://notchmagazine.substack.com/"
               target="_blank"
               rel="noopener noreferrer"
-              class="bg-primary text-secondary relative flex translate-x-full items-center gap-1 rounded-full px-6 py-2 text-xl font-medium whitespace-nowrap transition-transform duration-500 select-none group-hover:translate-x-0"
+              class="bg-primary text-secondary block overflow-hidden py-2 text-xl font-medium whitespace-nowrap select-none max-md:hidden"
             >
-              <img src="/substack.png" alt="" class="h-[1.5em] w-auto" />
-              NOTCH IS NOW ON SUBSTACK
+              <div class="marquee flex w-max">
+                {[0, 1].map((half) => (
+                  <div class="flex" aria-hidden={half === 1}>
+                    {Array.from({ length: 10 }).map(() => (
+                      <span class="flex items-center gap-1 px-12">
+                        <img
+                          src="/substack.png"
+                          alt=""
+                          class="h-[1.5em] w-auto"
+                        />
+                        NOTCH IS NOW ON SUBSTACK
+                      </span>
+                    ))}
+                  </div>
+                ))}
+              </div>
             </a>
-          </div>
+          )
+        }
+
+        <div class:list={[Astro.slots.has("header") && "bg-secondary md:mx-2"]}>
+          <nav
+            class:list={[
+              "text-primary relative flex items-center justify-between px-27 py-3 max-md:px-6 max-md:pt-6",
+              !home &&
+                "max-md:before:bg-secondary max-md:shadow-md max-md:before:absolute max-md:before:inset-0 max-md:before:-z-1",
+            ]}
+          >
+            <div
+              data-nav-fade
+              class="md:group-data-[home=true]:bg-secondary absolute inset-0 -z-1 group-data-[home=true]:opacity-0"
+            >
+            </div>
+            {
+              navLinks.map((link) => (
+                <a
+                  href={link.href}
+                  data-nav-fade
+                  data-title={link.href === "/" || undefined}
+                  class={
+                    link.href === "/"
+                      ? "relative font-sans text-6xl group-data-[home=true]:opacity-0"
+                      : `font-sans text-3xl group-data-[home=true]:opacity-0 max-md:hidden ${Astro.url.pathname === link.href ? "" : "decoration-1 underline-offset-4 hover:underline"}`
+                  }
+                >
+                  {link.label}
+                  {link.href === "/" && (
+                    <span
+                      class:list={[
+                        "text-secondary absolute inset-0",
+                        !home && "max-md:hidden",
+                      ]}
+                      aria-hidden="true"
+                    >
+                      {link.label}
+                    </span>
+                  )}
+                </a>
+              ))
+            }
+          </nav>
+
+          <slot name="header" />
         </div>
-      )
-    }
-  </body>
-</html>
+      </header>
+
+      <main class="flex flex-1 flex-col">
+        <slot />
+      </main>
+    </div>
+
+    <footer
+      class:list={[
+        "bg-tertiary font-times grid grid-cols-3 items-center px-24 py-6 max-md:relative max-md:h-20 max-md:grid-cols-1 max-md:px-6 max-md:py-0",
+        transparentFooter
+          ? "max-md:bg-transparent max-md:text-white"
+          : "max-md:bg-secondary",
+      ]}
+    >
+      <div class="flex max-md:hidden">
+        <a href="/" data-footer-logo
+          ><Logo
+            class="hover:text-secondary h-32 w-auto text-white transition-colors duration-200"
+          /></a
+        >
+
+        <div class="ml-auto flex gap-4 self-center">
+          {
+            footerLinksByColumn.map((column) => (
+              <div class="flex flex-col gap-2">
+                {column.map((link) => (
+                  <a
+                    href={link.href}
+                    class="text-primary hover:text-secondary text-lg font-bold"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            ))
+          }
+        </div>
+      </div>
+
+      <div class="text-center">
+        <div class="m-8 flex justify-center gap-6 max-md:hidden">
+          <a
+            href="https://www.instagram.com/notch.magazine/"
+            rel="noopener noreferrer"
+            class="hover:text-secondary font-bold text-white transition-colors duration-200"
+            ><Instagram class="h-7 w-auto" /></a
+          >
+          <a
+            href="https://x.com/notch_magazine"
+            rel="noopener noreferrer"
+            class="hover:text-secondary text-white transition-colors duration-200"
+            ><X class="h-7 w-auto" /></a
+          >
+        </div>
+
+        <p
+          class:list={[
+            "text-lg max-md:mx-auto max-md:w-fit max-md:py-3 max-md:text-xl max-md:italic max-md:before:mx-auto max-md:before:mb-3 max-md:before:block max-md:before:w-1/2 max-md:before:border-t",
+            transparentFooter
+              ? "max-md:before:border-white"
+              : "max-md:before:border-black",
+          ]}
+        >
+          © <span class="italic">2026, Notch Magazine, LLC</span>
+        </p>
+      </div>
+
+      <form
+        name="subscribe-footer"
+        method="POST"
+        novalidate
+        data-netlify="true"
+        class="flex flex-col gap-1 justify-self-end max-md:hidden"
+      >
+        <input type="hidden" name="form-name" value="subscribe-footer" />
+        <p class="px-2 text-lg italic">Sign up to receive news and updates</p>
+
+        <input
+          type="email"
+          required
+          name="email"
+          placeholder="Email"
+          class="border-secondary rounded-sm border px-6 py-1 focus:outline-none aria-invalid:ring-2 aria-invalid:ring-red-500"
+        />
+        <button
+          type="submit"
+          class="hover:bg-secondary text-primary cursor-pointer rounded-sm bg-white py-1 transition-colors duration-200"
+          >Sign up</button
+        >
+      </form>
+    </footer>
+
+    <slot name="toolbar" />
+  </div>
+
+  <details class="group/menu peer md:hidden">
+    <summary
+      class="text-primary pointer-events-none absolute inset-x-0 top-0 z-40 flex list-none items-center justify-between px-6 pt-6 pb-3 [&::-webkit-details-marker]:hidden [[data-overlay]_&]:hidden"
+    >
+      <span
+        class="invisible font-sans text-6xl text-white group-open/menu:visible"
+        >NOTCH MAGAZINE</span
+      >
+      <span
+        class="pointer-events-auto relative cursor-pointer group-open/menu:hidden"
+      >
+        <Menu
+          class="h-8 w-10"
+          preserveAspectRatio="none"
+          aria-label="Open menu"
+        />
+        {
+          home && (
+            <Menu
+              data-menu
+              class="text-secondary absolute inset-0 h-8 w-10"
+              preserveAspectRatio="none"
+              aria-hidden="true"
+            />
+          )
+        }
+      </span>
+      <Close
+        class="pointer-events-auto hidden size-14 cursor-pointer text-white group-open/menu:block"
+        aria-label="Close menu"
+      />
+    </summary>
+  </details>
+
+  <div
+    class="menu-panel bg-tertiary pointer-events-none absolute inset-0 z-30 flex touch-none flex-col px-6 pt-6 pb-10 opacity-0 transition-opacity duration-400 peer-open:pointer-events-auto peer-open:opacity-100 md:hidden"
+  >
+    <div class="invisible pb-3 font-sans text-6xl" aria-hidden="true">
+      NOTCH MAGAZINE
+    </div>
+
+    <ul
+      class="font-times text-primary my-auto flex flex-col items-center gap-4 text-4xl font-medium"
+    >
+      {
+        menuLinks.map((link, i) => (
+          <li class="menu-item opacity-0" style={`--i: ${i}`}>
+            <a href={link.href}>{link.label}</a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <div class="font-times flex flex-col gap-3 text-[1.7rem] text-white">
+      <form
+        name="subscribe-mobile"
+        method="POST"
+        novalidate
+        data-netlify="true"
+        class="flex flex-col gap-3"
+      >
+        <input type="hidden" name="form-name" value="subscribe-mobile" />
+        <input
+          type="email"
+          required
+          name="email"
+          placeholder="email"
+          class="rounded-sm bg-white px-6 py-1 text-black focus:outline-none aria-invalid:ring-2 aria-invalid:ring-red-500"
+        />
+        <button
+          type="submit"
+          class="cursor-pointer rounded-sm border border-white py-1"
+          >sign up</button
+        >
+      </form>
+
+      <div class="mt-2 flex items-center justify-between px-4">
+        <div class="flex gap-6">
+          <a
+            href="https://www.instagram.com/notch.magazine/"
+            rel="noopener noreferrer"><Instagram class="h-10 w-auto" /></a
+          >
+          <a href="https://x.com/notch_magazine" rel="noopener noreferrer"
+            ><X class="h-10 w-auto" /></a
+          >
+        </div>
+        <a href="/donate">support</a>
+      </div>
+    </div>
+  </div>
+
+  {
+    !banner && (
+      <div
+        data-pill
+        class="group fixed right-6 bottom-6 z-30 rounded-l-full transition-all duration-500 after:absolute after:inset-y-0 after:-right-6 after:w-6 max-md:hidden"
+      >
+        <div
+          class:list={[
+            "rounded-l-full",
+            home &&
+              "translate-x-6 transition-transform duration-500 group-hover:translate-x-0",
+          ]}
+        >
+          <a
+            data-substack={home || undefined}
+            href="https://notchmagazine.substack.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-primary text-secondary relative flex translate-x-full items-center gap-1 rounded-full px-6 py-2 text-xl font-medium whitespace-nowrap transition-transform duration-500 select-none group-hover:translate-x-0"
+          >
+            <img src="/substack.png" alt="" class="h-[1.5em] w-auto" />
+            NOTCH IS NOW ON SUBSTACK
+          </a>
+        </div>
+      </div>
+    )
+  }
+</BaseLayout>
 
 <!-- <style> -->
 <!--   @keyframes nav-fade-in { -->
@@ -430,10 +398,6 @@ const footerLinksByColumn: Link[][] = [
 <!--     } -->
 <!--   } -->
 <!-- </style> -->
-
-<script>
-  document.addEventListener("touchstart", () => {}, { passive: true });
-</script>
 
 <script>
   const pill = document.querySelector<HTMLElement>("[data-substack]");

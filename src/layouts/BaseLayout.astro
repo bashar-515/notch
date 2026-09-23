@@ -1,0 +1,50 @@
+---
+import "../styles/global.css";
+
+type Props = {
+  title?: string | undefined;
+  htmlClass?: string;
+  bodyClass?: string;
+};
+
+const { title, htmlClass, bodyClass } = Astro.props;
+---
+
+<html lang="en" class={htmlClass}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.png" />
+
+    <link
+      rel="preload"
+      href="/fonts/Gravity/Gravity/ABCGravity-Compressed.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <title>{title ? `Notch Magazine — ${title}` : "Notch Magazine"}</title>
+
+    <script
+      is:inline
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-B6JXG3C0K3"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-B6JXG3C0K3");
+    </script>
+  </head>
+
+  <body class={bodyClass}>
+    <slot />
+  </body>
+</html>
+
+<script>
+  document.addEventListener("touchstart", () => {}, { passive: true });
+</script>
