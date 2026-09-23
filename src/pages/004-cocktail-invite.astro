@@ -1,5 +1,16 @@
 ---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "../assets/shop/004release/*.jpg",
+  { eager: true },
+);
+
+const image = images["../assets/shop/004release/2.jpg"]!.default;
 ---
 
-<BaseLayout> foo bar baz </BaseLayout>
+<BaseLayout>
+  <Image src={image} alt="" />
+</BaseLayout>
