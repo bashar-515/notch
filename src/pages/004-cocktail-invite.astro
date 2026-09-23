@@ -11,6 +11,8 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 const image = images["../assets/shop/004release/2.jpg"]!.default;
 ---
 
-<BaseLayout>
-  <Image src={image} alt="" />
+<BaseLayout htmlClass="h-dvh overflow-hidden" bodyClass="h-dvh overflow-hidden">
+  <div class="h-dvh overflow-y-auto overscroll-y-contain">
+    <Image src={image} alt="" class="mx-auto max-h-dvh w-auto max-w-full" />
+  </div>
 </BaseLayout>
