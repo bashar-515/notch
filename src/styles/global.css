@@ -21,6 +21,7 @@ body {
 
   --font-serif: "ABC Arizona Serif", serif;
   --font-sans: "ABC Gravity", sans-serif;
+  --font-sans--font-feature-settings: "ss05";
   --font-times: "Times New Roman", Times, serif;
   --font-georgia: Georgia, serif;
 
