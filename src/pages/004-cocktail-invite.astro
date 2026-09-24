@@ -23,7 +23,7 @@ const image = images["../assets/shop/004release/2.jpg"]!.default;
     </div>
 
     <div class="p-8 md:h-dvh">
-      <div class="flex flex-col gap-6 text-xl md:h-full md:overflow-y-auto">
+      <div class="flex flex-col gap-8 text-xl md:h-full md:overflow-y-auto">
         <p
           class="md:text-statement font-sans text-3xl leading-none tracking-tight uppercase"
         >
@@ -33,12 +33,12 @@ const image = images["../assets/shop/004release/2.jpg"]!.default;
 
         <p class="text-primary text-4xl font-medium">October 15</p>
 
-        <div class="flex flex-col text-2xl leading-tight">
+        <div class="flex flex-col text-2xl leading-relaxed">
           <a
             href="https://telos.haus/"
             target="_blank"
             rel="noopener"
-            class="inline-flex items-center gap-2"
+            class="inline-flex items-center gap-2 no-underline"
           >
             Telo Haus
             <SquareArrowOutUpRight class="inline h-[0.8em] w-auto" />
@@ -47,63 +47,55 @@ const image = images["../assets/shop/004release/2.jpg"]!.default;
           <a
             href="https://www.google.com/maps/search/?api=1&query=303+Ten+Eyck+St+Brooklyn+NY"
             target="_blank"
-            rel="noopener"
-            class="underline decoration-1 underline-offset-7 hover:decoration-0"
-            >303 Ten Eyck St, Brooklyn, NY</a
+            rel="noopener">303 Ten Eyck St, Brooklyn, NY</a
           >
         </div>
 
         <div
-          class="grid grid-cols-[auto_1fr] gap-x-2 gap-y-1 pl-6 tabular-nums"
+          class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 pl-8 tabular-nums"
         >
-          <p class="text-right">8 -</p>
-          <p>Doors</p>
-          <p class="text-right">9 -</p>
-          <p>Readings by Andrew Ridker, Alia Shaukat, and others</p>
-          <p class="text-right">10 -</p>
-          <p>Music &amp; mingling</p>
+          <p class="text-right">7</p>
+          <p>Invite-only cocktail hour</p>
+          <p class="text-right">8</p>
+          <p>
+            All guests welcome (general tickets can be reserved <a
+              href="/shop#issue004release">here</a
+            >)
+          </p>
+          <p class="text-right">9</p>
+          <p>Reading and artist talks</p>
+          <p class="text-right">10</p>
+          <p>Music</p>
         </div>
 
-        <div class="flex flex-col gap-3 leading-relaxed">
+        <div class="font-times flex flex-col gap-3 text-2xl leading-relaxed">
           <p>
-            Very few tickets will be available at the door. Advanced purchase is
-            highly encouraged.
+            Please join us for a cocktail hour ahead of the release party. The
+            evening will include a chance to meet some of the artists and
+            writers featured in the issue.
           </p>
 
           <p>
-            Tickets include a copy of ISSUE 004: IF/ELSE and one drink ticket.{
-              " "
-            }
-            <a
-              href="/shop#subscription"
-              class="underline decoration-1 underline-offset-3 hover:decoration-0"
-            >
-              Subscribers</a
-            > enter for free.
+            You are welcome to bring one guest, but we ask that you reserve
+            tickets accordingly. Tickets include entry to the general party
+            which starts at 8pm.
+          </p>
+
+          <p>
+            <a href="/donate">Donors</a> are welcome for free.
           </p>
         </div>
-
-        <div class="my-auto flex flex-col items-start gap-3">
-          <p class="text-3xl leading-none font-medium">$60</p>
-
-          <a
-            href="https://buy.stripe.com/bJe6oHfDUddWdcN9lO9ws0b"
-            class="font-times hover:text-primary active:text-primary border-primary bg-primary hover:bg-tertiary active:bg-tertiary rounded-sm border px-3 py-1 text-xl text-white"
-          >
-            buy tickets
-          </a>
-        </div>
-
-        <p class="text-xl font-medium">
-          Issue 004 features work by Adams Adeosun, Noah Berrie, Olivia Bryant,
-          Maya Gurung-Russell Campbell, Willem Deisinger, David Douard, Sasha
-          Dugdale, Mattia Guarnera, Clare James, Salomé Jishkariani, Hyun Woo
-          Kim, Preslav Kostov, Artur Leão, Jack Nancy, Katerina Pavlidis, Andrew
-          Ridker, David Bailey Ross, Alia Shaukat, Alona Sobolevska, Marie
-          Spellerberg, Maria Stepanova, Yukang Tao, Alexey Titarenko, William T.
-          Vollmann, and Arina Zhuravleva.
-        </p>
       </div>
     </div>
   </div>
 </BaseLayout>
+
+<style>
+  @reference "../styles/global.css";
+
+  @layer base {
+    a {
+      @apply underline decoration-1 underline-offset-8 hover:decoration-0;
+    }
+  }
+</style>
