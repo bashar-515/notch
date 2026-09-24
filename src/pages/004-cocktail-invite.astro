@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import { SquareArrowOutUpRight } from "@lucide/astro";
 import type { ImageMetadata } from "astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
@@ -11,8 +12,98 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 const image = images["../assets/shop/004release/2.jpg"]!.default;
 ---
 
-<BaseLayout htmlClass="h-dvh overflow-hidden" bodyClass="h-dvh overflow-hidden">
-  <div class="bg-tertiary h-dvh overflow-y-auto overscroll-y-contain p-10">
-    <Image src={image} alt="" class="mx-auto max-h-full w-auto max-w-full" />
+<BaseLayout htmlClass="bg-tertiary">
+  <div class="flex flex-col md:flex-row">
+    <div class="p-8 md:shrink-0">
+      <Image
+        src={image}
+        alt=""
+        class="shadow-bottom md:shadow-right max-h-[calc(100dvh-4rem)] w-auto select-none md:h-[calc(100dvh-4rem)]"
+      />
+    </div>
+
+    <div class="p-8 md:h-dvh">
+      <div class="flex flex-col gap-6 text-xl md:h-full md:overflow-y-auto">
+        <p
+          class="md:text-statement font-sans text-3xl leading-none tracking-tight uppercase"
+        >
+          <i class="mr-[0.1em]">Notch Magazine</i>{" "}cordially invites you to
+          celebrate the release of ISSUE 004: IF/ELSE.
+        </p>
+
+        <p class="text-primary text-4xl font-medium">October 15</p>
+
+        <div class="flex flex-col text-2xl leading-tight">
+          <a
+            href="https://telos.haus/"
+            target="_blank"
+            rel="noopener"
+            class="inline-flex items-center gap-2"
+          >
+            Telo Haus
+            <SquareArrowOutUpRight class="inline h-[0.8em] w-auto" />
+          </a>
+
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=303+Ten+Eyck+St+Brooklyn+NY"
+            target="_blank"
+            rel="noopener"
+            class="underline decoration-1 underline-offset-7 hover:decoration-0"
+            >303 Ten Eyck St, Brooklyn, NY</a
+          >
+        </div>
+
+        <div
+          class="grid grid-cols-[auto_1fr] gap-x-2 gap-y-1 pl-6 tabular-nums"
+        >
+          <p class="text-right">8 -</p>
+          <p>Doors</p>
+          <p class="text-right">9 -</p>
+          <p>Readings by Andrew Ridker, Alia Shaukat, and others</p>
+          <p class="text-right">10 -</p>
+          <p>Music &amp; mingling</p>
+        </div>
+
+        <div class="flex flex-col gap-3 leading-relaxed">
+          <p>
+            Very few tickets will be available at the door. Advanced purchase is
+            highly encouraged.
+          </p>
+
+          <p>
+            Tickets include a copy of ISSUE 004: IF/ELSE and one drink ticket.{
+              " "
+            }
+            <a
+              href="/shop#subscription"
+              class="underline decoration-1 underline-offset-3 hover:decoration-0"
+            >
+              Subscribers</a
+            > enter for free.
+          </p>
+        </div>
+
+        <div class="my-auto flex flex-col items-start gap-3">
+          <p class="text-3xl leading-none font-medium">$25</p>
+
+          <a
+            href="https://buy.stripe.com/bJe6oHfDUddWdcN9lO9ws0b"
+            class="font-times hover:text-primary border-primary bg-primary hover:bg-tertiary rounded-sm border px-3 py-1 text-xl text-white"
+          >
+            buy tickets
+          </a>
+        </div>
+
+        <p class="text-xl font-medium">
+          Issue 004 features work by Adams Adeosun, Noah Berrie, Olivia Bryant,
+          Maya Gurung-Russell Campbell, Willem Deisinger, David Douard, Sasha
+          Dugdale, Mattia Guarnera, Clare James, Salomé Jishkariani, Hyun Woo
+          Kim, Preslav Kostov, Artur Leão, Jack Nancy, Katerina Pavlidis, Andrew
+          Ridker, David Bailey Ross, Alia Shaukat, Alona Sobolevska, Marie
+          Spellerberg, Maria Stepanova, Yukang Tao, Alexey Titarenko, William T.
+          Vollmann, and Arina Zhuravleva.
+        </p>
+      </div>
+    </div>
   </div>
 </BaseLayout>

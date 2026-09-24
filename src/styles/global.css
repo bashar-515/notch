@@ -32,6 +32,7 @@ body {
   --shadow-cover-left: -2rem 2rem 2rem -1rem rgb(0 0 0 / 0.5);
   --shadow-left: -2rem 0 2rem -1rem rgb(0 0 0 / 0.5);
   --shadow-right: 2rem 0 2rem -1rem rgb(0 0 0 / 0.5);
+  --shadow-bottom: 0 2rem 2rem -1rem rgb(0 0 0 / 0.5);
 }
 
 :root {
