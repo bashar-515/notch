@@ -3,11 +3,14 @@ import "../styles/global.css";
 
 type Props = {
   title?: string | undefined;
+  image?: string | undefined;
   htmlClass?: string;
   bodyClass?: string;
 };
 
-const { title, htmlClass, bodyClass } = Astro.props;
+const { title, image, htmlClass, bodyClass } = Astro.props;
+
+const fullTitle = title ? `Notch Magazine — ${title}` : "Notch Magazine";
 ---
 
 <html lang="en" class={htmlClass}>
@@ -24,7 +27,11 @@ const { title, htmlClass, bodyClass } = Astro.props;
       crossorigin
     />
 
-    <title>{title ? `Notch Magazine — ${title}` : "Notch Magazine"}</title>
+    <title>{fullTitle}</title>
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:url" content={Astro.url} />
+    {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+    {image && <meta name="twitter:card" content="summary_large_image" />}
 
     <script
       is:inline

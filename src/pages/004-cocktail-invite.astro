@@ -1,5 +1,5 @@
 ---
-import { Image } from "astro:assets";
+import { Image, getImage } from "astro:assets";
 import { SquareArrowOutUpRight } from "@lucide/astro";
 import type { ImageMetadata } from "astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
@@ -10,9 +10,10 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 );
 
 const image = images["../assets/shop/004release/2.jpg"]!.default;
+const ogImage = await getImage({ src: image, width: 1000, format: "jpg" });
 ---
 
-<BaseLayout htmlClass="bg-tertiary">
+<BaseLayout htmlClass="bg-tertiary" image={ogImage.src}>
   <div class="flex flex-col md:flex-row">
     <div class="p-8 md:shrink-0">
       <Image
