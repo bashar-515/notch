@@ -1,0 +1,120 @@
+---
+import { Image, getImage } from "astro:assets";
+import { SquareArrowOutUpRight } from "@lucide/astro";
+import type { ImageMetadata } from "astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+type Props = {
+  image: ImageMetadata;
+  date: string;
+  venue?: { name: string; href: string };
+  address: { label: string; href: string };
+  schedule: { time: string; description: string }[];
+  paragraphs: (string | { html: string; class: string })[];
+  price: string;
+  buttonText: string;
+  stripeUrl: string;
+};
+
+const {
+  image,
+  date,
+  venue,
+  address,
+  schedule,
+  paragraphs,
+  price,
+  buttonText,
+  stripeUrl,
+} = Astro.props;
+
+const ogImage = await getImage({ src: image, width: 1000, format: "jpg" });
+---
+
+<BaseLayout htmlClass="bg-tertiary" image={ogImage.src}>
+  <div class="flex flex-col md:flex-row">
+    <div class="p-8 md:shrink-0">
+      <Image
+        src={image}
+        alt=""
+        class="shadow-bottom md:shadow-right max-h-[calc(100dvh-4rem)] w-auto select-none md:h-[calc(100dvh-4rem)]"
+      />
+    </div>
+
+    <div class="p-8 md:h-dvh">
+      <div class="flex flex-col gap-8 text-xl md:h-full md:overflow-y-auto">
+        <p class="font-sans text-3xl leading-none uppercase md:text-4xl">
+          <slot />
+        </p>
+
+        <p class="text-primary text-4xl font-medium">{date}</p>
+
+        <div class="flex flex-col text-2xl leading-relaxed">
+          {
+            venue && (
+              <a
+                href={venue.href}
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center gap-2 no-underline"
+              >
+                {venue.name}
+                <SquareArrowOutUpRight class="inline h-[0.8em] w-auto" />
+              </a>
+            )
+          }
+
+          <a href={address.href} target="_blank" rel="noopener">
+            {address.label}
+          </a>
+        </div>
+
+        <div
+          class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 pl-8 tabular-nums"
+        >
+          {
+            schedule.map((row) => (
+              <>
+                <p class="text-right">{row.time}</p>
+                <p set:html={row.description} />
+              </>
+            ))
+          }
+        </div>
+
+        <div class="font-times flex grow flex-col gap-3 text-2xl leading-relaxed">
+          {
+            paragraphs.map((paragraph) =>
+              typeof paragraph === "string" ? (
+                <p set:html={paragraph} />
+              ) : (
+                <p class={paragraph.class} set:html={paragraph.html} />
+              ),
+            )
+          }
+        </div>
+
+        <div class="mt-auto flex items-start gap-3 max-md:my-16">
+          <p class="text-3xl leading-none font-medium">{price}</p>
+
+          <a
+            href={stripeUrl}
+            class="font-times hover:text-primary active:text-primary border-primary bg-primary hover:bg-tertiary active:bg-tertiary rounded-sm border px-3 py-1 text-xl text-white no-underline"
+          >
+            {buttonText}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  @reference "../styles/global.css";
+
+  @layer base {
+    a {
+      @apply underline decoration-1 underline-offset-8 hover:decoration-0 active:decoration-0;
+    }
+  }
+</style>

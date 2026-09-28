@@ -49,19 +49,18 @@ const {
   </div>
 </dialog>
 
-<script>
-  const desktop = matchMedia(
-    `(width >= ${getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-md")})`,
-  );
+<script is:inline>
+  {
+    const dialog = document.currentScript.previousElementSibling;
+    const desktop = matchMedia(
+      `(width >= ${getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-md")})`,
+    );
 
-  for (const dialog of document.querySelectorAll<HTMLDialogElement>(
-    "dialog[data-dialog]",
-  )) {
-    if ("mobile" in dialog.dataset && desktop.matches) continue;
-
-    dialog.addEventListener("click", (event) => {
-      if (event.target === dialog) dialog.close();
-    });
-    dialog.showModal();
+    if (!("mobile" in dialog.dataset && desktop.matches)) {
+      dialog.addEventListener("click", (event) => {
+        if (event.target === dialog) dialog.close();
+      });
+      dialog.showModal();
+    }
   }
 </script>

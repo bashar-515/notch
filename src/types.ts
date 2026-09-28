@@ -11,6 +11,7 @@ export type Product = {
   covers?: string[];
   images: string[];
   isIssue?: boolean;
+  euro?: boolean;
 };
 
 export type Content = {

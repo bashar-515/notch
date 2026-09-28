@@ -1,111 +1,35 @@
 ---
-import { Image, getImage } from "astro:assets";
-import { SquareArrowOutUpRight } from "@lucide/astro";
-import type { ImageMetadata } from "astro";
-import BaseLayout from "../layouts/BaseLayout.astro";
-
-const images = import.meta.glob<{ default: ImageMetadata }>(
-  "../assets/shop/004release/*.jpg",
-  { eager: true },
-);
-
-const image = images["../assets/shop/004release/2.jpg"]!.default;
-const ogImage = await getImage({ src: image, width: 1000, format: "jpg" });
+import EventPage from "../components/EventPage.astro";
+import image from "../assets/shop/004release/nyc/2.jpg";
 ---
 
-<BaseLayout htmlClass="bg-tertiary" image={ogImage.src}>
-  <div class="flex flex-col md:flex-row">
-    <div class="p-8 md:shrink-0">
-      <Image
-        src={image}
-        alt=""
-        class="shadow-bottom md:shadow-right max-h-[calc(100dvh-4rem)] w-auto select-none md:h-[calc(100dvh-4rem)]"
-      />
-    </div>
-
-    <div class="p-8 md:h-dvh">
-      <div class="flex flex-col gap-8 text-xl md:h-full md:overflow-y-auto">
-        <p class="font-sans text-3xl leading-none uppercase md:text-4xl">
-          <i class="mr-[0.1em]">Notch Magazine</i>{" "}cordially invites you to
-          celebrate the release of ISSUE 004: IF/ELSE.
-        </p>
-
-        <p class="text-primary text-4xl font-medium">October 15</p>
-
-        <div class="flex flex-col text-2xl leading-relaxed">
-          <a
-            href="https://telos.haus/"
-            target="_blank"
-            rel="noopener"
-            class="inline-flex items-center gap-2 no-underline"
-          >
-            Telo Haus
-            <SquareArrowOutUpRight class="inline h-[0.8em] w-auto" />
-          </a>
-
-          <a
-            href="https://www.google.com/maps/search/?api=1&query=303+Ten+Eyck+St+Brooklyn+NY"
-            target="_blank"
-            rel="noopener">303 Ten Eyck St, Brooklyn, NY</a
-          >
-        </div>
-
-        <div
-          class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 pl-8 tabular-nums"
-        >
-          <p class="text-right">7</p>
-          <p>Invite-only cocktail hour</p>
-          <p class="text-right">8</p>
-          <p>
-            All guests welcome (general tickets can be reserved <a
-              href="/shop#issue004release">here</a
-            >)
-          </p>
-          <p class="text-right">9</p>
-          <p>Reading and artist talks</p>
-          <p class="text-right">10</p>
-          <p>Music</p>
-        </div>
-
-        <div class="font-times flex flex-col gap-3 text-2xl leading-relaxed">
-          <p>
-            Please join us for a cocktail hour ahead of the release party. The
-            evening will include a chance to meet some of the artists and
-            writers featured in the issue.
-          </p>
-
-          <p>
-            You are welcome to bring one guest, but we ask that you reserve
-            tickets accordingly. Tickets include entry to the general party
-            which starts at 8pm.
-          </p>
-
-          <p>
-            <a href="/donate">Donors</a> are welcome for free.
-          </p>
-        </div>
-
-        <div class="mt-auto flex items-start gap-3 max-md:my-16">
-          <p class="text-3xl leading-none font-medium">$60</p>
-
-          <a
-            href="https://buy.stripe.com/bJe6oHfDUddWdcN9lO9ws0b"
-            class="font-times hover:text-primary active:text-primary border-primary bg-primary hover:bg-tertiary active:bg-tertiary rounded-sm border px-3 py-1 text-xl text-white no-underline"
-          >
-            buy tickets
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</BaseLayout>
-
-<style>
-  @reference "../styles/global.css";
-
-  @layer base {
-    a {
-      @apply underline decoration-1 underline-offset-8 hover:decoration-0 active:decoration-0;
-    }
-  }
-</style>
+<EventPage
+  image={image}
+  date="October 15"
+  venue={{ name: "Telo Haus", href: "https://telos.haus/" }}
+  address={{
+    label: "303 Ten Eyck St, Brooklyn, NY",
+    href: "https://www.google.com/maps/search/?api=1&query=303+Ten+Eyck+St+Brooklyn+NY",
+  }}
+  schedule={[
+    { time: "7", description: "Invite-only cocktail hour" },
+    {
+      time: "8",
+      description:
+        'All guests welcome (general tickets can be reserved <a href="/shop#nycissue004release">here</a>)',
+    },
+    { time: "9", description: "Reading and artist talks" },
+    { time: "10", description: "Music" },
+  ]}
+  paragraphs={[
+    "Please join us for a cocktail hour ahead of the release party. The evening will include a chance to meet some of the artists and writers featured in the issue.",
+    "You are welcome to bring one guest, but we ask that you reserve tickets accordingly. Tickets include entry to the general party which starts at 8pm.",
+    '<a href="/donate">Donors</a> are welcome for free.',
+  ]}
+  price="$60"
+  buttonText="buy tickets"
+  stripeUrl="https://buy.stripe.com/bJe6oHfDUddWdcN9lO9ws0b"
+>
+  <i class="mr-[0.1em]">Notch Magazine</i>{" "}cordially invites you to
+  celebrate the release of ISSUE 004: IF/ELSE.
+</EventPage>
