@@ -350,20 +350,13 @@ const bodyClass = `max-md:h-dvh max-md:overflow-hidden max-md:bg-white ${home ? 
   </div>
 
   {
-    !banner && (
+    !banner && !home && (
       <div
         data-pill
         class="group fixed right-6 bottom-6 z-30 rounded-l-full transition-all duration-500 after:absolute after:inset-y-0 after:-right-6 after:w-6 max-md:hidden"
       >
-        <div
-          class:list={[
-            "rounded-l-full",
-            home &&
-              "translate-x-6 transition-transform duration-500 group-hover:translate-x-0",
-          ]}
-        >
+        <div class="rounded-l-full">
           <a
-            data-substack={home || undefined}
             href="https://notchmagazine.substack.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -400,25 +393,6 @@ const bodyClass = `max-md:h-dvh max-md:overflow-hidden max-md:bg-white ${home ? 
 <!-- </style> -->
 
 <script>
-  const pill = document.querySelector<HTMLElement>("[data-substack]");
-
-  if (pill) {
-    const shift = pill.parentElement!;
-    const group = shift.parentElement!;
-    const hide = () => {
-      pill.classList.add("translate-x-full");
-      shift.classList.add("translate-x-6");
-    };
-    const timer = setTimeout(hide, 5000);
-
-    requestAnimationFrame(() => {
-      pill.classList.remove("translate-x-full");
-      shift.classList.remove("translate-x-6");
-    });
-    group.addEventListener("mouseenter", () => clearTimeout(timer));
-    group.addEventListener("mouseleave", hide);
-  }
-
   const wrapper = document.querySelector<HTMLElement>("[data-pill]");
   const footer = document.querySelector("footer");
 
