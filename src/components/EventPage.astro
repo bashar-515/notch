@@ -42,14 +42,16 @@ const ogImage = await getImage({ src: image, width: 1000, format: "jpg" });
     </div>
 
     <div class="p-8 md:h-dvh">
-      <div class="flex flex-col gap-8 text-xl md:h-full md:overflow-y-auto">
+      <div
+        class="flex flex-col gap-6 text-xl leading-relaxed md:h-full md:overflow-y-auto"
+      >
         <p class="font-sans text-3xl leading-none uppercase md:text-4xl">
           <slot />
         </p>
 
         <p class="text-primary text-4xl font-medium">{date}</p>
 
-        <div class="flex flex-col text-2xl leading-relaxed">
+        <div class="flex flex-col">
           {
             venue && (
               <a
@@ -69,9 +71,7 @@ const ogImage = await getImage({ src: image, width: 1000, format: "jpg" });
           </a>
         </div>
 
-        <div
-          class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 pl-8 tabular-nums"
-        >
+        <div class="grid grid-cols-[auto_1fr] gap-x-4 pl-8 tabular-nums">
           {
             schedule.map((row) => (
               <>
@@ -82,7 +82,7 @@ const ogImage = await getImage({ src: image, width: 1000, format: "jpg" });
           }
         </div>
 
-        <div class="font-times flex grow flex-col gap-3 text-2xl leading-relaxed">
+        <div class="contents whitespace-pre-line">
           {
             paragraphs.map((paragraph) =>
               typeof paragraph === "string" ? (
@@ -94,7 +94,7 @@ const ogImage = await getImage({ src: image, width: 1000, format: "jpg" });
           }
         </div>
 
-        <div class="mt-auto flex items-start gap-3 max-md:my-16">
+        <div class="mt-auto flex items-start gap-3">
           <p class="text-3xl leading-none font-medium">{price}</p>
 
           <a
