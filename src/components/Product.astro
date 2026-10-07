@@ -53,7 +53,7 @@ const slides = product.isIssue
       <p class="text-3xl leading-none font-medium max-md:text-4xl">
         {
           typeof product.price === "number"
-            ? `${product.euro ? "€" : "$"}${product.price.toLocaleString("en-US")}`
+            ? `${product.euro ? "£" : "$"}${product.price.toLocaleString("en-US")}`
             : product.price
         }
       </p>
