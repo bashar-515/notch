@@ -7,7 +7,7 @@ const articles = defineCollection({
   schema: z.object({
     title: z.string(),
     author: z.string(),
-    issue: z.enum(["001", "002"]),
+    issue: z.enum(["001", "002", "004"]),
     bio: z.array(z.string()).default([]),
     previous: z.string().optional(),
     next: z.string().optional(),
