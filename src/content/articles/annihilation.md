@@ -1,6 +1,6 @@
 ---
 title: "annihilation"
-author: "Yukan Tao"
+author: "Yukang Tao"
 issue: "004"
 related: ["arina-zhuravleva", "themanylivesofenergy", "mariehazard"]
 video: "8dt-zSfioXo"
