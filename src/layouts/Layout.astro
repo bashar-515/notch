@@ -258,7 +258,7 @@ const bodyClass = `max-md:h-dvh max-md:overflow-hidden max-md:bg-white ${home ? 
     <slot name="toolbar" />
   </div>
 
-  <details class="group/menu peer md:hidden">
+  <details data-nav-menu class="group/menu md:hidden">
     <summary
       class="text-primary pointer-events-none absolute inset-x-0 top-0 z-40 flex list-none items-center justify-between px-6 pt-6 pb-3 [&::-webkit-details-marker]:hidden [[data-overlay]_&]:hidden"
     >
@@ -294,7 +294,7 @@ const bodyClass = `max-md:h-dvh max-md:overflow-hidden max-md:bg-white ${home ? 
   </details>
 
   <div
-    class="menu-panel bg-tertiary pointer-events-none absolute inset-0 z-30 flex touch-none flex-col px-6 pt-6 pb-10 opacity-0 transition-opacity duration-400 peer-open:pointer-events-auto peer-open:opacity-100 md:hidden"
+    class="menu-panel bg-tertiary pointer-events-none absolute inset-0 z-30 flex touch-none flex-col px-6 pt-6 pb-10 opacity-0 transition-opacity duration-400 md:hidden [body:has([data-nav-menu][open])_&]:pointer-events-auto [body:has([data-nav-menu][open])_&]:opacity-100"
   >
     <div class="invisible pb-3 font-sans text-6xl" aria-hidden="true">
       NOTCH MAGAZINE
@@ -613,7 +613,7 @@ const bodyClass = `max-md:h-dvh max-md:overflow-hidden max-md:bg-white ${home ? 
     }
   }
 
-  details[open] ~ .menu-panel .menu-item {
+  :global(body:has([data-nav-menu][open])) .menu-item {
     animation: menu-item 300ms ease-in-out calc(var(--i) * 100ms) both;
   }
 </style>
