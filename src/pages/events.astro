@@ -3,7 +3,6 @@ import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import Layout from "../layouts/Layout.astro";
 import Logos from "../components/Logos.astro";
-import Dialog from "../components/Dialog.astro";
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "../assets/events/**/*.{jpg,png}",
@@ -179,20 +178,6 @@ const posters: {
 ---
 
 <Layout title="events">
-  <Dialog href="/shop" cta="shop">
-    <p>Join us for the release of ISSUE 004: IF/ELSE.</p>
-    <ul class="flex flex-col gap-2">
-      <li>
-        <a
-          href="/shop#londonissue004release"
-          class="underline decoration-1 underline-offset-8 hover:decoration-0 active:decoration-0"
-        >
-          October 23 — London
-        </a>
-      </li>
-    </ul>
-  </Dialog>
-
   <div class="bg-primary max-md:bg-secondary isolate flex flex-col">
     <div class="max-md:hidden">
       <Logos />
