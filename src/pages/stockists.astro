@@ -8,6 +8,7 @@ type DotLabel =
   | "SAN DIEGO"
   | "MEXICO CITY"
   | "NEW YORK"
+  | "TORONTO"
   | "GLASGOW"
   | "LONDON"
   | "PARIS"
@@ -150,6 +151,24 @@ const stockistsByLocation: Record<string, [Stockist[], Stockist[]]> = {
     ],
     [],
   ],
+  CANADA: [
+    [
+      {
+        name: "TYPE Books",
+        address: "883 Queen St W",
+        place: "Toronto, ON M6J 1G5",
+        dotLabel: "TORONTO",
+      },
+    ],
+    [
+      {
+        name: "Presse Internationale",
+        address: "515 Bloor St W",
+        place: "Toronto, ON M5S 1Y5",
+        dotLabel: "TORONTO",
+      },
+    ],
+  ],
   SCOTLAND: [
     [
       {
@@ -281,6 +300,13 @@ const dots: Dot[] = [
     mobileAnchor: "left",
     x: 27.17,
     y: 41.55,
+  },
+  {
+    label: "TORONTO",
+    anchor: "bottom-right",
+    mobileAnchor: "bottom-right",
+    x: 26.24,
+    y: 39.35,
   },
   {
     label: "GLASGOW",
